@@ -1,0 +1,64 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "NASA_program_0",
+            "channel_id": 4,
+            "start": 480,
+            "end": 529
+        },
+        {
+            "program_id": "NASA_program_1",
+            "channel_id": 4,
+            "start": 529,
+            "end": 559
+        },
+        {
+            "program_id": "Crux_program_1",
+            "channel_id": 0,
+            "start": 559,
+            "end": 589
+        },
+        {
+            "program_id": "Crux_program_2",
+            "channel_id": 0,
+            "start": 589,
+            "end": 619
+        },
+        {
+            "program_id": "NASA_program_3",
+            "channel_id": 4,
+            "start": 619,
+            "end": 654
+        },
+        {
+            "program_id": "NASA_program_4",
+            "channel_id": 4,
+            "start": 654,
+            "end": 689
+        },
+        {
+            "program_id": "The Financial Express_program_3",
+            "channel_id": 1,
+            "start": 689,
+            "end": 719
+        },
+        {
+            "program_id": "The Financial Express_program_4",
+            "channel_id": 1,
+            "start": 719,
+            "end": 749
+        },
+        {
+            "program_id": "NASA_program_6",
+            "channel_id": 4,
+            "start": 749,
+            "end": 781
+        },
+        {
+            "program_id": "NASA_program_7",
+            "channel_id": 4,
+            "start": 781,
+            "end": 814
+        }
+    ]
+}

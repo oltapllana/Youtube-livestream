@@ -1,0 +1,88 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Sen_program_0",
+            "channel_id": 2,
+            "start": 840,
+            "end": 870
+        },
+        {
+            "program_id": "NASA_program_0",
+            "channel_id": 4,
+            "start": 870,
+            "end": 900
+        },
+        {
+            "program_id": "Dream Trips_program_1",
+            "channel_id": 3,
+            "start": 900,
+            "end": 931
+        },
+        {
+            "program_id": "Dream Trips_program_2",
+            "channel_id": 3,
+            "start": 931,
+            "end": 961
+        },
+        {
+            "program_id": "NASA_program_1",
+            "channel_id": 4,
+            "start": 961,
+            "end": 992
+        },
+        {
+            "program_id": "Sen_program_2",
+            "channel_id": 2,
+            "start": 997,
+            "end": 1040
+        },
+        {
+            "program_id": "NASA_program_2",
+            "channel_id": 4,
+            "start": 1040,
+            "end": 1070
+        },
+        {
+            "program_id": "NASA_program_3",
+            "channel_id": 4,
+            "start": 1070,
+            "end": 1100
+        },
+        {
+            "program_id": "Crux_program_3",
+            "channel_id": 0,
+            "start": 1100,
+            "end": 1130
+        },
+        {
+            "program_id": "NASA_program_4",
+            "channel_id": 4,
+            "start": 1138,
+            "end": 1169
+        },
+        {
+            "program_id": "NASA_program_5",
+            "channel_id": 4,
+            "start": 1169,
+            "end": 1205
+        },
+        {
+            "program_id": "Crux_program_5",
+            "channel_id": 0,
+            "start": 1205,
+            "end": 1260
+        },
+        {
+            "program_id": "Crux_program_6",
+            "channel_id": 0,
+            "start": 1260,
+            "end": 1290
+        },
+        {
+            "program_id": "NASA_program_6",
+            "channel_id": 4,
+            "start": 1290,
+            "end": 1320
+        }
+    ]
+}

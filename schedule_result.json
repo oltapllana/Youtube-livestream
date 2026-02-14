@@ -1,0 +1,209 @@
+{
+  "request_id": "a7250784-2d7f-465f-8b4d-3dae571bb29b",
+  "status": "completed",
+  "scheduled_programs": [
+    {
+      "program_id": "NASA_program_0",
+      "channel_id": 4,
+      "start": 480,
+      "end": 512,
+      "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+    },
+    {
+      "program_id": "NASA_program_1",
+      "channel_id": 4,
+      "start": 512,
+      "end": 546,
+      "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+    },
+    {
+      "program_id": "I love You Venice_program_1",
+      "channel_id": 11,
+      "start": 546,
+      "end": 576,
+      "url": "https://www.youtube.com/watch?v=z7SiAaN4ogw"
+    },
+    {
+      "program_id": "Interstellar News Hub (Climate)_program_1",
+      "channel_id": 10,
+      "start": 576,
+      "end": 612,
+      "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+    },
+    {
+      "program_id": "Crux_program_2",
+      "channel_id": 0,
+      "start": 613,
+      "end": 644,
+      "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+    },
+    {
+      "program_id": "Crux_program_3",
+      "channel_id": 0,
+      "start": 644,
+      "end": 674,
+      "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+    },
+    {
+      "program_id": "Interstellar News Hub (Climate)_program_3",
+      "channel_id": 10,
+      "start": 678,
+      "end": 711,
+      "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+    },
+    {
+      "program_id": "Frontiers of Infinity_program_3",
+      "channel_id": 8,
+      "start": 711,
+      "end": 742,
+      "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+    },
+    {
+      "program_id": "Frontiers of Infinity_program_4",
+      "channel_id": 8,
+      "start": 742,
+      "end": 772,
+      "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+    },
+    {
+      "program_id": "Sen_program_5",
+      "channel_id": 2,
+      "start": 772,
+      "end": 804,
+      "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+    },
+    {
+      "program_id": "Sen_program_6",
+      "channel_id": 2,
+      "start": 804,
+      "end": 834,
+      "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+    },
+    {
+      "program_id": "afarTV_program_7",
+      "channel_id": 6,
+      "start": 845,
+      "end": 879,
+      "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+    },
+    {
+      "program_id": "afarTV_program_8",
+      "channel_id": 6,
+      "start": 879,
+      "end": 910,
+      "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+    },
+    {
+      "program_id": "Crux_program_8",
+      "channel_id": 0,
+      "start": 910,
+      "end": 940,
+      "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+    },
+    {
+      "program_id": "NASA_program_6",
+      "channel_id": 4,
+      "start": 940,
+      "end": 970,
+      "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+    },
+    {
+      "program_id": "NASA_program_7",
+      "channel_id": 4,
+      "start": 970,
+      "end": 1012,
+      "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+    },
+    {
+      "program_id": "Interstellar News Hub (Climate)_program_9",
+      "channel_id": 10,
+      "start": 1012,
+      "end": 1047,
+      "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+    },
+    {
+      "program_id": "Sen_program_9",
+      "channel_id": 2,
+      "start": 1047,
+      "end": 1079,
+      "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+    },
+    {
+      "program_id": "Sen_program_10",
+      "channel_id": 2,
+      "start": 1079,
+      "end": 1109,
+      "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+    },
+    {
+      "program_id": "Space Streams_program_10",
+      "channel_id": 7,
+      "start": 1109,
+      "end": 1139,
+      "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+    },
+    {
+      "program_id": "Space Streams_program_11",
+      "channel_id": 7,
+      "start": 1139,
+      "end": 1184,
+      "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+    },
+    {
+      "program_id": "Dream Trips_program_10",
+      "channel_id": 3,
+      "start": 1188,
+      "end": 1223,
+      "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+    },
+    {
+      "program_id": "Dream Trips_program_11",
+      "channel_id": 3,
+      "start": 1223,
+      "end": 1253,
+      "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+    },
+    {
+      "program_id": "I love You Venice_program_11",
+      "channel_id": 11,
+      "start": 1253,
+      "end": 1285,
+      "url": "https://www.youtube.com/watch?v=z7SiAaN4ogw"
+    },
+    {
+      "program_id": "I love You Venice_program_12",
+      "channel_id": 11,
+      "start": 1285,
+      "end": 1315,
+      "url": "https://www.youtube.com/watch?v=z7SiAaN4ogw"
+    },
+    {
+      "program_id": "Space Streams_program_13",
+      "channel_id": 7,
+      "start": 1315,
+      "end": 1350,
+      "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+    },
+    {
+      "program_id": "Space Streams_program_14",
+      "channel_id": 7,
+      "start": 1350,
+      "end": 1380,
+      "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+    }
+  ],
+  "total_score": 0,
+  "execution_time": 0.9,
+  "channels_used": [
+    0,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    10,
+    11
+  ],
+  "total_programs": 27
+}

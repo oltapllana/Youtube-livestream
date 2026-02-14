@@ -1,0 +1,82 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Dream Trips_program_0",
+            "channel_id": 3,
+            "start": 840,
+            "end": 876
+        },
+        {
+            "program_id": "NASA_program_1",
+            "channel_id": 4,
+            "start": 885,
+            "end": 922
+        },
+        {
+            "program_id": "NASA_program_2",
+            "channel_id": 4,
+            "start": 922,
+            "end": 952
+        },
+        {
+            "program_id": "Sen_program_1",
+            "channel_id": 2,
+            "start": 952,
+            "end": 992
+        },
+        {
+            "program_id": "Sen_program_2",
+            "channel_id": 2,
+            "start": 992,
+            "end": 1022
+        },
+        {
+            "program_id": "NASA_program_3",
+            "channel_id": 4,
+            "start": 1022,
+            "end": 1075
+        },
+        {
+            "program_id": "NASA_program_4",
+            "channel_id": 4,
+            "start": 1075,
+            "end": 1105
+        },
+        {
+            "program_id": "The Financial Express_program_5",
+            "channel_id": 1,
+            "start": 1105,
+            "end": 1148
+        },
+        {
+            "program_id": "The Financial Express_program_6",
+            "channel_id": 1,
+            "start": 1148,
+            "end": 1183
+        },
+        {
+            "program_id": "NASA_program_5",
+            "channel_id": 4,
+            "start": 1183,
+            "end": 1224
+        },
+        {
+            "program_id": "NASA_program_6",
+            "channel_id": 4,
+            "start": 1224,
+            "end": 1260
+        },
+        {
+            "program_id": "The Financial Express_program_9",
+            "channel_id": 1,
+            "start": 1260,
+            "end": 1290
+        },
+        {
+            "program_id": "The Financial Express_program_10",
+            "channel_id": 1,
+            "start": 1290,
+            "end": 1320
+        }
+    ]
+}

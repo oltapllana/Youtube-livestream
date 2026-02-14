@@ -1,0 +1,160 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "NASA's Artemis II Live Views from Kennedy Space Center 2026-02-14 13:48_program_0",
+            "channel_id": 4,
+            "start": 480,
+            "end": 510
+        },
+        {
+            "program_id": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen’s 4K video cameras on the ISS 2026-02-14 13:48_program_1",
+            "channel_id": 2,
+            "start": 516,
+            "end": 550
+        },
+        {
+            "program_id": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen’s 4K video cameras on the ISS 2026-02-14 13:48_program_2",
+            "channel_id": 2,
+            "start": 550,
+            "end": 596
+        },
+        {
+            "program_id": "NASA's Artemis II Live Views from Kennedy Space Center 2026-02-14 13:48_program_1",
+            "channel_id": 4,
+            "start": 596,
+            "end": 631
+        },
+        {
+            "program_id": "NASA's Artemis II Live Views from Kennedy Space Center 2026-02-14 13:48_program_2",
+            "channel_id": 4,
+            "start": 631,
+            "end": 663
+        },
+        {
+            "program_id": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-14 13:47_program_3",
+            "channel_id": 0,
+            "start": 663,
+            "end": 706
+        },
+        {
+            "program_id": "NASA's Artemis II Live Views from Kennedy Space Center 2026-02-14 13:48_program_3",
+            "channel_id": 4,
+            "start": 706,
+            "end": 736
+        },
+        {
+            "program_id": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-14 13:47_program_4",
+            "channel_id": 0,
+            "start": 740,
+            "end": 772
+        },
+        {
+            "program_id": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-14 13:47_program_5",
+            "channel_id": 0,
+            "start": 772,
+            "end": 807
+        },
+        {
+            "program_id": "NASA's Artemis II Live Views from Kennedy Space Center 2026-02-14 13:48_program_4",
+            "channel_id": 4,
+            "start": 807,
+            "end": 837
+        },
+        {
+            "program_id": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-14 13:48_program_5",
+            "channel_id": 3,
+            "start": 837,
+            "end": 868
+        },
+        {
+            "program_id": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-14 13:48_program_6",
+            "channel_id": 3,
+            "start": 868,
+            "end": 898
+        },
+        {
+            "program_id": "NASA's Artemis II Live Views from Kennedy Space Center 2026-02-14 13:48_program_5",
+            "channel_id": 4,
+            "start": 898,
+            "end": 929
+        },
+        {
+            "program_id": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen’s 4K video cameras on the ISS 2026-02-14 13:48_program_8",
+            "channel_id": 2,
+            "start": 929,
+            "end": 959
+        },
+        {
+            "program_id": "NASA's Artemis II Live Views from Kennedy Space Center 2026-02-14 13:48_program_6",
+            "channel_id": 4,
+            "start": 961,
+            "end": 999
+        },
+        {
+            "program_id": "NASA's Artemis II Live Views from Kennedy Space Center 2026-02-14 13:48_program_7",
+            "channel_id": 4,
+            "start": 999,
+            "end": 1033
+        },
+        {
+            "program_id": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-14 13:48_program_8",
+            "channel_id": 1,
+            "start": 1033,
+            "end": 1063
+        },
+        {
+            "program_id": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen’s 4K video cameras on the ISS 2026-02-14 13:48_program_10",
+            "channel_id": 2,
+            "start": 1063,
+            "end": 1093
+        },
+        {
+            "program_id": "NASA's Artemis II Live Views from Kennedy Space Center 2026-02-14 13:48_program_9",
+            "channel_id": 4,
+            "start": 1109,
+            "end": 1140
+        },
+        {
+            "program_id": "NASA's Artemis II Live Views from Kennedy Space Center 2026-02-14 13:48_program_10",
+            "channel_id": 4,
+            "start": 1140,
+            "end": 1172
+        },
+        {
+            "program_id": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen’s 4K video cameras on the ISS 2026-02-14 13:48_program_12",
+            "channel_id": 2,
+            "start": 1172,
+            "end": 1204
+        },
+        {
+            "program_id": "NASA's Artemis II Live Views from Kennedy Space Center 2026-02-14 13:48_program_11",
+            "channel_id": 4,
+            "start": 1204,
+            "end": 1239
+        },
+        {
+            "program_id": "NASA's Artemis II Live Views from Kennedy Space Center 2026-02-14 13:48_program_12",
+            "channel_id": 4,
+            "start": 1239,
+            "end": 1269
+        },
+        {
+            "program_id": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-14 13:47_program_14",
+            "channel_id": 0,
+            "start": 1269,
+            "end": 1299
+        },
+        {
+            "program_id": "NASA's Artemis II Live Views from Kennedy Space Center 2026-02-14 13:48_program_13",
+            "channel_id": 4,
+            "start": 1303,
+            "end": 1350
+        },
+        {
+            "program_id": "NASA's Artemis II Live Views from Kennedy Space Center 2026-02-14 13:48_program_14",
+            "channel_id": 4,
+            "start": 1350,
+            "end": 1380
+        }
+    ]
+}

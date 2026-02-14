@@ -1,0 +1,112 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "NASA_program_0",
+            "channel_id": 4,
+            "start": 660,
+            "end": 690
+        },
+        {
+            "program_id": "Dream Trips_program_0",
+            "channel_id": 3,
+            "start": 690,
+            "end": 725
+        },
+        {
+            "program_id": "Dream Trips_program_1",
+            "channel_id": 3,
+            "start": 725,
+            "end": 755
+        },
+        {
+            "program_id": "NASA_program_1",
+            "channel_id": 4,
+            "start": 755,
+            "end": 800
+        },
+        {
+            "program_id": "NASA_program_2",
+            "channel_id": 4,
+            "start": 800,
+            "end": 830
+        },
+        {
+            "program_id": "The Financial Express_program_3",
+            "channel_id": 1,
+            "start": 838,
+            "end": 869
+        },
+        {
+            "program_id": "The Financial Express_program_4",
+            "channel_id": 1,
+            "start": 869,
+            "end": 899
+        },
+        {
+            "program_id": "NASA_program_3",
+            "channel_id": 4,
+            "start": 899,
+            "end": 952
+        },
+        {
+            "program_id": "NASA_program_4",
+            "channel_id": 4,
+            "start": 952,
+            "end": 982
+        },
+        {
+            "program_id": "Crux_program_5",
+            "channel_id": 0,
+            "start": 982,
+            "end": 1029
+        },
+        {
+            "program_id": "Crux_program_6",
+            "channel_id": 0,
+            "start": 1029,
+            "end": 1059
+        },
+        {
+            "program_id": "NASA_program_5",
+            "channel_id": 4,
+            "start": 1059,
+            "end": 1099
+        },
+        {
+            "program_id": "NASA_program_6",
+            "channel_id": 4,
+            "start": 1099,
+            "end": 1138
+        },
+        {
+            "program_id": "Crux_program_7",
+            "channel_id": 0,
+            "start": 1138,
+            "end": 1168
+        },
+        {
+            "program_id": "Crux_program_8",
+            "channel_id": 0,
+            "start": 1168,
+            "end": 1198
+        },
+        {
+            "program_id": "NASA_program_8",
+            "channel_id": 4,
+            "start": 1206,
+            "end": 1249
+        },
+        {
+            "program_id": "NASA_program_9",
+            "channel_id": 4,
+            "start": 1249,
+            "end": 1289
+        },
+        {
+            "program_id": "Dream Trips_program_9",
+            "channel_id": 3,
+            "start": 1289,
+            "end": 1320
+        }
+    ]
+}

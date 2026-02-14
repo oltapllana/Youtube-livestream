@@ -1,0 +1,166 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "The Financial Express_program_0",
+            "channel_id": 1,
+            "start": 480,
+            "end": 522
+        },
+        {
+            "program_id": "The Financial Express_program_1",
+            "channel_id": 1,
+            "start": 522,
+            "end": 552
+        },
+        {
+            "program_id": "NASA_program_1",
+            "channel_id": 4,
+            "start": 552,
+            "end": 582
+        },
+        {
+            "program_id": "Sen_program_1",
+            "channel_id": 2,
+            "start": 582,
+            "end": 612
+        },
+        {
+            "program_id": "NASA_program_2",
+            "channel_id": 4,
+            "start": 615,
+            "end": 651
+        },
+        {
+            "program_id": "NASA_program_3",
+            "channel_id": 4,
+            "start": 651,
+            "end": 681
+        },
+        {
+            "program_id": "The Financial Express_program_3",
+            "channel_id": 1,
+            "start": 681,
+            "end": 711
+        },
+        {
+            "program_id": "Dream Trips_program_3",
+            "channel_id": 3,
+            "start": 711,
+            "end": 741
+        },
+        {
+            "program_id": "NASA_program_4",
+            "channel_id": 4,
+            "start": 741,
+            "end": 771
+        },
+        {
+            "program_id": "NASA_program_5",
+            "channel_id": 4,
+            "start": 771,
+            "end": 811
+        },
+        {
+            "program_id": "Crux_program_5",
+            "channel_id": 0,
+            "start": 811,
+            "end": 846
+        },
+        {
+            "program_id": "Crux_program_6",
+            "channel_id": 0,
+            "start": 846,
+            "end": 876
+        },
+        {
+            "program_id": "NASA_program_7",
+            "channel_id": 4,
+            "start": 876,
+            "end": 919
+        },
+        {
+            "program_id": "Sen_program_6",
+            "channel_id": 2,
+            "start": 919,
+            "end": 949
+        },
+        {
+            "program_id": "Sen_program_7",
+            "channel_id": 2,
+            "start": 949,
+            "end": 979
+        },
+        {
+            "program_id": "NASA_program_8",
+            "channel_id": 4,
+            "start": 979,
+            "end": 1009
+        },
+        {
+            "program_id": "NASA_program_9",
+            "channel_id": 4,
+            "start": 1009,
+            "end": 1039
+        },
+        {
+            "program_id": "Sen_program_8",
+            "channel_id": 2,
+            "start": 1039,
+            "end": 1070
+        },
+        {
+            "program_id": "The Financial Express_program_9",
+            "channel_id": 1,
+            "start": 1070,
+            "end": 1103
+        },
+        {
+            "program_id": "NASA_program_10",
+            "channel_id": 4,
+            "start": 1103,
+            "end": 1133
+        },
+        {
+            "program_id": "NASA_program_11",
+            "channel_id": 4,
+            "start": 1133,
+            "end": 1180
+        },
+        {
+            "program_id": "The Financial Express_program_11",
+            "channel_id": 1,
+            "start": 1180,
+            "end": 1210
+        },
+        {
+            "program_id": "The Financial Express_program_12",
+            "channel_id": 1,
+            "start": 1210,
+            "end": 1240
+        },
+        {
+            "program_id": "NASA_program_13",
+            "channel_id": 4,
+            "start": 1240,
+            "end": 1270
+        },
+        {
+            "program_id": "The Financial Express_program_13",
+            "channel_id": 1,
+            "start": 1270,
+            "end": 1300
+        },
+        {
+            "program_id": "NASA_program_14",
+            "channel_id": 4,
+            "start": 1307,
+            "end": 1337
+        },
+        {
+            "program_id": "NASA_program_15",
+            "channel_id": 4,
+            "start": 1337,
+            "end": 1380
+        }
+    ]
+}

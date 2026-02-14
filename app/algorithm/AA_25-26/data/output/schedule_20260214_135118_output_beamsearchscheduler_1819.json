@@ -1,0 +1,166 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Interstellar News Hub_program_0",
+            "channel_id": 9,
+            "start": 480,
+            "end": 512
+        },
+        {
+            "program_id": "Interstellar News Hub_program_1",
+            "channel_id": 9,
+            "start": 512,
+            "end": 553
+        },
+        {
+            "program_id": "Dream Trips_program_1",
+            "channel_id": 3,
+            "start": 553,
+            "end": 583
+        },
+        {
+            "program_id": "Interstellar News Hub_program_3",
+            "channel_id": 9,
+            "start": 586,
+            "end": 616
+        },
+        {
+            "program_id": "Interstellar News Hub_program_4",
+            "channel_id": 9,
+            "start": 616,
+            "end": 646
+        },
+        {
+            "program_id": "I love You Venice_program_4",
+            "channel_id": 11,
+            "start": 646,
+            "end": 676
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_3",
+            "channel_id": 8,
+            "start": 676,
+            "end": 710
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_4",
+            "channel_id": 8,
+            "start": 710,
+            "end": 740
+        },
+        {
+            "program_id": "The Financial Express_program_5",
+            "channel_id": 1,
+            "start": 740,
+            "end": 777
+        },
+        {
+            "program_id": "The Financial Express_program_6",
+            "channel_id": 1,
+            "start": 777,
+            "end": 817
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_6",
+            "channel_id": 10,
+            "start": 818,
+            "end": 849
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_7",
+            "channel_id": 10,
+            "start": 849,
+            "end": 879
+        },
+        {
+            "program_id": "NASA_program_7",
+            "channel_id": 4,
+            "start": 879,
+            "end": 921
+        },
+        {
+            "program_id": "NASA_program_8",
+            "channel_id": 4,
+            "start": 921,
+            "end": 951
+        },
+        {
+            "program_id": "Sen_program_8",
+            "channel_id": 2,
+            "start": 951,
+            "end": 982
+        },
+        {
+            "program_id": "Sen_program_9",
+            "channel_id": 2,
+            "start": 982,
+            "end": 1012
+        },
+        {
+            "program_id": "NASA_program_9",
+            "channel_id": 4,
+            "start": 1012,
+            "end": 1042
+        },
+        {
+            "program_id": "NASA_program_10",
+            "channel_id": 4,
+            "start": 1042,
+            "end": 1072
+        },
+        {
+            "program_id": "I love You Venice_program_12",
+            "channel_id": 11,
+            "start": 1076,
+            "end": 1113
+        },
+        {
+            "program_id": "NASASpaceflight_program_10",
+            "channel_id": 5,
+            "start": 1114,
+            "end": 1149
+        },
+        {
+            "program_id": "NASASpaceflight_program_11",
+            "channel_id": 5,
+            "start": 1149,
+            "end": 1179
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_12",
+            "channel_id": 10,
+            "start": 1181,
+            "end": 1223
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_13",
+            "channel_id": 10,
+            "start": 1223,
+            "end": 1253
+        },
+        {
+            "program_id": "afarTV_program_12",
+            "channel_id": 6,
+            "start": 1253,
+            "end": 1283
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_14",
+            "channel_id": 10,
+            "start": 1284,
+            "end": 1316
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_15",
+            "channel_id": 10,
+            "start": 1316,
+            "end": 1346
+        },
+        {
+            "program_id": "NASA_program_14",
+            "channel_id": 4,
+            "start": 1350,
+            "end": 1380
+        }
+    ]
+}

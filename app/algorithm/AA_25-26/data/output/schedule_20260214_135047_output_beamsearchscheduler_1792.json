@@ -1,0 +1,166 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "I love You Venice_program_0",
+            "channel_id": 11,
+            "start": 480,
+            "end": 519
+        },
+        {
+            "program_id": "Space Streams_program_1",
+            "channel_id": 7,
+            "start": 521,
+            "end": 556
+        },
+        {
+            "program_id": "Space Streams_program_2",
+            "channel_id": 7,
+            "start": 556,
+            "end": 586
+        },
+        {
+            "program_id": "Dream Trips_program_1",
+            "channel_id": 3,
+            "start": 586,
+            "end": 618
+        },
+        {
+            "program_id": "NASA_program_2",
+            "channel_id": 4,
+            "start": 618,
+            "end": 648
+        },
+        {
+            "program_id": "NASA_program_3",
+            "channel_id": 4,
+            "start": 648,
+            "end": 683
+        },
+        {
+            "program_id": "Dream Trips_program_4",
+            "channel_id": 3,
+            "start": 683,
+            "end": 713
+        },
+        {
+            "program_id": "Space Streams_program_4",
+            "channel_id": 7,
+            "start": 713,
+            "end": 748
+        },
+        {
+            "program_id": "Space Streams_program_5",
+            "channel_id": 7,
+            "start": 748,
+            "end": 778
+        },
+        {
+            "program_id": "Dream Trips_program_5",
+            "channel_id": 3,
+            "start": 778,
+            "end": 808
+        },
+        {
+            "program_id": "Space Streams_program_6",
+            "channel_id": 7,
+            "start": 813,
+            "end": 855
+        },
+        {
+            "program_id": "Space Streams_program_7",
+            "channel_id": 7,
+            "start": 855,
+            "end": 886
+        },
+        {
+            "program_id": "Sen_program_6",
+            "channel_id": 2,
+            "start": 886,
+            "end": 916
+        },
+        {
+            "program_id": "Sen_program_7",
+            "channel_id": 2,
+            "start": 916,
+            "end": 946
+        },
+        {
+            "program_id": "NASASpaceflight_program_7",
+            "channel_id": 5,
+            "start": 950,
+            "end": 985
+        },
+        {
+            "program_id": "NASASpaceflight_program_8",
+            "channel_id": 5,
+            "start": 985,
+            "end": 1015
+        },
+        {
+            "program_id": "Sen_program_8",
+            "channel_id": 2,
+            "start": 1015,
+            "end": 1049
+        },
+        {
+            "program_id": "afarTV_program_9",
+            "channel_id": 6,
+            "start": 1049,
+            "end": 1079
+        },
+        {
+            "program_id": "afarTV_program_10",
+            "channel_id": 6,
+            "start": 1079,
+            "end": 1109
+        },
+        {
+            "program_id": "Dream Trips_program_10",
+            "channel_id": 3,
+            "start": 1109,
+            "end": 1141
+        },
+        {
+            "program_id": "Dream Trips_program_11",
+            "channel_id": 3,
+            "start": 1141,
+            "end": 1171
+        },
+        {
+            "program_id": "afarTV_program_11",
+            "channel_id": 6,
+            "start": 1171,
+            "end": 1210
+        },
+        {
+            "program_id": "afarTV_program_12",
+            "channel_id": 6,
+            "start": 1210,
+            "end": 1240
+        },
+        {
+            "program_id": "Dream Trips_program_13",
+            "channel_id": 3,
+            "start": 1246,
+            "end": 1277
+        },
+        {
+            "program_id": "Dream Trips_program_14",
+            "channel_id": 3,
+            "start": 1277,
+            "end": 1307
+        },
+        {
+            "program_id": "NASA_program_13",
+            "channel_id": 4,
+            "start": 1308,
+            "end": 1346
+        },
+        {
+            "program_id": "NASA_program_14",
+            "channel_id": 4,
+            "start": 1346,
+            "end": 1380
+        }
+    ]
+}

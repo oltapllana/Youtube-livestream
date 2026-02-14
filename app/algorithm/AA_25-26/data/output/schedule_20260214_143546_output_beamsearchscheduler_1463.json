@@ -1,0 +1,148 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Crux_program_0",
+            "channel_id": 0,
+            "start": 480,
+            "end": 511
+        },
+        {
+            "program_id": "NASA_program_0",
+            "channel_id": 4,
+            "start": 511,
+            "end": 541
+        },
+        {
+            "program_id": "Sen_program_1",
+            "channel_id": 2,
+            "start": 541,
+            "end": 574
+        },
+        {
+            "program_id": "Sen_program_2",
+            "channel_id": 2,
+            "start": 574,
+            "end": 607
+        },
+        {
+            "program_id": "NASA_program_2",
+            "channel_id": 4,
+            "start": 619,
+            "end": 649
+        },
+        {
+            "program_id": "NASA_program_3",
+            "channel_id": 4,
+            "start": 649,
+            "end": 679
+        },
+        {
+            "program_id": "Crux_program_3",
+            "channel_id": 0,
+            "start": 679,
+            "end": 717
+        },
+        {
+            "program_id": "Crux_program_4",
+            "channel_id": 0,
+            "start": 717,
+            "end": 747
+        },
+        {
+            "program_id": "NASA_program_4",
+            "channel_id": 4,
+            "start": 747,
+            "end": 785
+        },
+        {
+            "program_id": "NASA_program_5",
+            "channel_id": 4,
+            "start": 785,
+            "end": 818
+        },
+        {
+            "program_id": "Crux_program_5",
+            "channel_id": 0,
+            "start": 818,
+            "end": 850
+        },
+        {
+            "program_id": "NASA_program_6",
+            "channel_id": 4,
+            "start": 850,
+            "end": 884
+        },
+        {
+            "program_id": "NASA_program_7",
+            "channel_id": 4,
+            "start": 884,
+            "end": 919
+        },
+        {
+            "program_id": "Crux_program_7",
+            "channel_id": 0,
+            "start": 931,
+            "end": 963
+        },
+        {
+            "program_id": "NASA_program_8",
+            "channel_id": 4,
+            "start": 963,
+            "end": 995
+        },
+        {
+            "program_id": "NASA_program_9",
+            "channel_id": 4,
+            "start": 995,
+            "end": 1025
+        },
+        {
+            "program_id": "Crux_program_9",
+            "channel_id": 0,
+            "start": 1032,
+            "end": 1068
+        },
+        {
+            "program_id": "Crux_program_10",
+            "channel_id": 0,
+            "start": 1068,
+            "end": 1109
+        },
+        {
+            "program_id": "NASA_program_10",
+            "channel_id": 4,
+            "start": 1109,
+            "end": 1139
+        },
+        {
+            "program_id": "Sen_program_11",
+            "channel_id": 2,
+            "start": 1139,
+            "end": 1171
+        },
+        {
+            "program_id": "Sen_program_12",
+            "channel_id": 2,
+            "start": 1171,
+            "end": 1201
+        },
+        {
+            "program_id": "NASA_program_11",
+            "channel_id": 4,
+            "start": 1201,
+            "end": 1243
+        },
+        {
+            "program_id": "NASA_program_12",
+            "channel_id": 4,
+            "start": 1243,
+            "end": 1273
+        },
+        {
+            "program_id": "Dream Trips_program_14",
+            "channel_id": 3,
+            "start": 1286,
+            "end": 1320
+        }
+    ]
+}
