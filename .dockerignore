@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+.git/
+.gitignore
+.env
+*.md
+*.sln
+logs/
+frontend/node_modules/
+frontend/.vite/
+node_modules/
+.vscode/
+*.log
+app/algorithm/AA_25-26/SchedulingAPI/
