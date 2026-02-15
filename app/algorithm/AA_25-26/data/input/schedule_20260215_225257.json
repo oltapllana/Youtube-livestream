@@ -1,0 +1,268 @@
+{
+  "opening_time": 372,
+  "closing_time": 2090,
+  "min_duration": 35,
+  "max_consecutive_genre": 2,
+  "channels_count": 1,
+  "switch_penalty": 8,
+  "termination_penalty": 20,
+  "priority_blocks": [],
+  "time_preferences": [
+    {
+      "start": 480,
+      "end": 720,
+      "preferred_genre": "technology",
+      "bonus": 4
+    },
+    {
+      "start": 720,
+      "end": 960,
+      "preferred_genre": "science",
+      "bonus": 4
+    },
+    {
+      "start": 960,
+      "end": 1200,
+      "preferred_genre": "climate",
+      "bonus": 4
+    },
+    {
+      "start": 1200,
+      "end": 1380,
+      "preferred_genre": "technology",
+      "bonus": 4
+    }
+  ],
+  "channels": [
+    {
+      "channel_id": 0,
+      "channel_name": "Crux",
+      "programs": [
+        {
+          "program_id": "Crux_program_0",
+          "start": 372,
+          "end": 426,
+          "genre": "technology",
+          "score": 73,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_1",
+          "start": 426,
+          "end": 506,
+          "genre": "technology",
+          "score": 74,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_2",
+          "start": 506,
+          "end": 573,
+          "genre": "technology",
+          "score": 68,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_3",
+          "start": 573,
+          "end": 653,
+          "genre": "technology",
+          "score": 65,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_4",
+          "start": 653,
+          "end": 728,
+          "genre": "technology",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_5",
+          "start": 728,
+          "end": 772,
+          "genre": "technology",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_6",
+          "start": 772,
+          "end": 818,
+          "genre": "technology",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_7",
+          "start": 818,
+          "end": 881,
+          "genre": "technology",
+          "score": 84,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_8",
+          "start": 881,
+          "end": 955,
+          "genre": "technology",
+          "score": 79,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_9",
+          "start": 955,
+          "end": 1043,
+          "genre": "technology",
+          "score": 75,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_10",
+          "start": 1043,
+          "end": 1108,
+          "genre": "technology",
+          "score": 67,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_11",
+          "start": 1108,
+          "end": 1191,
+          "genre": "technology",
+          "score": 71,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_12",
+          "start": 1191,
+          "end": 1233,
+          "genre": "technology",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_13",
+          "start": 1233,
+          "end": 1270,
+          "genre": "technology",
+          "score": 81,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_14",
+          "start": 1270,
+          "end": 1342,
+          "genre": "technology",
+          "score": 74,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_15",
+          "start": 1342,
+          "end": 1394,
+          "genre": "technology",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_16",
+          "start": 1394,
+          "end": 1436,
+          "genre": "technology",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_17",
+          "start": 1436,
+          "end": 1496,
+          "genre": "technology",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_18",
+          "start": 1496,
+          "end": 1547,
+          "genre": "technology",
+          "score": 66,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_19",
+          "start": 1547,
+          "end": 1598,
+          "genre": "technology",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_20",
+          "start": 1598,
+          "end": 1647,
+          "genre": "technology",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_21",
+          "start": 1647,
+          "end": 1708,
+          "genre": "technology",
+          "score": 72,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_22",
+          "start": 1708,
+          "end": 1776,
+          "genre": "technology",
+          "score": 65,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_23",
+          "start": 1776,
+          "end": 1848,
+          "genre": "technology",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_24",
+          "start": 1848,
+          "end": 1918,
+          "genre": "technology",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_25",
+          "start": 1918,
+          "end": 1985,
+          "genre": "technology",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_26",
+          "start": 1985,
+          "end": 2020,
+          "genre": "technology",
+          "score": 66,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_27",
+          "start": 2020,
+          "end": 2090,
+          "genre": "technology",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        }
+      ]
+    }
+  ]
+}

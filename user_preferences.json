@@ -9,12 +9,9 @@
   "termination_penalty": 20,
   "max_consecutive_genre": 2,
   "bonus_pct": 5,
-  "category_filter": [
-    "technology"
-  ],
+  "category_filter": [],
   "selected_channel_ids": [
     5,
-    10,
-    0
+    10
   ]
 }

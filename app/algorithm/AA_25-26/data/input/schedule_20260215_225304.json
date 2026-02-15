@@ -1,0 +1,506 @@
+{
+  "opening_time": 372,
+  "closing_time": 2090,
+  "min_duration": 31,
+  "max_consecutive_genre": 2,
+  "channels_count": 2,
+  "switch_penalty": 8,
+  "termination_penalty": 20,
+  "priority_blocks": [],
+  "time_preferences": [
+    {
+      "start": 480,
+      "end": 720,
+      "preferred_genre": "technology",
+      "bonus": 4
+    },
+    {
+      "start": 720,
+      "end": 960,
+      "preferred_genre": "science",
+      "bonus": 4
+    },
+    {
+      "start": 960,
+      "end": 1200,
+      "preferred_genre": "climate",
+      "bonus": 4
+    },
+    {
+      "start": 1200,
+      "end": 1380,
+      "preferred_genre": "technology",
+      "bonus": 4
+    }
+  ],
+  "channels": [
+    {
+      "channel_id": 5,
+      "channel_name": "NASASpaceflight",
+      "programs": [
+        {
+          "program_id": "NASASpaceflight_program_0",
+          "start": 372,
+          "end": 454,
+          "genre": "science",
+          "score": 81,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_1",
+          "start": 454,
+          "end": 488,
+          "genre": "science",
+          "score": 91,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_2",
+          "start": 488,
+          "end": 564,
+          "genre": "science",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_3",
+          "start": 564,
+          "end": 635,
+          "genre": "science",
+          "score": 89,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_4",
+          "start": 635,
+          "end": 723,
+          "genre": "science",
+          "score": 82,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_5",
+          "start": 723,
+          "end": 778,
+          "genre": "science",
+          "score": 93,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_6",
+          "start": 778,
+          "end": 859,
+          "genre": "science",
+          "score": 94,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_7",
+          "start": 859,
+          "end": 946,
+          "genre": "science",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_8",
+          "start": 946,
+          "end": 984,
+          "genre": "science",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_9",
+          "start": 984,
+          "end": 1037,
+          "genre": "science",
+          "score": 84,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_10",
+          "start": 1037,
+          "end": 1070,
+          "genre": "science",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_11",
+          "start": 1070,
+          "end": 1149,
+          "genre": "science",
+          "score": 93,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_12",
+          "start": 1149,
+          "end": 1187,
+          "genre": "science",
+          "score": 79,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_13",
+          "start": 1187,
+          "end": 1251,
+          "genre": "science",
+          "score": 95,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_14",
+          "start": 1251,
+          "end": 1320,
+          "genre": "science",
+          "score": 89,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_15",
+          "start": 1320,
+          "end": 1377,
+          "genre": "science",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_16",
+          "start": 1377,
+          "end": 1459,
+          "genre": "science",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_17",
+          "start": 1459,
+          "end": 1514,
+          "genre": "science",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_18",
+          "start": 1514,
+          "end": 1554,
+          "genre": "science",
+          "score": 95,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_19",
+          "start": 1554,
+          "end": 1602,
+          "genre": "science",
+          "score": 75,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_20",
+          "start": 1602,
+          "end": 1653,
+          "genre": "science",
+          "score": 91,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_21",
+          "start": 1653,
+          "end": 1728,
+          "genre": "science",
+          "score": 95,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_22",
+          "start": 1728,
+          "end": 1773,
+          "genre": "science",
+          "score": 94,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_23",
+          "start": 1773,
+          "end": 1858,
+          "genre": "science",
+          "score": 92,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_24",
+          "start": 1858,
+          "end": 1933,
+          "genre": "science",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_25",
+          "start": 1933,
+          "end": 1982,
+          "genre": "science",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_26",
+          "start": 1982,
+          "end": 2049,
+          "genre": "science",
+          "score": 79,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_27",
+          "start": 2049,
+          "end": 2090,
+          "genre": "science",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        }
+      ]
+    },
+    {
+      "channel_id": 10,
+      "channel_name": "Interstellar News Hub (Climate)",
+      "programs": [
+        {
+          "program_id": "Interstellar News Hub (Climate)_program_0",
+          "start": 372,
+          "end": 419,
+          "genre": "climate",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub (Climate)_program_1",
+          "start": 419,
+          "end": 479,
+          "genre": "climate",
+          "score": 73,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub (Climate)_program_2",
+          "start": 479,
+          "end": 559,
+          "genre": "climate",
+          "score": 75,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub (Climate)_program_3",
+          "start": 559,
+          "end": 598,
+          "genre": "climate",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub (Climate)_program_4",
+          "start": 598,
+          "end": 658,
+          "genre": "climate",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub (Climate)_program_5",
+          "start": 658,
+          "end": 693,
+          "genre": "climate",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub (Climate)_program_6",
+          "start": 693,
+          "end": 743,
+          "genre": "climate",
+          "score": 70,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub (Climate)_program_7",
+          "start": 743,
+          "end": 814,
+          "genre": "climate",
+          "score": 74,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub (Climate)_program_8",
+          "start": 814,
+          "end": 882,
+          "genre": "climate",
+          "score": 71,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub (Climate)_program_9",
+          "start": 882,
+          "end": 963,
+          "genre": "climate",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub (Climate)_program_10",
+          "start": 963,
+          "end": 1000,
+          "genre": "climate",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub (Climate)_program_11",
+          "start": 1000,
+          "end": 1031,
+          "genre": "climate",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub (Climate)_program_12",
+          "start": 1031,
+          "end": 1063,
+          "genre": "climate",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub (Climate)_program_13",
+          "start": 1063,
+          "end": 1130,
+          "genre": "climate",
+          "score": 72,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub (Climate)_program_14",
+          "start": 1130,
+          "end": 1202,
+          "genre": "climate",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub (Climate)_program_15",
+          "start": 1202,
+          "end": 1272,
+          "genre": "climate",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub (Climate)_program_16",
+          "start": 1272,
+          "end": 1306,
+          "genre": "climate",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub (Climate)_program_17",
+          "start": 1306,
+          "end": 1345,
+          "genre": "climate",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub (Climate)_program_18",
+          "start": 1345,
+          "end": 1435,
+          "genre": "climate",
+          "score": 71,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub (Climate)_program_19",
+          "start": 1435,
+          "end": 1501,
+          "genre": "climate",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub (Climate)_program_20",
+          "start": 1501,
+          "end": 1548,
+          "genre": "climate",
+          "score": 70,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub (Climate)_program_21",
+          "start": 1548,
+          "end": 1617,
+          "genre": "climate",
+          "score": 82,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub (Climate)_program_22",
+          "start": 1617,
+          "end": 1697,
+          "genre": "climate",
+          "score": 70,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub (Climate)_program_23",
+          "start": 1697,
+          "end": 1769,
+          "genre": "climate",
+          "score": 84,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub (Climate)_program_24",
+          "start": 1769,
+          "end": 1800,
+          "genre": "climate",
+          "score": 73,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub (Climate)_program_25",
+          "start": 1800,
+          "end": 1865,
+          "genre": "climate",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub (Climate)_program_26",
+          "start": 1865,
+          "end": 1952,
+          "genre": "climate",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub (Climate)_program_27",
+          "start": 1952,
+          "end": 2042,
+          "genre": "climate",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub (Climate)_program_28",
+          "start": 2042,
+          "end": 2090,
+          "genre": "climate",
+          "score": 75,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        }
+      ]
+    }
+  ]
+}
