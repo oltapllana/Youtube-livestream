@@ -15,7 +15,7 @@ from typing import Dict, Any, Optional, List
 
 from app.services.instance_generator import InstanceGenerator
 from app.services.request_store import store, RequestStatus
-from app.utils.file_handler import save_json, load_json, get_latest_output
+from app.utils.file_handler import save_json, load_json, get_latest_output, get_latest_output_for_input
 from app.utils.config import (
     DATA_INPUT_DIR,
     DATA_OUTPUT_DIR,
@@ -125,8 +125,15 @@ class SchedulerService:
         return {"status": str(entry["status"]), "message": entry["message"]}
 
     def read_latest_output(self) -> Optional[Dict[str, Any]]:
-        """Read the most recent algorithm output file."""
+        """Read the most recent algorithm output file (global)."""
         output_path = get_latest_output(self.output_dir)
+        if output_path is None:
+            return None
+        return load_json(output_path)
+
+    def read_output_for_input(self, input_file: str) -> Optional[Dict[str, Any]]:
+        """Read the output file that corresponds to a specific input file."""
+        output_path = get_latest_output_for_input(self.output_dir, Path(input_file))
         if output_path is None:
             return None
         return load_json(output_path)
@@ -155,6 +162,7 @@ class SchedulerService:
             instance = self.generate_instance(
                 scheduling_params, probe_streams=probe_streams
             )
+            instance = self._apply_dynamic_params(instance, scheduling_params)
             store.set_instance(request_id, instance)
 
             # Step 2 — save
@@ -189,7 +197,7 @@ class SchedulerService:
                 progress=90,
                 message="Reading algorithm output…",
             )
-            output_data = self.read_latest_output()
+            output_data = self.read_output_for_input(str(filepath))
             if output_data is None:
                 store.set_error(request_id, "Algorithm produced no output file")
                 return
@@ -241,3 +249,88 @@ class SchedulerService:
         if "total_score" in output:
             return output["total_score"]
         return sum(p.get("fitness", 0) for p in output.get("scheduled_programs", []))
+
+    def _apply_dynamic_params(
+        self,
+        instance: Dict[str, Any],
+        scheduling_params: Dict[str, Any],
+    ) -> Dict[str, Any]:
+        avg_score = self._calculate_average_score(instance)
+        shortest = self._calculate_shortest_duration(instance)
+
+        min_duration_pct = scheduling_params.get("min_duration_pct")
+        if min_duration_pct:
+            instance["min_duration"] = max(1, self._pct_of(shortest, min_duration_pct))
+
+        switch_penalty_pct = scheduling_params.get("switch_penalty_pct")
+        if switch_penalty_pct:
+            instance["switch_penalty"] = self._pct_of(avg_score, switch_penalty_pct)
+
+        bonus_pct = scheduling_params.get("bonus_pct")
+        if bonus_pct:
+            bonus = self._pct_of(avg_score, bonus_pct)
+            instance["time_preferences"] = self._build_default_time_preferences(
+                instance["opening_time"],
+                instance["closing_time"],
+                bonus,
+            )
+        else:
+            instance["time_preferences"] = scheduling_params.get(
+                "time_preferences", instance.get("time_preferences", [])
+            )
+
+        return instance
+
+    @staticmethod
+    def _pct_of(value: float, pct: int) -> int:
+        return max(0, round(value * (pct / 100.0)))
+
+    @staticmethod
+    def _calculate_average_score(instance: Dict[str, Any]) -> float:
+        scores = [
+            p.get("score", 0)
+            for ch in instance.get("channels", [])
+            for p in ch.get("programs", [])
+        ]
+        if not scores:
+            return 0
+        return sum(scores) / len(scores)
+
+    @staticmethod
+    def _calculate_shortest_duration(instance: Dict[str, Any]) -> int:
+        durations = [
+            (p.get("end", 0) - p.get("start", 0))
+            for ch in instance.get("channels", [])
+            for p in ch.get("programs", [])
+            if "start" in p and "end" in p
+        ]
+        if not durations:
+            return instance.get("min_duration", 0)
+        return min(durations)
+
+    @staticmethod
+    def _build_default_time_preferences(
+        opening_time: int,
+        closing_time: int,
+        bonus: int,
+    ) -> List[Dict[str, Any]]:
+        blocks = [
+            (480, 720, "technology"),
+            (720, 960, "science"),
+            (960, 1200, "climate"),
+            (1200, 1380, "technology"),
+        ]
+        prefs: List[Dict[str, Any]] = []
+        for start, end, genre in blocks:
+            adj_start = max(start, opening_time)
+            adj_end = min(end, closing_time)
+            if adj_start < adj_end:
+                prefs.append(
+                    {
+                        "start": adj_start,
+                        "end": adj_end,
+                        "preferred_genre": genre,
+                        "bonus": bonus,
+                    }
+                )
+        return prefs

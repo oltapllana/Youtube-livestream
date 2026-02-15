@@ -65,22 +65,28 @@ async def submit_schedule(
             "opening_time": request.opening_time,
             "closing_time": request.closing_time,
             "min_duration": request.min_duration,
+            "min_duration_pct": request.min_duration_pct,
             "channels_count": request.channels_count,
             "max_consecutive_genre": request.max_consecutive_genre,
             "switch_penalty": request.switch_penalty,
+            "switch_penalty_pct": request.switch_penalty_pct,
             "termination_penalty": request.termination_penalty,
             "time_preferences": [tp.model_dump() for tp in request.time_preferences],
+            "bonus_pct": request.bonus_pct,
         }
     else:
         scheduling_params = {
             "opening_time": DEFAULT_OPENING_TIME,
             "closing_time": DEFAULT_CLOSING_TIME,
             "min_duration": DEFAULT_MIN_DURATION,
+            "min_duration_pct": None,
             "channels_count": DEFAULT_CHANNELS_COUNT,
             "max_consecutive_genre": DEFAULT_MAX_CONSECUTIVE_GENRE,
             "switch_penalty": DEFAULT_SWITCH_PENALTY,
+            "switch_penalty_pct": None,
             "termination_penalty": DEFAULT_TERMINATION_PENALTY,
             "time_preferences": [],
+            "bonus_pct": None,
         }
 
     store.create(request_id)
@@ -116,22 +122,28 @@ async def submit_schedule_sync(
             "opening_time": request.opening_time,
             "closing_time": request.closing_time,
             "min_duration": request.min_duration,
+            "min_duration_pct": request.min_duration_pct,
             "channels_count": request.channels_count,
             "max_consecutive_genre": request.max_consecutive_genre,
             "switch_penalty": request.switch_penalty,
+            "switch_penalty_pct": request.switch_penalty_pct,
             "termination_penalty": request.termination_penalty,
             "time_preferences": [tp.model_dump() for tp in request.time_preferences],
+            "bonus_pct": request.bonus_pct,
         }
     else:
         scheduling_params = {
             "opening_time": DEFAULT_OPENING_TIME,
             "closing_time": DEFAULT_CLOSING_TIME,
             "min_duration": DEFAULT_MIN_DURATION,
+            "min_duration_pct": None,
             "channels_count": DEFAULT_CHANNELS_COUNT,
             "max_consecutive_genre": DEFAULT_MAX_CONSECUTIVE_GENRE,
             "switch_penalty": DEFAULT_SWITCH_PENALTY,
+            "switch_penalty_pct": None,
             "termination_penalty": DEFAULT_TERMINATION_PENALTY,
             "time_preferences": [],
+            "bonus_pct": None,
         }
 
     store.create(request_id)
@@ -225,22 +237,28 @@ DEFAULT_PREFERENCES = {
     "opening_time": DEFAULT_OPENING_TIME,
     "closing_time": DEFAULT_CLOSING_TIME,
     "min_duration": DEFAULT_MIN_DURATION,
+    "min_duration_pct": None,
     "channels_count": DEFAULT_CHANNELS_COUNT,
     "switch_penalty": DEFAULT_SWITCH_PENALTY,
+    "switch_penalty_pct": None,
     "termination_penalty": DEFAULT_TERMINATION_PENALTY,
     "max_consecutive_genre": DEFAULT_MAX_CONSECUTIVE_GENRE,
     "time_preferences": [],
+    "bonus_pct": None,
 }
 
 
 class UserPreferences(BaseModel):
     opening_time: int = Field(default=480, description="Opening time (minutes from midnight)")
     closing_time: int = Field(default=1380, description="Closing time (minutes from midnight)")
-    min_duration: int = Field(default=30, description="Minimum program duration in minutes")
-    channels_count: int = Field(default=5, description="Number of channels (1-12)")
-    switch_penalty: int = Field(default=10)
+    min_duration: Optional[int] = Field(default=30, description="Minimum program duration in minutes")
+    min_duration_pct: Optional[int] = Field(default=100, description="Min duration % of shortest program")
+    channels_count: int = Field(default=10, description="Number of channels (10 or 20)")
+    switch_penalty: Optional[int] = Field(default=10)
+    switch_penalty_pct: Optional[int] = Field(default=10, description="Switch penalty % of average score")
     termination_penalty: int = Field(default=20)
     max_consecutive_genre: int = Field(default=2)
+    bonus_pct: Optional[int] = Field(default=5, description="Time preference bonus % of average score")
 
 
 @router.get("/preferences")

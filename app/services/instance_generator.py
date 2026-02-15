@@ -202,7 +202,15 @@ class InstanceGenerator:
         opening_time = scheduling_params["opening_time"]
         closing_time = scheduling_params["closing_time"]
         min_duration = scheduling_params["min_duration"]
-        channels_count = scheduling_params["channels_count"]
+        requested_channels = scheduling_params["channels_count"]
+        total_streams = len(self.streams)
+        channels_count = max(1, min(requested_channels, total_streams))
+        if requested_channels != channels_count:
+            logger.warning(
+                "Requested %s channels, but only %s streams available. Clamping.",
+                requested_channels,
+                total_streams,
+            )
 
         selected_streams = self.streams[:channels_count]
 

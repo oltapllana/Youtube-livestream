@@ -39,3 +39,13 @@ def get_latest_output(output_dir: Path) -> Path:
     if not files:
         return None
     return max(files, key=lambda p: p.stat().st_mtime)
+
+
+def get_latest_output_for_input(output_dir: Path, input_file: Path) -> Path:
+    """Get the most recent output file that matches a specific input file."""
+    base_name = Path(input_file).stem.replace("_input", "")
+    pattern = f"{base_name}_output_*.json"
+    files = list(output_dir.glob(pattern))
+    if not files:
+        return None
+    return max(files, key=lambda p: p.stat().st_mtime)

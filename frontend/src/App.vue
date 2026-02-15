@@ -39,7 +39,7 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted, onUnmounted } from 'vue'
+import { ref, computed, onMounted, onUnmounted, watch } from 'vue'
 import {
   minsToTime,
   timeToMins,
@@ -63,15 +63,17 @@ const loading    = ref(false)
 const loadingMsg = ref('Generating schedule…')
 const schedule   = ref([])
 const clockNow   = ref(getNowMins())
+const scheduleClosingTime = ref(null) // Track when current schedule ends
 
 const prefs = ref({
   openTime: '08:00',
   closeTime: '23:00',
-  minDuration: 30,
-  channelsCount: 12,
-  switchPenalty: 10,
+  minDurationPct: 100,
+  channelsCount: 10,
+  switchPenaltyPct: 10,
   terminationPenalty: 20,
   maxConsecutiveGenre: 2,
+  bonusPct: 5,
 })
 
 let clockTimer = null
@@ -98,12 +100,28 @@ function buildPayload() {
   return {
     opening_time: timeToMins(prefs.value.openTime),
     closing_time: timeToMins(prefs.value.closeTime),
-    min_duration: prefs.value.minDuration,
+    min_duration_pct: prefs.value.minDurationPct,
     channels_count: prefs.value.channelsCount,
-    switch_penalty: prefs.value.switchPenalty,
+    switch_penalty_pct: prefs.value.switchPenaltyPct,
     termination_penalty: prefs.value.terminationPenalty,
     max_consecutive_genre: prefs.value.maxConsecutiveGenre,
     time_preferences: [],
+    bonus_pct: prefs.value.bonusPct,
+  }
+}
+
+// ── Build default payload with dynamic time window ───────────
+function buildAutoPayload(openTime, closeTime) {
+  return {
+    opening_time: openTime,
+    closing_time: closeTime,
+    min_duration_pct: 100,        // defaults
+    channels_count: 10,
+    switch_penalty_pct: 10,
+    termination_penalty: 20,
+    max_consecutive_genre: 2,
+    time_preferences: [],
+    bonus_pct: 5,
   }
 }
 
@@ -113,29 +131,49 @@ async function loadPreferences() {
     const data = await fetchPreferences()
     prefs.value.openTime = minsToTime(data.opening_time ?? 480)
     prefs.value.closeTime = minsToTime(data.closing_time ?? 1380)
-    prefs.value.minDuration = data.min_duration ?? 30
-    prefs.value.channelsCount = data.channels_count ?? 12
-    prefs.value.switchPenalty = data.switch_penalty ?? 10
+    prefs.value.minDurationPct = data.min_duration_pct ?? 100
+    prefs.value.channelsCount = data.channels_count ?? 10
+    prefs.value.switchPenaltyPct = data.switch_penalty_pct ?? 10
     prefs.value.terminationPenalty = data.termination_penalty ?? 20
     prefs.value.maxConsecutiveGenre = data.max_consecutive_genre ?? 2
+    prefs.value.bonusPct = data.bonus_pct ?? 5
   } catch (e) {
     console.warn('Could not load preferences:', e)
   }
 }
 
 // ── Generate schedule ────────────────────────────────────────
-async function runGenerate() {
+async function runGenerate(customPayload = null) {
   loading.value = true
   loadingMsg.value = 'Generating schedule — running beam search algorithm…'
   try {
-    const data = await apiGenerate(buildPayload())
+    const payload = customPayload || buildPayload()
+    const data = await apiGenerate(payload)
     schedule.value = data.scheduled_programs || []
+    
+    // Track closing time from the payload used
+    scheduleClosingTime.value = payload.closing_time
+    
+    // Update prefs UI to reflect what's currently scheduled
+    prefs.value.openTime = minsToTime(payload.opening_time)
+    prefs.value.closeTime = minsToTime(payload.closing_time)
   } catch (err) {
     console.error('Schedule generation failed:', err)
     alert('Error: ' + err.message)
   } finally {
     loading.value = false
   }
+}
+
+// ── Auto-regenerate when schedule expires ────────────────────
+async function autoRegenerate() {
+  const now = getNowMins()
+  const openTime = now
+  const closeTime = now + 720 // 12 hours later
+  
+  console.log(`[AUTO-REGENERATE] Schedule ended. Starting new 12-hour window: ${minsToTime(openTime)} → ${minsToTime(closeTime)}`)
+  
+  await runGenerate(buildAutoPayload(openTime, closeTime))
 }
 
 // ── Panel actions ────────────────────────────────────────────
@@ -161,6 +199,14 @@ onMounted(async () => {
   }, 5000)
 
   document.addEventListener('keydown', onKeydown)
+})
+
+// ── Watch for schedule expiration ────────────────────────────
+watch(clockNow, (now) => {
+  // If current time exceeds schedule closing time, auto-regenerate
+  if (scheduleClosingTime.value !== null && now >= scheduleClosingTime.value && !loading.value) {
+    autoRegenerate()
+  }
 })
 
 onUnmounted(() => {

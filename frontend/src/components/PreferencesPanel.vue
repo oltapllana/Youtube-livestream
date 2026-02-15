@@ -20,16 +20,38 @@
         <input type="time" v-model="prefs.closeTime" />
       </label>
       <label>
-        <span>Min Duration (min)</span>
-        <input type="number" v-model.number="prefs.minDuration" min="5" max="180" />
+        <span>Min Duration (% of shortest)</span>
+        <select v-model.number="prefs.minDurationPct">
+          <option :value="70">70%</option>
+          <option :value="80">80%</option>
+          <option :value="90">90%</option>
+          <option :value="100">100%</option>
+        </select>
       </label>
       <label>
         <span>Channels Count</span>
-        <input type="number" v-model.number="prefs.channelsCount" min="1" max="12" />
+        <select v-model.number="prefs.channelsCount">
+          <option :value="10">10</option>
+          <option :value="20">20</option>
+        </select>
       </label>
       <label>
-        <span>Switch Penalty</span>
-        <input type="number" v-model.number="prefs.switchPenalty" min="0" max="100" />
+        <span>Switch Penalty (% of avg score)</span>
+        <select v-model.number="prefs.switchPenaltyPct">
+          <option :value="3">3%</option>
+          <option :value="5">5%</option>
+          <option :value="7">7%</option>
+          <option :value="10">10%</option>
+        </select>
+      </label>
+      <label>
+        <span>Bonus (% of avg score)</span>
+        <select v-model.number="prefs.bonusPct">
+          <option :value="3">3%</option>
+          <option :value="5">5%</option>
+          <option :value="7">7%</option>
+          <option :value="10">10%</option>
+        </select>
       </label>
       <label>
         <span>Termination Penalty</span>

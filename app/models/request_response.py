@@ -27,11 +27,23 @@ class ScheduleRequest(BaseModel):
     opening_time: int = Field(default=480, description="Opening time in minutes from midnight (default 8 AM)")
     closing_time: int = Field(default=1380, description="Closing time in minutes from midnight (default 11 PM)")
     min_duration: int = Field(default=30, description="Minimum program duration")
-    channels_count: int = Field(default=5, description="Number of channels (max 12)")
+    min_duration_pct: Optional[int] = Field(
+        default=None,
+        description="Min duration as % of shortest program (70/80/90/100)",
+    )
+    channels_count: int = Field(default=10, description="Number of channels (max 12)")
     max_consecutive_genre: int = Field(default=2, description="Max consecutive programs of same genre")
     switch_penalty: int = Field(default=10, description="Penalty for channel switches")
+    switch_penalty_pct: Optional[int] = Field(
+        default=None,
+        description="Switch penalty as % of average score (3/5/7/10)",
+    )
     termination_penalty: int = Field(default=20, description="Penalty for unused time")
     time_preferences: List[TimePreference] = Field(default_factory=list, description="Time-based preferences")
+    bonus_pct: Optional[int] = Field(
+        default=None,
+        description="Time preference bonus as % of average score (3/5/7/10)",
+    )
     youtube_streams: Optional[List[YouTubeStream]] = Field(default=None, description="YouTube streams (optional — backend has 12 hardcoded streams)")
 
 
