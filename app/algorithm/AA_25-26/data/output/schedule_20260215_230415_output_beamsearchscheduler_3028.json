@@ -1,0 +1,286 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "NASA_program_0",
+            "channel_id": 4,
+            "start": 372,
+            "end": 415
+        },
+        {
+            "program_id": "NASA_program_1",
+            "channel_id": 4,
+            "start": 415,
+            "end": 467
+        },
+        {
+            "program_id": "Joey Does Tech_program_2",
+            "channel_id": 4,
+            "start": 468,
+            "end": 512
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_2",
+            "channel_id": 10,
+            "start": 517,
+            "end": 550
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_3",
+            "channel_id": 10,
+            "start": 550,
+            "end": 582
+        },
+        {
+            "program_id": "NASA_program_4",
+            "channel_id": 4,
+            "start": 590,
+            "end": 636
+        },
+        {
+            "program_id": "NASA_program_5",
+            "channel_id": 4,
+            "start": 636,
+            "end": 668
+        },
+        {
+            "program_id": "Joey Does Tech_program_5",
+            "channel_id": 4,
+            "start": 668,
+            "end": 700
+        },
+        {
+            "program_id": "Joey Does Tech_program_6",
+            "channel_id": 4,
+            "start": 700,
+            "end": 732
+        },
+        {
+            "program_id": "NASASpaceflight_program_6",
+            "channel_id": 5,
+            "start": 732,
+            "end": 768
+        },
+        {
+            "program_id": "NASASpaceflight_program_7",
+            "channel_id": 5,
+            "start": 768,
+            "end": 800
+        },
+        {
+            "program_id": "Joey Does Tech_program_8",
+            "channel_id": 4,
+            "start": 800,
+            "end": 832
+        },
+        {
+            "program_id": "NASASpaceflight_program_8",
+            "channel_id": 5,
+            "start": 832,
+            "end": 879
+        },
+        {
+            "program_id": "NASASpaceflight_program_9",
+            "channel_id": 5,
+            "start": 879,
+            "end": 911
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_8",
+            "channel_id": 10,
+            "start": 911,
+            "end": 945
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_9",
+            "channel_id": 10,
+            "start": 945,
+            "end": 977
+        },
+        {
+            "program_id": "NASA_program_11",
+            "channel_id": 4,
+            "start": 977,
+            "end": 1015
+        },
+        {
+            "program_id": "NASA_program_12",
+            "channel_id": 4,
+            "start": 1015,
+            "end": 1060
+        },
+        {
+            "program_id": "Joey Does Tech_program_12",
+            "channel_id": 4,
+            "start": 1060,
+            "end": 1092
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_11",
+            "channel_id": 10,
+            "start": 1092,
+            "end": 1124
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_12",
+            "channel_id": 10,
+            "start": 1124,
+            "end": 1156
+        },
+        {
+            "program_id": "Joey Does Tech_program_13",
+            "channel_id": 4,
+            "start": 1156,
+            "end": 1188
+        },
+        {
+            "program_id": "NASASpaceflight_program_14",
+            "channel_id": 5,
+            "start": 1188,
+            "end": 1225
+        },
+        {
+            "program_id": "NASASpaceflight_program_15",
+            "channel_id": 5,
+            "start": 1225,
+            "end": 1257
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_14",
+            "channel_id": 10,
+            "start": 1257,
+            "end": 1289
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_15",
+            "channel_id": 10,
+            "start": 1289,
+            "end": 1321
+        },
+        {
+            "program_id": "NASA_program_17",
+            "channel_id": 4,
+            "start": 1321,
+            "end": 1361
+        },
+        {
+            "program_id": "NASA_program_18",
+            "channel_id": 4,
+            "start": 1361,
+            "end": 1394
+        },
+        {
+            "program_id": "Joey Does Tech_program_17",
+            "channel_id": 4,
+            "start": 1404,
+            "end": 1449
+        },
+        {
+            "program_id": "Joey Does Tech_program_18",
+            "channel_id": 4,
+            "start": 1449,
+            "end": 1481
+        },
+        {
+            "program_id": "NASA_program_20",
+            "channel_id": 4,
+            "start": 1481,
+            "end": 1514
+        },
+        {
+            "program_id": "NASA_program_21",
+            "channel_id": 4,
+            "start": 1514,
+            "end": 1546
+        },
+        {
+            "program_id": "Joey Does Tech_program_19",
+            "channel_id": 4,
+            "start": 1546,
+            "end": 1584
+        },
+        {
+            "program_id": "NASA_program_22",
+            "channel_id": 4,
+            "start": 1584,
+            "end": 1617
+        },
+        {
+            "program_id": "Joey Does Tech_program_20",
+            "channel_id": 4,
+            "start": 1617,
+            "end": 1649
+        },
+        {
+            "program_id": "NASA_program_23",
+            "channel_id": 4,
+            "start": 1649,
+            "end": 1688
+        },
+        {
+            "program_id": "NASA_program_24",
+            "channel_id": 4,
+            "start": 1688,
+            "end": 1720
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_21",
+            "channel_id": 10,
+            "start": 1720,
+            "end": 1759
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_22",
+            "channel_id": 10,
+            "start": 1759,
+            "end": 1794
+        },
+        {
+            "program_id": "NASA_program_25",
+            "channel_id": 4,
+            "start": 1794,
+            "end": 1828
+        },
+        {
+            "program_id": "NASA_program_26",
+            "channel_id": 4,
+            "start": 1828,
+            "end": 1860
+        },
+        {
+            "program_id": "Joey Does Tech_program_24",
+            "channel_id": 4,
+            "start": 1860,
+            "end": 1892
+        },
+        {
+            "program_id": "NASA_program_27",
+            "channel_id": 4,
+            "start": 1898,
+            "end": 1934
+        },
+        {
+            "program_id": "NASA_program_28",
+            "channel_id": 4,
+            "start": 1934,
+            "end": 1980
+        },
+        {
+            "program_id": "Joey Does Tech_program_26",
+            "channel_id": 4,
+            "start": 1980,
+            "end": 2021
+        },
+        {
+            "program_id": "NASA_program_29",
+            "channel_id": 4,
+            "start": 2021,
+            "end": 2053
+        },
+        {
+            "program_id": "Joey Does Tech_program_27",
+            "channel_id": 4,
+            "start": 2053,
+            "end": 2085
+        }
+    ]
+}

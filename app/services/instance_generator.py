@@ -41,6 +41,12 @@ YOUTUBE_STREAMS = {
             "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0",
             "category": "technology",
         },
+        {
+            "channel_id": 4,
+            "title": "Joey Does Tech",
+            "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0",
+            "category": "technology",
+        },
     ],
     "science": [
         {
@@ -257,6 +263,7 @@ class InstanceGenerator:
             "https://www.youtube.com/channel/UCmk6ZFMy1CT80orXca4tKew": "technology",  # Financial Express
             "https://www.youtube.com/channel/UCkvW_7kp9LJrztmgA4q4bJQ": "technology",  # Sen
             "https://www.youtube.com/channel/UCetYFjkhf7S7LwiuJxeC28g": "technology",  # Dream Trips
+            "https://www.youtube.com/channel/watch?v=GCYaMTVXc_0": "technology",  # Joey Does Tech
             "https://www.youtube.com/channel/UCLA_DiR1FfKNvjuUpBHmylQ": "science",  # NASA
             "https://www.youtube.com/channel/UCOazV478JlUdvbBgFN4wWXA": "science",  # NASASpaceflight
             "https://www.youtube.com/channel/UC-QRPODUcdhXzXiOxsOaouA": "science",  # afarTV

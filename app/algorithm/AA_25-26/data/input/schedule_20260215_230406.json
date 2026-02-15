@@ -1,0 +1,268 @@
+{
+  "opening_time": 372,
+  "closing_time": 2090,
+  "min_duration": 33,
+  "max_consecutive_genre": 2,
+  "channels_count": 1,
+  "switch_penalty": 7,
+  "termination_penalty": 20,
+  "priority_blocks": [],
+  "time_preferences": [
+    {
+      "start": 480,
+      "end": 720,
+      "preferred_genre": "technology",
+      "bonus": 4
+    },
+    {
+      "start": 720,
+      "end": 960,
+      "preferred_genre": "science",
+      "bonus": 4
+    },
+    {
+      "start": 960,
+      "end": 1200,
+      "preferred_genre": "climate",
+      "bonus": 4
+    },
+    {
+      "start": 1200,
+      "end": 1380,
+      "preferred_genre": "technology",
+      "bonus": 4
+    }
+  ],
+  "channels": [
+    {
+      "channel_id": 4,
+      "channel_name": "Joey Does Tech",
+      "programs": [
+        {
+          "program_id": "Joey Does Tech_program_0",
+          "start": 372,
+          "end": 453,
+          "genre": "technology",
+          "score": 65,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_1",
+          "start": 453,
+          "end": 486,
+          "genre": "technology",
+          "score": 65,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_2",
+          "start": 486,
+          "end": 564,
+          "genre": "technology",
+          "score": 70,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_3",
+          "start": 564,
+          "end": 643,
+          "genre": "technology",
+          "score": 66,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_4",
+          "start": 643,
+          "end": 720,
+          "genre": "technology",
+          "score": 70,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_5",
+          "start": 720,
+          "end": 757,
+          "genre": "technology",
+          "score": 65,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_6",
+          "start": 757,
+          "end": 827,
+          "genre": "technology",
+          "score": 70,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_7",
+          "start": 827,
+          "end": 895,
+          "genre": "technology",
+          "score": 82,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_8",
+          "start": 895,
+          "end": 934,
+          "genre": "technology",
+          "score": 75,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_9",
+          "start": 934,
+          "end": 980,
+          "genre": "technology",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_10",
+          "start": 980,
+          "end": 1059,
+          "genre": "technology",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_11",
+          "start": 1059,
+          "end": 1123,
+          "genre": "technology",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_12",
+          "start": 1123,
+          "end": 1186,
+          "genre": "technology",
+          "score": 71,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_13",
+          "start": 1186,
+          "end": 1275,
+          "genre": "technology",
+          "score": 70,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_14",
+          "start": 1275,
+          "end": 1333,
+          "genre": "technology",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_15",
+          "start": 1333,
+          "end": 1416,
+          "genre": "technology",
+          "score": 74,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_16",
+          "start": 1416,
+          "end": 1449,
+          "genre": "technology",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_17",
+          "start": 1449,
+          "end": 1482,
+          "genre": "technology",
+          "score": 65,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_18",
+          "start": 1482,
+          "end": 1515,
+          "genre": "technology",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_19",
+          "start": 1515,
+          "end": 1570,
+          "genre": "technology",
+          "score": 81,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_20",
+          "start": 1570,
+          "end": 1610,
+          "genre": "technology",
+          "score": 79,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_21",
+          "start": 1610,
+          "end": 1692,
+          "genre": "technology",
+          "score": 65,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_22",
+          "start": 1692,
+          "end": 1751,
+          "genre": "technology",
+          "score": 72,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_23",
+          "start": 1751,
+          "end": 1820,
+          "genre": "technology",
+          "score": 68,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_24",
+          "start": 1820,
+          "end": 1894,
+          "genre": "technology",
+          "score": 75,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_25",
+          "start": 1894,
+          "end": 1964,
+          "genre": "technology",
+          "score": 73,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_26",
+          "start": 1964,
+          "end": 2052,
+          "genre": "technology",
+          "score": 68,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_27",
+          "start": 2052,
+          "end": 2090,
+          "genre": "technology",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        }
+      ]
+    }
+  ]
+}
