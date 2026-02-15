@@ -1,0 +1,100 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Space Streams_program_0",
+            "channel_id": 7,
+            "start": 845,
+            "end": 875
+        },
+        {
+            "program_id": "Crux_program_1",
+            "channel_id": 0,
+            "start": 875,
+            "end": 906
+        },
+        {
+            "program_id": "The Financial Express_program_1",
+            "channel_id": 1,
+            "start": 906,
+            "end": 936
+        },
+        {
+            "program_id": "NASA_program_1",
+            "channel_id": 4,
+            "start": 936,
+            "end": 967
+        },
+        {
+            "program_id": "NASA_program_2",
+            "channel_id": 4,
+            "start": 967,
+            "end": 997
+        },
+        {
+            "program_id": "Dream Trips_program_2",
+            "channel_id": 3,
+            "start": 997,
+            "end": 1032
+        },
+        {
+            "program_id": "Dream Trips_program_3",
+            "channel_id": 3,
+            "start": 1032,
+            "end": 1062
+        },
+        {
+            "program_id": "Interstellar News Hub_program_3",
+            "channel_id": 9,
+            "start": 1062,
+            "end": 1094
+        },
+        {
+            "program_id": "Interstellar News Hub_program_4",
+            "channel_id": 9,
+            "start": 1094,
+            "end": 1129
+        },
+        {
+            "program_id": "Crux_program_5",
+            "channel_id": 0,
+            "start": 1129,
+            "end": 1159
+        },
+        {
+            "program_id": "NASA_program_5",
+            "channel_id": 4,
+            "start": 1159,
+            "end": 1192
+        },
+        {
+            "program_id": "NASASpaceflight_program_5",
+            "channel_id": 5,
+            "start": 1194,
+            "end": 1229
+        },
+        {
+            "program_id": "The Financial Express_program_6",
+            "channel_id": 1,
+            "start": 1229,
+            "end": 1266
+        },
+        {
+            "program_id": "The Financial Express_program_7",
+            "channel_id": 1,
+            "start": 1266,
+            "end": 1301
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_7",
+            "channel_id": 8,
+            "start": 1313,
+            "end": 1350
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_8",
+            "channel_id": 8,
+            "start": 1350,
+            "end": 1380
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "The Financial Express_program_0",
+            "channel_id": 1,
+            "start": 845,
+            "end": 928
+        },
+        {
+            "program_id": "The Financial Express_program_2",
+            "channel_id": 1,
+            "start": 993,
+            "end": 1065
+        }
+    ]
+}

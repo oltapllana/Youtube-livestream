@@ -1,0 +1,94 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Space Streams_program_0",
+            "channel_id": 7,
+            "start": 845,
+            "end": 883
+        },
+        {
+            "program_id": "Space Streams_program_1",
+            "channel_id": 7,
+            "start": 883,
+            "end": 915
+        },
+        {
+            "program_id": "Dream Trips_program_1",
+            "channel_id": 3,
+            "start": 915,
+            "end": 953
+        },
+        {
+            "program_id": "NASASpaceflight_program_2",
+            "channel_id": 5,
+            "start": 953,
+            "end": 985
+        },
+        {
+            "program_id": "Interstellar News Hub_program_2",
+            "channel_id": 9,
+            "start": 985,
+            "end": 1015
+        },
+        {
+            "program_id": "Sen_program_2",
+            "channel_id": 2,
+            "start": 1015,
+            "end": 1045
+        },
+        {
+            "program_id": "Sen_program_3",
+            "channel_id": 2,
+            "start": 1045,
+            "end": 1078
+        },
+        {
+            "program_id": "Space Streams_program_5",
+            "channel_id": 7,
+            "start": 1080,
+            "end": 1117
+        },
+        {
+            "program_id": "NASA_program_4",
+            "channel_id": 4,
+            "start": 1122,
+            "end": 1160
+        },
+        {
+            "program_id": "Sen_program_5",
+            "channel_id": 2,
+            "start": 1160,
+            "end": 1204
+        },
+        {
+            "program_id": "NASASpaceflight_program_5",
+            "channel_id": 5,
+            "start": 1204,
+            "end": 1235
+        },
+        {
+            "program_id": "NASASpaceflight_program_6",
+            "channel_id": 5,
+            "start": 1235,
+            "end": 1269
+        },
+        {
+            "program_id": "The Financial Express_program_7",
+            "channel_id": 1,
+            "start": 1270,
+            "end": 1306
+        },
+        {
+            "program_id": "The Financial Express_program_8",
+            "channel_id": 1,
+            "start": 1306,
+            "end": 1336
+        },
+        {
+            "program_id": "NASA_program_8",
+            "channel_id": 4,
+            "start": 1341,
+            "end": 1380
+        }
+    ]
+}

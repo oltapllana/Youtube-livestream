@@ -1,0 +1,91 @@
+{
+  "opening_time": 845,
+  "closing_time": 1380,
+  "min_duration": 30,
+  "max_consecutive_genre": 2,
+  "channels_count": 1,
+  "switch_penalty": 10,
+  "termination_penalty": 20,
+  "priority_blocks": [],
+  "time_preferences": [],
+  "channels": [
+    {
+      "channel_id": 10,
+      "channel_name": "Interstellar News Hub (Climate)",
+      "programs": [
+        {
+          "program_id": "Interstellar News Hub (Climate)_program_0",
+          "start": 845,
+          "end": 919,
+          "genre": "climate",
+          "score": 70,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub (Climate)_program_1",
+          "start": 919,
+          "end": 975,
+          "genre": "climate",
+          "score": 74,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub (Climate)_program_2",
+          "start": 975,
+          "end": 1036,
+          "genre": "climate",
+          "score": 72,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub (Climate)_program_3",
+          "start": 1036,
+          "end": 1070,
+          "genre": "climate",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub (Climate)_program_4",
+          "start": 1070,
+          "end": 1121,
+          "genre": "climate",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub (Climate)_program_5",
+          "start": 1121,
+          "end": 1169,
+          "genre": "climate",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub (Climate)_program_6",
+          "start": 1169,
+          "end": 1240,
+          "genre": "climate",
+          "score": 84,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub (Climate)_program_7",
+          "start": 1240,
+          "end": 1311,
+          "genre": "climate",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub (Climate)_program_8",
+          "start": 1311,
+          "end": 1380,
+          "genre": "climate",
+          "score": 69,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        }
+      ]
+    }
+  ]
+}

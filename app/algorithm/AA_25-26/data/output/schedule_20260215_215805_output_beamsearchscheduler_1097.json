@@ -1,0 +1,94 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "afarTV_program_0",
+            "channel_id": 6,
+            "start": 845,
+            "end": 880
+        },
+        {
+            "program_id": "afarTV_program_1",
+            "channel_id": 6,
+            "start": 880,
+            "end": 910
+        },
+        {
+            "program_id": "Dream Trips_program_1",
+            "channel_id": 3,
+            "start": 919,
+            "end": 957
+        },
+        {
+            "program_id": "Dream Trips_program_2",
+            "channel_id": 3,
+            "start": 957,
+            "end": 987
+        },
+        {
+            "program_id": "Space Streams_program_3",
+            "channel_id": 7,
+            "start": 1001,
+            "end": 1034
+        },
+        {
+            "program_id": "NASA_program_3",
+            "channel_id": 4,
+            "start": 1037,
+            "end": 1067
+        },
+        {
+            "program_id": "Crux_program_5",
+            "channel_id": 0,
+            "start": 1077,
+            "end": 1107
+        },
+        {
+            "program_id": "NASASpaceflight_program_4",
+            "channel_id": 5,
+            "start": 1107,
+            "end": 1137
+        },
+        {
+            "program_id": "NASASpaceflight_program_5",
+            "channel_id": 5,
+            "start": 1137,
+            "end": 1171
+        },
+        {
+            "program_id": "The Financial Express_program_4",
+            "channel_id": 1,
+            "start": 1171,
+            "end": 1204
+        },
+        {
+            "program_id": "NASA_program_6",
+            "channel_id": 4,
+            "start": 1204,
+            "end": 1237
+        },
+        {
+            "program_id": "NASA_program_7",
+            "channel_id": 4,
+            "start": 1237,
+            "end": 1267
+        },
+        {
+            "program_id": "Dream Trips_program_8",
+            "channel_id": 3,
+            "start": 1276,
+            "end": 1306
+        },
+        {
+            "program_id": "NASASpaceflight_program_9",
+            "channel_id": 5,
+            "start": 1306,
+            "end": 1342
+        },
+        {
+            "program_id": "NASASpaceflight_program_10",
+            "channel_id": 5,
+            "start": 1342,
+            "end": 1380
+        }
+    ]
+}

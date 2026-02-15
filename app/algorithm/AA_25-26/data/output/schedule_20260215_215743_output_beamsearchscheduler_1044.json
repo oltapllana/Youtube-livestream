@@ -1,0 +1,100 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Space Streams_program_0",
+            "channel_id": 7,
+            "start": 845,
+            "end": 892
+        },
+        {
+            "program_id": "Space Streams_program_1",
+            "channel_id": 7,
+            "start": 892,
+            "end": 922
+        },
+        {
+            "program_id": "Sen_program_1",
+            "channel_id": 2,
+            "start": 923,
+            "end": 954
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_2",
+            "channel_id": 8,
+            "start": 954,
+            "end": 987
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_3",
+            "channel_id": 8,
+            "start": 987,
+            "end": 1017
+        },
+        {
+            "program_id": "Crux_program_2",
+            "channel_id": 0,
+            "start": 1017,
+            "end": 1047
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_4",
+            "channel_id": 8,
+            "start": 1054,
+            "end": 1084
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_5",
+            "channel_id": 8,
+            "start": 1084,
+            "end": 1114
+        },
+        {
+            "program_id": "Sen_program_4",
+            "channel_id": 2,
+            "start": 1114,
+            "end": 1151
+        },
+        {
+            "program_id": "Sen_program_5",
+            "channel_id": 2,
+            "start": 1151,
+            "end": 1182
+        },
+        {
+            "program_id": "NASASpaceflight_program_5",
+            "channel_id": 5,
+            "start": 1182,
+            "end": 1212
+        },
+        {
+            "program_id": "NASA_program_5",
+            "channel_id": 4,
+            "start": 1212,
+            "end": 1244
+        },
+        {
+            "program_id": "Dream Trips_program_6",
+            "channel_id": 3,
+            "start": 1244,
+            "end": 1275
+        },
+        {
+            "program_id": "Dream Trips_program_7",
+            "channel_id": 3,
+            "start": 1275,
+            "end": 1305
+        },
+        {
+            "program_id": "Interstellar News Hub_program_6",
+            "channel_id": 9,
+            "start": 1305,
+            "end": 1336
+        },
+        {
+            "program_id": "Dream Trips_program_9",
+            "channel_id": 3,
+            "start": 1340,
+            "end": 1380
+        }
+    ]
+}

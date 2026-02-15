@@ -1,0 +1,100 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "NASASpaceflight_program_0",
+            "channel_id": 5,
+            "start": 845,
+            "end": 875
+        },
+        {
+            "program_id": "Crux_program_0",
+            "channel_id": 0,
+            "start": 875,
+            "end": 905
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_1",
+            "channel_id": 8,
+            "start": 905,
+            "end": 943
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_2",
+            "channel_id": 8,
+            "start": 943,
+            "end": 976
+        },
+        {
+            "program_id": "Crux_program_2",
+            "channel_id": 0,
+            "start": 976,
+            "end": 1006
+        },
+        {
+            "program_id": "Interstellar News Hub_program_2",
+            "channel_id": 9,
+            "start": 1006,
+            "end": 1036
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_4",
+            "channel_id": 8,
+            "start": 1037,
+            "end": 1070
+        },
+        {
+            "program_id": "The Financial Express_program_3",
+            "channel_id": 1,
+            "start": 1070,
+            "end": 1100
+        },
+        {
+            "program_id": "afarTV_program_5",
+            "channel_id": 6,
+            "start": 1105,
+            "end": 1139
+        },
+        {
+            "program_id": "afarTV_program_6",
+            "channel_id": 6,
+            "start": 1139,
+            "end": 1169
+        },
+        {
+            "program_id": "Sen_program_5",
+            "channel_id": 2,
+            "start": 1169,
+            "end": 1199
+        },
+        {
+            "program_id": "Space Streams_program_5",
+            "channel_id": 7,
+            "start": 1200,
+            "end": 1241
+        },
+        {
+            "program_id": "Space Streams_program_6",
+            "channel_id": 7,
+            "start": 1241,
+            "end": 1271
+        },
+        {
+            "program_id": "Sen_program_7",
+            "channel_id": 2,
+            "start": 1274,
+            "end": 1313
+        },
+        {
+            "program_id": "Sen_program_8",
+            "channel_id": 2,
+            "start": 1313,
+            "end": 1343
+        },
+        {
+            "program_id": "Space Streams_program_8",
+            "channel_id": 7,
+            "start": 1343,
+            "end": 1379
+        }
+    ]
+}

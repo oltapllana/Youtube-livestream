@@ -46,6 +46,10 @@ class ScheduleRequest(BaseModel):
     )
     youtube_streams: Optional[List[YouTubeStream]] = Field(default=None, description="YouTube streams (optional — backend has 12 hardcoded streams)")
 
+    # NEW: allow category and explicit channel selection from frontend
+    category_filter: Optional[List[str]] = Field(default=None, description="Filter streams by category keys")
+    selected_channel_ids: Optional[List[int]] = Field(default=None, description="Specific channel IDs to restrict selection")
+
 
 class Program(BaseModel):
     """Scheduled program"""

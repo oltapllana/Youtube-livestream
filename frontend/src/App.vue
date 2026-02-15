@@ -74,6 +74,8 @@ const prefs = ref({
   terminationPenalty: 20,
   maxConsecutiveGenre: 2,
   bonusPct: 5,
+  categoryFilter: [],
+  selectedChannelIds: [],
 })
 
 let clockTimer = null
@@ -107,6 +109,8 @@ function buildPayload() {
     max_consecutive_genre: prefs.value.maxConsecutiveGenre,
     time_preferences: [],
     bonus_pct: prefs.value.bonusPct,
+    category_filter: prefs.value.categoryFilter,
+    selected_channel_ids: prefs.value.selectedChannelIds,
   }
 }
 
@@ -115,13 +119,15 @@ function buildAutoPayload(openTime, closeTime) {
   return {
     opening_time: openTime,
     closing_time: closeTime,
-    min_duration_pct: 100,        // defaults
+    min_duration_pct: 100,
     channels_count: 10,
     switch_penalty_pct: 10,
     termination_penalty: 20,
     max_consecutive_genre: 2,
     time_preferences: [],
     bonus_pct: 5,
+    category_filter: prefs.value.categoryFilter,
+    selected_channel_ids: prefs.value.selectedChannelIds,
   }
 }
 
@@ -137,6 +143,8 @@ async function loadPreferences() {
     prefs.value.terminationPenalty = data.termination_penalty ?? 20
     prefs.value.maxConsecutiveGenre = data.max_consecutive_genre ?? 2
     prefs.value.bonusPct = data.bonus_pct ?? 5
+    prefs.value.categoryFilter = data.category_filter ?? []
+    prefs.value.selectedChannelIds = data.selected_channel_ids ?? []
   } catch (e) {
     console.warn('Could not load preferences:', e)
   }

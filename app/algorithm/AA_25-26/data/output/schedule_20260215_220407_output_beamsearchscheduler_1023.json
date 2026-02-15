@@ -1,0 +1,100 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Dream Trips_program_0",
+            "channel_id": 3,
+            "start": 845,
+            "end": 876
+        },
+        {
+            "program_id": "afarTV_program_0",
+            "channel_id": 6,
+            "start": 876,
+            "end": 911
+        },
+        {
+            "program_id": "afarTV_program_1",
+            "channel_id": 6,
+            "start": 911,
+            "end": 945
+        },
+        {
+            "program_id": "Sen_program_1",
+            "channel_id": 2,
+            "start": 945,
+            "end": 978
+        },
+        {
+            "program_id": "Sen_program_2",
+            "channel_id": 2,
+            "start": 978,
+            "end": 1009
+        },
+        {
+            "program_id": "Space Streams_program_2",
+            "channel_id": 7,
+            "start": 1009,
+            "end": 1040
+        },
+        {
+            "program_id": "Space Streams_program_3",
+            "channel_id": 7,
+            "start": 1040,
+            "end": 1071
+        },
+        {
+            "program_id": "The Financial Express_program_4",
+            "channel_id": 1,
+            "start": 1071,
+            "end": 1102
+        },
+        {
+            "program_id": "Interstellar News Hub_program_4",
+            "channel_id": 9,
+            "start": 1102,
+            "end": 1140
+        },
+        {
+            "program_id": "Interstellar News Hub_program_5",
+            "channel_id": 9,
+            "start": 1140,
+            "end": 1171
+        },
+        {
+            "program_id": "The Financial Express_program_6",
+            "channel_id": 1,
+            "start": 1171,
+            "end": 1202
+        },
+        {
+            "program_id": "The Financial Express_program_7",
+            "channel_id": 1,
+            "start": 1202,
+            "end": 1233
+        },
+        {
+            "program_id": "afarTV_program_6",
+            "channel_id": 6,
+            "start": 1233,
+            "end": 1270
+        },
+        {
+            "program_id": "afarTV_program_7",
+            "channel_id": 6,
+            "start": 1270,
+            "end": 1301
+        },
+        {
+            "program_id": "The Financial Express_program_8",
+            "channel_id": 1,
+            "start": 1301,
+            "end": 1341
+        },
+        {
+            "program_id": "Space Streams_program_8",
+            "channel_id": 7,
+            "start": 1346,
+            "end": 1380
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+  "opening_time": 1210,
+  "closing_time": 80,
+  "min_duration": 30,
+  "max_consecutive_genre": 2,
+  "channels_count": 1,
+  "switch_penalty": 0,
+  "termination_penalty": 20,
+  "priority_blocks": [],
+  "time_preferences": [],
+  "channels": [
+    {
+      "channel_id": 10,
+      "channel_name": "Interstellar News Hub (Climate)",
+      "programs": []
+    }
+  ]
+}

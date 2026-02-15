@@ -15,7 +15,7 @@ import uuid
 import json
 import logging
 from pathlib import Path
-from typing import Optional, Dict, Any
+from typing import Optional, Dict, Any, List
 
 from fastapi import APIRouter, BackgroundTasks, HTTPException, Query
 from pydantic import BaseModel, Field
@@ -49,18 +49,8 @@ async def submit_schedule(
     probe: bool = Query(True, description="Probe YouTube streams for live status (slower but richer data)"),
     discover: bool = Query(False, description="Discover additional live streams from same channels (experimental)"),
 ):
-    """
-    Submit a scheduling request.
-
-    If no body is provided, sensible defaults are used (all 12 streams,
-    8 AM – 11 PM window, 30-min minimum duration).
-
-    The algorithm runs **in the background**; poll GET /status/{request_id}
-    until status == 'completed', then fetch GET /schedule/{request_id}.
-    """
     request_id = str(uuid.uuid4())
 
-    # Build scheduling params from request or defaults
     if request:
         scheduling_params = {
             "opening_time": request.opening_time,
@@ -74,6 +64,8 @@ async def submit_schedule(
             "termination_penalty": request.termination_penalty,
             "time_preferences": [tp.model_dump() for tp in request.time_preferences],
             "bonus_pct": request.bonus_pct,
+            "category_filter": request.category_filter,
+            "selected_channel_ids": request.selected_channel_ids,
         }
     else:
         scheduling_params = {
@@ -88,6 +80,8 @@ async def submit_schedule(
             "termination_penalty": DEFAULT_TERMINATION_PENALTY,
             "time_preferences": [],
             "bonus_pct": None,
+            "category_filter": None,
+            "selected_channel_ids": None,
         }
 
     store.create(request_id)
@@ -114,10 +108,6 @@ async def submit_schedule_sync(
     probe: bool = Query(True, description="Probe YouTube streams for live status"),
     discover: bool = Query(False, description="Discover additional live streams from same channels"),
 ):
-    """
-    Synchronous version — blocks until the schedule is ready (or fails).
-    Convenient for testing; not recommended for production with many channels.
-    """
     request_id = str(uuid.uuid4())
 
     if request:
@@ -133,6 +123,8 @@ async def submit_schedule_sync(
             "termination_penalty": request.termination_penalty,
             "time_preferences": [tp.model_dump() for tp in request.time_preferences],
             "bonus_pct": request.bonus_pct,
+            "category_filter": request.category_filter,
+            "selected_channel_ids": request.selected_channel_ids,
         }
     else:
         scheduling_params = {
@@ -147,6 +139,8 @@ async def submit_schedule_sync(
             "termination_penalty": DEFAULT_TERMINATION_PENALTY,
             "time_preferences": [],
             "bonus_pct": None,
+            "category_filter": None,
+            "selected_channel_ids": None,
         }
 
     store.create(request_id)
@@ -167,11 +161,6 @@ async def submit_schedule_sync(
 
 @router.get("/schedule/{request_id}")
 async def get_schedule(request_id: str):
-    """
-    Retrieve the generated schedule for a completed request.
-    Returns the optimised list of scheduled programs with YouTube URLs,
-    start/end times, and the total optimisation score.
-    """
     if not store.exists(request_id):
         raise HTTPException(status_code=404, detail="Request ID not found")
 
@@ -189,7 +178,6 @@ async def get_schedule(request_id: str):
             detail=entry["error"] or "Algorithm failed",
         )
 
-    # Still processing
     return {
         "request_id": request_id,
         "status": entry["status"].value,
@@ -201,9 +189,6 @@ async def get_schedule(request_id: str):
 
 @router.get("/status/{request_id}")
 async def check_status(request_id: str):
-    """
-    Check the processing status of a scheduling request.
-    """
     if not store.exists(request_id):
         raise HTTPException(status_code=404, detail="Request ID not found")
 
@@ -222,10 +207,6 @@ async def check_status(request_id: str):
 async def list_streams(
     probe: bool = Query(False, description="Probe each URL with yt-dlp (slow, ~15 s per stream)"),
 ):
-    """
-    List all hardcoded YouTube live streams.
-    If probe=true, each URL is checked with yt-dlp to report live status.
-    """
     if probe:
         gen = InstanceGenerator()
         return {"streams": gen.probe_all_streams()}
@@ -248,6 +229,8 @@ DEFAULT_PREFERENCES = {
     "max_consecutive_genre": DEFAULT_MAX_CONSECUTIVE_GENRE,
     "time_preferences": [],
     "bonus_pct": None,
+    "category_filter": [],
+    "selected_channel_ids": [],
 }
 
 
@@ -262,11 +245,12 @@ class UserPreferences(BaseModel):
     termination_penalty: int = Field(default=20)
     max_consecutive_genre: int = Field(default=2)
     bonus_pct: Optional[int] = Field(default=5, description="Time preference bonus % of average score")
+    category_filter: Optional[List[str]] = Field(default_factory=list, description="Selected categories")
+    selected_channel_ids: Optional[List[int]] = Field(default_factory=list, description="Selected channel IDs")
 
 
 @router.get("/preferences")
 async def get_preferences():
-    """Load saved user filter preferences. Returns defaults if none saved."""
     if PREFS_FILE.exists():
         with open(PREFS_FILE, "r") as f:
             return json.load(f)
@@ -275,7 +259,6 @@ async def get_preferences():
 
 @router.post("/preferences")
 async def save_preferences(prefs: UserPreferences):
-    """Save user filter preferences to disk. Persists until changed."""
     data = prefs.model_dump()
     with open(PREFS_FILE, "w") as f:
         json.dump(data, f, indent=2)

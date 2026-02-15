@@ -1,0 +1,100 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "afarTV_program_0",
+            "channel_id": 6,
+            "start": 845,
+            "end": 877
+        },
+        {
+            "program_id": "afarTV_program_1",
+            "channel_id": 6,
+            "start": 877,
+            "end": 908
+        },
+        {
+            "program_id": "The Financial Express_program_1",
+            "channel_id": 1,
+            "start": 908,
+            "end": 938
+        },
+        {
+            "program_id": "NASA_program_1",
+            "channel_id": 4,
+            "start": 938,
+            "end": 974
+        },
+        {
+            "program_id": "NASA_program_2",
+            "channel_id": 4,
+            "start": 974,
+            "end": 1004
+        },
+        {
+            "program_id": "Sen_program_2",
+            "channel_id": 2,
+            "start": 1006,
+            "end": 1041
+        },
+        {
+            "program_id": "Sen_program_3",
+            "channel_id": 2,
+            "start": 1041,
+            "end": 1071
+        },
+        {
+            "program_id": "afarTV_program_5",
+            "channel_id": 6,
+            "start": 1071,
+            "end": 1102
+        },
+        {
+            "program_id": "afarTV_program_6",
+            "channel_id": 6,
+            "start": 1102,
+            "end": 1132
+        },
+        {
+            "program_id": "Sen_program_4",
+            "channel_id": 2,
+            "start": 1132,
+            "end": 1163
+        },
+        {
+            "program_id": "Interstellar News Hub_program_5",
+            "channel_id": 9,
+            "start": 1163,
+            "end": 1193
+        },
+        {
+            "program_id": "Interstellar News Hub_program_6",
+            "channel_id": 9,
+            "start": 1193,
+            "end": 1229
+        },
+        {
+            "program_id": "Crux_program_6",
+            "channel_id": 0,
+            "start": 1233,
+            "end": 1265
+        },
+        {
+            "program_id": "Crux_program_7",
+            "channel_id": 0,
+            "start": 1265,
+            "end": 1295
+        },
+        {
+            "program_id": "Interstellar News Hub_program_8",
+            "channel_id": 9,
+            "start": 1296,
+            "end": 1334
+        },
+        {
+            "program_id": "Interstellar News Hub_program_9",
+            "channel_id": 9,
+            "start": 1334,
+            "end": 1380
+        }
+    ]
+}

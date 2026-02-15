@@ -115,11 +115,14 @@ def probe_youtube_stream(url: str, timeout: int = 15) -> Optional[Dict[str, Any]
     try:
         result = subprocess.run(
             [
-                "python", "-m", "yt_dlp",
+                "python",
+                "-m",
+                "yt_dlp",
                 "--dump-json",
                 "--no-download",
                 "--no-playlist",
-                "--socket-timeout", "10",
+                "--socket-timeout",
+                "10",
                 url,
             ],
             capture_output=True,
@@ -134,7 +137,7 @@ def probe_youtube_stream(url: str, timeout: int = 15) -> Optional[Dict[str, Any]
         return {
             "title": info.get("title", ""),
             "is_live": info.get("is_live", False),
-            "duration": info.get("duration"),          # None for live streams
+            "duration": info.get("duration"),  # None for live streams
             "description": (info.get("description") or "")[:200],
             "uploader": info.get("uploader", ""),
             "view_count": info.get("view_count", 0),
@@ -152,69 +155,61 @@ def probe_youtube_stream(url: str, timeout: int = 15) -> Optional[Dict[str, Any]
 def discover_channel_live_streams(channel_url: str, max_streams: int = 5, timeout: int = 20) -> List[Dict[str, Any]]:
     """
     Discover OTHER live streams from the same YouTube channel using yt-dlp.
-    
-    This checks if the channel has additional live broadcasts beyond the hardcoded one.
-    E.g., NASA might have a 24/7 Earth cam + separate rocket launch stream.
-    
-    Args:
-        channel_url: YouTube channel URL (e.g., https://www.youtube.com/c/NASA)
-        max_streams: Maximum number of live streams to discover
-        timeout: Timeout in seconds
-    
-    Returns:
-        List of live stream dicts with title, url, is_live, uploader, etc.
+    Returns a list of live stream dicts.
     """
     try:
-        # Use yt-dlp to list live streams from this channel
-        # The /streams tab shows all active live streams
         streams_url = f"{channel_url}/streams"
-        
+
         result = subprocess.run(
             [
-                "python", "-m", "yt_dlp",
+                "python",
+                "-m",
+                "yt_dlp",
                 "--dump-json",
                 "--no-download",
-                "--playlist-end", str(max_streams),
-                "--socket-timeout", "10",
-                # Only get videos that are currently live
-                "--match-filter", "is_live",
+                "--playlist-end",
+                str(max_streams),
+                "--socket-timeout",
+                "10",
+                "--match-filter",
+                "is_live",
                 streams_url,
             ],
             capture_output=True,
             text=True,
             timeout=timeout,
         )
-        
+
         if result.returncode != 0:
             logger.debug(f"No additional live streams found on {channel_url}")
             return []
-        
-        # Parse each line of JSON output (one per video)
+
         discovered = []
-        for line in result.stdout.strip().split('\n'):
+        for line in result.stdout.strip().split("\n"):
             if not line:
                 continue
             try:
                 info = json.loads(line)
-                # Only include if it's actually live RIGHT NOW
                 if info.get("is_live", False):
-                    discovered.append({
-                        "title": info.get("title", ""),
-                        "url": f"https://www.youtube.com/watch?v={info.get('id', '')}",
-                        "is_live": True,
-                        "uploader": info.get("uploader", ""),
-                        "view_count": info.get("view_count", 0),
-                        "channel_id": info.get("channel_id", ""),
-                        "channel_url": info.get("channel_url", ""),
-                    })
+                    discovered.append(
+                        {
+                            "title": info.get("title", ""),
+                            "url": f"https://www.youtube.com/watch?v={info.get('id', '')}",
+                            "is_live": True,
+                            "uploader": info.get("uploader", ""),
+                            "view_count": info.get("view_count", 0),
+                            "channel_id": info.get("channel_id", ""),
+                            "channel_url": info.get("channel_url", ""),
+                        }
+                    )
             except json.JSONDecodeError:
                 continue
-        
+
         if discovered:
             logger.info(f"Discovered {len(discovered)} additional live stream(s) from {channel_url}")
-        
+
         return discovered
-        
+
     except subprocess.TimeoutExpired:
         logger.warning(f"Timeout discovering streams from {channel_url}")
         return []
@@ -228,11 +223,6 @@ def discover_channel_live_streams(channel_url: str, max_streams: int = 5, timeou
 class InstanceGenerator:
     """
     Generates a complete scheduling-algorithm instance.
-
-    Workflow:
-    1. Probes each hardcoded YouTube URL to check liveness / get real titles.
-    2. Builds channels with sequential program slots that fill the time window.
-    3. Attaches the YouTube URL to every program so the frontend can play it.
     """
 
     def __init__(self):
@@ -257,73 +247,80 @@ class InstanceGenerator:
         if url not in self._probe_cache:
             self._probe_cache[url] = probe_youtube_stream(url)
         return self._probe_cache[url]
-    
+
     def _discover_additional_streams(self) -> List[Dict[str, Any]]:
         """
         Discover additional live streams from the same channels as hardcoded streams.
-        
-        Uses a hardcoded mapping of known channel URLs to avoid probing.
-        This is MUCH faster and more reliable than probing every stream.
-        
-        Returns:
-            List of discovered stream dicts (same format as YOUTUBE_STREAMS)
         """
-        # Hardcoded channel URLs extracted from our known streams
-        # This avoids needing to probe - we already know which channels we trust
         KNOWN_CHANNELS = {
             "https://www.youtube.com/channel/UC3prwMn9aU2z5Y158ZdGyyA": "technology",  # Crux
             "https://www.youtube.com/channel/UCmk6ZFMy1CT80orXca4tKew": "technology",  # Financial Express
             "https://www.youtube.com/channel/UCkvW_7kp9LJrztmgA4q4bJQ": "technology",  # Sen
             "https://www.youtube.com/channel/UCetYFjkhf7S7LwiuJxeC28g": "technology",  # Dream Trips
-            "https://www.youtube.com/channel/UCLA_DiR1FfKNvjuUpBHmylQ": "science",     # NASA
-            "https://www.youtube.com/channel/UCOazV478JlUdvbBgFN4wWXA": "science",     # NASASpaceflight
-            "https://www.youtube.com/channel/UC-QRPODUcdhXzXiOxsOaouA": "science",     # afarTV
-            "https://www.youtube.com/channel/UCkWQ0gDr4bzT7Tu2xR_AV0Q": "science",     # Space Streams
-            "https://www.youtube.com/channel/UC9c3bXN57i-FuKiPi5I3vhQ": "science",     # Frontiers of Infinity
-            "https://www.youtube.com/channel/UCO-cfMjj6FM8WztlNSoVBGg": "science",     # Interstellar News Hub
-            "https://www.youtube.com/channel/UCMpn1qLudF-zb4M4bqxLIbw": "climate",     # I Love You Venice
+            "https://www.youtube.com/channel/UCLA_DiR1FfKNvjuUpBHmylQ": "science",  # NASA
+            "https://www.youtube.com/channel/UCOazV478JlUdvbBgFN4wWXA": "science",  # NASASpaceflight
+            "https://www.youtube.com/channel/UC-QRPODUcdhXzXiOxsOaouA": "science",  # afarTV
+            "https://www.youtube.com/channel/UCkWQ0gDr4bzT7Tu2xR_AV0Q": "science",  # Space Streams
+            "https://www.youtube.com/channel/UC9c3bXN57i-FuKiPi5I3vhQ": "science",  # Frontiers of Infinity
+            "https://www.youtube.com/channel/UCO-cfMjj6FM8WztlNSoVBGg": "science",  # Interstellar News Hub
+            "https://www.youtube.com/channel/UCMpn1qLudF-zb4M4bqxLIbw": "climate",  # I Love You Venice
         }
-        
+
         discovered_streams = []
-        seen_urls = {s["url"] for s in self.streams}  # URLs we already have
-        
+        seen_urls = {s["url"] for s in self.streams}
+
         logger.info(f"Discovering live streams from {len(KNOWN_CHANNELS)} known channels...")
-        
+
         for channel_url, category in KNOWN_CHANNELS.items():
             try:
-                # Discover live streams from this channel
                 logger.debug(f"Checking {channel_url} for additional live streams...")
                 new_streams = discover_channel_live_streams(channel_url, max_streams=3, timeout=15)
-                
+
                 for new_stream in new_streams:
                     new_url = new_stream["url"]
-                    
-                    # Skip if we already have this URL
+
                     if new_url in seen_urls:
                         logger.debug(f"Skipping duplicate: {new_url}")
                         continue
-                    
-                    # Add to discovered pool
-                    discovered_streams.append({
-                        "channel_id": len(self.streams) + len(discovered_streams),
-                        "title": new_stream["title"],
-                        "url": new_url,
-                        "category": category,
-                    })
+
+                    discovered_streams.append(
+                        {
+                            "channel_id": len(self.streams) + len(discovered_streams),
+                            "title": new_stream["title"],
+                            "url": new_url,
+                            "category": category,
+                        }
+                    )
                     seen_urls.add(new_url)
-                    
                     logger.info(f"Discovered new {category} stream: {new_stream['title']}")
-            
+
             except Exception as e:
                 logger.warning(f"Failed to discover from {channel_url}: {e}")
                 continue
-        
+
         if discovered_streams:
             logger.info(f"Discovery complete: found {len(discovered_streams)} additional streams")
         else:
             logger.info("No additional live streams discovered")
-        
+
         return discovered_streams
+
+    def probe_all_streams(self) -> List[Dict[str, Any]]:
+        """
+        Probe every hardcoded stream and return enriched info.
+        Useful for the GET /api/streams endpoint.
+        """
+        results = []
+        for stream in self.streams:
+            meta = self._probe(stream["url"])
+            entry = {**stream, "probed": meta is not None}
+            if meta:
+                entry["live_title"] = meta["title"]
+                entry["is_live"] = meta["is_live"]
+                entry["uploader"] = meta["uploader"]
+                entry["view_count"] = meta["view_count"]
+            results.append(entry)
+        return results
 
     # ── public API ──────────────────────────────────────────────────────
 
@@ -335,26 +332,51 @@ class InstanceGenerator:
     ) -> Dict[str, Any]:
         """
         Build a full instance JSON ready for the beam-search algorithm.
-
-        Args:
-            scheduling_params: dict with opening_time, closing_time,
-                min_duration, channels_count, etc.
-            probe_streams: if True, call yt-dlp for each stream to get
-                real metadata and live status.  Set False for fast/offline mode.
-            discover_new_streams: if True, check each channel for additional
-                live streams beyond the hardcoded ones. Expands content pool.
-
-        Returns:
-            Instance dict (same schema the algorithm parser expects).
         """
         opening_time = scheduling_params["opening_time"]
         closing_time = scheduling_params["closing_time"]
         min_duration = scheduling_params["min_duration"]
         requested_channels = scheduling_params["channels_count"]
-        
+
         # Start with hardcoded streams
         available_streams = self.streams.copy()
-        
+
+        # Safely extract filters (defensive)
+        cat_filter = scheduling_params.get("category_filter") or []
+        if isinstance(cat_filter, str):
+            cat_filter = [cat_filter]
+        if not isinstance(cat_filter, (list, tuple, set)):
+            cat_filter = []
+
+        chan_ids = scheduling_params.get("selected_channel_ids") or []
+        if isinstance(chan_ids, int):
+            chan_ids = [chan_ids]
+        elif isinstance(chan_ids, str):
+            try:
+                parsed = json.loads(chan_ids)
+                if isinstance(parsed, list):
+                    chan_ids = parsed
+                else:
+                    chan_ids = [parsed]
+            except Exception:
+                chan_ids = [c.strip() for c in chan_ids.split(",") if c.strip()]
+        if not isinstance(chan_ids, (list, tuple, set)):
+            chan_ids = []
+
+        chan_id_set = set()
+        for x in chan_ids:
+            try:
+                chan_id_set.add(int(x))
+            except Exception:
+                continue
+
+        # Apply requested category / channel filters (if provided)
+        if cat_filter:
+            cat_set = set(map(str, cat_filter))
+            available_streams = [s for s in available_streams if str(s.get("category")) in cat_set]
+        if chan_id_set:
+            available_streams = [s for s in available_streams if int(s.get("channel_id", -1)) in chan_id_set]
+
         # Optionally discover additional live streams from the same channels
         if discover_new_streams and probe_streams:
             logger.info("Discovering additional live streams from channels...")
@@ -364,7 +386,7 @@ class InstanceGenerator:
                 available_streams.extend(discovered)
             else:
                 logger.info("No additional live streams discovered")
-        
+
         total_streams = len(available_streams)
         channels_count = max(1, min(requested_channels, total_streams))
         if requested_channels != channels_count:
@@ -401,9 +423,7 @@ class InstanceGenerator:
         channels = []
         for stream in selected_streams:
             meta = stream_metadata.get(stream["url"])
-            channel = self._generate_channel(
-                stream, opening_time, closing_time, min_duration, meta
-            )
+            channel = self._generate_channel(stream, opening_time, closing_time, min_duration, meta)
             channels.append(channel)
 
         instance = {
@@ -420,23 +440,6 @@ class InstanceGenerator:
         }
         return instance
 
-    def probe_all_streams(self) -> List[Dict[str, Any]]:
-        """
-        Probe every hardcoded stream and return enriched info.
-        Useful for the GET /api/streams endpoint.
-        """
-        results = []
-        for stream in self.streams:
-            meta = self._probe(stream["url"])
-            entry = {**stream, "probed": meta is not None}
-            if meta:
-                entry["live_title"] = meta["title"]
-                entry["is_live"] = meta["is_live"]
-                entry["uploader"] = meta["uploader"]
-                entry["view_count"] = meta["view_count"]
-            results.append(entry)
-        return results
-
     # ── private ─────────────────────────────────────────────────────────
 
     def _generate_channel(
@@ -449,18 +452,11 @@ class InstanceGenerator:
     ) -> Dict[str, Any]:
         channel_id = stream["channel_id"]
         category = stream["category"]
-        # If we probed successfully, use the real title; otherwise fall back
         title = (meta["title"] if meta else None) or stream["title"]
         url = stream["url"]
 
-        programs = self._generate_programs(
-            channel_id, title, category, url, opening_time, closing_time, min_duration, meta
-        )
-        return {
-            "channel_id": channel_id,
-            "channel_name": title,
-            "programs": programs,
-        }
+        programs = self._generate_programs(channel_id, title, category, url, opening_time, closing_time, min_duration, meta)
+        return {"channel_id": channel_id, "channel_name": title, "programs": programs}
 
     def _generate_programs(
         self,
@@ -474,18 +470,13 @@ class InstanceGenerator:
         meta: Optional[Dict[str, Any]] = None,
     ) -> List[Dict[str, Any]]:
         """
-        Fill the [opening_time, closing_time) window with sequential programs
-        for one channel.  Each program carries the YouTube URL so the frontend
-        knows what to play.
-
-        If the stream is detected as live (via probe), the score gets a bonus.
+        Fill the [opening_time, closing_time) window with sequential programs for one channel.
         """
         programs: List[Dict[str, Any]] = []
         current_time = opening_time
         program_count = 0
         base_score = self.category_scores.get(category, 75)
 
-        # Live streams get a score boost (they're actually broadcasting)
         is_live = meta["is_live"] if meta else False
         live_bonus = 10 if is_live else 0
 
@@ -498,14 +489,16 @@ class InstanceGenerator:
             program_end = current_time + duration
             score = max(40, base_score + live_bonus + random.randint(-10, 10))
 
-            programs.append({
-                "program_id": f"{title}_program_{program_count}",
-                "start": current_time,
-                "end": program_end,
-                "genre": category,
-                "score": score,
-                "url": url,
-            })
+            programs.append(
+                {
+                    "program_id": f"{title}_program_{program_count}",
+                    "start": current_time,
+                    "end": program_end,
+                    "genre": category,
+                    "score": score,
+                    "url": url,
+                }
+            )
             current_time = program_end
             program_count += 1
 
@@ -520,7 +513,5 @@ class InstanceGenerator:
             "technology": YOUTUBE_STREAMS["technology"],
             "science": YOUTUBE_STREAMS["science"],
             "climate": YOUTUBE_STREAMS["climate"],
-            "total_streams": sum(
-                len(YOUTUBE_STREAMS[c]) for c in YOUTUBE_STREAMS
-            ),
+            "total_streams": sum(len(YOUTUBE_STREAMS[c]) for c in YOUTUBE_STREAMS),
         }

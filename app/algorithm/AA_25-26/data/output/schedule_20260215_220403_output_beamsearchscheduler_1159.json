@@ -1,0 +1,106 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "NASA_program_0",
+            "channel_id": 4,
+            "start": 845,
+            "end": 875
+        },
+        {
+            "program_id": "Sen_program_1",
+            "channel_id": 2,
+            "start": 875,
+            "end": 906
+        },
+        {
+            "program_id": "Sen_program_2",
+            "channel_id": 2,
+            "start": 906,
+            "end": 936
+        },
+        {
+            "program_id": "Interstellar News Hub_program_2",
+            "channel_id": 9,
+            "start": 936,
+            "end": 967
+        },
+        {
+            "program_id": "Interstellar News Hub_program_3",
+            "channel_id": 9,
+            "start": 967,
+            "end": 997
+        },
+        {
+            "program_id": "Dream Trips_program_2",
+            "channel_id": 3,
+            "start": 997,
+            "end": 1027
+        },
+        {
+            "program_id": "Space Streams_program_2",
+            "channel_id": 7,
+            "start": 1027,
+            "end": 1058
+        },
+        {
+            "program_id": "Space Streams_program_3",
+            "channel_id": 7,
+            "start": 1058,
+            "end": 1090
+        },
+        {
+            "program_id": "Dream Trips_program_4",
+            "channel_id": 3,
+            "start": 1090,
+            "end": 1126
+        },
+        {
+            "program_id": "afarTV_program_5",
+            "channel_id": 6,
+            "start": 1126,
+            "end": 1159
+        },
+        {
+            "program_id": "afarTV_program_6",
+            "channel_id": 6,
+            "start": 1159,
+            "end": 1191
+        },
+        {
+            "program_id": "Sen_program_6",
+            "channel_id": 2,
+            "start": 1191,
+            "end": 1221
+        },
+        {
+            "program_id": "Space Streams_program_6",
+            "channel_id": 7,
+            "start": 1222,
+            "end": 1252
+        },
+        {
+            "program_id": "Crux_program_7",
+            "channel_id": 0,
+            "start": 1252,
+            "end": 1283
+        },
+        {
+            "program_id": "Crux_program_8",
+            "channel_id": 0,
+            "start": 1283,
+            "end": 1313
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_8",
+            "channel_id": 8,
+            "start": 1313,
+            "end": 1347
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_9",
+            "channel_id": 8,
+            "start": 1347,
+            "end": 1380
+        }
+    ]
+}

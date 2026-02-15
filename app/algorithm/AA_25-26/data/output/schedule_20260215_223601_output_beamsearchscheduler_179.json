@@ -1,0 +1,16 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_1",
+            "channel_id": 10,
+            "start": 930,
+            "end": 996
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_4",
+            "channel_id": 10,
+            "start": 1139,
+            "end": 1201
+        }
+    ]
+}

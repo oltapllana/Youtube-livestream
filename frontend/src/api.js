@@ -73,3 +73,10 @@ export async function generateSchedule(payload) {
   }
   return await res.json()
 }
+
+// add near other exported functions
+export async function fetchStreams(probe = false) {
+  const res = await fetch(`${API}/streams?probe=${probe}`);
+  if (!res.ok) throw new Error('Failed to fetch streams');
+  return await res.json();
+}
