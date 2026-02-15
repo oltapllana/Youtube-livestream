@@ -1,12 +1,12 @@
 {
-  "opening_time": 44,
-  "closing_time": 110,
+  "opening_time": 845,
+  "closing_time": 1380,
   "min_duration": 30,
-  "min_duration_pct": 70,
+  "min_duration_pct": 100,
   "channels_count": 10,
   "switch_penalty": 10,
-  "switch_penalty_pct": 3,
+  "switch_penalty_pct": 10,
   "termination_penalty": 20,
   "max_consecutive_genre": 2,
-  "bonus_pct": 3
+  "bonus_pct": 5
 }

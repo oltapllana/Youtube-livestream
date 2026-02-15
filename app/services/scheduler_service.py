@@ -41,10 +41,13 @@ class SchedulerService:
         self,
         scheduling_params: Dict[str, Any],
         probe_streams: bool = True,
+        discover_new_streams: bool = False,
     ) -> Dict[str, Any]:
         """Build a full instance dict ready for the algorithm."""
         instance = self.instance_generator.generate_instance(
-            scheduling_params, probe_streams=probe_streams
+            scheduling_params,
+            probe_streams=probe_streams,
+            discover_new_streams=discover_new_streams,
         )
         return instance
 
@@ -145,6 +148,7 @@ class SchedulerService:
         request_id: str,
         scheduling_params: Dict[str, Any],
         probe_streams: bool = True,
+        discover_new_streams: bool = False,
     ) -> None:
         """
         End-to-end: generate → save → run algorithm → store result.
@@ -160,7 +164,9 @@ class SchedulerService:
                 message="Probing YouTube streams and generating instance…",
             )
             instance = self.generate_instance(
-                scheduling_params, probe_streams=probe_streams
+                scheduling_params,
+                probe_streams=probe_streams,
+                discover_new_streams=discover_new_streams,
             )
             instance = self._apply_dynamic_params(instance, scheduling_params)
             store.set_instance(request_id, instance)

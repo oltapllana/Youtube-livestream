@@ -62,7 +62,7 @@ export async function savePreferences(payload) {
 
 /** Generate schedule using current preferences payload */
 export async function generateSchedule(payload) {
-  const res = await fetch(`${API}/schedule/sync?probe=false`, {
+  const res = await fetch(`${API}/schedule/sync?probe=false&discover=true`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(payload),

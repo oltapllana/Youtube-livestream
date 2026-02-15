@@ -47,6 +47,7 @@ async def submit_schedule(
     request: Optional[ScheduleRequest] = None,
     background_tasks: BackgroundTasks = BackgroundTasks(),
     probe: bool = Query(True, description="Probe YouTube streams for live status (slower but richer data)"),
+    discover: bool = Query(False, description="Discover additional live streams from same channels (experimental)"),
 ):
     """
     Submit a scheduling request.
@@ -95,6 +96,7 @@ async def submit_schedule(
         request_id,
         scheduling_params,
         probe_streams=probe,
+        discover_new_streams=discover,
     )
 
     return {
@@ -110,6 +112,7 @@ async def submit_schedule(
 async def submit_schedule_sync(
     request: Optional[ScheduleRequest] = None,
     probe: bool = Query(True, description="Probe YouTube streams for live status"),
+    discover: bool = Query(False, description="Discover additional live streams from same channels"),
 ):
     """
     Synchronous version — blocks until the schedule is ready (or fails).
@@ -147,7 +150,7 @@ async def submit_schedule_sync(
         }
 
     store.create(request_id)
-    scheduler_service.run_pipeline(request_id, scheduling_params, probe_streams=probe)
+    scheduler_service.run_pipeline(request_id, scheduling_params, probe_streams=probe, discover_new_streams=discover)
 
     entry = store.get(request_id)
     if entry and entry["status"] == RequestStatus.COMPLETED:

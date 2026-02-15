@@ -110,7 +110,7 @@ def probe_youtube_stream(url: str, timeout: int = 15) -> Optional[Dict[str, Any]
     """
     Use yt-dlp to extract metadata for a YouTube URL.
     Returns a dict with title, is_live, duration (seconds or None for live),
-    description, uploader, view_count, or None on failure.
+    description, uploader, view_count, channel_id, channel_url, or None on failure.
     """
     try:
         result = subprocess.run(
@@ -138,6 +138,8 @@ def probe_youtube_stream(url: str, timeout: int = 15) -> Optional[Dict[str, Any]
             "description": (info.get("description") or "")[:200],
             "uploader": info.get("uploader", ""),
             "view_count": info.get("view_count", 0),
+            "channel_id": info.get("channel_id", ""),
+            "channel_url": info.get("channel_url", ""),
         }
     except subprocess.TimeoutExpired:
         logger.warning("yt-dlp timed out for %s", url)
@@ -145,6 +147,80 @@ def probe_youtube_stream(url: str, timeout: int = 15) -> Optional[Dict[str, Any]
     except Exception as exc:
         logger.warning("yt-dlp error for %s: %s", url, exc)
         return None
+
+
+def discover_channel_live_streams(channel_url: str, max_streams: int = 5, timeout: int = 20) -> List[Dict[str, Any]]:
+    """
+    Discover OTHER live streams from the same YouTube channel using yt-dlp.
+    
+    This checks if the channel has additional live broadcasts beyond the hardcoded one.
+    E.g., NASA might have a 24/7 Earth cam + separate rocket launch stream.
+    
+    Args:
+        channel_url: YouTube channel URL (e.g., https://www.youtube.com/c/NASA)
+        max_streams: Maximum number of live streams to discover
+        timeout: Timeout in seconds
+    
+    Returns:
+        List of live stream dicts with title, url, is_live, uploader, etc.
+    """
+    try:
+        # Use yt-dlp to list live streams from this channel
+        # The /streams tab shows all active live streams
+        streams_url = f"{channel_url}/streams"
+        
+        result = subprocess.run(
+            [
+                "python", "-m", "yt_dlp",
+                "--dump-json",
+                "--no-download",
+                "--playlist-end", str(max_streams),
+                "--socket-timeout", "10",
+                # Only get videos that are currently live
+                "--match-filter", "is_live",
+                streams_url,
+            ],
+            capture_output=True,
+            text=True,
+            timeout=timeout,
+        )
+        
+        if result.returncode != 0:
+            logger.debug(f"No additional live streams found on {channel_url}")
+            return []
+        
+        # Parse each line of JSON output (one per video)
+        discovered = []
+        for line in result.stdout.strip().split('\n'):
+            if not line:
+                continue
+            try:
+                info = json.loads(line)
+                # Only include if it's actually live RIGHT NOW
+                if info.get("is_live", False):
+                    discovered.append({
+                        "title": info.get("title", ""),
+                        "url": f"https://www.youtube.com/watch?v={info.get('id', '')}",
+                        "is_live": True,
+                        "uploader": info.get("uploader", ""),
+                        "view_count": info.get("view_count", 0),
+                        "channel_id": info.get("channel_id", ""),
+                        "channel_url": info.get("channel_url", ""),
+                    })
+            except json.JSONDecodeError:
+                continue
+        
+        if discovered:
+            logger.info(f"Discovered {len(discovered)} additional live stream(s) from {channel_url}")
+        
+        return discovered
+        
+    except subprocess.TimeoutExpired:
+        logger.warning(f"Timeout discovering streams from {channel_url}")
+        return []
+    except Exception as exc:
+        logger.debug(f"Could not discover streams from {channel_url}: {exc}")
+        return []
 
 
 # ── Instance Generator ──────────────────────────────────────────────────────
@@ -164,6 +240,8 @@ class InstanceGenerator:
         self.category_scores = CATEGORY_SCORES
         # Cache keyed on URL so we don't probe the same stream twice
         self._probe_cache: Dict[str, Optional[Dict[str, Any]]] = {}
+        # Track discovered streams to avoid duplicates
+        self._discovered_streams: List[Dict[str, Any]] = []
 
     # ── helpers ─────────────────────────────────────────────────────────
 
@@ -179,6 +257,73 @@ class InstanceGenerator:
         if url not in self._probe_cache:
             self._probe_cache[url] = probe_youtube_stream(url)
         return self._probe_cache[url]
+    
+    def _discover_additional_streams(self) -> List[Dict[str, Any]]:
+        """
+        Discover additional live streams from the same channels as hardcoded streams.
+        
+        Uses a hardcoded mapping of known channel URLs to avoid probing.
+        This is MUCH faster and more reliable than probing every stream.
+        
+        Returns:
+            List of discovered stream dicts (same format as YOUTUBE_STREAMS)
+        """
+        # Hardcoded channel URLs extracted from our known streams
+        # This avoids needing to probe - we already know which channels we trust
+        KNOWN_CHANNELS = {
+            "https://www.youtube.com/channel/UC3prwMn9aU2z5Y158ZdGyyA": "technology",  # Crux
+            "https://www.youtube.com/channel/UCmk6ZFMy1CT80orXca4tKew": "technology",  # Financial Express
+            "https://www.youtube.com/channel/UCkvW_7kp9LJrztmgA4q4bJQ": "technology",  # Sen
+            "https://www.youtube.com/channel/UCetYFjkhf7S7LwiuJxeC28g": "technology",  # Dream Trips
+            "https://www.youtube.com/channel/UCLA_DiR1FfKNvjuUpBHmylQ": "science",     # NASA
+            "https://www.youtube.com/channel/UCOazV478JlUdvbBgFN4wWXA": "science",     # NASASpaceflight
+            "https://www.youtube.com/channel/UC-QRPODUcdhXzXiOxsOaouA": "science",     # afarTV
+            "https://www.youtube.com/channel/UCkWQ0gDr4bzT7Tu2xR_AV0Q": "science",     # Space Streams
+            "https://www.youtube.com/channel/UC9c3bXN57i-FuKiPi5I3vhQ": "science",     # Frontiers of Infinity
+            "https://www.youtube.com/channel/UCO-cfMjj6FM8WztlNSoVBGg": "science",     # Interstellar News Hub
+            "https://www.youtube.com/channel/UCMpn1qLudF-zb4M4bqxLIbw": "climate",     # I Love You Venice
+        }
+        
+        discovered_streams = []
+        seen_urls = {s["url"] for s in self.streams}  # URLs we already have
+        
+        logger.info(f"Discovering live streams from {len(KNOWN_CHANNELS)} known channels...")
+        
+        for channel_url, category in KNOWN_CHANNELS.items():
+            try:
+                # Discover live streams from this channel
+                logger.debug(f"Checking {channel_url} for additional live streams...")
+                new_streams = discover_channel_live_streams(channel_url, max_streams=3, timeout=15)
+                
+                for new_stream in new_streams:
+                    new_url = new_stream["url"]
+                    
+                    # Skip if we already have this URL
+                    if new_url in seen_urls:
+                        logger.debug(f"Skipping duplicate: {new_url}")
+                        continue
+                    
+                    # Add to discovered pool
+                    discovered_streams.append({
+                        "channel_id": len(self.streams) + len(discovered_streams),
+                        "title": new_stream["title"],
+                        "url": new_url,
+                        "category": category,
+                    })
+                    seen_urls.add(new_url)
+                    
+                    logger.info(f"Discovered new {category} stream: {new_stream['title']}")
+            
+            except Exception as e:
+                logger.warning(f"Failed to discover from {channel_url}: {e}")
+                continue
+        
+        if discovered_streams:
+            logger.info(f"Discovery complete: found {len(discovered_streams)} additional streams")
+        else:
+            logger.info("No additional live streams discovered")
+        
+        return discovered_streams
 
     # ── public API ──────────────────────────────────────────────────────
 
@@ -186,6 +331,7 @@ class InstanceGenerator:
         self,
         scheduling_params: Dict[str, Any],
         probe_streams: bool = True,
+        discover_new_streams: bool = False,
     ) -> Dict[str, Any]:
         """
         Build a full instance JSON ready for the beam-search algorithm.
@@ -195,6 +341,8 @@ class InstanceGenerator:
                 min_duration, channels_count, etc.
             probe_streams: if True, call yt-dlp for each stream to get
                 real metadata and live status.  Set False for fast/offline mode.
+            discover_new_streams: if True, check each channel for additional
+                live streams beyond the hardcoded ones. Expands content pool.
 
         Returns:
             Instance dict (same schema the algorithm parser expects).
@@ -203,7 +351,21 @@ class InstanceGenerator:
         closing_time = scheduling_params["closing_time"]
         min_duration = scheduling_params["min_duration"]
         requested_channels = scheduling_params["channels_count"]
-        total_streams = len(self.streams)
+        
+        # Start with hardcoded streams
+        available_streams = self.streams.copy()
+        
+        # Optionally discover additional live streams from the same channels
+        if discover_new_streams and probe_streams:
+            logger.info("Discovering additional live streams from channels...")
+            discovered = self._discover_additional_streams()
+            if discovered:
+                logger.info(f"Found {len(discovered)} additional live stream(s)")
+                available_streams.extend(discovered)
+            else:
+                logger.info("No additional live streams discovered")
+        
+        total_streams = len(available_streams)
         channels_count = max(1, min(requested_channels, total_streams))
         if requested_channels != channels_count:
             logger.warning(
@@ -212,7 +374,7 @@ class InstanceGenerator:
                 total_streams,
             )
 
-        selected_streams = self.streams[:channels_count]
+        selected_streams = available_streams[:channels_count]
 
         # Optionally probe each stream for real metadata
         stream_metadata: Dict[str, Optional[Dict[str, Any]]] = {}
@@ -223,7 +385,7 @@ class InstanceGenerator:
                 if meta:
                     logger.info(
                         "Stream %s (%s) — live=%s, title=%s",
-                        s["channel_id"],
+                        s.get("channel_id", "discovered"),
                         s["url"],
                         meta["is_live"],
                         meta["title"],
@@ -231,7 +393,7 @@ class InstanceGenerator:
                 else:
                     logger.warning(
                         "Could not probe stream %s (%s) — will use defaults",
-                        s["channel_id"],
+                        s.get("channel_id", "discovered"),
                         s["url"],
                     )
 

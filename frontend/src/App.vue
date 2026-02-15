@@ -145,7 +145,7 @@ async function loadPreferences() {
 // ── Generate schedule ────────────────────────────────────────
 async function runGenerate(customPayload = null) {
   loading.value = true
-  loadingMsg.value = 'Generating schedule — running beam search algorithm…'
+  loadingMsg.value = 'Discovering live streams and generating schedule…'
   try {
     const payload = customPayload || buildPayload()
     const data = await apiGenerate(payload)
