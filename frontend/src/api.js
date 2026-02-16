@@ -1,4 +1,8 @@
-const API = window.location.origin + '/api'
+const API_BASE = import.meta.env.VITE_API_BASE
+if (!API_BASE) throw new Error('VITE_API_BASE is not set')
+const API = `${API_BASE}/api`
+
+
 
 /** Convert minutes-from-midnight to "HH:MM" */
 export function minsToTime(m) {
@@ -68,8 +72,14 @@ export async function generateSchedule(payload) {
     body: JSON.stringify(payload),
   })
   if (!res.ok) {
-    const err = await res.json()
-    throw new Error(err.detail || 'Request failed')
+    let msg = 'Request failed'
+    try {
+      const err = await res.json()
+      msg = err.detail || JSON.stringify(err)
+    } catch {
+      msg = await res.text()
+    }
+    throw new Error(msg)
   }
   return await res.json()
 }
