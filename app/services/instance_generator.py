@@ -271,14 +271,14 @@ class InstanceGenerator:
             "https://www.youtube.com/channel/UCmk6ZFMy1CT80orXca4tKew": "technology",  # Financial Express
             "https://www.youtube.com/channel/UCkvW_7kp9LJrztmgA4q4bJQ": "technology",  # Sen
             "https://www.youtube.com/channel/UCetYFjkhf7S7LwiuJxeC28g": "technology",  # Dream Trips
-            "https://www.youtube.com/channel/watch?v=GCYaMTVXc_0": "technology",  # Joey Does Tech
+            "https://www.youtube.com/@JoeyDoesTech": "technology",  # Joey Does Tech
             "https://www.youtube.com/channel/UCLA_DiR1FfKNvjuUpBHmylQ": "science",  # NASA
             "https://www.youtube.com/channel/UCOazV478JlUdvbBgFN4wWXA": "science",  # NASASpaceflight
             "https://www.youtube.com/channel/UC-QRPODUcdhXzXiOxsOaouA": "science",  # afarTV
             "https://www.youtube.com/channel/UCkWQ0gDr4bzT7Tu2xR_AV0Q": "science",  # Space Streams
             "https://www.youtube.com/channel/UC9c3bXN57i-FuKiPi5I3vhQ": "science",  # Frontiers of Infinity
             "https://www.youtube.com/channel/UCO-cfMjj6FM8WztlNSoVBGg": "science",  # Interstellar News Hub
-            "https://www.youtube.com/channel/watch?v=4l4k_0e4h-s": "science",  # Astro Horizons
+            "https://www.youtube.com/@Astro.Horizons": "science",  # Astro Horizons
             "https://www.youtube.com/channel/UCMpn1qLudF-zb4M4bqxLIbw": "climate",  # I Love You Venice
         }
 
