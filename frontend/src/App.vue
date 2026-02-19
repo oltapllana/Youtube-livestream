@@ -170,27 +170,29 @@ async function loadPreferences() {
 let genCount = 0
 
 async function runGenerate(customPayload = null) {
-  loading.value = true
-  loadingMsg.value = 'Discovering live streams and generating schedule…'
-  try {
-    const payload = customPayload || buildPayload()
-    const data = await apiGenerate(payload)
-    schedule.value = data.scheduled_programs || []
+  return withLoader(
+    { title: 'Generating', message: 'Discovering live streams and building schedule…' },
+    async () => {
+      const payload = customPayload || buildPayload()
+      const data = await apiGenerate(payload)
 
-    // Track absolute end timestamp to avoid day-rollover issues
-    const minutesLeft = calcMinutesUntilScheduleEnd(payload)
-    scheduleEndAt.value = Date.now() + minutesLeft * 60 * 1000
-    
-    // Update prefs UI to reflect what's currently scheduled
-    prefs.value.openTime = minsToTime(payload.opening_time % 1440)
-    prefs.value.closeTime = minsToTime(payload.closing_time % 1440)
-  } catch (err) {
+      schedule.value = data.scheduled_programs || []
+
+      // Track absolute end timestamp
+      const minutesLeft = calcMinutesUntilScheduleEnd(payload)
+      scheduleEndAt.value = Date.now() + minutesLeft * 60 * 1000
+
+      // Update prefs UI (shfaq kohë normale)
+      prefs.value.openTime = minsToTime(payload.opening_time % 1440)
+      prefs.value.closeTime = minsToTime(payload.closing_time % 1440)
+    }
+  ).catch((err) => {
     console.error('Schedule generation failed:', err)
     alert('Error: ' + err.message)
-  } finally {
-    console.log(`[GEN ${id}] end`)
-  }
+  })
 }
+
+
 
 
 // ── Auto-regenerate when schedule expires ────────────────────
@@ -238,12 +240,12 @@ onMounted(async () => {
 })
 
 // ── Watch for schedule expiration ────────────────────────────
-watch(clockNow, (now) => {
-  // If current time exceeds schedule end timestamp, auto-regenerate
-  if (scheduleEndAt.value !== null && Date.now() >= scheduleEndAt.value && !loading.value) {
+watch(clockNow, () => {
+  if (scheduleEndAt.value !== null && Date.now() >= scheduleEndAt.value && !loader.open) {
     autoRegenerate()
   }
 })
+
 
 
 onUnmounted(() => {

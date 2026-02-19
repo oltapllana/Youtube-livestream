@@ -1,0 +1,46 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Frontiers of Infinity_program_0",
+            "channel_id": 8,
+            "start": 492,
+            "end": 523
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_1",
+            "channel_id": 8,
+            "start": 523,
+            "end": 554
+        },
+        {
+            "program_id": "Dream Trips_program_1",
+            "channel_id": 3,
+            "start": 554,
+            "end": 593
+        },
+        {
+            "program_id": "Dream Trips_program_2",
+            "channel_id": 3,
+            "start": 593,
+            "end": 624
+        },
+        {
+            "program_id": "afarTV_program_2",
+            "channel_id": 6,
+            "start": 624,
+            "end": 655
+        },
+        {
+            "program_id": "The Financial Express_program_2",
+            "channel_id": 1,
+            "start": 655,
+            "end": 687
+        },
+        {
+            "program_id": "The Financial Express_program_3",
+            "channel_id": 1,
+            "start": 687,
+            "end": 720
+        }
+    ]
+}
