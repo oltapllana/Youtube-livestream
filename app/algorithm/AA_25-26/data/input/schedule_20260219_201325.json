@@ -1,0 +1,1236 @@
+{
+  "opening_time": 492,
+  "closing_time": 1380,
+  "min_duration": 30,
+  "max_consecutive_genre": 2,
+  "channels_count": 10,
+  "switch_penalty": 8,
+  "termination_penalty": 20,
+  "priority_blocks": [],
+  "time_preferences": [
+    {
+      "start": 492,
+      "end": 720,
+      "preferred_genre": "technology",
+      "bonus": 4
+    },
+    {
+      "start": 720,
+      "end": 960,
+      "preferred_genre": "science",
+      "bonus": 4
+    },
+    {
+      "start": 960,
+      "end": 1200,
+      "preferred_genre": "climate",
+      "bonus": 4
+    }
+  ],
+  "channels": [
+    {
+      "channel_id": 0,
+      "channel_name": "Crux",
+      "programs": [
+        {
+          "program_id": "Crux_program_0",
+          "start": 492,
+          "end": 573,
+          "genre": "technology",
+          "score": 66,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_1",
+          "start": 573,
+          "end": 611,
+          "genre": "technology",
+          "score": 82,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_2",
+          "start": 611,
+          "end": 701,
+          "genre": "technology",
+          "score": 72,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_3",
+          "start": 701,
+          "end": 782,
+          "genre": "technology",
+          "score": 81,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_4",
+          "start": 782,
+          "end": 869,
+          "genre": "technology",
+          "score": 71,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_5",
+          "start": 869,
+          "end": 941,
+          "genre": "technology",
+          "score": 67,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_6",
+          "start": 941,
+          "end": 993,
+          "genre": "technology",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_7",
+          "start": 993,
+          "end": 1059,
+          "genre": "technology",
+          "score": 66,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_8",
+          "start": 1059,
+          "end": 1143,
+          "genre": "technology",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_9",
+          "start": 1143,
+          "end": 1207,
+          "genre": "technology",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_10",
+          "start": 1207,
+          "end": 1272,
+          "genre": "technology",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_11",
+          "start": 1272,
+          "end": 1350,
+          "genre": "technology",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_12",
+          "start": 1350,
+          "end": 1380,
+          "genre": "technology",
+          "score": 69,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        }
+      ]
+    },
+    {
+      "channel_id": 1,
+      "channel_name": "The Financial Express",
+      "programs": [
+        {
+          "program_id": "The Financial Express_program_0",
+          "start": 492,
+          "end": 530,
+          "genre": "technology",
+          "score": 67,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_1",
+          "start": 530,
+          "end": 592,
+          "genre": "technology",
+          "score": 73,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_2",
+          "start": 592,
+          "end": 642,
+          "genre": "technology",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_3",
+          "start": 642,
+          "end": 718,
+          "genre": "technology",
+          "score": 69,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_4",
+          "start": 718,
+          "end": 767,
+          "genre": "technology",
+          "score": 71,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_5",
+          "start": 767,
+          "end": 823,
+          "genre": "technology",
+          "score": 75,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_6",
+          "start": 823,
+          "end": 868,
+          "genre": "technology",
+          "score": 66,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_7",
+          "start": 868,
+          "end": 904,
+          "genre": "technology",
+          "score": 75,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_8",
+          "start": 904,
+          "end": 970,
+          "genre": "technology",
+          "score": 69,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_9",
+          "start": 970,
+          "end": 1012,
+          "genre": "technology",
+          "score": 72,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_10",
+          "start": 1012,
+          "end": 1085,
+          "genre": "technology",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_11",
+          "start": 1085,
+          "end": 1172,
+          "genre": "technology",
+          "score": 75,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_12",
+          "start": 1172,
+          "end": 1220,
+          "genre": "technology",
+          "score": 68,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_13",
+          "start": 1220,
+          "end": 1280,
+          "genre": "technology",
+          "score": 70,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_14",
+          "start": 1280,
+          "end": 1316,
+          "genre": "technology",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_15",
+          "start": 1316,
+          "end": 1380,
+          "genre": "technology",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        }
+      ]
+    },
+    {
+      "channel_id": 2,
+      "channel_name": "Sen",
+      "programs": [
+        {
+          "program_id": "Sen_program_0",
+          "start": 492,
+          "end": 578,
+          "genre": "technology",
+          "score": 69,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_1",
+          "start": 578,
+          "end": 633,
+          "genre": "technology",
+          "score": 82,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_2",
+          "start": 633,
+          "end": 688,
+          "genre": "technology",
+          "score": 70,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_3",
+          "start": 688,
+          "end": 778,
+          "genre": "technology",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_4",
+          "start": 778,
+          "end": 859,
+          "genre": "technology",
+          "score": 65,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_5",
+          "start": 859,
+          "end": 912,
+          "genre": "technology",
+          "score": 73,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_6",
+          "start": 912,
+          "end": 969,
+          "genre": "technology",
+          "score": 68,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_7",
+          "start": 969,
+          "end": 1038,
+          "genre": "technology",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_8",
+          "start": 1038,
+          "end": 1117,
+          "genre": "technology",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_9",
+          "start": 1117,
+          "end": 1178,
+          "genre": "technology",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_10",
+          "start": 1178,
+          "end": 1257,
+          "genre": "technology",
+          "score": 75,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_11",
+          "start": 1257,
+          "end": 1306,
+          "genre": "technology",
+          "score": 81,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_12",
+          "start": 1306,
+          "end": 1343,
+          "genre": "technology",
+          "score": 65,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_13",
+          "start": 1343,
+          "end": 1380,
+          "genre": "technology",
+          "score": 73,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        }
+      ]
+    },
+    {
+      "channel_id": 3,
+      "channel_name": "Dream Trips",
+      "programs": [
+        {
+          "program_id": "Dream Trips_program_0",
+          "start": 492,
+          "end": 549,
+          "genre": "technology",
+          "score": 82,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_1",
+          "start": 549,
+          "end": 613,
+          "genre": "technology",
+          "score": 75,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_2",
+          "start": 613,
+          "end": 669,
+          "genre": "technology",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_3",
+          "start": 669,
+          "end": 730,
+          "genre": "technology",
+          "score": 74,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_4",
+          "start": 730,
+          "end": 785,
+          "genre": "technology",
+          "score": 68,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_5",
+          "start": 785,
+          "end": 848,
+          "genre": "technology",
+          "score": 73,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_6",
+          "start": 848,
+          "end": 922,
+          "genre": "technology",
+          "score": 71,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_7",
+          "start": 922,
+          "end": 962,
+          "genre": "technology",
+          "score": 72,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_8",
+          "start": 962,
+          "end": 1038,
+          "genre": "technology",
+          "score": 70,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_9",
+          "start": 1038,
+          "end": 1113,
+          "genre": "technology",
+          "score": 74,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_10",
+          "start": 1113,
+          "end": 1151,
+          "genre": "technology",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_11",
+          "start": 1151,
+          "end": 1181,
+          "genre": "technology",
+          "score": 69,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_12",
+          "start": 1181,
+          "end": 1259,
+          "genre": "technology",
+          "score": 82,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_13",
+          "start": 1259,
+          "end": 1297,
+          "genre": "technology",
+          "score": 70,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_14",
+          "start": 1297,
+          "end": 1357,
+          "genre": "technology",
+          "score": 82,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        }
+      ]
+    },
+    {
+      "channel_id": 12,
+      "channel_name": "Joey Does Tech",
+      "programs": [
+        {
+          "program_id": "Joey Does Tech_program_0",
+          "start": 492,
+          "end": 559,
+          "genre": "technology",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_1",
+          "start": 559,
+          "end": 633,
+          "genre": "technology",
+          "score": 70,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_2",
+          "start": 633,
+          "end": 723,
+          "genre": "technology",
+          "score": 69,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_3",
+          "start": 723,
+          "end": 771,
+          "genre": "technology",
+          "score": 71,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_4",
+          "start": 771,
+          "end": 842,
+          "genre": "technology",
+          "score": 67,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_5",
+          "start": 842,
+          "end": 894,
+          "genre": "technology",
+          "score": 81,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_6",
+          "start": 894,
+          "end": 962,
+          "genre": "technology",
+          "score": 82,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_7",
+          "start": 962,
+          "end": 1036,
+          "genre": "technology",
+          "score": 66,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_8",
+          "start": 1036,
+          "end": 1067,
+          "genre": "technology",
+          "score": 75,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_9",
+          "start": 1067,
+          "end": 1156,
+          "genre": "technology",
+          "score": 74,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_10",
+          "start": 1156,
+          "end": 1186,
+          "genre": "technology",
+          "score": 67,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_11",
+          "start": 1186,
+          "end": 1275,
+          "genre": "technology",
+          "score": 70,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_12",
+          "start": 1275,
+          "end": 1351,
+          "genre": "technology",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        }
+      ]
+    },
+    {
+      "channel_id": 4,
+      "channel_name": "NASA",
+      "programs": [
+        {
+          "program_id": "NASA_program_0",
+          "start": 492,
+          "end": 534,
+          "genre": "science",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_1",
+          "start": 534,
+          "end": 618,
+          "genre": "science",
+          "score": 91,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_2",
+          "start": 618,
+          "end": 698,
+          "genre": "science",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_3",
+          "start": 698,
+          "end": 757,
+          "genre": "science",
+          "score": 89,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_4",
+          "start": 757,
+          "end": 806,
+          "genre": "science",
+          "score": 84,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_5",
+          "start": 806,
+          "end": 892,
+          "genre": "science",
+          "score": 93,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_6",
+          "start": 892,
+          "end": 960,
+          "genre": "science",
+          "score": 91,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_7",
+          "start": 960,
+          "end": 1031,
+          "genre": "science",
+          "score": 93,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_8",
+          "start": 1031,
+          "end": 1113,
+          "genre": "science",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_9",
+          "start": 1113,
+          "end": 1147,
+          "genre": "science",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_10",
+          "start": 1147,
+          "end": 1196,
+          "genre": "science",
+          "score": 91,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_11",
+          "start": 1196,
+          "end": 1226,
+          "genre": "science",
+          "score": 95,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_12",
+          "start": 1226,
+          "end": 1256,
+          "genre": "science",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_13",
+          "start": 1256,
+          "end": 1292,
+          "genre": "science",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_14",
+          "start": 1292,
+          "end": 1362,
+          "genre": "science",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        }
+      ]
+    },
+    {
+      "channel_id": 5,
+      "channel_name": "NASASpaceflight",
+      "programs": [
+        {
+          "program_id": "NASASpaceflight_program_0",
+          "start": 492,
+          "end": 535,
+          "genre": "science",
+          "score": 89,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_1",
+          "start": 535,
+          "end": 566,
+          "genre": "science",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_2",
+          "start": 566,
+          "end": 656,
+          "genre": "science",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_3",
+          "start": 656,
+          "end": 739,
+          "genre": "science",
+          "score": 92,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_4",
+          "start": 739,
+          "end": 776,
+          "genre": "science",
+          "score": 94,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_5",
+          "start": 776,
+          "end": 814,
+          "genre": "science",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_6",
+          "start": 814,
+          "end": 860,
+          "genre": "science",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_7",
+          "start": 860,
+          "end": 900,
+          "genre": "science",
+          "score": 81,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_8",
+          "start": 900,
+          "end": 988,
+          "genre": "science",
+          "score": 95,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_9",
+          "start": 988,
+          "end": 1045,
+          "genre": "science",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_10",
+          "start": 1045,
+          "end": 1103,
+          "genre": "science",
+          "score": 82,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_11",
+          "start": 1103,
+          "end": 1162,
+          "genre": "science",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_12",
+          "start": 1162,
+          "end": 1198,
+          "genre": "science",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_13",
+          "start": 1198,
+          "end": 1283,
+          "genre": "science",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_14",
+          "start": 1283,
+          "end": 1315,
+          "genre": "science",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_15",
+          "start": 1315,
+          "end": 1380,
+          "genre": "science",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        }
+      ]
+    },
+    {
+      "channel_id": 6,
+      "channel_name": "afarTV",
+      "programs": [
+        {
+          "program_id": "afarTV_program_0",
+          "start": 492,
+          "end": 522,
+          "genre": "science",
+          "score": 93,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_1",
+          "start": 522,
+          "end": 609,
+          "genre": "science",
+          "score": 92,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_2",
+          "start": 609,
+          "end": 684,
+          "genre": "science",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_3",
+          "start": 684,
+          "end": 769,
+          "genre": "science",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_4",
+          "start": 769,
+          "end": 812,
+          "genre": "science",
+          "score": 92,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_5",
+          "start": 812,
+          "end": 871,
+          "genre": "science",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_6",
+          "start": 871,
+          "end": 908,
+          "genre": "science",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_7",
+          "start": 908,
+          "end": 996,
+          "genre": "science",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_8",
+          "start": 996,
+          "end": 1040,
+          "genre": "science",
+          "score": 89,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_9",
+          "start": 1040,
+          "end": 1106,
+          "genre": "science",
+          "score": 84,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_10",
+          "start": 1106,
+          "end": 1183,
+          "genre": "science",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_11",
+          "start": 1183,
+          "end": 1267,
+          "genre": "science",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_12",
+          "start": 1267,
+          "end": 1310,
+          "genre": "science",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_13",
+          "start": 1310,
+          "end": 1380,
+          "genre": "science",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        }
+      ]
+    },
+    {
+      "channel_id": 7,
+      "channel_name": "Space Streams",
+      "programs": [
+        {
+          "program_id": "Space Streams_program_0",
+          "start": 492,
+          "end": 569,
+          "genre": "science",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        },
+        {
+          "program_id": "Space Streams_program_1",
+          "start": 569,
+          "end": 619,
+          "genre": "science",
+          "score": 81,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        },
+        {
+          "program_id": "Space Streams_program_2",
+          "start": 619,
+          "end": 701,
+          "genre": "science",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        },
+        {
+          "program_id": "Space Streams_program_3",
+          "start": 701,
+          "end": 753,
+          "genre": "science",
+          "score": 93,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        },
+        {
+          "program_id": "Space Streams_program_4",
+          "start": 753,
+          "end": 801,
+          "genre": "science",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        },
+        {
+          "program_id": "Space Streams_program_5",
+          "start": 801,
+          "end": 847,
+          "genre": "science",
+          "score": 79,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        },
+        {
+          "program_id": "Space Streams_program_6",
+          "start": 847,
+          "end": 925,
+          "genre": "science",
+          "score": 91,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        },
+        {
+          "program_id": "Space Streams_program_7",
+          "start": 925,
+          "end": 998,
+          "genre": "science",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        },
+        {
+          "program_id": "Space Streams_program_8",
+          "start": 998,
+          "end": 1063,
+          "genre": "science",
+          "score": 89,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        },
+        {
+          "program_id": "Space Streams_program_9",
+          "start": 1063,
+          "end": 1152,
+          "genre": "science",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        },
+        {
+          "program_id": "Space Streams_program_10",
+          "start": 1152,
+          "end": 1208,
+          "genre": "science",
+          "score": 82,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        },
+        {
+          "program_id": "Space Streams_program_11",
+          "start": 1208,
+          "end": 1239,
+          "genre": "science",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        },
+        {
+          "program_id": "Space Streams_program_12",
+          "start": 1239,
+          "end": 1327,
+          "genre": "science",
+          "score": 93,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        },
+        {
+          "program_id": "Space Streams_program_13",
+          "start": 1327,
+          "end": 1372,
+          "genre": "science",
+          "score": 94,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        }
+      ]
+    },
+    {
+      "channel_id": 8,
+      "channel_name": "Frontiers of Infinity",
+      "programs": [
+        {
+          "program_id": "Frontiers of Infinity_program_0",
+          "start": 492,
+          "end": 580,
+          "genre": "science",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        },
+        {
+          "program_id": "Frontiers of Infinity_program_1",
+          "start": 580,
+          "end": 649,
+          "genre": "science",
+          "score": 75,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        },
+        {
+          "program_id": "Frontiers of Infinity_program_2",
+          "start": 649,
+          "end": 717,
+          "genre": "science",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        },
+        {
+          "program_id": "Frontiers of Infinity_program_3",
+          "start": 717,
+          "end": 772,
+          "genre": "science",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        },
+        {
+          "program_id": "Frontiers of Infinity_program_4",
+          "start": 772,
+          "end": 836,
+          "genre": "science",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        },
+        {
+          "program_id": "Frontiers of Infinity_program_5",
+          "start": 836,
+          "end": 903,
+          "genre": "science",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        },
+        {
+          "program_id": "Frontiers of Infinity_program_6",
+          "start": 903,
+          "end": 948,
+          "genre": "science",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        },
+        {
+          "program_id": "Frontiers of Infinity_program_7",
+          "start": 948,
+          "end": 1014,
+          "genre": "science",
+          "score": 95,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        },
+        {
+          "program_id": "Frontiers of Infinity_program_8",
+          "start": 1014,
+          "end": 1100,
+          "genre": "science",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        },
+        {
+          "program_id": "Frontiers of Infinity_program_9",
+          "start": 1100,
+          "end": 1179,
+          "genre": "science",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        },
+        {
+          "program_id": "Frontiers of Infinity_program_10",
+          "start": 1179,
+          "end": 1260,
+          "genre": "science",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        },
+        {
+          "program_id": "Frontiers of Infinity_program_11",
+          "start": 1260,
+          "end": 1345,
+          "genre": "science",
+          "score": 94,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        },
+        {
+          "program_id": "Frontiers of Infinity_program_12",
+          "start": 1345,
+          "end": 1380,
+          "genre": "science",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        }
+      ]
+    }
+  ]
+}
