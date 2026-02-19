@@ -59,27 +59,41 @@
           <input type="number" v-model.number="prefs.maxConsecutiveGenre" min="1" max="10" />
         </label>
 
-        <!-- Category selector -->
-        <label>
-          <span>Channel Categories</span>
-          <div class="category-checkboxes">
-            <label><input type="checkbox" v-model="prefs.categoryFilter" value="science" /> Science</label>
-            <label><input type="checkbox" v-model="prefs.categoryFilter" value="technology" /> Tech</label>
-            <label><input type="checkbox" v-model="prefs.categoryFilter" value="climate" /> Climate</label>
+        <!-- Category selector with toggle switches -->
+        <div class="category-section">
+          <h4>Channel Categories</h4>
+          <div class="category-toggles">
+            <label class="toggle-label">
+              <input type="checkbox" v-model="prefs.categoryFilter" value="science" class="toggle-input" />
+              <span class="toggle-switch"></span>
+              <span class="toggle-text">Science</span>
+            </label>
+            <label class="toggle-label">
+              <input type="checkbox" v-model="prefs.categoryFilter" value="technology" class="toggle-input" />
+              <span class="toggle-switch"></span>
+              <span class="toggle-text">Technology</span>
+            </label>
+            <label class="toggle-label">
+              <input type="checkbox" v-model="prefs.categoryFilter" value="climate" class="toggle-input" />
+              <span class="toggle-switch"></span>
+              <span class="toggle-text">Climate</span>
+            </label>
           </div>
-        </label>
+        </div>
 
         <!-- Channels list for selected categories -->
-        <div v-if="channels.length" class="category-list">
-          <h4>Channels</h4>
-          <ul>
-            <li v-for="c in channels" :key="c.channel_id">
-              <label>
-                <input type="checkbox" :value="c.channel_id" v-model="prefs.selectedChannelIds" />
-                {{ c.title }} — {{ c.category }}
-              </label>
-            </li>
-          </ul>
+        <div v-if="channels.length" class="channels-section">
+          <h4>Selected Channels</h4>
+          <div class="channels-list">
+            <label v-for="c in channels" :key="c.channel_id" class="channel-item">
+              <input type="checkbox" :value="c.channel_id" v-model="prefs.selectedChannelIds" class="channel-checkbox" />
+              <span class="checkmark"></span>
+              <span class="channel-name">{{ c.title }}</span>
+            </label>
+          </div>
+        </div>
+        <div v-else class="no-channels-hint">
+          <p>Select categories above to view channels</p>
         </div>
 
         <div class="filters-actions">
