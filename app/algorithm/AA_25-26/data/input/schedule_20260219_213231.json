@@ -1,0 +1,38 @@
+{
+  "opening_time": 1291,
+  "closing_time": 571,
+  "min_duration": 30,
+  "max_consecutive_genre": 2,
+  "channels_count": 5,
+  "switch_penalty": 0,
+  "termination_penalty": 20,
+  "priority_blocks": [],
+  "time_preferences": [],
+  "channels": [
+    {
+      "channel_id": 0,
+      "channel_name": "Crux",
+      "programs": []
+    },
+    {
+      "channel_id": 1,
+      "channel_name": "The Financial Express",
+      "programs": []
+    },
+    {
+      "channel_id": 2,
+      "channel_name": "Sen",
+      "programs": []
+    },
+    {
+      "channel_id": 3,
+      "channel_name": "Dream Trips",
+      "programs": []
+    },
+    {
+      "channel_id": 12,
+      "channel_name": "Joey Does Tech",
+      "programs": []
+    }
+  ]
+}

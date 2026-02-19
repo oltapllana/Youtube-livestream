@@ -1,0 +1,523 @@
+{
+  "opening_time": 1292,
+  "closing_time": 2012,
+  "min_duration": 30,
+  "max_consecutive_genre": 2,
+  "channels_count": 5,
+  "switch_penalty": 8,
+  "termination_penalty": 20,
+  "priority_blocks": [],
+  "time_preferences": [],
+  "channels": [
+    {
+      "channel_id": 0,
+      "channel_name": "Crux",
+      "programs": [
+        {
+          "program_id": "Crux_program_0",
+          "start": 1292,
+          "end": 1346,
+          "genre": "technology",
+          "score": 72,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_1",
+          "start": 1346,
+          "end": 1416,
+          "genre": "technology",
+          "score": 79,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_2",
+          "start": 1416,
+          "end": 1493,
+          "genre": "technology",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_3",
+          "start": 1493,
+          "end": 1542,
+          "genre": "technology",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_4",
+          "start": 1542,
+          "end": 1575,
+          "genre": "technology",
+          "score": 65,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_5",
+          "start": 1575,
+          "end": 1618,
+          "genre": "technology",
+          "score": 79,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_6",
+          "start": 1618,
+          "end": 1653,
+          "genre": "technology",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_7",
+          "start": 1653,
+          "end": 1713,
+          "genre": "technology",
+          "score": 75,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_8",
+          "start": 1713,
+          "end": 1784,
+          "genre": "technology",
+          "score": 82,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_9",
+          "start": 1784,
+          "end": 1814,
+          "genre": "technology",
+          "score": 65,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_10",
+          "start": 1814,
+          "end": 1869,
+          "genre": "technology",
+          "score": 71,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_11",
+          "start": 1869,
+          "end": 1919,
+          "genre": "technology",
+          "score": 79,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_12",
+          "start": 1919,
+          "end": 1996,
+          "genre": "technology",
+          "score": 72,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        }
+      ]
+    },
+    {
+      "channel_id": 1,
+      "channel_name": "The Financial Express",
+      "programs": [
+        {
+          "program_id": "The Financial Express_program_0",
+          "start": 1292,
+          "end": 1370,
+          "genre": "technology",
+          "score": 66,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_1",
+          "start": 1370,
+          "end": 1441,
+          "genre": "technology",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_2",
+          "start": 1441,
+          "end": 1517,
+          "genre": "technology",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_3",
+          "start": 1517,
+          "end": 1600,
+          "genre": "technology",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_4",
+          "start": 1600,
+          "end": 1654,
+          "genre": "technology",
+          "score": 71,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_5",
+          "start": 1654,
+          "end": 1719,
+          "genre": "technology",
+          "score": 69,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_6",
+          "start": 1719,
+          "end": 1793,
+          "genre": "technology",
+          "score": 67,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_7",
+          "start": 1793,
+          "end": 1853,
+          "genre": "technology",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_8",
+          "start": 1853,
+          "end": 1933,
+          "genre": "technology",
+          "score": 74,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_9",
+          "start": 1933,
+          "end": 2012,
+          "genre": "technology",
+          "score": 73,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        }
+      ]
+    },
+    {
+      "channel_id": 2,
+      "channel_name": "Sen",
+      "programs": [
+        {
+          "program_id": "Sen_program_0",
+          "start": 1292,
+          "end": 1322,
+          "genre": "technology",
+          "score": 71,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_1",
+          "start": 1322,
+          "end": 1382,
+          "genre": "technology",
+          "score": 81,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_2",
+          "start": 1382,
+          "end": 1436,
+          "genre": "technology",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_3",
+          "start": 1436,
+          "end": 1492,
+          "genre": "technology",
+          "score": 79,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_4",
+          "start": 1492,
+          "end": 1532,
+          "genre": "technology",
+          "score": 67,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_5",
+          "start": 1532,
+          "end": 1569,
+          "genre": "technology",
+          "score": 70,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_6",
+          "start": 1569,
+          "end": 1654,
+          "genre": "technology",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_7",
+          "start": 1654,
+          "end": 1687,
+          "genre": "technology",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_8",
+          "start": 1687,
+          "end": 1740,
+          "genre": "technology",
+          "score": 65,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_9",
+          "start": 1740,
+          "end": 1800,
+          "genre": "technology",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_10",
+          "start": 1800,
+          "end": 1846,
+          "genre": "technology",
+          "score": 81,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_11",
+          "start": 1846,
+          "end": 1914,
+          "genre": "technology",
+          "score": 84,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_12",
+          "start": 1914,
+          "end": 1989,
+          "genre": "technology",
+          "score": 74,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        }
+      ]
+    },
+    {
+      "channel_id": 3,
+      "channel_name": "Dream Trips",
+      "programs": [
+        {
+          "program_id": "Dream Trips_program_0",
+          "start": 1292,
+          "end": 1341,
+          "genre": "technology",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_1",
+          "start": 1341,
+          "end": 1414,
+          "genre": "technology",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_2",
+          "start": 1414,
+          "end": 1498,
+          "genre": "technology",
+          "score": 68,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_3",
+          "start": 1498,
+          "end": 1557,
+          "genre": "technology",
+          "score": 67,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_4",
+          "start": 1557,
+          "end": 1600,
+          "genre": "technology",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_5",
+          "start": 1600,
+          "end": 1632,
+          "genre": "technology",
+          "score": 70,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_6",
+          "start": 1632,
+          "end": 1700,
+          "genre": "technology",
+          "score": 67,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_7",
+          "start": 1700,
+          "end": 1769,
+          "genre": "technology",
+          "score": 81,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_8",
+          "start": 1769,
+          "end": 1818,
+          "genre": "technology",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_9",
+          "start": 1818,
+          "end": 1879,
+          "genre": "technology",
+          "score": 66,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_10",
+          "start": 1879,
+          "end": 1943,
+          "genre": "technology",
+          "score": 72,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_11",
+          "start": 1943,
+          "end": 2004,
+          "genre": "technology",
+          "score": 84,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        }
+      ]
+    },
+    {
+      "channel_id": 12,
+      "channel_name": "Joey Does Tech",
+      "programs": [
+        {
+          "program_id": "Joey Does Tech_program_0",
+          "start": 1292,
+          "end": 1325,
+          "genre": "technology",
+          "score": 68,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_1",
+          "start": 1325,
+          "end": 1397,
+          "genre": "technology",
+          "score": 74,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_2",
+          "start": 1397,
+          "end": 1478,
+          "genre": "technology",
+          "score": 66,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_3",
+          "start": 1478,
+          "end": 1549,
+          "genre": "technology",
+          "score": 84,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_4",
+          "start": 1549,
+          "end": 1597,
+          "genre": "technology",
+          "score": 79,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_5",
+          "start": 1597,
+          "end": 1649,
+          "genre": "technology",
+          "score": 81,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_6",
+          "start": 1649,
+          "end": 1724,
+          "genre": "technology",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_7",
+          "start": 1724,
+          "end": 1762,
+          "genre": "technology",
+          "score": 72,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_8",
+          "start": 1762,
+          "end": 1810,
+          "genre": "technology",
+          "score": 67,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_9",
+          "start": 1810,
+          "end": 1865,
+          "genre": "technology",
+          "score": 70,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_10",
+          "start": 1865,
+          "end": 1933,
+          "genre": "technology",
+          "score": 70,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_11",
+          "start": 1933,
+          "end": 2005,
+          "genre": "technology",
+          "score": 73,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        }
+      ]
+    }
+  ]
+}

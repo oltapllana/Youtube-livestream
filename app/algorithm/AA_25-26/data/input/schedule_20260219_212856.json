@@ -1,0 +1,711 @@
+{
+  "opening_time": 1288,
+  "closing_time": 2008,
+  "min_duration": 31,
+  "max_consecutive_genre": 2,
+  "channels_count": 7,
+  "switch_penalty": 9,
+  "termination_penalty": 20,
+  "priority_blocks": [],
+  "time_preferences": [],
+  "channels": [
+    {
+      "channel_id": 4,
+      "channel_name": "NASA",
+      "programs": [
+        {
+          "program_id": "NASA_program_0",
+          "start": 1288,
+          "end": 1326,
+          "genre": "science",
+          "score": 95,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_1",
+          "start": 1326,
+          "end": 1409,
+          "genre": "science",
+          "score": 81,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_2",
+          "start": 1409,
+          "end": 1447,
+          "genre": "science",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_3",
+          "start": 1447,
+          "end": 1518,
+          "genre": "science",
+          "score": 79,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_4",
+          "start": 1518,
+          "end": 1587,
+          "genre": "science",
+          "score": 92,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_5",
+          "start": 1587,
+          "end": 1626,
+          "genre": "science",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_6",
+          "start": 1626,
+          "end": 1662,
+          "genre": "science",
+          "score": 92,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_7",
+          "start": 1662,
+          "end": 1730,
+          "genre": "science",
+          "score": 81,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_8",
+          "start": 1730,
+          "end": 1817,
+          "genre": "science",
+          "score": 79,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_9",
+          "start": 1817,
+          "end": 1861,
+          "genre": "science",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_10",
+          "start": 1861,
+          "end": 1892,
+          "genre": "science",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_11",
+          "start": 1892,
+          "end": 1975,
+          "genre": "science",
+          "score": 92,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_12",
+          "start": 1975,
+          "end": 2008,
+          "genre": "science",
+          "score": 95,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        }
+      ]
+    },
+    {
+      "channel_id": 5,
+      "channel_name": "NASASpaceflight",
+      "programs": [
+        {
+          "program_id": "NASASpaceflight_program_0",
+          "start": 1288,
+          "end": 1362,
+          "genre": "science",
+          "score": 89,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_1",
+          "start": 1362,
+          "end": 1419,
+          "genre": "science",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_2",
+          "start": 1419,
+          "end": 1470,
+          "genre": "science",
+          "score": 91,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_3",
+          "start": 1470,
+          "end": 1519,
+          "genre": "science",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_4",
+          "start": 1519,
+          "end": 1605,
+          "genre": "science",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_5",
+          "start": 1605,
+          "end": 1675,
+          "genre": "science",
+          "score": 95,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_6",
+          "start": 1675,
+          "end": 1711,
+          "genre": "science",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_7",
+          "start": 1711,
+          "end": 1790,
+          "genre": "science",
+          "score": 95,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_8",
+          "start": 1790,
+          "end": 1845,
+          "genre": "science",
+          "score": 81,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_9",
+          "start": 1845,
+          "end": 1878,
+          "genre": "science",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_10",
+          "start": 1878,
+          "end": 1909,
+          "genre": "science",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_11",
+          "start": 1909,
+          "end": 1944,
+          "genre": "science",
+          "score": 91,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_12",
+          "start": 1944,
+          "end": 1984,
+          "genre": "science",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        }
+      ]
+    },
+    {
+      "channel_id": 6,
+      "channel_name": "afarTV",
+      "programs": [
+        {
+          "program_id": "afarTV_program_0",
+          "start": 1288,
+          "end": 1340,
+          "genre": "science",
+          "score": 82,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_1",
+          "start": 1340,
+          "end": 1426,
+          "genre": "science",
+          "score": 89,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_2",
+          "start": 1426,
+          "end": 1501,
+          "genre": "science",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_3",
+          "start": 1501,
+          "end": 1562,
+          "genre": "science",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_4",
+          "start": 1562,
+          "end": 1629,
+          "genre": "science",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_5",
+          "start": 1629,
+          "end": 1671,
+          "genre": "science",
+          "score": 92,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_6",
+          "start": 1671,
+          "end": 1752,
+          "genre": "science",
+          "score": 89,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_7",
+          "start": 1752,
+          "end": 1801,
+          "genre": "science",
+          "score": 93,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_8",
+          "start": 1801,
+          "end": 1868,
+          "genre": "science",
+          "score": 89,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_9",
+          "start": 1868,
+          "end": 1941,
+          "genre": "science",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_10",
+          "start": 1941,
+          "end": 2008,
+          "genre": "science",
+          "score": 84,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        }
+      ]
+    },
+    {
+      "channel_id": 7,
+      "channel_name": "Space Streams",
+      "programs": [
+        {
+          "program_id": "Space Streams_program_0",
+          "start": 1288,
+          "end": 1335,
+          "genre": "science",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        },
+        {
+          "program_id": "Space Streams_program_1",
+          "start": 1335,
+          "end": 1400,
+          "genre": "science",
+          "score": 89,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        },
+        {
+          "program_id": "Space Streams_program_2",
+          "start": 1400,
+          "end": 1473,
+          "genre": "science",
+          "score": 79,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        },
+        {
+          "program_id": "Space Streams_program_3",
+          "start": 1473,
+          "end": 1504,
+          "genre": "science",
+          "score": 82,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        },
+        {
+          "program_id": "Space Streams_program_4",
+          "start": 1504,
+          "end": 1549,
+          "genre": "science",
+          "score": 79,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        },
+        {
+          "program_id": "Space Streams_program_5",
+          "start": 1549,
+          "end": 1619,
+          "genre": "science",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        },
+        {
+          "program_id": "Space Streams_program_6",
+          "start": 1619,
+          "end": 1670,
+          "genre": "science",
+          "score": 89,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        },
+        {
+          "program_id": "Space Streams_program_7",
+          "start": 1670,
+          "end": 1752,
+          "genre": "science",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        },
+        {
+          "program_id": "Space Streams_program_8",
+          "start": 1752,
+          "end": 1820,
+          "genre": "science",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        },
+        {
+          "program_id": "Space Streams_program_9",
+          "start": 1820,
+          "end": 1900,
+          "genre": "science",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        },
+        {
+          "program_id": "Space Streams_program_10",
+          "start": 1900,
+          "end": 1986,
+          "genre": "science",
+          "score": 94,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        }
+      ]
+    },
+    {
+      "channel_id": 8,
+      "channel_name": "Frontiers of Infinity",
+      "programs": [
+        {
+          "program_id": "Frontiers of Infinity_program_0",
+          "start": 1288,
+          "end": 1364,
+          "genre": "science",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        },
+        {
+          "program_id": "Frontiers of Infinity_program_1",
+          "start": 1364,
+          "end": 1446,
+          "genre": "science",
+          "score": 89,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        },
+        {
+          "program_id": "Frontiers of Infinity_program_2",
+          "start": 1446,
+          "end": 1487,
+          "genre": "science",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        },
+        {
+          "program_id": "Frontiers of Infinity_program_3",
+          "start": 1487,
+          "end": 1565,
+          "genre": "science",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        },
+        {
+          "program_id": "Frontiers of Infinity_program_4",
+          "start": 1565,
+          "end": 1640,
+          "genre": "science",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        },
+        {
+          "program_id": "Frontiers of Infinity_program_5",
+          "start": 1640,
+          "end": 1725,
+          "genre": "science",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        },
+        {
+          "program_id": "Frontiers of Infinity_program_6",
+          "start": 1725,
+          "end": 1763,
+          "genre": "science",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        },
+        {
+          "program_id": "Frontiers of Infinity_program_7",
+          "start": 1763,
+          "end": 1815,
+          "genre": "science",
+          "score": 95,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        },
+        {
+          "program_id": "Frontiers of Infinity_program_8",
+          "start": 1815,
+          "end": 1878,
+          "genre": "science",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        },
+        {
+          "program_id": "Frontiers of Infinity_program_9",
+          "start": 1878,
+          "end": 1961,
+          "genre": "science",
+          "score": 92,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        },
+        {
+          "program_id": "Frontiers of Infinity_program_10",
+          "start": 1961,
+          "end": 2008,
+          "genre": "science",
+          "score": 91,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        }
+      ]
+    },
+    {
+      "channel_id": 9,
+      "channel_name": "Interstellar News Hub",
+      "programs": [
+        {
+          "program_id": "Interstellar News Hub_program_0",
+          "start": 1288,
+          "end": 1325,
+          "genre": "science",
+          "score": 87,
+          "url": "http://youtube.com/watch?v=itx0IXjGEyQ"
+        },
+        {
+          "program_id": "Interstellar News Hub_program_1",
+          "start": 1325,
+          "end": 1406,
+          "genre": "science",
+          "score": 79,
+          "url": "http://youtube.com/watch?v=itx0IXjGEyQ"
+        },
+        {
+          "program_id": "Interstellar News Hub_program_2",
+          "start": 1406,
+          "end": 1460,
+          "genre": "science",
+          "score": 80,
+          "url": "http://youtube.com/watch?v=itx0IXjGEyQ"
+        },
+        {
+          "program_id": "Interstellar News Hub_program_3",
+          "start": 1460,
+          "end": 1549,
+          "genre": "science",
+          "score": 79,
+          "url": "http://youtube.com/watch?v=itx0IXjGEyQ"
+        },
+        {
+          "program_id": "Interstellar News Hub_program_4",
+          "start": 1549,
+          "end": 1582,
+          "genre": "science",
+          "score": 93,
+          "url": "http://youtube.com/watch?v=itx0IXjGEyQ"
+        },
+        {
+          "program_id": "Interstellar News Hub_program_5",
+          "start": 1582,
+          "end": 1661,
+          "genre": "science",
+          "score": 84,
+          "url": "http://youtube.com/watch?v=itx0IXjGEyQ"
+        },
+        {
+          "program_id": "Interstellar News Hub_program_6",
+          "start": 1661,
+          "end": 1728,
+          "genre": "science",
+          "score": 93,
+          "url": "http://youtube.com/watch?v=itx0IXjGEyQ"
+        },
+        {
+          "program_id": "Interstellar News Hub_program_7",
+          "start": 1728,
+          "end": 1767,
+          "genre": "science",
+          "score": 84,
+          "url": "http://youtube.com/watch?v=itx0IXjGEyQ"
+        },
+        {
+          "program_id": "Interstellar News Hub_program_8",
+          "start": 1767,
+          "end": 1846,
+          "genre": "science",
+          "score": 88,
+          "url": "http://youtube.com/watch?v=itx0IXjGEyQ"
+        },
+        {
+          "program_id": "Interstellar News Hub_program_9",
+          "start": 1846,
+          "end": 1923,
+          "genre": "science",
+          "score": 75,
+          "url": "http://youtube.com/watch?v=itx0IXjGEyQ"
+        },
+        {
+          "program_id": "Interstellar News Hub_program_10",
+          "start": 1923,
+          "end": 2008,
+          "genre": "science",
+          "score": 79,
+          "url": "http://youtube.com/watch?v=itx0IXjGEyQ"
+        }
+      ]
+    },
+    {
+      "channel_id": 13,
+      "channel_name": "Astro Horizons",
+      "programs": [
+        {
+          "program_id": "Astro Horizons_program_0",
+          "start": 1288,
+          "end": 1352,
+          "genre": "science",
+          "score": 93,
+          "url": "https://www.youtube.com/watch?v=4l4k_0e4h-s"
+        },
+        {
+          "program_id": "Astro Horizons_program_1",
+          "start": 1352,
+          "end": 1428,
+          "genre": "science",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=4l4k_0e4h-s"
+        },
+        {
+          "program_id": "Astro Horizons_program_2",
+          "start": 1428,
+          "end": 1498,
+          "genre": "science",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=4l4k_0e4h-s"
+        },
+        {
+          "program_id": "Astro Horizons_program_3",
+          "start": 1498,
+          "end": 1550,
+          "genre": "science",
+          "score": 92,
+          "url": "https://www.youtube.com/watch?v=4l4k_0e4h-s"
+        },
+        {
+          "program_id": "Astro Horizons_program_4",
+          "start": 1550,
+          "end": 1639,
+          "genre": "science",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=4l4k_0e4h-s"
+        },
+        {
+          "program_id": "Astro Horizons_program_5",
+          "start": 1639,
+          "end": 1686,
+          "genre": "science",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=4l4k_0e4h-s"
+        },
+        {
+          "program_id": "Astro Horizons_program_6",
+          "start": 1686,
+          "end": 1746,
+          "genre": "science",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=4l4k_0e4h-s"
+        },
+        {
+          "program_id": "Astro Horizons_program_7",
+          "start": 1746,
+          "end": 1811,
+          "genre": "science",
+          "score": 92,
+          "url": "https://www.youtube.com/watch?v=4l4k_0e4h-s"
+        },
+        {
+          "program_id": "Astro Horizons_program_8",
+          "start": 1811,
+          "end": 1842,
+          "genre": "science",
+          "score": 81,
+          "url": "https://www.youtube.com/watch?v=4l4k_0e4h-s"
+        },
+        {
+          "program_id": "Astro Horizons_program_9",
+          "start": 1842,
+          "end": 1908,
+          "genre": "science",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=4l4k_0e4h-s"
+        },
+        {
+          "program_id": "Astro Horizons_program_10",
+          "start": 1908,
+          "end": 1939,
+          "genre": "science",
+          "score": 92,
+          "url": "https://www.youtube.com/watch?v=4l4k_0e4h-s"
+        },
+        {
+          "program_id": "Astro Horizons_program_11",
+          "start": 1939,
+          "end": 2008,
+          "genre": "science",
+          "score": 79,
+          "url": "https://www.youtube.com/watch?v=4l4k_0e4h-s"
+        }
+      ]
+    }
+  ]
+}
