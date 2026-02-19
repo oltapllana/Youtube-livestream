@@ -303,8 +303,10 @@ class SchedulerService:
         selected_categories = scheduling_params.get("category_filter") or []
         use_default_time_preferences = self._has_all_default_categories(selected_categories)
 
-        if use_default_time_preferences:
-            instance["time_preferences"] = self._build_default_time_preferences()
+        bonus_pct = scheduling_params.get("bonus_pct")
+        if use_default_time_preferences and bonus_pct:
+            bonus = self._pct_of(avg_score, bonus_pct)
+            instance["time_preferences"] = self._build_default_time_preferences(bonus)
         else:
             instance["time_preferences"] = []
 
@@ -339,25 +341,26 @@ class SchedulerService:
 
     @staticmethod
     def _build_default_time_preferences(
+        bonus: int,
     ) -> List[Dict[str, Any]]:
         return [
             {
                 "start": 480,
                 "end": 720,
                 "preferred_genre": "technology",
-                "bonus": 4,
+                "bonus": bonus,
             },
             {
                 "start": 720,
                 "end": 960,
                 "preferred_genre": "science",
-                "bonus": 4,
+                "bonus": bonus,
             },
             {
                 "start": 960,
                 "end": 1200,
                 "preferred_genre": "climate",
-                "bonus": 4,
+                "bonus": bonus,
             },
         ]
 

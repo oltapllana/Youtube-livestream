@@ -286,32 +286,58 @@ input,select{font-family:inherit}
   margin-top: 20px;
 }
 
+.channels-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.select-all-control {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #e6e6e6;
+  font-size: 13px;
+  cursor: pointer;
+}
+
 .channels-list {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  max-height: 200px;
+  gap: 0;
+  max-height: 300px;
   overflow-y: auto;
+  border: 1px solid #323a47;
+  border-radius: 10px;
+  background: rgba(14, 18, 28, 0.55);
 }
 
 .channel-item {
   display: flex;
   align-items: center;
-  gap: 10px;
-  padding: 10px 12px;
-  background: rgba(255, 255, 255, 0.02);
-  border: 1px solid #333;
-  border-radius: 6px;
-  cursor: pointer;
+  gap: 12px;
+  padding: 11px 12px;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid rgba(116, 130, 156, 0.25);
   transition: all 0.15s ease;
-  font-size: 13px;
+  font-size: 14px;
   color: #f1f1f1;
-  position: relative;
 }
 
 .channel-item:hover {
   background: rgba(62, 166, 255, 0.08);
-  border-color: #3ea6ff;
+}
+
+.channel-item:last-child {
+  border-bottom: 0;
+}
+
+.channel-left {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
 }
 
 .channel-checkbox {
@@ -325,10 +351,10 @@ input,select{font-family:inherit}
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 20px;
-  height: 20px;
-  background: #333;
-  border: 2px solid #555;
+  width: 22px;
+  height: 22px;
+  background: #1f2633;
+  border: 2px solid #60718b;
   border-radius: 4px;
   flex-shrink: 0;
   transition: all 0.15s ease;
@@ -346,11 +372,71 @@ input,select{font-family:inherit}
   font-weight: bold;
 }
 
+.checkmark.partial::after {
+  content: '';
+  width: 10px;
+  height: 2px;
+  border-radius: 2px;
+  background: white;
+}
+
+.channel-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  background: #f3f3f3;
+  color: #111;
+  display: grid;
+  place-items: center;
+  font-size: 11px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
 .channel-name {
   flex: 1;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-size: 13px;
+}
+
+.channel-category {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 92px;
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.channel-category.category-science {
+  background: #1f5aa7;
+}
+
+.channel-category.category-technology {
+  background: #5b2ea8;
+}
+
+.channel-category.category-climate {
+  background: #1d7b52;
+}
+
+.channel-more {
+  margin-left: 4px;
+  padding-left: 12px;
+  border: 0;
+  border-left: 1px solid rgba(116, 130, 156, 0.35);
+  background: transparent;
+  color: #a7b1c2;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0 4px;
 }
 
 .no-channels-hint {

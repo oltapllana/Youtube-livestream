@@ -168,13 +168,6 @@ const clockLabel = computed(() => {
 // ── Build payload from prefs ─────────────────────────────────
 function buildPayload() {
   const categoryFilter = normalizeCategories(prefs.value.categoryFilter)
-  const timePreferences = hasAllCategories(categoryFilter)
-    ? [
-        { start: 480, end: 720, preferred_genre: 'technology', bonus: 4 },
-        { start: 720, end: 960, preferred_genre: 'science', bonus: 4 },
-        { start: 960, end: 1200, preferred_genre: 'climate', bonus: 4 },
-      ]
-    : []
 
   return {
     opening_time: timeToMins(prefs.value.openTime),
@@ -184,7 +177,6 @@ function buildPayload() {
     switch_penalty_pct: prefs.value.switchPenaltyPct,
     termination_penalty: prefs.value.terminationPenalty,
     max_consecutive_genre: prefs.value.maxConsecutiveGenre,
-    time_preferences: timePreferences,
     bonus_pct: prefs.value.bonusPct,
     category_filter: categoryFilter,
     selected_channel_ids: prefs.value.selectedChannelIds,
@@ -194,13 +186,6 @@ function buildPayload() {
 // ── Build default payload with dynamic time window ───────────
 function buildAutoPayload(openTime, closeTime) {
   const categoryFilter = normalizeCategories(prefs.value.categoryFilter)
-  const timePreferences = hasAllCategories(categoryFilter)
-    ? [
-        { start: 480, end: 720, preferred_genre: 'technology', bonus: 4 },
-        { start: 720, end: 960, preferred_genre: 'science', bonus: 4 },
-        { start: 960, end: 1200, preferred_genre: 'climate', bonus: 4 },
-      ]
-    : []
 
   return {
     opening_time: openTime,
@@ -210,8 +195,7 @@ function buildAutoPayload(openTime, closeTime) {
     switch_penalty_pct: 10,
     termination_penalty: 20,
     max_consecutive_genre: prefs.value.maxConsecutiveGenre,
-    time_preferences: timePreferences,
-    bonus_pct: 5,
+    bonus_pct: prefs.value.bonusPct,
     category_filter: categoryFilter,
     selected_channel_ids: prefs.value.selectedChannelIds,
   }
