@@ -1,0 +1,166 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "NASA_program_0",
+            "channel_id": 4,
+            "start": 492,
+            "end": 522
+        },
+        {
+            "program_id": "The Financial Express_program_0",
+            "channel_id": 1,
+            "start": 522,
+            "end": 552
+        },
+        {
+            "program_id": "The Financial Express_program_1",
+            "channel_id": 1,
+            "start": 552,
+            "end": 590
+        },
+        {
+            "program_id": "NASA_program_1",
+            "channel_id": 4,
+            "start": 590,
+            "end": 626
+        },
+        {
+            "program_id": "NASA_program_2",
+            "channel_id": 4,
+            "start": 626,
+            "end": 656
+        },
+        {
+            "program_id": "Joey Does Tech_program_2",
+            "channel_id": 12,
+            "start": 656,
+            "end": 692
+        },
+        {
+            "program_id": "Joey Does Tech_program_3",
+            "channel_id": 12,
+            "start": 692,
+            "end": 722
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_3",
+            "channel_id": 8,
+            "start": 722,
+            "end": 752
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_4",
+            "channel_id": 8,
+            "start": 752,
+            "end": 782
+        },
+        {
+            "program_id": "Dream Trips_program_5",
+            "channel_id": 3,
+            "start": 783,
+            "end": 816
+        },
+        {
+            "program_id": "afarTV_program_5",
+            "channel_id": 6,
+            "start": 816,
+            "end": 850
+        },
+        {
+            "program_id": "afarTV_program_6",
+            "channel_id": 6,
+            "start": 850,
+            "end": 880
+        },
+        {
+            "program_id": "Joey Does Tech_program_6",
+            "channel_id": 12,
+            "start": 880,
+            "end": 910
+        },
+        {
+            "program_id": "NASASpaceflight_program_8",
+            "channel_id": 5,
+            "start": 911,
+            "end": 955
+        },
+        {
+            "program_id": "NASASpaceflight_program_9",
+            "channel_id": 5,
+            "start": 955,
+            "end": 985
+        },
+        {
+            "program_id": "Sen_program_8",
+            "channel_id": 2,
+            "start": 985,
+            "end": 1017
+        },
+        {
+            "program_id": "Crux_program_8",
+            "channel_id": 0,
+            "start": 1017,
+            "end": 1048
+        },
+        {
+            "program_id": "Space Streams_program_9",
+            "channel_id": 7,
+            "start": 1048,
+            "end": 1078
+        },
+        {
+            "program_id": "NASA_program_9",
+            "channel_id": 4,
+            "start": 1078,
+            "end": 1109
+        },
+        {
+            "program_id": "Sen_program_10",
+            "channel_id": 2,
+            "start": 1109,
+            "end": 1145
+        },
+        {
+            "program_id": "Sen_program_11",
+            "channel_id": 2,
+            "start": 1145,
+            "end": 1175
+        },
+        {
+            "program_id": "NASA_program_11",
+            "channel_id": 4,
+            "start": 1175,
+            "end": 1211
+        },
+        {
+            "program_id": "NASA_program_12",
+            "channel_id": 4,
+            "start": 1211,
+            "end": 1241
+        },
+        {
+            "program_id": "Dream Trips_program_12",
+            "channel_id": 3,
+            "start": 1241,
+            "end": 1282
+        },
+        {
+            "program_id": "Dream Trips_program_13",
+            "channel_id": 3,
+            "start": 1282,
+            "end": 1312
+        },
+        {
+            "program_id": "afarTV_program_13",
+            "channel_id": 6,
+            "start": 1312,
+            "end": 1343
+        },
+        {
+            "program_id": "afarTV_program_14",
+            "channel_id": 6,
+            "start": 1343,
+            "end": 1380
+        }
+    ]
+}

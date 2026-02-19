@@ -1,0 +1,166 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "afarTV_program_0",
+            "channel_id": 6,
+            "start": 492,
+            "end": 522
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_0",
+            "channel_id": 8,
+            "start": 522,
+            "end": 555
+        },
+        {
+            "program_id": "Sen_program_1",
+            "channel_id": 2,
+            "start": 555,
+            "end": 585
+        },
+        {
+            "program_id": "Space Streams_program_2",
+            "channel_id": 7,
+            "start": 585,
+            "end": 619
+        },
+        {
+            "program_id": "Space Streams_program_3",
+            "channel_id": 7,
+            "start": 619,
+            "end": 649
+        },
+        {
+            "program_id": "Joey Does Tech_program_2",
+            "channel_id": 12,
+            "start": 649,
+            "end": 679
+        },
+        {
+            "program_id": "Joey Does Tech_program_3",
+            "channel_id": 12,
+            "start": 679,
+            "end": 710
+        },
+        {
+            "program_id": "afarTV_program_4",
+            "channel_id": 6,
+            "start": 710,
+            "end": 750
+        },
+        {
+            "program_id": "afarTV_program_5",
+            "channel_id": 6,
+            "start": 750,
+            "end": 780
+        },
+        {
+            "program_id": "The Financial Express_program_5",
+            "channel_id": 1,
+            "start": 780,
+            "end": 813
+        },
+        {
+            "program_id": "NASA_program_4",
+            "channel_id": 4,
+            "start": 813,
+            "end": 843
+        },
+        {
+            "program_id": "NASA_program_5",
+            "channel_id": 4,
+            "start": 843,
+            "end": 873
+        },
+        {
+            "program_id": "Joey Does Tech_program_6",
+            "channel_id": 12,
+            "start": 873,
+            "end": 906
+        },
+        {
+            "program_id": "Joey Does Tech_program_7",
+            "channel_id": 12,
+            "start": 906,
+            "end": 943
+        },
+        {
+            "program_id": "NASASpaceflight_program_7",
+            "channel_id": 5,
+            "start": 943,
+            "end": 980
+        },
+        {
+            "program_id": "NASASpaceflight_program_8",
+            "channel_id": 5,
+            "start": 980,
+            "end": 1010
+        },
+        {
+            "program_id": "Sen_program_9",
+            "channel_id": 2,
+            "start": 1023,
+            "end": 1056
+        },
+        {
+            "program_id": "NASA_program_9",
+            "channel_id": 4,
+            "start": 1056,
+            "end": 1091
+        },
+        {
+            "program_id": "NASA_program_10",
+            "channel_id": 4,
+            "start": 1091,
+            "end": 1121
+        },
+        {
+            "program_id": "The Financial Express_program_11",
+            "channel_id": 1,
+            "start": 1130,
+            "end": 1161
+        },
+        {
+            "program_id": "The Financial Express_program_12",
+            "channel_id": 1,
+            "start": 1161,
+            "end": 1191
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_12",
+            "channel_id": 8,
+            "start": 1191,
+            "end": 1221
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_13",
+            "channel_id": 8,
+            "start": 1221,
+            "end": 1255
+        },
+        {
+            "program_id": "The Financial Express_program_14",
+            "channel_id": 1,
+            "start": 1255,
+            "end": 1285
+        },
+        {
+            "program_id": "afarTV_program_14",
+            "channel_id": 6,
+            "start": 1285,
+            "end": 1317
+        },
+        {
+            "program_id": "afarTV_program_15",
+            "channel_id": 6,
+            "start": 1317,
+            "end": 1347
+        },
+        {
+            "program_id": "Sen_program_15",
+            "channel_id": 2,
+            "start": 1350,
+            "end": 1380
+        }
+    ]
+}

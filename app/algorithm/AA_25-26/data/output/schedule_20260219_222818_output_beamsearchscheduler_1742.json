@@ -1,0 +1,160 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "NASA_program_0",
+            "channel_id": 4,
+            "start": 492,
+            "end": 526
+        },
+        {
+            "program_id": "NASA_program_1",
+            "channel_id": 4,
+            "start": 526,
+            "end": 565
+        },
+        {
+            "program_id": "Dream Trips_program_1",
+            "channel_id": 3,
+            "start": 565,
+            "end": 595
+        },
+        {
+            "program_id": "afarTV_program_1",
+            "channel_id": 6,
+            "start": 595,
+            "end": 629
+        },
+        {
+            "program_id": "afarTV_program_2",
+            "channel_id": 6,
+            "start": 629,
+            "end": 663
+        },
+        {
+            "program_id": "Dream Trips_program_2",
+            "channel_id": 3,
+            "start": 663,
+            "end": 697
+        },
+        {
+            "program_id": "Dream Trips_program_3",
+            "channel_id": 3,
+            "start": 697,
+            "end": 740
+        },
+        {
+            "program_id": "afarTV_program_4",
+            "channel_id": 6,
+            "start": 740,
+            "end": 771
+        },
+        {
+            "program_id": "afarTV_program_5",
+            "channel_id": 6,
+            "start": 771,
+            "end": 801
+        },
+        {
+            "program_id": "The Financial Express_program_6",
+            "channel_id": 1,
+            "start": 801,
+            "end": 832
+        },
+        {
+            "program_id": "The Financial Express_program_7",
+            "channel_id": 1,
+            "start": 832,
+            "end": 863
+        },
+        {
+            "program_id": "NASA_program_7",
+            "channel_id": 4,
+            "start": 868,
+            "end": 904
+        },
+        {
+            "program_id": "NASA_program_8",
+            "channel_id": 4,
+            "start": 904,
+            "end": 934
+        },
+        {
+            "program_id": "The Financial Express_program_9",
+            "channel_id": 1,
+            "start": 934,
+            "end": 972
+        },
+        {
+            "program_id": "NASASpaceflight_program_9",
+            "channel_id": 5,
+            "start": 972,
+            "end": 1002
+        },
+        {
+            "program_id": "NASASpaceflight_program_10",
+            "channel_id": 5,
+            "start": 1002,
+            "end": 1039
+        },
+        {
+            "program_id": "Joey Does Tech_program_10",
+            "channel_id": 12,
+            "start": 1039,
+            "end": 1069
+        },
+        {
+            "program_id": "afarTV_program_10",
+            "channel_id": 6,
+            "start": 1069,
+            "end": 1100
+        },
+        {
+            "program_id": "afarTV_program_11",
+            "channel_id": 6,
+            "start": 1100,
+            "end": 1136
+        },
+        {
+            "program_id": "Crux_program_11",
+            "channel_id": 0,
+            "start": 1136,
+            "end": 1166
+        },
+        {
+            "program_id": "afarTV_program_12",
+            "channel_id": 6,
+            "start": 1168,
+            "end": 1203
+        },
+        {
+            "program_id": "afarTV_program_13",
+            "channel_id": 6,
+            "start": 1203,
+            "end": 1233
+        },
+        {
+            "program_id": "Dream Trips_program_12",
+            "channel_id": 3,
+            "start": 1233,
+            "end": 1266
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_14",
+            "channel_id": 8,
+            "start": 1266,
+            "end": 1297
+        },
+        {
+            "program_id": "Crux_program_14",
+            "channel_id": 0,
+            "start": 1301,
+            "end": 1332
+        },
+        {
+            "program_id": "NASASpaceflight_program_16",
+            "channel_id": 5,
+            "start": 1334,
+            "end": 1380
+        }
+    ]
+}

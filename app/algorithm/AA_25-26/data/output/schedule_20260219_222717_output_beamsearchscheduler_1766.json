@@ -1,0 +1,166 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "NASA_program_0",
+            "channel_id": 4,
+            "start": 492,
+            "end": 530
+        },
+        {
+            "program_id": "NASA_program_1",
+            "channel_id": 4,
+            "start": 530,
+            "end": 568
+        },
+        {
+            "program_id": "Crux_program_1",
+            "channel_id": 0,
+            "start": 571,
+            "end": 607
+        },
+        {
+            "program_id": "Space Streams_program_2",
+            "channel_id": 7,
+            "start": 607,
+            "end": 639
+        },
+        {
+            "program_id": "Space Streams_program_3",
+            "channel_id": 7,
+            "start": 639,
+            "end": 669
+        },
+        {
+            "program_id": "The Financial Express_program_3",
+            "channel_id": 1,
+            "start": 669,
+            "end": 699
+        },
+        {
+            "program_id": "NASA_program_4",
+            "channel_id": 4,
+            "start": 701,
+            "end": 744
+        },
+        {
+            "program_id": "NASA_program_5",
+            "channel_id": 4,
+            "start": 744,
+            "end": 774
+        },
+        {
+            "program_id": "Joey Does Tech_program_4",
+            "channel_id": 12,
+            "start": 774,
+            "end": 804
+        },
+        {
+            "program_id": "Joey Does Tech_program_5",
+            "channel_id": 12,
+            "start": 804,
+            "end": 834
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_5",
+            "channel_id": 8,
+            "start": 834,
+            "end": 867
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_6",
+            "channel_id": 8,
+            "start": 867,
+            "end": 897
+        },
+        {
+            "program_id": "Sen_program_7",
+            "channel_id": 2,
+            "start": 897,
+            "end": 935
+        },
+        {
+            "program_id": "Sen_program_8",
+            "channel_id": 2,
+            "start": 935,
+            "end": 965
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_7",
+            "channel_id": 8,
+            "start": 965,
+            "end": 998
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_8",
+            "channel_id": 8,
+            "start": 998,
+            "end": 1028
+        },
+        {
+            "program_id": "Joey Does Tech_program_9",
+            "channel_id": 12,
+            "start": 1028,
+            "end": 1062
+        },
+        {
+            "program_id": "Joey Does Tech_program_10",
+            "channel_id": 12,
+            "start": 1062,
+            "end": 1092
+        },
+        {
+            "program_id": "Space Streams_program_10",
+            "channel_id": 7,
+            "start": 1092,
+            "end": 1123
+        },
+        {
+            "program_id": "Space Streams_program_11",
+            "channel_id": 7,
+            "start": 1123,
+            "end": 1153
+        },
+        {
+            "program_id": "Dream Trips_program_12",
+            "channel_id": 3,
+            "start": 1153,
+            "end": 1183
+        },
+        {
+            "program_id": "Joey Does Tech_program_12",
+            "channel_id": 12,
+            "start": 1183,
+            "end": 1213
+        },
+        {
+            "program_id": "NASA_program_13",
+            "channel_id": 4,
+            "start": 1218,
+            "end": 1253
+        },
+        {
+            "program_id": "NASA_program_14",
+            "channel_id": 4,
+            "start": 1253,
+            "end": 1285
+        },
+        {
+            "program_id": "Sen_program_14",
+            "channel_id": 2,
+            "start": 1285,
+            "end": 1315
+        },
+        {
+            "program_id": "NASASpaceflight_program_14",
+            "channel_id": 5,
+            "start": 1318,
+            "end": 1349
+        },
+        {
+            "program_id": "NASASpaceflight_program_15",
+            "channel_id": 5,
+            "start": 1349,
+            "end": 1380
+        }
+    ]
+}

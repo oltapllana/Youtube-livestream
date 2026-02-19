@@ -1,0 +1,172 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Crux_program_0",
+            "channel_id": 0,
+            "start": 492,
+            "end": 528
+        },
+        {
+            "program_id": "Crux_program_1",
+            "channel_id": 0,
+            "start": 528,
+            "end": 558
+        },
+        {
+            "program_id": "NASASpaceflight_program_1",
+            "channel_id": 5,
+            "start": 558,
+            "end": 590
+        },
+        {
+            "program_id": "NASASpaceflight_program_2",
+            "channel_id": 5,
+            "start": 590,
+            "end": 620
+        },
+        {
+            "program_id": "Dream Trips_program_2",
+            "channel_id": 3,
+            "start": 620,
+            "end": 652
+        },
+        {
+            "program_id": "NASA_program_3",
+            "channel_id": 4,
+            "start": 652,
+            "end": 682
+        },
+        {
+            "program_id": "NASASpaceflight_program_3",
+            "channel_id": 5,
+            "start": 682,
+            "end": 713
+        },
+        {
+            "program_id": "Sen_program_3",
+            "channel_id": 2,
+            "start": 713,
+            "end": 744
+        },
+        {
+            "program_id": "Sen_program_4",
+            "channel_id": 2,
+            "start": 744,
+            "end": 776
+        },
+        {
+            "program_id": "afarTV_program_4",
+            "channel_id": 6,
+            "start": 776,
+            "end": 806
+        },
+        {
+            "program_id": "Space Streams_program_4",
+            "channel_id": 7,
+            "start": 806,
+            "end": 836
+        },
+        {
+            "program_id": "Crux_program_6",
+            "channel_id": 0,
+            "start": 836,
+            "end": 866
+        },
+        {
+            "program_id": "NASASpaceflight_program_6",
+            "channel_id": 5,
+            "start": 866,
+            "end": 899
+        },
+        {
+            "program_id": "NASASpaceflight_program_7",
+            "channel_id": 5,
+            "start": 899,
+            "end": 931
+        },
+        {
+            "program_id": "Joey Does Tech_program_6",
+            "channel_id": 12,
+            "start": 931,
+            "end": 961
+        },
+        {
+            "program_id": "Crux_program_8",
+            "channel_id": 0,
+            "start": 961,
+            "end": 993
+        },
+        {
+            "program_id": "NASASpaceflight_program_9",
+            "channel_id": 5,
+            "start": 993,
+            "end": 1024
+        },
+        {
+            "program_id": "NASASpaceflight_program_10",
+            "channel_id": 5,
+            "start": 1024,
+            "end": 1054
+        },
+        {
+            "program_id": "Sen_program_8",
+            "channel_id": 2,
+            "start": 1054,
+            "end": 1084
+        },
+        {
+            "program_id": "Sen_program_9",
+            "channel_id": 2,
+            "start": 1084,
+            "end": 1119
+        },
+        {
+            "program_id": "afarTV_program_9",
+            "channel_id": 6,
+            "start": 1120,
+            "end": 1159
+        },
+        {
+            "program_id": "afarTV_program_10",
+            "channel_id": 6,
+            "start": 1159,
+            "end": 1189
+        },
+        {
+            "program_id": "Dream Trips_program_12",
+            "channel_id": 3,
+            "start": 1189,
+            "end": 1219
+        },
+        {
+            "program_id": "The Financial Express_program_12",
+            "channel_id": 1,
+            "start": 1219,
+            "end": 1250
+        },
+        {
+            "program_id": "NASASpaceflight_program_13",
+            "channel_id": 5,
+            "start": 1250,
+            "end": 1282
+        },
+        {
+            "program_id": "NASASpaceflight_program_14",
+            "channel_id": 5,
+            "start": 1282,
+            "end": 1312
+        },
+        {
+            "program_id": "Joey Does Tech_program_11",
+            "channel_id": 12,
+            "start": 1312,
+            "end": 1349
+        },
+        {
+            "program_id": "Joey Does Tech_program_12",
+            "channel_id": 12,
+            "start": 1349,
+            "end": 1380
+        }
+    ]
+}

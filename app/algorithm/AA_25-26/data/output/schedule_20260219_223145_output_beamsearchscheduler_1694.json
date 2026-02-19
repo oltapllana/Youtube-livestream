@@ -1,0 +1,154 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Space Streams_program_0",
+            "channel_id": 7,
+            "start": 492,
+            "end": 528
+        },
+        {
+            "program_id": "NASA_program_1",
+            "channel_id": 4,
+            "start": 536,
+            "end": 572
+        },
+        {
+            "program_id": "Joey Does Tech_program_1",
+            "channel_id": 12,
+            "start": 572,
+            "end": 602
+        },
+        {
+            "program_id": "Space Streams_program_3",
+            "channel_id": 7,
+            "start": 608,
+            "end": 644
+        },
+        {
+            "program_id": "Space Streams_program_4",
+            "channel_id": 7,
+            "start": 644,
+            "end": 674
+        },
+        {
+            "program_id": "Joey Does Tech_program_2",
+            "channel_id": 12,
+            "start": 674,
+            "end": 711
+        },
+        {
+            "program_id": "NASASpaceflight_program_3",
+            "channel_id": 5,
+            "start": 711,
+            "end": 741
+        },
+        {
+            "program_id": "NASASpaceflight_program_4",
+            "channel_id": 5,
+            "start": 741,
+            "end": 778
+        },
+        {
+            "program_id": "The Financial Express_program_4",
+            "channel_id": 1,
+            "start": 778,
+            "end": 815
+        },
+        {
+            "program_id": "Space Streams_program_6",
+            "channel_id": 7,
+            "start": 817,
+            "end": 856
+        },
+        {
+            "program_id": "Space Streams_program_7",
+            "channel_id": 7,
+            "start": 856,
+            "end": 886
+        },
+        {
+            "program_id": "Joey Does Tech_program_6",
+            "channel_id": 12,
+            "start": 886,
+            "end": 916
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_6",
+            "channel_id": 8,
+            "start": 916,
+            "end": 951
+        },
+        {
+            "program_id": "Dream Trips_program_7",
+            "channel_id": 3,
+            "start": 951,
+            "end": 987
+        },
+        {
+            "program_id": "NASASpaceflight_program_8",
+            "channel_id": 5,
+            "start": 990,
+            "end": 1025
+        },
+        {
+            "program_id": "NASASpaceflight_program_9",
+            "channel_id": 5,
+            "start": 1025,
+            "end": 1062
+        },
+        {
+            "program_id": "Joey Does Tech_program_10",
+            "channel_id": 12,
+            "start": 1062,
+            "end": 1093
+        },
+        {
+            "program_id": "Space Streams_program_12",
+            "channel_id": 7,
+            "start": 1093,
+            "end": 1123
+        },
+        {
+            "program_id": "Dream Trips_program_10",
+            "channel_id": 3,
+            "start": 1132,
+            "end": 1165
+        },
+        {
+            "program_id": "Dream Trips_program_11",
+            "channel_id": 3,
+            "start": 1165,
+            "end": 1195
+        },
+        {
+            "program_id": "Space Streams_program_13",
+            "channel_id": 7,
+            "start": 1195,
+            "end": 1231
+        },
+        {
+            "program_id": "Space Streams_program_14",
+            "channel_id": 7,
+            "start": 1231,
+            "end": 1264
+        },
+        {
+            "program_id": "The Financial Express_program_12",
+            "channel_id": 1,
+            "start": 1264,
+            "end": 1303
+        },
+        {
+            "program_id": "NASA_program_14",
+            "channel_id": 4,
+            "start": 1305,
+            "end": 1339
+        },
+        {
+            "program_id": "NASA_program_15",
+            "channel_id": 4,
+            "start": 1339,
+            "end": 1380
+        }
+    ]
+}
