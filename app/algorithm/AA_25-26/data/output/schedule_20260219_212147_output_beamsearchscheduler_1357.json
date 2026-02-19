@@ -1,0 +1,130 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "NASASpaceflight_program_0",
+            "channel_id": 5,
+            "start": 1281,
+            "end": 1331
+        },
+        {
+            "program_id": "NASASpaceflight_program_1",
+            "channel_id": 5,
+            "start": 1331,
+            "end": 1365
+        },
+        {
+            "program_id": "Joey Does Tech_program_1",
+            "channel_id": 12,
+            "start": 1365,
+            "end": 1395
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_2",
+            "channel_id": 8,
+            "start": 1395,
+            "end": 1428
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_3",
+            "channel_id": 8,
+            "start": 1428,
+            "end": 1458
+        },
+        {
+            "program_id": "The Financial Express_program_3",
+            "channel_id": 1,
+            "start": 1460,
+            "end": 1491
+        },
+        {
+            "program_id": "The Financial Express_program_4",
+            "channel_id": 1,
+            "start": 1491,
+            "end": 1527
+        },
+        {
+            "program_id": "afarTV_program_3",
+            "channel_id": 6,
+            "start": 1527,
+            "end": 1560
+        },
+        {
+            "program_id": "afarTV_program_4",
+            "channel_id": 6,
+            "start": 1560,
+            "end": 1591
+        },
+        {
+            "program_id": "Crux_program_5",
+            "channel_id": 0,
+            "start": 1595,
+            "end": 1637
+        },
+        {
+            "program_id": "Crux_program_6",
+            "channel_id": 0,
+            "start": 1637,
+            "end": 1667
+        },
+        {
+            "program_id": "NASA_program_6",
+            "channel_id": 4,
+            "start": 1667,
+            "end": 1699
+        },
+        {
+            "program_id": "NASASpaceflight_program_8",
+            "channel_id": 5,
+            "start": 1704,
+            "end": 1737
+        },
+        {
+            "program_id": "Joey Does Tech_program_7",
+            "channel_id": 12,
+            "start": 1742,
+            "end": 1772
+        },
+        {
+            "program_id": "Joey Does Tech_program_8",
+            "channel_id": 12,
+            "start": 1772,
+            "end": 1802
+        },
+        {
+            "program_id": "afarTV_program_8",
+            "channel_id": 6,
+            "start": 1802,
+            "end": 1832
+        },
+        {
+            "program_id": "Sen_program_9",
+            "channel_id": 2,
+            "start": 1832,
+            "end": 1863
+        },
+        {
+            "program_id": "Sen_program_10",
+            "channel_id": 2,
+            "start": 1863,
+            "end": 1893
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_10",
+            "channel_id": 8,
+            "start": 1893,
+            "end": 1928
+        },
+        {
+            "program_id": "afarTV_program_10",
+            "channel_id": 6,
+            "start": 1928,
+            "end": 1958
+        },
+        {
+            "program_id": "The Financial Express_program_12",
+            "channel_id": 1,
+            "start": 1969,
+            "end": 2001
+        }
+    ]
+}

@@ -1,0 +1,160 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Sen_program_0",
+            "channel_id": 2,
+            "start": 492,
+            "end": 527
+        },
+        {
+            "program_id": "Sen_program_1",
+            "channel_id": 2,
+            "start": 527,
+            "end": 558
+        },
+        {
+            "program_id": "NASASpaceflight_program_1",
+            "channel_id": 5,
+            "start": 558,
+            "end": 589
+        },
+        {
+            "program_id": "Sen_program_2",
+            "channel_id": 2,
+            "start": 589,
+            "end": 620
+        },
+        {
+            "program_id": "NASA_program_2",
+            "channel_id": 4,
+            "start": 630,
+            "end": 668
+        },
+        {
+            "program_id": "NASA_program_3",
+            "channel_id": 4,
+            "start": 668,
+            "end": 699
+        },
+        {
+            "program_id": "Joey Does Tech_program_2",
+            "channel_id": 12,
+            "start": 699,
+            "end": 731
+        },
+        {
+            "program_id": "Joey Does Tech_program_3",
+            "channel_id": 12,
+            "start": 731,
+            "end": 767
+        },
+        {
+            "program_id": "afarTV_program_4",
+            "channel_id": 6,
+            "start": 767,
+            "end": 805
+        },
+        {
+            "program_id": "afarTV_program_5",
+            "channel_id": 6,
+            "start": 805,
+            "end": 836
+        },
+        {
+            "program_id": "Crux_program_5",
+            "channel_id": 0,
+            "start": 836,
+            "end": 868
+        },
+        {
+            "program_id": "Crux_program_6",
+            "channel_id": 0,
+            "start": 868,
+            "end": 899
+        },
+        {
+            "program_id": "afarTV_program_6",
+            "channel_id": 6,
+            "start": 899,
+            "end": 930
+        },
+        {
+            "program_id": "afarTV_program_7",
+            "channel_id": 6,
+            "start": 930,
+            "end": 961
+        },
+        {
+            "program_id": "Dream Trips_program_8",
+            "channel_id": 3,
+            "start": 961,
+            "end": 992
+        },
+        {
+            "program_id": "afarTV_program_9",
+            "channel_id": 6,
+            "start": 1000,
+            "end": 1043
+        },
+        {
+            "program_id": "afarTV_program_10",
+            "channel_id": 6,
+            "start": 1043,
+            "end": 1077
+        },
+        {
+            "program_id": "The Financial Express_program_8",
+            "channel_id": 1,
+            "start": 1077,
+            "end": 1108
+        },
+        {
+            "program_id": "Dream Trips_program_11",
+            "channel_id": 3,
+            "start": 1108,
+            "end": 1139
+        },
+        {
+            "program_id": "NASASpaceflight_program_12",
+            "channel_id": 5,
+            "start": 1139,
+            "end": 1178
+        },
+        {
+            "program_id": "NASASpaceflight_program_13",
+            "channel_id": 5,
+            "start": 1178,
+            "end": 1211
+        },
+        {
+            "program_id": "Joey Does Tech_program_12",
+            "channel_id": 12,
+            "start": 1215,
+            "end": 1249
+        },
+        {
+            "program_id": "Joey Does Tech_program_13",
+            "channel_id": 12,
+            "start": 1249,
+            "end": 1280
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_15",
+            "channel_id": 8,
+            "start": 1280,
+            "end": 1312
+        },
+        {
+            "program_id": "Dream Trips_program_15",
+            "channel_id": 3,
+            "start": 1312,
+            "end": 1343
+        },
+        {
+            "program_id": "NASASpaceflight_program_15",
+            "channel_id": 5,
+            "start": 1343,
+            "end": 1380
+        }
+    ]
+}

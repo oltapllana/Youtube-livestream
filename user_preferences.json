@@ -1,6 +1,6 @@
 {
-  "opening_time": 492,
-  "closing_time": 1380,
+  "opening_time": 1291,
+  "closing_time": 571,
   "min_duration": 30,
   "min_duration_pct": 100,
   "channels_count": 10,
@@ -10,19 +10,9 @@
   "max_consecutive_genre": 2,
   "bonus_pct": 5,
   "category_filter": [
-    "technology",
-    "climate",
-    "science"
+    "technology"
   ],
   "selected_channel_ids": [
-    5,
-    10,
-    4,
-    6,
-    7,
-    8,
-    9,
-    13,
     0,
     1,
     2,

@@ -1,0 +1,130 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Space Streams_program_0",
+            "channel_id": 7,
+            "start": 1254,
+            "end": 1285
+        },
+        {
+            "program_id": "Space Streams_program_1",
+            "channel_id": 7,
+            "start": 1285,
+            "end": 1319
+        },
+        {
+            "program_id": "Dream Trips_program_2",
+            "channel_id": 3,
+            "start": 1321,
+            "end": 1356
+        },
+        {
+            "program_id": "Space Streams_program_2",
+            "channel_id": 7,
+            "start": 1356,
+            "end": 1391
+        },
+        {
+            "program_id": "Space Streams_program_3",
+            "channel_id": 7,
+            "start": 1391,
+            "end": 1421
+        },
+        {
+            "program_id": "Joey Does Tech_program_2",
+            "channel_id": 12,
+            "start": 1426,
+            "end": 1456
+        },
+        {
+            "program_id": "Joey Does Tech_program_3",
+            "channel_id": 12,
+            "start": 1456,
+            "end": 1496
+        },
+        {
+            "program_id": "NASA_program_4",
+            "channel_id": 4,
+            "start": 1512,
+            "end": 1550
+        },
+        {
+            "program_id": "NASA_program_5",
+            "channel_id": 4,
+            "start": 1550,
+            "end": 1584
+        },
+        {
+            "program_id": "Dream Trips_program_7",
+            "channel_id": 3,
+            "start": 1584,
+            "end": 1614
+        },
+        {
+            "program_id": "Space Streams_program_6",
+            "channel_id": 7,
+            "start": 1614,
+            "end": 1644
+        },
+        {
+            "program_id": "Space Streams_program_7",
+            "channel_id": 7,
+            "start": 1644,
+            "end": 1674
+        },
+        {
+            "program_id": "Joey Does Tech_program_6",
+            "channel_id": 12,
+            "start": 1674,
+            "end": 1712
+        },
+        {
+            "program_id": "Space Streams_program_8",
+            "channel_id": 7,
+            "start": 1712,
+            "end": 1745
+        },
+        {
+            "program_id": "Space Streams_program_9",
+            "channel_id": 7,
+            "start": 1745,
+            "end": 1779
+        },
+        {
+            "program_id": "The Financial Express_program_8",
+            "channel_id": 1,
+            "start": 1779,
+            "end": 1809
+        },
+        {
+            "program_id": "The Financial Express_program_9",
+            "channel_id": 1,
+            "start": 1809,
+            "end": 1839
+        },
+        {
+            "program_id": "afarTV_program_11",
+            "channel_id": 6,
+            "start": 1840,
+            "end": 1877
+        },
+        {
+            "program_id": "afarTV_program_12",
+            "channel_id": 6,
+            "start": 1877,
+            "end": 1907
+        },
+        {
+            "program_id": "Joey Does Tech_program_11",
+            "channel_id": 12,
+            "start": 1907,
+            "end": 1937
+        },
+        {
+            "program_id": "Joey Does Tech_program_12",
+            "channel_id": 12,
+            "start": 1937,
+            "end": 1974
+        }
+    ]
+}

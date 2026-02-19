@@ -1,0 +1,16 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "NASA_program_1",
+            "channel_id": 4,
+            "start": 1326,
+            "end": 1409
+        },
+        {
+            "program_id": "NASA_program_2",
+            "channel_id": 4,
+            "start": 1409,
+            "end": 1447
+        }
+    ]
+}

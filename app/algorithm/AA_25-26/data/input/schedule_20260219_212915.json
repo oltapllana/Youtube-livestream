@@ -1,0 +1,48 @@
+{
+  "opening_time": 1288,
+  "closing_time": 568,
+  "min_duration": 30,
+  "max_consecutive_genre": 2,
+  "channels_count": 7,
+  "switch_penalty": 0,
+  "termination_penalty": 20,
+  "priority_blocks": [],
+  "time_preferences": [],
+  "channels": [
+    {
+      "channel_id": 4,
+      "channel_name": "NASA",
+      "programs": []
+    },
+    {
+      "channel_id": 5,
+      "channel_name": "NASASpaceflight",
+      "programs": []
+    },
+    {
+      "channel_id": 6,
+      "channel_name": "afarTV",
+      "programs": []
+    },
+    {
+      "channel_id": 7,
+      "channel_name": "Space Streams",
+      "programs": []
+    },
+    {
+      "channel_id": 8,
+      "channel_name": "Frontiers of Infinity",
+      "programs": []
+    },
+    {
+      "channel_id": 9,
+      "channel_name": "Interstellar News Hub",
+      "programs": []
+    },
+    {
+      "channel_id": 13,
+      "channel_name": "Astro Horizons",
+      "programs": []
+    }
+  ]
+}
