@@ -208,8 +208,10 @@ class SchedulerService:
                 store.set_error(request_id, "Algorithm produced no output file")
                 return
 
-            # Build the enriched result — attach YouTube URLs from the instance
+            # Build the enriched result — attach YouTube URLs, genre, and channel names from the instance
             url_map = self._build_url_map(instance)
+            genre_map = self._build_genre_map(instance)
+            channel_name_map = self._build_channel_name_map(instance)
             scheduled = output_data.get("scheduled_programs", [])
             enriched_programs: List[Dict[str, Any]] = []
             for prog in scheduled:
@@ -217,6 +219,8 @@ class SchedulerService:
                 ch_id = prog.get("channel_id")
                 pid = prog.get("program_id")
                 enriched["url"] = url_map.get((ch_id, pid), url_map.get((ch_id, None), ""))
+                enriched["genre"] = genre_map.get((ch_id, pid), genre_map.get((ch_id, None), ""))
+                enriched["channel_name"] = channel_name_map.get(ch_id, f"Channel {ch_id}")
                 enriched_programs.append(enriched)
 
             result = {
@@ -248,6 +252,30 @@ class SchedulerService:
                 url_map[(ch_id, p["program_id"])] = p.get("url", "")
                 url_map[(ch_id, None)] = p.get("url", "")   # fallback
         return url_map
+
+    @staticmethod
+    def _build_genre_map(instance: Dict[str, Any]) -> Dict:
+        """
+        Build a map of (channel_id, program_id) → genre
+        and (channel_id, None) → genre  (fallback per channel).
+        """
+        genre_map: Dict = {}
+        for ch in instance.get("channels", []):
+            ch_id = ch["channel_id"]
+            for p in ch.get("programs", []):
+                genre_map[(ch_id, p["program_id"])] = p.get("genre", "")
+                genre_map[(ch_id, None)] = p.get("genre", "")
+        return genre_map
+
+    @staticmethod
+    def _build_channel_name_map(instance: Dict[str, Any]) -> Dict:
+        """
+        Build a map of channel_id → channel_name.
+        """
+        name_map: Dict = {}
+        for ch in instance.get("channels", []):
+            name_map[ch["channel_id"]] = ch.get("channel_name", f"Channel {ch['channel_id']}")
+        return name_map
 
     @staticmethod
     def _extract_score(output: Dict[str, Any]) -> float:

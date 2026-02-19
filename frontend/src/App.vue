@@ -28,7 +28,7 @@
         <h3 class="section-title">Schedule</h3>
         <ScheduleList
           :schedule="schedule"
-          :now="clockNow"
+          :now="adjustedNow"
           :loading="loader.open"
         />
       </section>
@@ -85,24 +85,65 @@ const prefs = ref({
 })
 
 let clockTimer = null
+let expirationTimer = null   // 1-second timer for precise schedule expiration
+let isRegenerating = false   // guard against double-triggering autoRegenerate
 
-function calcMinutesUntilScheduleEnd(payload) {
-  const now = getNowMins()
-  let minutesLeft = payload.closing_time - now
-  if (minutesLeft <= 0) {
-    minutesLeft += 1440
+/** Calculate ms until closing_time from right now (second-precise). */
+function msUntilClosing(closingTimeMinutes, openingTimeMinutes) {
+  const now = new Date()
+  const nowMs = now.getTime()
+
+  // Build a Date for closingTime today
+  const closingH = Math.floor(closingTimeMinutes / 60)
+  const closingM = closingTimeMinutes % 60
+
+  if (closingTimeMinutes > 1440) {
+    // Cross-midnight: closing is tomorrow
+    const closeDate = new Date(now)
+    const adjMin = closingTimeMinutes - 1440
+    closeDate.setHours(Math.floor(adjMin / 60), adjMin % 60, 0, 0)
+    // If we're before midnight (still in "today" part of the schedule)
+    if (now.getHours() * 60 + now.getMinutes() >= openingTimeMinutes) {
+      closeDate.setDate(closeDate.getDate() + 1)
+    }
+    const diff = closeDate.getTime() - nowMs
+    return diff > 0 ? diff : 0
   }
-  return minutesLeft
+
+  const closeDate = new Date(now)
+  closeDate.setHours(closingH, closingM, 0, 0)
+  const diff = closeDate.getTime() - nowMs
+  return diff > 0 ? diff : 0
 }
 
-// ── Computed: time-aware program lookup ──────────────────────
-const currentProg = computed(() => {
+// ── Computed: time-aware program lookup (handles cross-midnight) ──
+const adjustedNow = computed(() => {
   const now = clockNow.value
-  return schedule.value.find((p) => now >= p.start && now < p.end) || null
+  if (schedule.value.length === 0) return now
+  const maxEnd = Math.max(...schedule.value.map(p => p.end))
+  // If schedule has cross-midnight times (>1440) and we're in the early hours
+  if (maxEnd > 1440 && now < maxEnd - 1440) {
+    return now + 1440
+  }
+  return now
+})
+
+const currentProg = computed(() => {
+  const now = adjustedNow.value
+  // Primary: a program whose timeslot covers right now
+  const playing = schedule.value.find((p) => now >= p.start && now < p.end)
+  if (playing) return playing
+  // Grace period: show the program that JUST ended (within 2 minutes)
+  // so the video stays visible while auto-regeneration is in progress
+  const justEnded = [...schedule.value]
+    .filter(p => p.end <= now && (now - p.end) <= 2)
+    .sort((a, b) => b.end - a.end)[0]
+  if (justEnded) return justEnded
+  return null
 })
 
 const nextProg = computed(() => {
-  const now = clockNow.value
+  const now = adjustedNow.value
   return schedule.value.find((p) => p.start > now) || null
 })
 
@@ -178,9 +219,12 @@ async function runGenerate(customPayload = null) {
 
       schedule.value = data.scheduled_programs || []
 
-      // Track absolute end timestamp
-      const minutesLeft = calcMinutesUntilScheduleEnd(payload)
-      scheduleEndAt.value = Date.now() + minutesLeft * 60 * 1000
+      // Track absolute end timestamp (second-precise)
+      const msLeft = msUntilClosing(payload.closing_time, payload.opening_time)
+      scheduleEndAt.value = Date.now() + msLeft
+
+      // Start 1-second expiration timer
+      startExpirationTimer()
 
       // Update prefs UI (shfaq kohë normale)
       prefs.value.openTime = minsToTime(payload.opening_time % 1440)
@@ -196,14 +240,32 @@ async function runGenerate(customPayload = null) {
 
 
 // ── Auto-regenerate when schedule expires ────────────────────
+function startExpirationTimer() {
+  if (expirationTimer) clearInterval(expirationTimer)
+  expirationTimer = setInterval(() => {
+    if (scheduleEndAt.value !== null && Date.now() >= scheduleEndAt.value && !isRegenerating) {
+      console.log('[EXPIRATION] Schedule end reached, triggering auto-regenerate…')
+      clearInterval(expirationTimer)
+      expirationTimer = null
+      autoRegenerate()
+    }
+  }, 1000) // check every 1 second
+}
+
 async function autoRegenerate() {
-  const now = getNowMins()
-  const openTime = now
-  const closeTime = now + 720 // 12 hours later
-  
-  console.log(`[AUTO-REGENERATE] Schedule ended. Starting new 12-hour window: ${minsToTime(openTime)} → ${minsToTime(closeTime)}`)
-  
-  await runGenerate(buildAutoPayload(openTime, closeTime))
+  if (isRegenerating) return
+  isRegenerating = true
+  try {
+    const now = getNowMins()
+    const openTime = now
+    const closeTime = now + 720 // 12 hours later
+    
+    console.log(`[AUTO-REGENERATE] Starting new 12-hour window: ${minsToTime(openTime)} → ${minsToTime(closeTime)}`)
+    
+    await runGenerate(buildAutoPayload(openTime, closeTime))
+  } finally {
+    isRegenerating = false
+  }
 }
 
 // ── Panel actions ────────────────────────────────────────────
@@ -229,19 +291,34 @@ async function onSaveAndGenerate() {
 onMounted(async () => {
   // 1. Load saved preferences
   await loadPreferences()
-  // 2. Generate schedule immediately using those prefs
-  await runGenerate()
-  // 3. Clock tick every 5 seconds for time-aware sync
+
+  // 2. Check if current time is within the saved schedule window
+  const now = getNowMins()
+  const openMins = timeToMins(prefs.value.openTime)
+  const closeMins = timeToMins(prefs.value.closeTime)
+
+  if (now < openMins || now >= closeMins) {
+    // Current time is outside the schedule window → auto-regenerate
+    // with start = now, end = now + 12 hours
+    console.log(
+      `[MOUNT] Current time ${minsToTime(now)} is outside [${prefs.value.openTime}, ${prefs.value.closeTime}]. Auto-regenerating…`
+    )
+    await autoRegenerate()
+  } else {
+    await runGenerate()
+  }
+
+  // 3. Clock tick every 1 second for responsive time-aware sync
   clockTimer = setInterval(() => {
     clockNow.value = getNowMins()
-  }, 5000)
+  }, 1000)
 
   document.addEventListener('keydown', onKeydown)
 })
 
-// ── Watch for schedule expiration ────────────────────────────
+// ── Watch for schedule expiration (backup — main check is the 1s timer) ──
 watch(clockNow, () => {
-  if (scheduleEndAt.value !== null && Date.now() >= scheduleEndAt.value && !loader.open) {
+  if (scheduleEndAt.value !== null && Date.now() >= scheduleEndAt.value && !isRegenerating) {
     autoRegenerate()
   }
 })
@@ -250,6 +327,7 @@ watch(clockNow, () => {
 
 onUnmounted(() => {
   if (clockTimer) clearInterval(clockTimer)
+  if (expirationTimer) clearInterval(expirationTimer)
   document.removeEventListener('keydown', onKeydown)
 })
 

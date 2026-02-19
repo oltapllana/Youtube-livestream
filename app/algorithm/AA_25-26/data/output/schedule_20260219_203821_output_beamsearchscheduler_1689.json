@@ -1,0 +1,160 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Crux_program_0",
+            "channel_id": 0,
+            "start": 492,
+            "end": 522
+        },
+        {
+            "program_id": "afarTV_program_0",
+            "channel_id": 6,
+            "start": 522,
+            "end": 557
+        },
+        {
+            "program_id": "afarTV_program_1",
+            "channel_id": 6,
+            "start": 557,
+            "end": 597
+        },
+        {
+            "program_id": "Crux_program_2",
+            "channel_id": 0,
+            "start": 597,
+            "end": 634
+        },
+        {
+            "program_id": "Crux_program_3",
+            "channel_id": 0,
+            "start": 634,
+            "end": 681
+        },
+        {
+            "program_id": "NASA_program_2",
+            "channel_id": 4,
+            "start": 681,
+            "end": 723
+        },
+        {
+            "program_id": "NASA_program_3",
+            "channel_id": 4,
+            "start": 723,
+            "end": 756
+        },
+        {
+            "program_id": "Joey Does Tech_program_3",
+            "channel_id": 12,
+            "start": 756,
+            "end": 788
+        },
+        {
+            "program_id": "NASA_program_4",
+            "channel_id": 4,
+            "start": 788,
+            "end": 820
+        },
+        {
+            "program_id": "Space Streams_program_4",
+            "channel_id": 7,
+            "start": 825,
+            "end": 864
+        },
+        {
+            "program_id": "Sen_program_6",
+            "channel_id": 2,
+            "start": 864,
+            "end": 901
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_7",
+            "channel_id": 8,
+            "start": 907,
+            "end": 945
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_8",
+            "channel_id": 8,
+            "start": 945,
+            "end": 975
+        },
+        {
+            "program_id": "Sen_program_8",
+            "channel_id": 2,
+            "start": 975,
+            "end": 1005
+        },
+        {
+            "program_id": "afarTV_program_8",
+            "channel_id": 6,
+            "start": 1005,
+            "end": 1037
+        },
+        {
+            "program_id": "afarTV_program_9",
+            "channel_id": 6,
+            "start": 1037,
+            "end": 1068
+        },
+        {
+            "program_id": "Crux_program_11",
+            "channel_id": 0,
+            "start": 1068,
+            "end": 1098
+        },
+        {
+            "program_id": "Space Streams_program_9",
+            "channel_id": 7,
+            "start": 1098,
+            "end": 1134
+        },
+        {
+            "program_id": "Space Streams_program_10",
+            "channel_id": 7,
+            "start": 1134,
+            "end": 1164
+        },
+        {
+            "program_id": "The Financial Express_program_11",
+            "channel_id": 1,
+            "start": 1166,
+            "end": 1198
+        },
+        {
+            "program_id": "The Financial Express_program_12",
+            "channel_id": 1,
+            "start": 1198,
+            "end": 1228
+        },
+        {
+            "program_id": "NASA_program_10",
+            "channel_id": 4,
+            "start": 1228,
+            "end": 1259
+        },
+        {
+            "program_id": "Crux_program_14",
+            "channel_id": 0,
+            "start": 1259,
+            "end": 1289
+        },
+        {
+            "program_id": "NASASpaceflight_program_10",
+            "channel_id": 5,
+            "start": 1289,
+            "end": 1319
+        },
+        {
+            "program_id": "The Financial Express_program_13",
+            "channel_id": 1,
+            "start": 1319,
+            "end": 1349
+        },
+        {
+            "program_id": "The Financial Express_program_14",
+            "channel_id": 1,
+            "start": 1349,
+            "end": 1380
+        }
+    ]
+}

@@ -387,11 +387,22 @@ class InstanceGenerator:
                 continue
 
         # Apply requested category / channel filters (if provided)
+        logger.info("Filtering — category_filter=%s, selected_channel_ids=%s", cat_filter, list(chan_id_set) if chan_id_set else [])
         if cat_filter:
             cat_set = set(map(str, cat_filter))
             available_streams = [s for s in available_streams if str(s.get("category")) in cat_set]
+            logger.info("After category filter: %d streams", len(available_streams))
         if chan_id_set:
             available_streams = [s for s in available_streams if int(s.get("channel_id", -1)) in chan_id_set]
+            logger.info("After channel filter: %d streams", len(available_streams))
+
+        # Fallback: if filters result in zero streams, use all streams
+        if not available_streams:
+            logger.warning(
+                "Category/channel filters produced 0 streams (cat=%s, chan=%s). Falling back to all streams.",
+                cat_filter, list(chan_id_set) if chan_id_set else [],
+            )
+            available_streams = self.streams.copy()
 
         # Optionally discover additional live streams from the same channels
         if discover_new_streams and probe_streams:

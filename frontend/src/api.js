@@ -4,10 +4,11 @@ const API = `${API_BASE}/api`
 
 
 
-/** Convert minutes-from-midnight to "HH:MM" */
+/** Convert minutes-from-midnight to "HH:MM" (handles >1440 cross-midnight) */
 export function minsToTime(m) {
-  const h = Math.floor(m / 60)
-  const mm = m % 60
+  const normalized = ((m % 1440) + 1440) % 1440 // wrap into 0-1439
+  const h = Math.floor(normalized / 60)
+  const mm = normalized % 60
   return `${String(h).padStart(2, '0')}:${String(mm).padStart(2, '0')}`
 }
 

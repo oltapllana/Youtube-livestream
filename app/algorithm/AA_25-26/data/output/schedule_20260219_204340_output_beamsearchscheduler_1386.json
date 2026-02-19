@@ -1,0 +1,136 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Frontiers of Infinity_program_0",
+            "channel_id": 8,
+            "start": 1243,
+            "end": 1273
+        },
+        {
+            "program_id": "NASASpaceflight_program_0",
+            "channel_id": 5,
+            "start": 1273,
+            "end": 1303
+        },
+        {
+            "program_id": "Crux_program_1",
+            "channel_id": 0,
+            "start": 1303,
+            "end": 1333
+        },
+        {
+            "program_id": "NASA_program_1",
+            "channel_id": 4,
+            "start": 1333,
+            "end": 1364
+        },
+        {
+            "program_id": "NASA_program_2",
+            "channel_id": 4,
+            "start": 1364,
+            "end": 1399
+        },
+        {
+            "program_id": "Dream Trips_program_2",
+            "channel_id": 3,
+            "start": 1399,
+            "end": 1435
+        },
+        {
+            "program_id": "Dream Trips_program_3",
+            "channel_id": 3,
+            "start": 1435,
+            "end": 1465
+        },
+        {
+            "program_id": "Space Streams_program_3",
+            "channel_id": 7,
+            "start": 1465,
+            "end": 1498
+        },
+        {
+            "program_id": "Space Streams_program_4",
+            "channel_id": 7,
+            "start": 1498,
+            "end": 1528
+        },
+        {
+            "program_id": "The Financial Express_program_4",
+            "channel_id": 1,
+            "start": 1528,
+            "end": 1558
+        },
+        {
+            "program_id": "NASA_program_5",
+            "channel_id": 4,
+            "start": 1560,
+            "end": 1594
+        },
+        {
+            "program_id": "NASA_program_6",
+            "channel_id": 4,
+            "start": 1594,
+            "end": 1624
+        },
+        {
+            "program_id": "Crux_program_7",
+            "channel_id": 0,
+            "start": 1624,
+            "end": 1665
+        },
+        {
+            "program_id": "Space Streams_program_7",
+            "channel_id": 7,
+            "start": 1670,
+            "end": 1709
+        },
+        {
+            "program_id": "Space Streams_program_8",
+            "channel_id": 7,
+            "start": 1709,
+            "end": 1739
+        },
+        {
+            "program_id": "Crux_program_9",
+            "channel_id": 0,
+            "start": 1739,
+            "end": 1769
+        },
+        {
+            "program_id": "afarTV_program_7",
+            "channel_id": 6,
+            "start": 1769,
+            "end": 1799
+        },
+        {
+            "program_id": "afarTV_program_8",
+            "channel_id": 6,
+            "start": 1799,
+            "end": 1829
+        },
+        {
+            "program_id": "Crux_program_10",
+            "channel_id": 0,
+            "start": 1829,
+            "end": 1859
+        },
+        {
+            "program_id": "NASA_program_11",
+            "channel_id": 4,
+            "start": 1860,
+            "end": 1894
+        },
+        {
+            "program_id": "The Financial Express_program_10",
+            "channel_id": 1,
+            "start": 1894,
+            "end": 1928
+        },
+        {
+            "program_id": "The Financial Express_program_11",
+            "channel_id": 1,
+            "start": 1928,
+            "end": 1963
+        }
+    ]
+}

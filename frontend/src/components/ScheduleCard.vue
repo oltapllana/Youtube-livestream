@@ -6,7 +6,7 @@
     </div>
     <div class="sched-details">
       <span class="sched-title">{{ title }}</span>
-      <span class="sched-channel">Channel {{ program.channel_id }}</span>
+      <span class="sched-channel">{{ channelLabel }}</span>
       <span class="sched-time">{{ timeRange }}</span>
       <span v-if="program.genre" class="sched-genre">{{ program.genre }}</span>
     </div>
@@ -23,6 +23,7 @@ const props = defineProps({
 })
 
 const title = computed(() => cleanTitle(props.program.program_id))
+const channelLabel = computed(() => props.program.channel_name || `Channel ${props.program.channel_id}`)
 const timeRange = computed(() => `${minsToTime(props.program.start)} — ${minsToTime(props.program.end)}`)
 const thumb = computed(() => props.program.url ? thumbUrl(props.program.url) : '')
 </script>
