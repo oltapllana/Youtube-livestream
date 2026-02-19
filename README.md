@@ -13,6 +13,12 @@
       <h3>Faculty of Electrical and Computer Engineering</h3>
       <p>Master’s Program in Computer and Software Engineering</p>
       <p><strong>Professor:</strong> Dr. Techn. Kadri Sylejmani</p>
+      <p><strong>Students:</strong></p>
+      <ul>
+        <li>Olta Pllana</li>
+        <li>Qendresa Potoku</li>
+        <li>Erza Merovci</li>
+      </ul>
     </td>
  </tr>
 </table>

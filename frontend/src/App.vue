@@ -69,7 +69,7 @@ const showPrefs  = ref(false)
 
 const schedule   = ref([])
 const clockNow   = ref(getNowMins())
-const scheduleClosingTime = ref(null) // Track when current schedule ends
+const scheduleEndAt = ref(null) // Absolute timestamp (ms) when current schedule ends
 
 const prefs = ref({
   openTime: '08:00',
@@ -85,6 +85,15 @@ const prefs = ref({
 })
 
 let clockTimer = null
+
+function calcMinutesUntilScheduleEnd(payload) {
+  const now = getNowMins()
+  let minutesLeft = payload.closing_time - now
+  if (minutesLeft <= 0) {
+    minutesLeft += 1440
+  }
+  return minutesLeft
+}
 
 // ── Computed: time-aware program lookup ──────────────────────
 const currentProg = computed(() => {
@@ -161,21 +170,22 @@ async function loadPreferences() {
 let genCount = 0
 
 async function runGenerate(customPayload = null) {
-  const id = ++genCount
-  console.log(`[GEN ${id}] start`, new Date().toISOString())
-
-  const t0 = performance.now()
+  loading.value = true
+  loadingMsg.value = 'Discovering live streams and generating schedule…'
   try {
-    return await withLoader(
-      { title: 'Generating', message: 'Building schedule…' },
-      async () => {
-        const payload = customPayload || buildPayload()
-        const data = await apiGenerate(payload)
-        console.log(`[GEN ${id}] api ms`, Math.round(performance.now() - t0))
-        schedule.value = data.scheduled_programs || []
-        scheduleClosingTime.value = payload.closing_time
-      }
-    )
+    const payload = customPayload || buildPayload()
+    const data = await apiGenerate(payload)
+    schedule.value = data.scheduled_programs || []
+    
+    // Track closing time from the payload used
+    scheduleClosingTime.value = payload.closing_time
+    
+    // Update prefs UI to reflect what's currently scheduled
+    prefs.value.openTime = minsToTime(payload.opening_time)
+    prefs.value.closeTime = minsToTime(payload.closing_time)
+  } catch (err) {
+    console.error('Schedule generation failed:', err)
+    alert('Error: ' + err.message)
   } finally {
     console.log(`[GEN ${id}] end`)
   }
@@ -227,12 +237,10 @@ onMounted(async () => {
 })
 
 // ── Watch for schedule expiration ────────────────────────────
-const regenerating = ref(false)
-
-watch(clockNow, async (now) => {
-  if (scheduleClosingTime.value !== null && now >= scheduleClosingTime.value && !regenerating.value) {
-    regenerating.value = true
-    try { await autoRegenerate() } finally { regenerating.value = false }
+watch(clockNow, (now) => {
+  // If current time exceeds schedule closing time, auto-regenerate
+  if (scheduleClosingTime.value !== null && now >= scheduleClosingTime.value && !loading.value) {
+    autoRegenerate()
   }
 })
 

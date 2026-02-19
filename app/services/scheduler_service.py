@@ -324,7 +324,6 @@ class SchedulerService:
             (480, 720, "technology"),
             (720, 960, "science"),
             (960, 1200, "climate"),
-            (1200, 1380, "technology"),
         ]
         prefs: List[Dict[str, Any]] = []
         for start, end, genre in blocks:
