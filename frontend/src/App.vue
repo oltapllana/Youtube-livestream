@@ -14,8 +14,8 @@
         <VideoPlayer
           :program="currentProg"
           :next-program="nextProg"
-          :loading="loading"
-          :loading-msg="loadingMsg"
+          :loading="loader.open"
+          :loading-msg="loader.message"
           :has-schedule="schedule.length > 0"
         />
         <NowPlaying
@@ -29,12 +29,17 @@
         <ScheduleList
           :schedule="schedule"
           :now="clockNow"
-          :loading="loading"
+          :loading="loader.open"
         />
       </section>
     </main>
 
-    <LoadingOverlay v-if="loading" :message="loadingMsg" />
+ <LoadingOverlay
+  :open="loader.open"
+  :title="loader.title"
+  :message="loader.message"
+/>
+
   </div>
 </template>
 
@@ -56,11 +61,12 @@ import VideoPlayer from './components/VideoPlayer.vue'
 import NowPlaying from './components/NowPlaying.vue'
 import ScheduleList from './components/ScheduleList.vue'
 import LoadingOverlay from './components/LoadingOverlay.vue'
+import { useLoading, withLoader } from './loading.js'
 
 // ── State ────────────────────────────────────────────────────
+const loader = useLoading()
 const showPrefs  = ref(false)
-const loading    = ref(false)
-const loadingMsg = ref('Generating schedule…')
+
 const schedule   = ref([])
 const clockNow   = ref(getNowMins())
 const scheduleClosingTime = ref(null) // Track when current schedule ends
@@ -133,45 +139,48 @@ function buildAutoPayload(openTime, closeTime) {
 
 // ── Load prefs from API ──────────────────────────────────────
 async function loadPreferences() {
-  try {
-    const data = await fetchPreferences()
-    prefs.value.openTime = minsToTime(data.opening_time ?? 480)
-    prefs.value.closeTime = minsToTime(data.closing_time ?? 1380)
-    prefs.value.minDurationPct = data.min_duration_pct ?? 100
-    prefs.value.channelsCount = data.channels_count ?? 10
-    prefs.value.switchPenaltyPct = data.switch_penalty_pct ?? 10
-    prefs.value.terminationPenalty = data.termination_penalty ?? 20
-    prefs.value.maxConsecutiveGenre = data.max_consecutive_genre ?? 2
-    prefs.value.bonusPct = data.bonus_pct ?? 5
-    prefs.value.categoryFilter = data.category_filter ?? []
-    prefs.value.selectedChannelIds = data.selected_channel_ids ?? []
-  } catch (e) {
-    console.warn('Could not load preferences:', e)
-  }
+  return withLoader(
+    { title: 'Loading', message: 'Fetching preferences…' },
+    async () => {
+      const data = await fetchPreferences()
+      prefs.value.openTime = minsToTime(data.opening_time ?? 480)
+      prefs.value.closeTime = minsToTime(data.closing_time ?? 1380)
+      prefs.value.minDurationPct = data.min_duration_pct ?? 100
+      prefs.value.channelsCount = data.channels_count ?? 10
+      prefs.value.switchPenaltyPct = data.switch_penalty_pct ?? 10
+      prefs.value.terminationPenalty = data.termination_penalty ?? 20
+      prefs.value.maxConsecutiveGenre = data.max_consecutive_genre ?? 2
+      prefs.value.bonusPct = data.bonus_pct ?? 5
+      prefs.value.categoryFilter = data.category_filter ?? []
+      prefs.value.selectedChannelIds = data.selected_channel_ids ?? []
+    }
+  ).catch((e) => console.warn('Could not load preferences:', e))
 }
 
 // ── Generate schedule ────────────────────────────────────────
+let genCount = 0
+
 async function runGenerate(customPayload = null) {
-  loading.value = true
-  loadingMsg.value = 'Discovering live streams and generating schedule…'
+  const id = ++genCount
+  console.log(`[GEN ${id}] start`, new Date().toISOString())
+
+  const t0 = performance.now()
   try {
-    const payload = customPayload || buildPayload()
-    const data = await apiGenerate(payload)
-    schedule.value = data.scheduled_programs || []
-    
-    // Track closing time from the payload used
-    scheduleClosingTime.value = payload.closing_time
-    
-    // Update prefs UI to reflect what's currently scheduled
-    prefs.value.openTime = minsToTime(payload.opening_time)
-    prefs.value.closeTime = minsToTime(payload.closing_time)
-  } catch (err) {
-    console.error('Schedule generation failed:', err)
-    alert('Error: ' + err.message)
+    return await withLoader(
+      { title: 'Generating', message: 'Building schedule…' },
+      async () => {
+        const payload = customPayload || buildPayload()
+        const data = await apiGenerate(payload)
+        console.log(`[GEN ${id}] api ms`, Math.round(performance.now() - t0))
+        schedule.value = data.scheduled_programs || []
+        scheduleClosingTime.value = payload.closing_time
+      }
+    )
   } finally {
-    loading.value = false
+    console.log(`[GEN ${id}] end`)
   }
 }
+
 
 // ── Auto-regenerate when schedule expires ────────────────────
 async function autoRegenerate() {
@@ -186,13 +195,21 @@ async function autoRegenerate() {
 
 // ── Panel actions ────────────────────────────────────────────
 async function onSavePrefs() {
-  return await apiSavePrefs(buildPayload())
+  return withLoader(
+    { title: 'Saving', message: 'Saving preferences…' },
+    () => apiSavePrefs(buildPayload())
+  )
 }
 
 async function onSaveAndGenerate() {
-  await apiSavePrefs(buildPayload())
-  showPrefs.value = false
-  await runGenerate()
+  return withLoader(
+    { title: 'Saving', message: 'Saving & generating…' },
+    async () => {
+      await apiSavePrefs(buildPayload())
+      showPrefs.value = false
+      await runGenerate()
+    }
+  )
 }
 
 // ── Lifecycle ────────────────────────────────────────────────
@@ -210,12 +227,15 @@ onMounted(async () => {
 })
 
 // ── Watch for schedule expiration ────────────────────────────
-watch(clockNow, (now) => {
-  // If current time exceeds schedule closing time, auto-regenerate
-  if (scheduleClosingTime.value !== null && now >= scheduleClosingTime.value && !loading.value) {
-    autoRegenerate()
+const regenerating = ref(false)
+
+watch(clockNow, async (now) => {
+  if (scheduleClosingTime.value !== null && now >= scheduleClosingTime.value && !regenerating.value) {
+    regenerating.value = true
+    try { await autoRegenerate() } finally { regenerating.value = false }
   }
 })
+
 
 onUnmounted(() => {
   if (clockTimer) clearInterval(clockTimer)

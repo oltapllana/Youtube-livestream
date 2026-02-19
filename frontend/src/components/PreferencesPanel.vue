@@ -95,6 +95,7 @@
 <script setup>
 import { ref, watch, onMounted } from 'vue'
 import { fetchStreams } from '../api.js'
+import { withLoader } from '../loading.js'
 
 const props = defineProps({
   open: { type: Boolean, default: false },
@@ -109,21 +110,38 @@ const statusColor = ref('#aaa')
 const channels = ref([])
 
 async function loadStreams() {
-  try {
-    const data = await fetchStreams(false)
-    const selCats = props.prefs.categoryFilter || []
-    if (selCats.length === 0) {
-      channels.value = []
-    } else {
-      channels.value = selCats.flatMap(cat => (data[cat] || []).map(s => ({ ...s, category: cat })))
+  // opsionale: mos e ngarko nëse paneli është i mbyllun
+  if (!props.open) return
+
+  return withLoader(
+    { title: 'Loading channels', message: 'Fetching streams…' },
+    async () => {
+      try {
+        const data = await fetchStreams(false)
+        const selCats = props.prefs.categoryFilter || []
+        if (selCats.length === 0) {
+          channels.value = []
+        } else {
+          channels.value = selCats.flatMap(cat => (data[cat] || []).map(s => ({ ...s, category: cat })))
+        }
+      } catch (e) {
+        channels.value = []
+      }
     }
-  } catch (e) {
-    channels.value = []
-  }
+  )
 }
 
-onMounted(loadStreams)
-watch(() => props.prefs.categoryFilter, loadStreams, { deep: true })
+
+onMounted(() => {
+  if (props.open) loadStreams()
+})
+
+watch(
+  () => [props.open, props.prefs.categoryFilter],
+  () => { if (props.open) loadStreams() },
+  { deep: true }
+)
+
 
 async function onSave() {
   try {

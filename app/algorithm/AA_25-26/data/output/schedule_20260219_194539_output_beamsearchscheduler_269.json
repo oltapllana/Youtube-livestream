@@ -1,0 +1,28 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_0",
+            "channel_id": 10,
+            "start": 1182,
+            "end": 1221
+        },
+        {
+            "program_id": "NASASpaceflight_program_1",
+            "channel_id": 5,
+            "start": 1229,
+            "end": 1272
+        },
+        {
+            "program_id": "NASASpaceflight_program_2",
+            "channel_id": 5,
+            "start": 1272,
+            "end": 1311
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_2",
+            "channel_id": 10,
+            "start": 1311,
+            "end": 1362
+        }
+    ]
+}

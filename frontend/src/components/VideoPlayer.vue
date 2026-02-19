@@ -9,10 +9,10 @@
       </template>
 
       <!-- No schedule generated yet -->
-      <template v-else-if="!hasSchedule">
-        <svg viewBox="0 0 24 24" class="play-big"><path d="M8 5v14l11-7z" /></svg>
-        <p>Generating schedule…</p>
-      </template>
+   <template v-else-if="!hasSchedule">
+  <div class="spinner"></div>
+</template>
+
 
       <!-- Waiting for next program -->
       <template v-else-if="nextProgram">
@@ -85,3 +85,18 @@ function onFsChange() {
 onMounted(() => document.addEventListener('fullscreenchange', onFsChange))
 onUnmounted(() => document.removeEventListener('fullscreenchange', onFsChange))
 </script>
+<style scoped>
+.spinner{
+  width: 42px;
+  height: 42px;
+  border-radius: 999px;
+  border: 3px solid rgba(255,255,255,.18);
+  border-top-color: rgba(255,255,255,.92);
+  animation: spin 1s linear infinite;
+  margin: 0 auto 10px;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+</style>

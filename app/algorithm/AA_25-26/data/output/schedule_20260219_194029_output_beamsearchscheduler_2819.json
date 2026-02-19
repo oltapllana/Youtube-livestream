@@ -1,0 +1,286 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "NASASpaceflight_program_0",
+            "channel_id": 5,
+            "start": 372,
+            "end": 415
+        },
+        {
+            "program_id": "NASASpaceflight_program_1",
+            "channel_id": 5,
+            "start": 415,
+            "end": 446
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_1",
+            "channel_id": 10,
+            "start": 446,
+            "end": 492
+        },
+        {
+            "program_id": "NASASpaceflight_program_2",
+            "channel_id": 5,
+            "start": 492,
+            "end": 523
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_2",
+            "channel_id": 10,
+            "start": 523,
+            "end": 558
+        },
+        {
+            "program_id": "NASA_program_3",
+            "channel_id": 4,
+            "start": 558,
+            "end": 589
+        },
+        {
+            "program_id": "NASA_program_4",
+            "channel_id": 4,
+            "start": 589,
+            "end": 623
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_4",
+            "channel_id": 10,
+            "start": 623,
+            "end": 654
+        },
+        {
+            "program_id": "NASASpaceflight_program_4",
+            "channel_id": 5,
+            "start": 654,
+            "end": 689
+        },
+        {
+            "program_id": "NASASpaceflight_program_5",
+            "channel_id": 5,
+            "start": 689,
+            "end": 720
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_5",
+            "channel_id": 10,
+            "start": 720,
+            "end": 759
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_6",
+            "channel_id": 10,
+            "start": 759,
+            "end": 790
+        },
+        {
+            "program_id": "NASASpaceflight_program_7",
+            "channel_id": 5,
+            "start": 790,
+            "end": 828
+        },
+        {
+            "program_id": "NASASpaceflight_program_8",
+            "channel_id": 5,
+            "start": 828,
+            "end": 859
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_8",
+            "channel_id": 10,
+            "start": 859,
+            "end": 890
+        },
+        {
+            "program_id": "NASA_program_9",
+            "channel_id": 4,
+            "start": 890,
+            "end": 933
+        },
+        {
+            "program_id": "NASA_program_10",
+            "channel_id": 4,
+            "start": 933,
+            "end": 964
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_9",
+            "channel_id": 10,
+            "start": 964,
+            "end": 1003
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_10",
+            "channel_id": 10,
+            "start": 1003,
+            "end": 1034
+        },
+        {
+            "program_id": "NASASpaceflight_program_11",
+            "channel_id": 5,
+            "start": 1034,
+            "end": 1080
+        },
+        {
+            "program_id": "NASASpaceflight_program_12",
+            "channel_id": 5,
+            "start": 1080,
+            "end": 1111
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_11",
+            "channel_id": 10,
+            "start": 1111,
+            "end": 1160
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_12",
+            "channel_id": 10,
+            "start": 1160,
+            "end": 1197
+        },
+        {
+            "program_id": "NASASpaceflight_program_14",
+            "channel_id": 5,
+            "start": 1206,
+            "end": 1252
+        },
+        {
+            "program_id": "NASASpaceflight_program_15",
+            "channel_id": 5,
+            "start": 1252,
+            "end": 1283
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_15",
+            "channel_id": 10,
+            "start": 1297,
+            "end": 1329
+        },
+        {
+            "program_id": "NASASpaceflight_program_16",
+            "channel_id": 5,
+            "start": 1329,
+            "end": 1360
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_17",
+            "channel_id": 10,
+            "start": 1360,
+            "end": 1396
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_18",
+            "channel_id": 10,
+            "start": 1396,
+            "end": 1427
+        },
+        {
+            "program_id": "NASASpaceflight_program_17",
+            "channel_id": 5,
+            "start": 1427,
+            "end": 1463
+        },
+        {
+            "program_id": "NASASpaceflight_program_18",
+            "channel_id": 5,
+            "start": 1463,
+            "end": 1494
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_20",
+            "channel_id": 10,
+            "start": 1494,
+            "end": 1528
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_21",
+            "channel_id": 10,
+            "start": 1528,
+            "end": 1559
+        },
+        {
+            "program_id": "NASA_program_19",
+            "channel_id": 4,
+            "start": 1563,
+            "end": 1599
+        },
+        {
+            "program_id": "NASA_program_20",
+            "channel_id": 4,
+            "start": 1599,
+            "end": 1630
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_23",
+            "channel_id": 10,
+            "start": 1630,
+            "end": 1661
+        },
+        {
+            "program_id": "NASASpaceflight_program_21",
+            "channel_id": 5,
+            "start": 1661,
+            "end": 1720
+        },
+        {
+            "program_id": "NASASpaceflight_program_22",
+            "channel_id": 5,
+            "start": 1720,
+            "end": 1751
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_25",
+            "channel_id": 10,
+            "start": 1751,
+            "end": 1785
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_26",
+            "channel_id": 10,
+            "start": 1785,
+            "end": 1816
+        },
+        {
+            "program_id": "NASASpaceflight_program_24",
+            "channel_id": 5,
+            "start": 1822,
+            "end": 1861
+        },
+        {
+            "program_id": "NASASpaceflight_program_25",
+            "channel_id": 5,
+            "start": 1861,
+            "end": 1906
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_27",
+            "channel_id": 10,
+            "start": 1906,
+            "end": 1954
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_28",
+            "channel_id": 10,
+            "start": 1954,
+            "end": 1985
+        },
+        {
+            "program_id": "NASASpaceflight_program_27",
+            "channel_id": 5,
+            "start": 1985,
+            "end": 2021
+        },
+        {
+            "program_id": "NASASpaceflight_program_28",
+            "channel_id": 5,
+            "start": 2021,
+            "end": 2052
+        },
+        {
+            "program_id": "Interstellar News Hub (Climate)_program_29",
+            "channel_id": 10,
+            "start": 2052,
+            "end": 2090
+        }
+    ]
+}
