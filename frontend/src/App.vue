@@ -63,6 +63,18 @@ import ScheduleList from './components/ScheduleList.vue'
 import LoadingOverlay from './components/LoadingOverlay.vue'
 import { useLoading, withLoader } from './loading.js'
 
+const ALL_CATEGORIES = ['science', 'technology', 'climate']
+
+function normalizeCategories(categories = []) {
+  if (!Array.isArray(categories)) return []
+  return [...new Set(categories.map((c) => String(c).toLowerCase()))]
+}
+
+function hasAllCategories(categories = []) {
+  const selected = new Set(normalizeCategories(categories))
+  return ALL_CATEGORIES.every((cat) => selected.has(cat))
+}
+
 // ── State ────────────────────────────────────────────────────
 const loader = useLoading()
 const showPrefs  = ref(false)
@@ -80,7 +92,7 @@ const prefs = ref({
   terminationPenalty: 20,
   maxConsecutiveGenre: 2,
   bonusPct: 5,
-  categoryFilter: [],
+  categoryFilter: [...ALL_CATEGORIES],
   selectedChannelIds: [],
 })
 
@@ -155,6 +167,15 @@ const clockLabel = computed(() => {
 
 // ── Build payload from prefs ─────────────────────────────────
 function buildPayload() {
+  const categoryFilter = normalizeCategories(prefs.value.categoryFilter)
+  const timePreferences = hasAllCategories(categoryFilter)
+    ? [
+        { start: 480, end: 720, preferred_genre: 'technology', bonus: 4 },
+        { start: 720, end: 960, preferred_genre: 'science', bonus: 4 },
+        { start: 960, end: 1200, preferred_genre: 'climate', bonus: 4 },
+      ]
+    : []
+
   return {
     opening_time: timeToMins(prefs.value.openTime),
     closing_time: timeToMins(prefs.value.closeTime),
@@ -163,15 +184,24 @@ function buildPayload() {
     switch_penalty_pct: prefs.value.switchPenaltyPct,
     termination_penalty: prefs.value.terminationPenalty,
     max_consecutive_genre: prefs.value.maxConsecutiveGenre,
-    time_preferences: [],
+    time_preferences: timePreferences,
     bonus_pct: prefs.value.bonusPct,
-    category_filter: prefs.value.categoryFilter,
+    category_filter: categoryFilter,
     selected_channel_ids: prefs.value.selectedChannelIds,
   }
 }
 
 // ── Build default payload with dynamic time window ───────────
 function buildAutoPayload(openTime, closeTime) {
+  const categoryFilter = normalizeCategories(prefs.value.categoryFilter)
+  const timePreferences = hasAllCategories(categoryFilter)
+    ? [
+        { start: 480, end: 720, preferred_genre: 'technology', bonus: 4 },
+        { start: 720, end: 960, preferred_genre: 'science', bonus: 4 },
+        { start: 960, end: 1200, preferred_genre: 'climate', bonus: 4 },
+      ]
+    : []
+
   return {
     opening_time: openTime,
     closing_time: closeTime,
@@ -179,10 +209,10 @@ function buildAutoPayload(openTime, closeTime) {
     channels_count: 10,
     switch_penalty_pct: 10,
     termination_penalty: 20,
-    max_consecutive_genre: 2,
-    time_preferences: [],
+    max_consecutive_genre: prefs.value.maxConsecutiveGenre,
+    time_preferences: timePreferences,
     bonus_pct: 5,
-    category_filter: prefs.value.categoryFilter,
+    category_filter: categoryFilter,
     selected_channel_ids: prefs.value.selectedChannelIds,
   }
 }
@@ -201,7 +231,8 @@ async function loadPreferences() {
       prefs.value.terminationPenalty = data.termination_penalty ?? 20
       prefs.value.maxConsecutiveGenre = data.max_consecutive_genre ?? 2
       prefs.value.bonusPct = data.bonus_pct ?? 5
-      prefs.value.categoryFilter = data.category_filter ?? []
+      const loadedCategories = normalizeCategories(data.category_filter ?? [])
+      prefs.value.categoryFilter = loadedCategories.length ? loadedCategories : [...ALL_CATEGORIES]
       prefs.value.selectedChannelIds = data.selected_channel_ids ?? []
     }
   ).catch((e) => console.warn('Could not load preferences:', e))

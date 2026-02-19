@@ -229,7 +229,7 @@ DEFAULT_PREFERENCES = {
     "max_consecutive_genre": DEFAULT_MAX_CONSECUTIVE_GENRE,
     "time_preferences": [],
     "bonus_pct": None,
-    "category_filter": [],
+    "category_filter": ["science", "technology", "climate"],
     "selected_channel_ids": [],
 }
 
@@ -245,7 +245,7 @@ class UserPreferences(BaseModel):
     termination_penalty: int = Field(default=20)
     max_consecutive_genre: int = Field(default=2)
     bonus_pct: Optional[int] = Field(default=5, description="Time preference bonus % of average score")
-    category_filter: Optional[List[str]] = Field(default_factory=list, description="Selected categories")
+    category_filter: Optional[List[str]] = Field(default_factory=lambda: ["science", "technology", "climate"], description="Selected categories")
     selected_channel_ids: Optional[List[int]] = Field(default_factory=list, description="Selected channel IDs")
 
 

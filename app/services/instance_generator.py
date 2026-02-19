@@ -423,7 +423,12 @@ class InstanceGenerator:
                 total_streams,
             )
 
-        selected_streams = available_streams[:channels_count]
+        selected_streams = self._select_streams(
+            available_streams=available_streams,
+            channels_count=channels_count,
+            category_filter=cat_filter,
+            has_explicit_channel_filter=bool(chan_id_set),
+        )
 
         # Optionally probe each stream for real metadata
         stream_metadata: Dict[str, Optional[Dict[str, Any]]] = {}
@@ -484,6 +489,79 @@ class InstanceGenerator:
 
         programs = self._generate_programs(channel_id, title, category, url, opening_time, closing_time, min_duration, meta)
         return {"channel_id": channel_id, "channel_name": title, "programs": programs}
+
+    def _select_streams(
+        self,
+        available_streams: List[Dict[str, Any]],
+        channels_count: int,
+        category_filter: Any,
+        has_explicit_channel_filter: bool,
+    ) -> List[Dict[str, Any]]:
+        """
+        Select streams for scheduling.
+
+        - If explicit channel IDs are provided, preserve filtered order and take first N.
+        - If multiple categories are selected, distribute picks round-robin by category
+          to avoid starving categories that appear later in the static stream list.
+        """
+        if channels_count >= len(available_streams):
+            return available_streams
+
+        if has_explicit_channel_filter:
+            return available_streams[:channels_count]
+
+        if not isinstance(category_filter, (list, tuple, set)):
+            return available_streams[:channels_count]
+
+        ordered_categories: List[str] = []
+        seen = set()
+        for cat in category_filter:
+            normalized = str(cat).lower()
+            if normalized and normalized not in seen:
+                seen.add(normalized)
+                ordered_categories.append(normalized)
+
+        if len(ordered_categories) <= 1:
+            return available_streams[:channels_count]
+
+        grouped: Dict[str, List[Dict[str, Any]]] = {
+            cat: [
+                stream
+                for stream in available_streams
+                if str(stream.get("category", "")).lower() == cat
+            ]
+            for cat in ordered_categories
+        }
+
+        selected: List[Dict[str, Any]] = []
+        indices = {cat: 0 for cat in ordered_categories}
+
+        while len(selected) < channels_count:
+            made_progress = False
+            for cat in ordered_categories:
+                idx = indices[cat]
+                bucket = grouped.get(cat, [])
+                if idx < len(bucket):
+                    selected.append(bucket[idx])
+                    indices[cat] = idx + 1
+                    made_progress = True
+                    if len(selected) >= channels_count:
+                        break
+            if not made_progress:
+                break
+
+        if len(selected) < channels_count:
+            used_urls = {stream.get("url") for stream in selected}
+            for stream in available_streams:
+                url = stream.get("url")
+                if url in used_urls:
+                    continue
+                selected.append(stream)
+                used_urls.add(url)
+                if len(selected) >= channels_count:
+                    break
+
+        return selected
 
     def _generate_programs(
         self,

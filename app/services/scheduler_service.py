@@ -300,18 +300,13 @@ class SchedulerService:
         if switch_penalty_pct:
             instance["switch_penalty"] = self._pct_of(avg_score, switch_penalty_pct)
 
-        bonus_pct = scheduling_params.get("bonus_pct")
-        if bonus_pct:
-            bonus = self._pct_of(avg_score, bonus_pct)
-            instance["time_preferences"] = self._build_default_time_preferences(
-                instance["opening_time"],
-                instance["closing_time"],
-                bonus,
-            )
+        selected_categories = scheduling_params.get("category_filter") or []
+        use_default_time_preferences = self._has_all_default_categories(selected_categories)
+
+        if use_default_time_preferences:
+            instance["time_preferences"] = self._build_default_time_preferences()
         else:
-            instance["time_preferences"] = scheduling_params.get(
-                "time_preferences", instance.get("time_preferences", [])
-            )
+            instance["time_preferences"] = []
 
         return instance
 
@@ -344,26 +339,32 @@ class SchedulerService:
 
     @staticmethod
     def _build_default_time_preferences(
-        opening_time: int,
-        closing_time: int,
-        bonus: int,
     ) -> List[Dict[str, Any]]:
-        blocks = [
-            (480, 720, "technology"),
-            (720, 960, "science"),
-            (960, 1200, "climate"),
+        return [
+            {
+                "start": 480,
+                "end": 720,
+                "preferred_genre": "technology",
+                "bonus": 4,
+            },
+            {
+                "start": 720,
+                "end": 960,
+                "preferred_genre": "science",
+                "bonus": 4,
+            },
+            {
+                "start": 960,
+                "end": 1200,
+                "preferred_genre": "climate",
+                "bonus": 4,
+            },
         ]
-        prefs: List[Dict[str, Any]] = []
-        for start, end, genre in blocks:
-            adj_start = max(start, opening_time)
-            adj_end = min(end, closing_time)
-            if adj_start < adj_end:
-                prefs.append(
-                    {
-                        "start": adj_start,
-                        "end": adj_end,
-                        "preferred_genre": genre,
-                        "bonus": bonus,
-                    }
-                )
-        return prefs
+
+    @staticmethod
+    def _has_all_default_categories(categories: Any) -> bool:
+        required = {"technology", "science", "climate"}
+        if not isinstance(categories, (list, tuple, set)):
+            return False
+        selected = {str(category).lower() for category in categories}
+        return required.issubset(selected)
