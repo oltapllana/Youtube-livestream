@@ -1,0 +1,46 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "afarTV_program_0",
+            "channel_id": 6,
+            "start": 700,
+            "end": 781
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_1",
+            "channel_id": 8,
+            "start": 782,
+            "end": 819
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_2",
+            "channel_id": 8,
+            "start": 819,
+            "end": 855
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_3",
+            "channel_id": 8,
+            "start": 874,
+            "end": 905
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_4",
+            "channel_id": 8,
+            "start": 905,
+            "end": 936
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_5",
+            "channel_id": 8,
+            "start": 936,
+            "end": 976
+        },
+        {
+            "program_id": "afarTV_program_4",
+            "channel_id": 6,
+            "start": 978,
+            "end": 1012
+        }
+    ]
+}

@@ -212,6 +212,7 @@ class SchedulerService:
             url_map = self._build_url_map(instance)
             genre_map = self._build_genre_map(instance)
             channel_name_map = self._build_channel_name_map(instance)
+            program_name_map = self._build_program_name_map(instance)
             scheduled = output_data.get("scheduled_programs", [])
             enriched_programs: List[Dict[str, Any]] = []
             for prog in scheduled:
@@ -221,6 +222,8 @@ class SchedulerService:
                 enriched["url"] = url_map.get((ch_id, pid), url_map.get((ch_id, None), ""))
                 enriched["genre"] = genre_map.get((ch_id, pid), genre_map.get((ch_id, None), ""))
                 enriched["channel_name"] = channel_name_map.get(ch_id, f"Channel {ch_id}")
+                # Use actual YouTube video title from instance, fallback to cleaned program_id
+                enriched["program_name"] = program_name_map.get((ch_id, pid), program_name_map.get((ch_id, None), pid.replace("_", " ") if pid else ""))
                 enriched_programs.append(enriched)
 
             result = {
@@ -275,6 +278,20 @@ class SchedulerService:
         name_map: Dict = {}
         for ch in instance.get("channels", []):
             name_map[ch["channel_id"]] = ch.get("channel_name", f"Channel {ch['channel_id']}")
+        return name_map
+
+    @staticmethod
+    def _build_program_name_map(instance: Dict[str, Any]) -> Dict:
+        """
+        Build a map of (channel_id, program_id) → program_name (actual YouTube video title).
+        """
+        name_map: Dict = {}
+        for ch in instance.get("channels", []):
+            ch_id = ch["channel_id"]
+            for p in ch.get("programs", []):
+                if p.get("program_name"):
+                    name_map[(ch_id, p["program_id"])] = p["program_name"]
+                    name_map[(ch_id, None)] = p["program_name"]  # fallback
         return name_map
 
     @staticmethod

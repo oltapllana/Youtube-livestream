@@ -1,0 +1,112 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "afarTV_program_0",
+            "channel_id": 6,
+            "start": 696,
+            "end": 738
+        },
+        {
+            "program_id": "afarTV_program_1",
+            "channel_id": 6,
+            "start": 738,
+            "end": 777
+        },
+        {
+            "program_id": "Joey Does Tech_program_1",
+            "channel_id": 12,
+            "start": 777,
+            "end": 807
+        },
+        {
+            "program_id": "Space Streams_program_1",
+            "channel_id": 7,
+            "start": 807,
+            "end": 838
+        },
+        {
+            "program_id": "Space Streams_program_2",
+            "channel_id": 7,
+            "start": 838,
+            "end": 868
+        },
+        {
+            "program_id": "NASA_program_2",
+            "channel_id": 4,
+            "start": 868,
+            "end": 901
+        },
+        {
+            "program_id": "NASA_program_3",
+            "channel_id": 4,
+            "start": 901,
+            "end": 939
+        },
+        {
+            "program_id": "NASA_program_4",
+            "channel_id": 4,
+            "start": 939,
+            "end": 969
+        },
+        {
+            "program_id": "NASASpaceflight_program_4",
+            "channel_id": 5,
+            "start": 969,
+            "end": 1004
+        },
+        {
+            "program_id": "NASASpaceflight_program_5",
+            "channel_id": 5,
+            "start": 1004,
+            "end": 1034
+        },
+        {
+            "program_id": "Sen_program_6",
+            "channel_id": 2,
+            "start": 1034,
+            "end": 1064
+        },
+        {
+            "program_id": "Space Streams_program_5",
+            "channel_id": 7,
+            "start": 1064,
+            "end": 1096
+        },
+        {
+            "program_id": "Space Streams_program_6",
+            "channel_id": 7,
+            "start": 1096,
+            "end": 1130
+        },
+        {
+            "program_id": "Space Streams_program_7",
+            "channel_id": 7,
+            "start": 1130,
+            "end": 1160
+        },
+        {
+            "program_id": "afarTV_program_7",
+            "channel_id": 6,
+            "start": 1160,
+            "end": 1191
+        },
+        {
+            "program_id": "Space Streams_program_8",
+            "channel_id": 7,
+            "start": 1197,
+            "end": 1235
+        },
+        {
+            "program_id": "Dream Trips_program_10",
+            "channel_id": 3,
+            "start": 1238,
+            "end": 1270
+        },
+        {
+            "program_id": "Dream Trips_program_11",
+            "channel_id": 3,
+            "start": 1270,
+            "end": 1301
+        }
+    ]
+}

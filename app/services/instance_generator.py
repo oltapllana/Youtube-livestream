@@ -8,8 +8,46 @@ import random
 import logging
 import subprocess
 import json
+import os
+from pathlib import Path
 
 logger = logging.getLogger(__name__)
+
+# ── Title Cache ─────────────────────────────────────────────────────────────
+# Cache YouTube video titles by URL to avoid re-probing
+TITLE_CACHE_FILE = Path(__file__).parent.parent.parent / "title_cache.json"
+_title_cache: Dict[str, str] = {}
+
+def _load_title_cache() -> None:
+    global _title_cache
+    if TITLE_CACHE_FILE.exists():
+        try:
+            with open(TITLE_CACHE_FILE, "r", encoding="utf-8") as f:
+                _title_cache = json.load(f)
+            logger.info("Loaded %d cached titles", len(_title_cache))
+        except Exception as e:
+            logger.warning("Failed to load title cache: %s", e)
+            _title_cache = {}
+
+def _save_title_cache() -> None:
+    try:
+        with open(TITLE_CACHE_FILE, "w", encoding="utf-8") as f:
+            json.dump(_title_cache, f, ensure_ascii=False, indent=2)
+    except Exception as e:
+        logger.warning("Failed to save title cache: %s", e)
+
+def get_cached_title(url: str) -> Optional[str]:
+    """Get cached title for a YouTube URL."""
+    return _title_cache.get(url)
+
+def cache_title(url: str, title: str) -> None:
+    """Cache a YouTube video title."""
+    if title and url:
+        _title_cache[url] = title
+        _save_title_cache()
+
+# Load cache on module import
+_load_title_cache()
 
 
 # ── Hardcoded YouTube live-stream database ──────────────────────────────────
@@ -148,8 +186,12 @@ def probe_youtube_stream(url: str, timeout: int = 15) -> Optional[Dict[str, Any]
             return None
 
         info = json.loads(result.stdout)
+        title = info.get("title", "")
+        # Cache the title for future use without re-probing
+        if title:
+            cache_title(url, title)
         return {
-            "title": info.get("title", ""),
+            "title": title,
             "is_live": info.get("is_live", False),
             "duration": info.get("duration"),  # None for live streams
             "description": (info.get("description") or "")[:200],
@@ -584,6 +626,15 @@ class InstanceGenerator:
 
         is_live = meta["is_live"] if meta else False
         live_bonus = 10 if is_live else 0
+        # Get the actual YouTube video title from metadata, or from cache if not probing
+        video_title = ""
+        if meta and meta.get("title"):
+            video_title = meta["title"]
+        else:
+            # Try to get from cache (previously probed)
+            cached = get_cached_title(url)
+            if cached:
+                video_title = cached
 
         while current_time < closing_time:
             remaining = closing_time - current_time
@@ -597,6 +648,7 @@ class InstanceGenerator:
             programs.append(
                 {
                     "program_id": f"{title}_program_{program_count}",
+                    "program_name": video_title if video_title else f"{title} program {program_count}",
                     "start": current_time,
                     "end": program_end,
                     "genre": category,

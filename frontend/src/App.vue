@@ -23,7 +23,12 @@
         </section>
 
         <aside class="schedule-sidebar">
-          <h3 class="section-title">Up Next</h3>
+          <div class="sidebar-header">
+            <h3 class="section-title">Up Next</h3>
+            <span v-if="schedule.length" class="schedule-stats">
+              {{ futureCount }} programs remaining
+            </span>
+          </div>
           <ScheduleList :schedule="schedule" :now="adjustedNow" :loading="loader.open" />
         </aside>
       </div>
@@ -149,9 +154,16 @@ const nextProg = computed(() => {
   return schedule.value.find((p) => p.start > now) || null;
 });
 
+const futureCount = computed(() => {
+  const now = adjustedNow.value;
+  return schedule.value.filter((p) => p.start > now).length;
+});
+
 const clockLabel = computed(() => {
-  if (currentProg.value)
-    return `Now playing: ${cleanTitle(currentProg.value.program_id)}`;
+  if (currentProg.value) {
+    const name = currentProg.value.program_name || cleanTitle(currentProg.value.program_id);
+    return `Now playing: ${name}`;
+  }
   if (nextProg.value) return `Next at ${minsToTime(nextProg.value.start)}`;
   return minsToTime(clockNow.value);
 });

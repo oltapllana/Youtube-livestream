@@ -1,0 +1,100 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Crux_program_0",
+            "channel_id": 0,
+            "start": 729,
+            "end": 771
+        },
+        {
+            "program_id": "Crux_program_1",
+            "channel_id": 0,
+            "start": 771,
+            "end": 802
+        },
+        {
+            "program_id": "afarTV_program_1",
+            "channel_id": 6,
+            "start": 802,
+            "end": 836
+        },
+        {
+            "program_id": "afarTV_program_2",
+            "channel_id": 6,
+            "start": 836,
+            "end": 870
+        },
+        {
+            "program_id": "afarTV_program_3",
+            "channel_id": 6,
+            "start": 870,
+            "end": 913
+        },
+        {
+            "program_id": "afarTV_program_4",
+            "channel_id": 6,
+            "start": 913,
+            "end": 956
+        },
+        {
+            "program_id": "afarTV_program_5",
+            "channel_id": 6,
+            "start": 956,
+            "end": 994
+        },
+        {
+            "program_id": "afarTV_program_6",
+            "channel_id": 6,
+            "start": 994,
+            "end": 1025
+        },
+        {
+            "program_id": "Joey Does Tech_program_4",
+            "channel_id": 12,
+            "start": 1025,
+            "end": 1059
+        },
+        {
+            "program_id": "afarTV_program_7",
+            "channel_id": 6,
+            "start": 1064,
+            "end": 1095
+        },
+        {
+            "program_id": "afarTV_program_8",
+            "channel_id": 6,
+            "start": 1095,
+            "end": 1126
+        },
+        {
+            "program_id": "Space Streams_program_6",
+            "channel_id": 7,
+            "start": 1126,
+            "end": 1158
+        },
+        {
+            "program_id": "Space Streams_program_7",
+            "channel_id": 7,
+            "start": 1158,
+            "end": 1189
+        },
+        {
+            "program_id": "afarTV_program_9",
+            "channel_id": 6,
+            "start": 1189,
+            "end": 1222
+        },
+        {
+            "program_id": "NASASpaceflight_program_7",
+            "channel_id": 5,
+            "start": 1222,
+            "end": 1253
+        },
+        {
+            "program_id": "NASASpaceflight_program_8",
+            "channel_id": 5,
+            "start": 1253,
+            "end": 1291
+        }
+    ]
+}

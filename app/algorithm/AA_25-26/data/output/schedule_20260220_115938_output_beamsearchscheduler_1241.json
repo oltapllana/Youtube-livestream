@@ -1,0 +1,112 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Frontiers of Infinity_program_0",
+            "channel_id": 8,
+            "start": 719,
+            "end": 751
+        },
+        {
+            "program_id": "afarTV_program_0",
+            "channel_id": 6,
+            "start": 751,
+            "end": 784
+        },
+        {
+            "program_id": "afarTV_program_1",
+            "channel_id": 6,
+            "start": 784,
+            "end": 814
+        },
+        {
+            "program_id": "Crux_program_1",
+            "channel_id": 0,
+            "start": 814,
+            "end": 850
+        },
+        {
+            "program_id": "Crux_program_2",
+            "channel_id": 0,
+            "start": 850,
+            "end": 886
+        },
+        {
+            "program_id": "NASA_program_2",
+            "channel_id": 4,
+            "start": 886,
+            "end": 919
+        },
+        {
+            "program_id": "NASA_program_3",
+            "channel_id": 4,
+            "start": 919,
+            "end": 949
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_4",
+            "channel_id": 8,
+            "start": 949,
+            "end": 980
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_5",
+            "channel_id": 8,
+            "start": 980,
+            "end": 1010
+        },
+        {
+            "program_id": "NASA_program_4",
+            "channel_id": 4,
+            "start": 1010,
+            "end": 1042
+        },
+        {
+            "program_id": "NASA_program_5",
+            "channel_id": 4,
+            "start": 1042,
+            "end": 1073
+        },
+        {
+            "program_id": "NASA_program_6",
+            "channel_id": 4,
+            "start": 1073,
+            "end": 1113
+        },
+        {
+            "program_id": "Crux_program_7",
+            "channel_id": 0,
+            "start": 1113,
+            "end": 1143
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_7",
+            "channel_id": 8,
+            "start": 1143,
+            "end": 1173
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_8",
+            "channel_id": 8,
+            "start": 1173,
+            "end": 1203
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_9",
+            "channel_id": 8,
+            "start": 1203,
+            "end": 1233
+        },
+        {
+            "program_id": "NASA_program_9",
+            "channel_id": 4,
+            "start": 1233,
+            "end": 1273
+        },
+        {
+            "program_id": "NASA_program_10",
+            "channel_id": 4,
+            "start": 1273,
+            "end": 1307
+        }
+    ]
+}

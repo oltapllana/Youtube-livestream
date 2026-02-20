@@ -1,0 +1,100 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction 2026-02-20 12:01_program_0",
+            "channel_id": 5,
+            "start": 719,
+            "end": 758
+        },
+        {
+            "program_id": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction 2026-02-20 12:01_program_1",
+            "channel_id": 5,
+            "start": 758,
+            "end": 790
+        },
+        {
+            "program_id": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 12:01_program_1",
+            "channel_id": 3,
+            "start": 790,
+            "end": 822
+        },
+        {
+            "program_id": "🔴 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS) 2026-02-20 12:01_program_2",
+            "channel_id": 6,
+            "start": 824,
+            "end": 856
+        },
+        {
+            "program_id": "🔴 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS) 2026-02-20 12:01_program_3",
+            "channel_id": 6,
+            "start": 856,
+            "end": 896
+        },
+        {
+            "program_id": "24/7 Universe, Physics & Ancient Mysteries 2026-02-20 12:01_program_2",
+            "channel_id": 8,
+            "start": 896,
+            "end": 933
+        },
+        {
+            "program_id": "24/7 Universe, Physics & Ancient Mysteries 2026-02-20 12:01_program_3",
+            "channel_id": 8,
+            "start": 933,
+            "end": 971
+        },
+        {
+            "program_id": "24/7 Universe, Physics & Ancient Mysteries 2026-02-20 12:01_program_4",
+            "channel_id": 8,
+            "start": 971,
+            "end": 1003
+        },
+        {
+            "program_id": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen’s 4K video cameras on the ISS 2026-02-20 12:01_program_6",
+            "channel_id": 2,
+            "start": 1003,
+            "end": 1035
+        },
+        {
+            "program_id": "24/7 Universe, Physics & Ancient Mysteries 2026-02-20 12:01_program_5",
+            "channel_id": 8,
+            "start": 1035,
+            "end": 1067
+        },
+        {
+            "program_id": "24/7 Universe, Physics & Ancient Mysteries 2026-02-20 12:01_program_6",
+            "channel_id": 8,
+            "start": 1067,
+            "end": 1099
+        },
+        {
+            "program_id": "🔴 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS) 2026-02-20 12:01_program_7",
+            "channel_id": 6,
+            "start": 1100,
+            "end": 1135
+        },
+        {
+            "program_id": "🔴 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS) 2026-02-20 12:01_program_8",
+            "channel_id": 6,
+            "start": 1135,
+            "end": 1181
+        },
+        {
+            "program_id": "🔴 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS) 2026-02-20 12:01_program_9",
+            "channel_id": 6,
+            "start": 1181,
+            "end": 1213
+        },
+        {
+            "program_id": "International Space Station (ISS) Camera's Capture Views Of Hurricane Matthew [Unedited] 2026-02-20 12:01_program_7",
+            "channel_id": 7,
+            "start": 1219,
+            "end": 1260
+        },
+        {
+            "program_id": "International Space Station (ISS) Camera's Capture Views Of Hurricane Matthew [Unedited] 2026-02-20 12:01_program_8",
+            "channel_id": 7,
+            "start": 1260,
+            "end": 1307
+        }
+    ]
+}

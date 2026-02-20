@@ -1,0 +1,106 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Frontiers of Infinity_program_0",
+            "channel_id": 8,
+            "start": 716,
+            "end": 757
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_1",
+            "channel_id": 8,
+            "start": 757,
+            "end": 787
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_2",
+            "channel_id": 8,
+            "start": 787,
+            "end": 817
+        },
+        {
+            "program_id": "Space Streams_program_2",
+            "channel_id": 7,
+            "start": 827,
+            "end": 857
+        },
+        {
+            "program_id": "Space Streams_program_3",
+            "channel_id": 7,
+            "start": 857,
+            "end": 887
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_4",
+            "channel_id": 8,
+            "start": 889,
+            "end": 920
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_5",
+            "channel_id": 8,
+            "start": 920,
+            "end": 962
+        },
+        {
+            "program_id": "Sen_program_3",
+            "channel_id": 2,
+            "start": 962,
+            "end": 992
+        },
+        {
+            "program_id": "Space Streams_program_4",
+            "channel_id": 7,
+            "start": 992,
+            "end": 1023
+        },
+        {
+            "program_id": "The Financial Express_program_5",
+            "channel_id": 1,
+            "start": 1025,
+            "end": 1057
+        },
+        {
+            "program_id": "The Financial Express_program_6",
+            "channel_id": 1,
+            "start": 1057,
+            "end": 1093
+        },
+        {
+            "program_id": "NASA_program_7",
+            "channel_id": 4,
+            "start": 1093,
+            "end": 1127
+        },
+        {
+            "program_id": "Joey Does Tech_program_7",
+            "channel_id": 12,
+            "start": 1127,
+            "end": 1157
+        },
+        {
+            "program_id": "Joey Does Tech_program_8",
+            "channel_id": 12,
+            "start": 1157,
+            "end": 1198
+        },
+        {
+            "program_id": "Joey Does Tech_program_9",
+            "channel_id": 12,
+            "start": 1198,
+            "end": 1235
+        },
+        {
+            "program_id": "NASA_program_10",
+            "channel_id": 4,
+            "start": 1235,
+            "end": 1274
+        },
+        {
+            "program_id": "NASA_program_11",
+            "channel_id": 4,
+            "start": 1274,
+            "end": 1307
+        }
+    ]
+}

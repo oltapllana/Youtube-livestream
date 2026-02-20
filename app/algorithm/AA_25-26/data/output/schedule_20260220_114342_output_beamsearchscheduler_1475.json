@@ -1,0 +1,130 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "The Financial Express_program_0",
+            "channel_id": 1,
+            "start": 587,
+            "end": 629
+        },
+        {
+            "program_id": "The Financial Express_program_1",
+            "channel_id": 1,
+            "start": 629,
+            "end": 660
+        },
+        {
+            "program_id": "Space Streams_program_1",
+            "channel_id": 7,
+            "start": 660,
+            "end": 691
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_1",
+            "channel_id": 8,
+            "start": 691,
+            "end": 723
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_2",
+            "channel_id": 8,
+            "start": 723,
+            "end": 754
+        },
+        {
+            "program_id": "Crux_program_2",
+            "channel_id": 0,
+            "start": 754,
+            "end": 788
+        },
+        {
+            "program_id": "afarTV_program_3",
+            "channel_id": 6,
+            "start": 788,
+            "end": 819
+        },
+        {
+            "program_id": "NASASpaceflight_program_4",
+            "channel_id": 5,
+            "start": 819,
+            "end": 852
+        },
+        {
+            "program_id": "NASASpaceflight_program_5",
+            "channel_id": 5,
+            "start": 852,
+            "end": 885
+        },
+        {
+            "program_id": "NASASpaceflight_program_6",
+            "channel_id": 5,
+            "start": 885,
+            "end": 916
+        },
+        {
+            "program_id": "Space Streams_program_5",
+            "channel_id": 7,
+            "start": 916,
+            "end": 947
+        },
+        {
+            "program_id": "Joey Does Tech_program_6",
+            "channel_id": 12,
+            "start": 947,
+            "end": 978
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_6",
+            "channel_id": 8,
+            "start": 978,
+            "end": 1009
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_7",
+            "channel_id": 8,
+            "start": 1009,
+            "end": 1048
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_8",
+            "channel_id": 8,
+            "start": 1048,
+            "end": 1085
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_9",
+            "channel_id": 8,
+            "start": 1085,
+            "end": 1124
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_10",
+            "channel_id": 8,
+            "start": 1124,
+            "end": 1155
+        },
+        {
+            "program_id": "The Financial Express_program_9",
+            "channel_id": 1,
+            "start": 1155,
+            "end": 1186
+        },
+        {
+            "program_id": "Space Streams_program_10",
+            "channel_id": 7,
+            "start": 1193,
+            "end": 1228
+        },
+        {
+            "program_id": "Space Streams_program_11",
+            "channel_id": 7,
+            "start": 1228,
+            "end": 1264
+        },
+        {
+            "program_id": "Space Streams_program_12",
+            "channel_id": 7,
+            "start": 1264,
+            "end": 1307
+        }
+    ]
+}

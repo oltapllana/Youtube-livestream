@@ -1,0 +1,112 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Crux_program_0",
+            "channel_id": 0,
+            "start": 725,
+            "end": 763
+        },
+        {
+            "program_id": "Crux_program_1",
+            "channel_id": 0,
+            "start": 763,
+            "end": 793
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_1",
+            "channel_id": 8,
+            "start": 793,
+            "end": 824
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_2",
+            "channel_id": 8,
+            "start": 824,
+            "end": 854
+        },
+        {
+            "program_id": "Dream Trips_program_2",
+            "channel_id": 3,
+            "start": 854,
+            "end": 885
+        },
+        {
+            "program_id": "Dream Trips_program_3",
+            "channel_id": 3,
+            "start": 885,
+            "end": 915
+        },
+        {
+            "program_id": "Space Streams_program_2",
+            "channel_id": 7,
+            "start": 915,
+            "end": 945
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_3",
+            "channel_id": 8,
+            "start": 945,
+            "end": 976
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_4",
+            "channel_id": 8,
+            "start": 976,
+            "end": 1006
+        },
+        {
+            "program_id": "afarTV_program_3",
+            "channel_id": 6,
+            "start": 1006,
+            "end": 1045
+        },
+        {
+            "program_id": "afarTV_program_4",
+            "channel_id": 6,
+            "start": 1045,
+            "end": 1075
+        },
+        {
+            "program_id": "NASA_program_5",
+            "channel_id": 4,
+            "start": 1075,
+            "end": 1106
+        },
+        {
+            "program_id": "NASA_program_6",
+            "channel_id": 4,
+            "start": 1106,
+            "end": 1136
+        },
+        {
+            "program_id": "Sen_program_7",
+            "channel_id": 2,
+            "start": 1136,
+            "end": 1170
+        },
+        {
+            "program_id": "Sen_program_8",
+            "channel_id": 2,
+            "start": 1170,
+            "end": 1200
+        },
+        {
+            "program_id": "Crux_program_9",
+            "channel_id": 0,
+            "start": 1200,
+            "end": 1239
+        },
+        {
+            "program_id": "NASA_program_8",
+            "channel_id": 4,
+            "start": 1239,
+            "end": 1269
+        },
+        {
+            "program_id": "The Financial Express_program_9",
+            "channel_id": 1,
+            "start": 1273,
+            "end": 1306
+        }
+    ]
+}

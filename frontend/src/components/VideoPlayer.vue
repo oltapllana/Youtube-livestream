@@ -20,7 +20,7 @@
           <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14V8l5 4-5 4z" />
         </svg>
         <p>Next up at <strong>{{ minsToTime(nextProgram.start) }}</strong></p>
-        <p class="sub-text">{{ cleanTitle(nextProgram.program_id) }} — Channel {{ nextProgram.channel_id }}</p>
+        <p class="sub-text">{{ nextProgram.program_name || cleanTitle(nextProgram.program_id) }} — Channel {{ nextProgram.channel_id }}</p>
       </template>
 
       <!-- Schedule ended -->

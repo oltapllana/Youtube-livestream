@@ -54,11 +54,13 @@ class ScheduleRequest(BaseModel):
 class Program(BaseModel):
     """Scheduled program"""
     program_id: str
+    program_name: Optional[str] = None
     start: int
     end: int
     genre: str
     score: int
     url: Optional[str] = None
+    channel_name: Optional[str] = None
 
 
 class Channel(BaseModel):

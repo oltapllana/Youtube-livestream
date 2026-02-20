@@ -8,6 +8,7 @@
       :key="i"
       :program="p"
       :status="cardStatus(p)"
+      :index="i"
       :id="'sched-' + i"
     />
   </div>

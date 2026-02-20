@@ -1,0 +1,106 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Dream Trips_program_0",
+            "channel_id": 3,
+            "start": 725,
+            "end": 755
+        },
+        {
+            "program_id": "NASA_program_0",
+            "channel_id": 4,
+            "start": 755,
+            "end": 785
+        },
+        {
+            "program_id": "NASASpaceflight_program_1",
+            "channel_id": 5,
+            "start": 785,
+            "end": 815
+        },
+        {
+            "program_id": "NASASpaceflight_program_2",
+            "channel_id": 5,
+            "start": 815,
+            "end": 854
+        },
+        {
+            "program_id": "NASASpaceflight_program_3",
+            "channel_id": 5,
+            "start": 854,
+            "end": 884
+        },
+        {
+            "program_id": "Space Streams_program_2",
+            "channel_id": 7,
+            "start": 884,
+            "end": 923
+        },
+        {
+            "program_id": "Space Streams_program_3",
+            "channel_id": 7,
+            "start": 923,
+            "end": 960
+        },
+        {
+            "program_id": "Space Streams_program_4",
+            "channel_id": 7,
+            "start": 960,
+            "end": 990
+        },
+        {
+            "program_id": "Crux_program_5",
+            "channel_id": 0,
+            "start": 993,
+            "end": 1027
+        },
+        {
+            "program_id": "NASASpaceflight_program_6",
+            "channel_id": 5,
+            "start": 1028,
+            "end": 1058
+        },
+        {
+            "program_id": "NASASpaceflight_program_7",
+            "channel_id": 5,
+            "start": 1058,
+            "end": 1088
+        },
+        {
+            "program_id": "Crux_program_7",
+            "channel_id": 0,
+            "start": 1097,
+            "end": 1127
+        },
+        {
+            "program_id": "Crux_program_8",
+            "channel_id": 0,
+            "start": 1127,
+            "end": 1157
+        },
+        {
+            "program_id": "NASASpaceflight_program_8",
+            "channel_id": 5,
+            "start": 1157,
+            "end": 1187
+        },
+        {
+            "program_id": "NASASpaceflight_program_9",
+            "channel_id": 5,
+            "start": 1187,
+            "end": 1221
+        },
+        {
+            "program_id": "NASASpaceflight_program_10",
+            "channel_id": 5,
+            "start": 1221,
+            "end": 1251
+        },
+        {
+            "program_id": "NASASpaceflight_program_11",
+            "channel_id": 5,
+            "start": 1251,
+            "end": 1290
+        }
+    ]
+}
