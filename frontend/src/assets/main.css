@@ -277,6 +277,7 @@ input,select{font-family:inherit}
     padding: 10px 12px;
   }
   .np-info {
+    max-width: 50%;
     flex-wrap: wrap;
     gap: 6px;
     width: 100%;

@@ -1,0 +1,70 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "NASA's Artemis II Live Views from Kennedy Space Center 2026-02-20 17:15_program_0",
+            "channel_id": 4,
+            "start": 1038,
+            "end": 1077
+        },
+        {
+            "program_id": "24/7 Universe, Physics & Ancient Mysteries 2026-02-20 17:15_program_0",
+            "channel_id": 8,
+            "start": 1077,
+            "end": 1109
+        },
+        {
+            "program_id": "24/7 Universe, Physics & Ancient Mysteries 2026-02-20 17:15_program_1",
+            "channel_id": 8,
+            "start": 1109,
+            "end": 1151
+        },
+        {
+            "program_id": "24/7 Universe, Physics & Ancient Mysteries 2026-02-20 17:15_program_2",
+            "channel_id": 8,
+            "start": 1151,
+            "end": 1182
+        },
+        {
+            "program_id": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction 2026-02-20 17:15_program_1",
+            "channel_id": 5,
+            "start": 1182,
+            "end": 1212
+        },
+        {
+            "program_id": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction 2026-02-20 17:15_program_2",
+            "channel_id": 5,
+            "start": 1212,
+            "end": 1250
+        },
+        {
+            "program_id": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction 2026-02-20 17:15_program_3",
+            "channel_id": 5,
+            "start": 1250,
+            "end": 1282
+        },
+        {
+            "program_id": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-20 17:14_program_5",
+            "channel_id": 1,
+            "start": 1289,
+            "end": 1320
+        },
+        {
+            "program_id": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-20 17:14_program_6",
+            "channel_id": 1,
+            "start": 1320,
+            "end": 1357
+        },
+        {
+            "program_id": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-20 17:14_program_7",
+            "channel_id": 1,
+            "start": 1357,
+            "end": 1393
+        },
+        {
+            "program_id": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-20 17:14_program_8",
+            "channel_id": 1,
+            "start": 1393,
+            "end": 1430
+        }
+    ]
+}

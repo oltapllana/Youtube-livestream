@@ -1,0 +1,76 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen’s 4K video cameras on the ISS 2026-02-20 17:14_program_0",
+            "channel_id": 2,
+            "start": 1034,
+            "end": 1066
+        },
+        {
+            "program_id": "International Space Station (ISS) Camera's Capture Views Of Hurricane Matthew [Unedited] 2026-02-20 17:15_program_0",
+            "channel_id": 7,
+            "start": 1066,
+            "end": 1101
+        },
+        {
+            "program_id": "International Space Station (ISS) Camera's Capture Views Of Hurricane Matthew [Unedited] 2026-02-20 17:15_program_1",
+            "channel_id": 7,
+            "start": 1101,
+            "end": 1131
+        },
+        {
+            "program_id": "🔴 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS) 2026-02-20 17:15_program_1",
+            "channel_id": 6,
+            "start": 1131,
+            "end": 1168
+        },
+        {
+            "program_id": "🔴 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS) 2026-02-20 17:15_program_2",
+            "channel_id": 6,
+            "start": 1168,
+            "end": 1198
+        },
+        {
+            "program_id": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction 2026-02-20 17:15_program_2",
+            "channel_id": 5,
+            "start": 1198,
+            "end": 1234
+        },
+        {
+            "program_id": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction 2026-02-20 17:15_program_3",
+            "channel_id": 5,
+            "start": 1234,
+            "end": 1266
+        },
+        {
+            "program_id": "NASA's Artemis II Live Views from Kennedy Space Center 2026-02-20 17:15_program_4",
+            "channel_id": 4,
+            "start": 1266,
+            "end": 1296
+        },
+        {
+            "program_id": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 17:14_program_3",
+            "channel_id": 0,
+            "start": 1296,
+            "end": 1326
+        },
+        {
+            "program_id": "24/7 Universe, Physics & Ancient Mysteries 2026-02-20 17:15_program_5",
+            "channel_id": 8,
+            "start": 1326,
+            "end": 1361
+        },
+        {
+            "program_id": "24/7 Universe, Physics & Ancient Mysteries 2026-02-20 17:15_program_6",
+            "channel_id": 8,
+            "start": 1361,
+            "end": 1397
+        },
+        {
+            "program_id": "24/7 Universe, Physics & Ancient Mysteries 2026-02-20 17:15_program_7",
+            "channel_id": 8,
+            "start": 1397,
+            "end": 1430
+        }
+    ]
+}

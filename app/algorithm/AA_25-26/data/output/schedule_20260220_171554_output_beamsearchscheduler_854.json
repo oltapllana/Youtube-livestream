@@ -1,0 +1,70 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen’s 4K video cameras on the ISS 2026-02-20 17:14_program_0",
+            "channel_id": 2,
+            "start": 1035,
+            "end": 1078
+        },
+        {
+            "program_id": "🔴 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS) 2026-02-20 17:15_program_0",
+            "channel_id": 6,
+            "start": 1078,
+            "end": 1115
+        },
+        {
+            "program_id": "🔴 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS) 2026-02-20 17:15_program_1",
+            "channel_id": 6,
+            "start": 1115,
+            "end": 1152
+        },
+        {
+            "program_id": "🔴 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS) 2026-02-20 17:15_program_2",
+            "channel_id": 6,
+            "start": 1152,
+            "end": 1188
+        },
+        {
+            "program_id": "NASA's Artemis II Live Views from Kennedy Space Center 2026-02-20 17:15_program_3",
+            "channel_id": 4,
+            "start": 1188,
+            "end": 1227
+        },
+        {
+            "program_id": "NASA's Artemis II Live Views from Kennedy Space Center 2026-02-20 17:15_program_4",
+            "channel_id": 4,
+            "start": 1227,
+            "end": 1260
+        },
+        {
+            "program_id": "International Space Station (ISS) Camera's Capture Views Of Hurricane Matthew [Unedited] 2026-02-20 17:15_program_3",
+            "channel_id": 7,
+            "start": 1260,
+            "end": 1295
+        },
+        {
+            "program_id": "International Space Station (ISS) Camera's Capture Views Of Hurricane Matthew [Unedited] 2026-02-20 17:15_program_4",
+            "channel_id": 7,
+            "start": 1295,
+            "end": 1328
+        },
+        {
+            "program_id": "24/7 Universe, Physics & Ancient Mysteries 2026-02-20 17:15_program_4",
+            "channel_id": 8,
+            "start": 1328,
+            "end": 1361
+        },
+        {
+            "program_id": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 17:15_program_4",
+            "channel_id": 3,
+            "start": 1361,
+            "end": 1397
+        },
+        {
+            "program_id": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 17:15_program_5",
+            "channel_id": 3,
+            "start": 1397,
+            "end": 1430
+        }
+    ]
+}
