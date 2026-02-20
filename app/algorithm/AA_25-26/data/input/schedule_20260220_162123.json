@@ -1,0 +1,376 @@
+{
+  "opening_time": 981,
+  "closing_time": 1430,
+  "min_duration": 32,
+  "max_consecutive_genre": 7,
+  "channels_count": 5,
+  "switch_penalty": 8,
+  "termination_penalty": 20,
+  "priority_blocks": [],
+  "time_preferences": [],
+  "channels": [
+    {
+      "channel_id": 0,
+      "channel_name": "Crux",
+      "programs": [
+        {
+          "program_id": "Crux_program_0",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 12:08",
+          "start": 981,
+          "end": 1071,
+          "genre": "technology",
+          "score": 66,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_1",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 12:08",
+          "start": 1071,
+          "end": 1118,
+          "genre": "technology",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_2",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 12:08",
+          "start": 1118,
+          "end": 1172,
+          "genre": "technology",
+          "score": 70,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_3",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 12:08",
+          "start": 1172,
+          "end": 1230,
+          "genre": "technology",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_4",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 12:08",
+          "start": 1230,
+          "end": 1314,
+          "genre": "technology",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_5",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 12:08",
+          "start": 1314,
+          "end": 1377,
+          "genre": "technology",
+          "score": 67,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_6",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 12:08",
+          "start": 1377,
+          "end": 1430,
+          "genre": "technology",
+          "score": 79,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        }
+      ]
+    },
+    {
+      "channel_id": 1,
+      "channel_name": "The Financial Express",
+      "programs": [
+        {
+          "program_id": "The Financial Express_program_0",
+          "program_name": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-20 12:08",
+          "start": 981,
+          "end": 1063,
+          "genre": "technology",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_1",
+          "program_name": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-20 12:08",
+          "start": 1063,
+          "end": 1115,
+          "genre": "technology",
+          "score": 69,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_2",
+          "program_name": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-20 12:08",
+          "start": 1115,
+          "end": 1153,
+          "genre": "technology",
+          "score": 72,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_3",
+          "program_name": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-20 12:08",
+          "start": 1153,
+          "end": 1225,
+          "genre": "technology",
+          "score": 69,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_4",
+          "program_name": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-20 12:08",
+          "start": 1225,
+          "end": 1290,
+          "genre": "technology",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_5",
+          "program_name": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-20 12:08",
+          "start": 1290,
+          "end": 1372,
+          "genre": "technology",
+          "score": 74,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_6",
+          "program_name": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-20 12:08",
+          "start": 1372,
+          "end": 1430,
+          "genre": "technology",
+          "score": 68,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        }
+      ]
+    },
+    {
+      "channel_id": 2,
+      "channel_name": "Sen",
+      "programs": [
+        {
+          "program_id": "Sen_program_0",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-20 12:08",
+          "start": 981,
+          "end": 1049,
+          "genre": "technology",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_1",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-20 12:08",
+          "start": 1049,
+          "end": 1114,
+          "genre": "technology",
+          "score": 72,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_2",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-20 12:08",
+          "start": 1114,
+          "end": 1170,
+          "genre": "technology",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_3",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-20 12:08",
+          "start": 1170,
+          "end": 1212,
+          "genre": "technology",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_4",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-20 12:08",
+          "start": 1212,
+          "end": 1261,
+          "genre": "technology",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_5",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-20 12:08",
+          "start": 1261,
+          "end": 1347,
+          "genre": "technology",
+          "score": 73,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_6",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-20 12:08",
+          "start": 1347,
+          "end": 1391,
+          "genre": "technology",
+          "score": 67,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_7",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-20 12:08",
+          "start": 1391,
+          "end": 1430,
+          "genre": "technology",
+          "score": 73,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        }
+      ]
+    },
+    {
+      "channel_id": 3,
+      "channel_name": "Dream Trips",
+      "programs": [
+        {
+          "program_id": "Dream Trips_program_0",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 12:08",
+          "start": 981,
+          "end": 1025,
+          "genre": "technology",
+          "score": 82,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_1",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 12:08",
+          "start": 1025,
+          "end": 1094,
+          "genre": "technology",
+          "score": 71,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_2",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 12:08",
+          "start": 1094,
+          "end": 1158,
+          "genre": "technology",
+          "score": 70,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_3",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 12:08",
+          "start": 1158,
+          "end": 1236,
+          "genre": "technology",
+          "score": 72,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_4",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 12:08",
+          "start": 1236,
+          "end": 1291,
+          "genre": "technology",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_5",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 12:08",
+          "start": 1291,
+          "end": 1333,
+          "genre": "technology",
+          "score": 84,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_6",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 12:08",
+          "start": 1333,
+          "end": 1381,
+          "genre": "technology",
+          "score": 73,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_7",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 12:08",
+          "start": 1381,
+          "end": 1413,
+          "genre": "technology",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        }
+      ]
+    },
+    {
+      "channel_id": 12,
+      "channel_name": "Joey Does Tech",
+      "programs": [
+        {
+          "program_id": "Joey Does Tech_program_0",
+          "program_name": "Repairing Consoles LIVE \ud83d\ude0a (Project Loft) !Tools !Learnrepair",
+          "start": 981,
+          "end": 1040,
+          "genre": "technology",
+          "score": 67,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_1",
+          "program_name": "Repairing Consoles LIVE \ud83d\ude0a (Project Loft) !Tools !Learnrepair",
+          "start": 1040,
+          "end": 1127,
+          "genre": "technology",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_2",
+          "program_name": "Repairing Consoles LIVE \ud83d\ude0a (Project Loft) !Tools !Learnrepair",
+          "start": 1127,
+          "end": 1165,
+          "genre": "technology",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_3",
+          "program_name": "Repairing Consoles LIVE \ud83d\ude0a (Project Loft) !Tools !Learnrepair",
+          "start": 1165,
+          "end": 1221,
+          "genre": "technology",
+          "score": 75,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_4",
+          "program_name": "Repairing Consoles LIVE \ud83d\ude0a (Project Loft) !Tools !Learnrepair",
+          "start": 1221,
+          "end": 1304,
+          "genre": "technology",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_5",
+          "program_name": "Repairing Consoles LIVE \ud83d\ude0a (Project Loft) !Tools !Learnrepair",
+          "start": 1304,
+          "end": 1366,
+          "genre": "technology",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_6",
+          "program_name": "Repairing Consoles LIVE \ud83d\ude0a (Project Loft) !Tools !Learnrepair",
+          "start": 1366,
+          "end": 1415,
+          "genre": "technology",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        }
+      ]
+    }
+  ]
+}

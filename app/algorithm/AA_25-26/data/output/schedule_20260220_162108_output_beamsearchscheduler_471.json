@@ -1,0 +1,46 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "8K Dream Color_program_0",
+            "channel_id": 16,
+            "start": 981,
+            "end": 1046
+        },
+        {
+            "program_id": "8K Dream Color_program_1",
+            "channel_id": 16,
+            "start": 1046,
+            "end": 1087
+        },
+        {
+            "program_id": "Forest Sounds UHD_program_2",
+            "channel_id": 19,
+            "start": 1094,
+            "end": 1127
+        },
+        {
+            "program_id": "Forest Sounds UHD_program_3",
+            "channel_id": 19,
+            "start": 1127,
+            "end": 1171
+        },
+        {
+            "program_id": "Forest Sounds UHD_program_4",
+            "channel_id": 19,
+            "start": 1171,
+            "end": 1209
+        },
+        {
+            "program_id": "Top Relax Channel_program_4",
+            "channel_id": 23,
+            "start": 1209,
+            "end": 1245
+        },
+        {
+            "program_id": "Top Relax Channel_program_5",
+            "channel_id": 23,
+            "start": 1245,
+            "end": 1275
+        }
+    ]
+}

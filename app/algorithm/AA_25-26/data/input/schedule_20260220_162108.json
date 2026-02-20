@@ -1,0 +1,748 @@
+{
+  "opening_time": 981,
+  "closing_time": 1430,
+  "min_duration": 30,
+  "max_consecutive_genre": 7,
+  "channels_count": 10,
+  "switch_penalty": 7,
+  "termination_penalty": 20,
+  "priority_blocks": [],
+  "time_preferences": [],
+  "channels": [
+    {
+      "channel_id": 14,
+      "channel_name": "4K Ocean World",
+      "programs": [
+        {
+          "program_id": "4K Ocean World_program_0",
+          "program_name": "4K Ocean World program 0",
+          "start": 981,
+          "end": 1048,
+          "genre": "others",
+          "score": 72,
+          "url": "https://www.youtube.com/watch?v=xCLTpcx9aO8"
+        },
+        {
+          "program_id": "4K Ocean World_program_1",
+          "program_name": "4K Ocean World program 1",
+          "start": 1048,
+          "end": 1080,
+          "genre": "others",
+          "score": 68,
+          "url": "https://www.youtube.com/watch?v=xCLTpcx9aO8"
+        },
+        {
+          "program_id": "4K Ocean World_program_2",
+          "program_name": "4K Ocean World program 2",
+          "start": 1080,
+          "end": 1169,
+          "genre": "others",
+          "score": 60,
+          "url": "https://www.youtube.com/watch?v=xCLTpcx9aO8"
+        },
+        {
+          "program_id": "4K Ocean World_program_3",
+          "program_name": "4K Ocean World program 3",
+          "start": 1169,
+          "end": 1239,
+          "genre": "others",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=xCLTpcx9aO8"
+        },
+        {
+          "program_id": "4K Ocean World_program_4",
+          "program_name": "4K Ocean World program 4",
+          "start": 1239,
+          "end": 1300,
+          "genre": "others",
+          "score": 61,
+          "url": "https://www.youtube.com/watch?v=xCLTpcx9aO8"
+        },
+        {
+          "program_id": "4K Ocean World_program_5",
+          "program_name": "4K Ocean World program 5",
+          "start": 1300,
+          "end": 1375,
+          "genre": "others",
+          "score": 68,
+          "url": "https://www.youtube.com/watch?v=xCLTpcx9aO8"
+        },
+        {
+          "program_id": "4K Ocean World_program_6",
+          "program_name": "4K Ocean World program 6",
+          "start": 1375,
+          "end": 1430,
+          "genre": "others",
+          "score": 75,
+          "url": "https://www.youtube.com/watch?v=xCLTpcx9aO8"
+        }
+      ]
+    },
+    {
+      "channel_id": 15,
+      "channel_name": "Marine Serenity 8K",
+      "programs": [
+        {
+          "program_id": "Marine Serenity 8K_program_0",
+          "program_name": "Marine Serenity 8K program 0",
+          "start": 981,
+          "end": 1068,
+          "genre": "others",
+          "score": 64,
+          "url": "https://www.youtube.com/watch?v=uTuiOYxYMGk"
+        },
+        {
+          "program_id": "Marine Serenity 8K_program_1",
+          "program_name": "Marine Serenity 8K program 1",
+          "start": 1068,
+          "end": 1153,
+          "genre": "others",
+          "score": 68,
+          "url": "https://www.youtube.com/watch?v=uTuiOYxYMGk"
+        },
+        {
+          "program_id": "Marine Serenity 8K_program_2",
+          "program_name": "Marine Serenity 8K program 2",
+          "start": 1153,
+          "end": 1207,
+          "genre": "others",
+          "score": 74,
+          "url": "https://www.youtube.com/watch?v=uTuiOYxYMGk"
+        },
+        {
+          "program_id": "Marine Serenity 8K_program_3",
+          "program_name": "Marine Serenity 8K program 3",
+          "start": 1207,
+          "end": 1238,
+          "genre": "others",
+          "score": 66,
+          "url": "https://www.youtube.com/watch?v=uTuiOYxYMGk"
+        },
+        {
+          "program_id": "Marine Serenity 8K_program_4",
+          "program_name": "Marine Serenity 8K program 4",
+          "start": 1238,
+          "end": 1325,
+          "genre": "others",
+          "score": 75,
+          "url": "https://www.youtube.com/watch?v=uTuiOYxYMGk"
+        },
+        {
+          "program_id": "Marine Serenity 8K_program_5",
+          "program_name": "Marine Serenity 8K program 5",
+          "start": 1325,
+          "end": 1403,
+          "genre": "others",
+          "score": 60,
+          "url": "https://www.youtube.com/watch?v=uTuiOYxYMGk"
+        }
+      ]
+    },
+    {
+      "channel_id": 16,
+      "channel_name": "8K Dream Color",
+      "programs": [
+        {
+          "program_id": "8K Dream Color_program_0",
+          "program_name": "8K Dream Color program 0",
+          "start": 981,
+          "end": 1046,
+          "genre": "others",
+          "score": 71,
+          "url": "https://www.youtube.com/watch?v=2nOrC6nLHRM"
+        },
+        {
+          "program_id": "8K Dream Color_program_1",
+          "program_name": "8K Dream Color program 1",
+          "start": 1046,
+          "end": 1087,
+          "genre": "others",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=2nOrC6nLHRM"
+        },
+        {
+          "program_id": "8K Dream Color_program_2",
+          "program_name": "8K Dream Color program 2",
+          "start": 1087,
+          "end": 1173,
+          "genre": "others",
+          "score": 60,
+          "url": "https://www.youtube.com/watch?v=2nOrC6nLHRM"
+        },
+        {
+          "program_id": "8K Dream Color_program_3",
+          "program_name": "8K Dream Color program 3",
+          "start": 1173,
+          "end": 1217,
+          "genre": "others",
+          "score": 72,
+          "url": "https://www.youtube.com/watch?v=2nOrC6nLHRM"
+        },
+        {
+          "program_id": "8K Dream Color_program_4",
+          "program_name": "8K Dream Color program 4",
+          "start": 1217,
+          "end": 1302,
+          "genre": "others",
+          "score": 66,
+          "url": "https://www.youtube.com/watch?v=2nOrC6nLHRM"
+        },
+        {
+          "program_id": "8K Dream Color_program_5",
+          "program_name": "8K Dream Color program 5",
+          "start": 1302,
+          "end": 1338,
+          "genre": "others",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=2nOrC6nLHRM"
+        },
+        {
+          "program_id": "8K Dream Color_program_6",
+          "program_name": "8K Dream Color program 6",
+          "start": 1338,
+          "end": 1393,
+          "genre": "others",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=2nOrC6nLHRM"
+        },
+        {
+          "program_id": "8K Dream Color_program_7",
+          "program_name": "8K Dream Color program 7",
+          "start": 1393,
+          "end": 1423,
+          "genre": "others",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=2nOrC6nLHRM"
+        }
+      ]
+    },
+    {
+      "channel_id": 17,
+      "channel_name": "Soothing Soul",
+      "programs": [
+        {
+          "program_id": "Soothing Soul_program_0",
+          "program_name": "Soothing Soul program 0",
+          "start": 981,
+          "end": 1023,
+          "genre": "others",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=wKg71lcs5Nw"
+        },
+        {
+          "program_id": "Soothing Soul_program_1",
+          "program_name": "Soothing Soul program 1",
+          "start": 1023,
+          "end": 1110,
+          "genre": "others",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=wKg71lcs5Nw"
+        },
+        {
+          "program_id": "Soothing Soul_program_2",
+          "program_name": "Soothing Soul program 2",
+          "start": 1110,
+          "end": 1186,
+          "genre": "others",
+          "score": 70,
+          "url": "https://www.youtube.com/watch?v=wKg71lcs5Nw"
+        },
+        {
+          "program_id": "Soothing Soul_program_3",
+          "program_name": "Soothing Soul program 3",
+          "start": 1186,
+          "end": 1269,
+          "genre": "others",
+          "score": 64,
+          "url": "https://www.youtube.com/watch?v=wKg71lcs5Nw"
+        },
+        {
+          "program_id": "Soothing Soul_program_4",
+          "program_name": "Soothing Soul program 4",
+          "start": 1269,
+          "end": 1317,
+          "genre": "others",
+          "score": 73,
+          "url": "https://www.youtube.com/watch?v=wKg71lcs5Nw"
+        },
+        {
+          "program_id": "Soothing Soul_program_5",
+          "program_name": "Soothing Soul program 5",
+          "start": 1317,
+          "end": 1374,
+          "genre": "others",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=wKg71lcs5Nw"
+        },
+        {
+          "program_id": "Soothing Soul_program_6",
+          "program_name": "Soothing Soul program 6",
+          "start": 1374,
+          "end": 1430,
+          "genre": "others",
+          "score": 64,
+          "url": "https://www.youtube.com/watch?v=wKg71lcs5Nw"
+        }
+      ]
+    },
+    {
+      "channel_id": 18,
+      "channel_name": "Luxury Island",
+      "programs": [
+        {
+          "program_id": "Luxury Island_program_0",
+          "program_name": "Luxury Island program 0",
+          "start": 981,
+          "end": 1051,
+          "genre": "others",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=_BMi3usEwi8"
+        },
+        {
+          "program_id": "Luxury Island_program_1",
+          "program_name": "Luxury Island program 1",
+          "start": 1051,
+          "end": 1081,
+          "genre": "others",
+          "score": 66,
+          "url": "https://www.youtube.com/watch?v=_BMi3usEwi8"
+        },
+        {
+          "program_id": "Luxury Island_program_2",
+          "program_name": "Luxury Island program 2",
+          "start": 1081,
+          "end": 1121,
+          "genre": "others",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=_BMi3usEwi8"
+        },
+        {
+          "program_id": "Luxury Island_program_3",
+          "program_name": "Luxury Island program 3",
+          "start": 1121,
+          "end": 1175,
+          "genre": "others",
+          "score": 73,
+          "url": "https://www.youtube.com/watch?v=_BMi3usEwi8"
+        },
+        {
+          "program_id": "Luxury Island_program_4",
+          "program_name": "Luxury Island program 4",
+          "start": 1175,
+          "end": 1262,
+          "genre": "others",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=_BMi3usEwi8"
+        },
+        {
+          "program_id": "Luxury Island_program_5",
+          "program_name": "Luxury Island program 5",
+          "start": 1262,
+          "end": 1350,
+          "genre": "others",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=_BMi3usEwi8"
+        },
+        {
+          "program_id": "Luxury Island_program_6",
+          "program_name": "Luxury Island program 6",
+          "start": 1350,
+          "end": 1406,
+          "genre": "others",
+          "score": 65,
+          "url": "https://www.youtube.com/watch?v=_BMi3usEwi8"
+        }
+      ]
+    },
+    {
+      "channel_id": 19,
+      "channel_name": "Forest Sounds UHD",
+      "programs": [
+        {
+          "program_id": "Forest Sounds UHD_program_0",
+          "program_name": "Forest Sounds UHD program 0",
+          "start": 981,
+          "end": 1017,
+          "genre": "others",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=8kEzFZvtLzM"
+        },
+        {
+          "program_id": "Forest Sounds UHD_program_1",
+          "program_name": "Forest Sounds UHD program 1",
+          "start": 1017,
+          "end": 1094,
+          "genre": "others",
+          "score": 66,
+          "url": "https://www.youtube.com/watch?v=8kEzFZvtLzM"
+        },
+        {
+          "program_id": "Forest Sounds UHD_program_2",
+          "program_name": "Forest Sounds UHD program 2",
+          "start": 1094,
+          "end": 1127,
+          "genre": "others",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=8kEzFZvtLzM"
+        },
+        {
+          "program_id": "Forest Sounds UHD_program_3",
+          "program_name": "Forest Sounds UHD program 3",
+          "start": 1127,
+          "end": 1171,
+          "genre": "others",
+          "score": 66,
+          "url": "https://www.youtube.com/watch?v=8kEzFZvtLzM"
+        },
+        {
+          "program_id": "Forest Sounds UHD_program_4",
+          "program_name": "Forest Sounds UHD program 4",
+          "start": 1171,
+          "end": 1209,
+          "genre": "others",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=8kEzFZvtLzM"
+        },
+        {
+          "program_id": "Forest Sounds UHD_program_5",
+          "program_name": "Forest Sounds UHD program 5",
+          "start": 1209,
+          "end": 1251,
+          "genre": "others",
+          "score": 64,
+          "url": "https://www.youtube.com/watch?v=8kEzFZvtLzM"
+        },
+        {
+          "program_id": "Forest Sounds UHD_program_6",
+          "program_name": "Forest Sounds UHD program 6",
+          "start": 1251,
+          "end": 1296,
+          "genre": "others",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=8kEzFZvtLzM"
+        },
+        {
+          "program_id": "Forest Sounds UHD_program_7",
+          "program_name": "Forest Sounds UHD program 7",
+          "start": 1296,
+          "end": 1365,
+          "genre": "others",
+          "score": 65,
+          "url": "https://www.youtube.com/watch?v=8kEzFZvtLzM"
+        },
+        {
+          "program_id": "Forest Sounds UHD_program_8",
+          "program_name": "Forest Sounds UHD program 8",
+          "start": 1365,
+          "end": 1430,
+          "genre": "others",
+          "score": 68,
+          "url": "https://www.youtube.com/watch?v=8kEzFZvtLzM"
+        }
+      ]
+    },
+    {
+      "channel_id": 20,
+      "channel_name": "Nature Zilla",
+      "programs": [
+        {
+          "program_id": "Nature Zilla_program_0",
+          "program_name": "Nature Zilla program 0",
+          "start": 981,
+          "end": 1059,
+          "genre": "others",
+          "score": 66,
+          "url": "https://www.youtube.com/watch?v=udsGvRf0FhU"
+        },
+        {
+          "program_id": "Nature Zilla_program_1",
+          "program_name": "Nature Zilla program 1",
+          "start": 1059,
+          "end": 1116,
+          "genre": "others",
+          "score": 68,
+          "url": "https://www.youtube.com/watch?v=udsGvRf0FhU"
+        },
+        {
+          "program_id": "Nature Zilla_program_2",
+          "program_name": "Nature Zilla program 2",
+          "start": 1116,
+          "end": 1151,
+          "genre": "others",
+          "score": 61,
+          "url": "https://www.youtube.com/watch?v=udsGvRf0FhU"
+        },
+        {
+          "program_id": "Nature Zilla_program_3",
+          "program_name": "Nature Zilla program 3",
+          "start": 1151,
+          "end": 1237,
+          "genre": "others",
+          "score": 65,
+          "url": "https://www.youtube.com/watch?v=udsGvRf0FhU"
+        },
+        {
+          "program_id": "Nature Zilla_program_4",
+          "program_name": "Nature Zilla program 4",
+          "start": 1237,
+          "end": 1327,
+          "genre": "others",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=udsGvRf0FhU"
+        },
+        {
+          "program_id": "Nature Zilla_program_5",
+          "program_name": "Nature Zilla program 5",
+          "start": 1327,
+          "end": 1384,
+          "genre": "others",
+          "score": 63,
+          "url": "https://www.youtube.com/watch?v=udsGvRf0FhU"
+        },
+        {
+          "program_id": "Nature Zilla_program_6",
+          "program_name": "Nature Zilla program 6",
+          "start": 1384,
+          "end": 1414,
+          "genre": "others",
+          "score": 65,
+          "url": "https://www.youtube.com/watch?v=udsGvRf0FhU"
+        }
+      ]
+    },
+    {
+      "channel_id": 21,
+      "channel_name": "afarTV",
+      "programs": [
+        {
+          "program_id": "afarTV_program_0",
+          "program_name": "afarTV program 0",
+          "start": 981,
+          "end": 1033,
+          "genre": "others",
+          "score": 64,
+          "url": "https://www.youtube.com/watch?v=qJ3D5vhIK6k"
+        },
+        {
+          "program_id": "afarTV_program_1",
+          "program_name": "afarTV program 1",
+          "start": 1033,
+          "end": 1075,
+          "genre": "others",
+          "score": 73,
+          "url": "https://www.youtube.com/watch?v=qJ3D5vhIK6k"
+        },
+        {
+          "program_id": "afarTV_program_2",
+          "program_name": "afarTV program 2",
+          "start": 1075,
+          "end": 1113,
+          "genre": "others",
+          "score": 61,
+          "url": "https://www.youtube.com/watch?v=qJ3D5vhIK6k"
+        },
+        {
+          "program_id": "afarTV_program_3",
+          "program_name": "afarTV program 3",
+          "start": 1113,
+          "end": 1190,
+          "genre": "others",
+          "score": 65,
+          "url": "https://www.youtube.com/watch?v=qJ3D5vhIK6k"
+        },
+        {
+          "program_id": "afarTV_program_4",
+          "program_name": "afarTV program 4",
+          "start": 1190,
+          "end": 1259,
+          "genre": "others",
+          "score": 64,
+          "url": "https://www.youtube.com/watch?v=qJ3D5vhIK6k"
+        },
+        {
+          "program_id": "afarTV_program_5",
+          "program_name": "afarTV program 5",
+          "start": 1259,
+          "end": 1337,
+          "genre": "others",
+          "score": 64,
+          "url": "https://www.youtube.com/watch?v=qJ3D5vhIK6k"
+        },
+        {
+          "program_id": "afarTV_program_6",
+          "program_name": "afarTV program 6",
+          "start": 1337,
+          "end": 1387,
+          "genre": "others",
+          "score": 65,
+          "url": "https://www.youtube.com/watch?v=qJ3D5vhIK6k"
+        },
+        {
+          "program_id": "afarTV_program_7",
+          "program_name": "afarTV program 7",
+          "start": 1387,
+          "end": 1430,
+          "genre": "others",
+          "score": 73,
+          "url": "https://www.youtube.com/watch?v=qJ3D5vhIK6k"
+        }
+      ]
+    },
+    {
+      "channel_id": 22,
+      "channel_name": "Starlapland / Samuli Korvanen",
+      "programs": [
+        {
+          "program_id": "Starlapland / Samuli Korvanen_program_0",
+          "program_name": "Starlapland / Samuli Korvanen program 0",
+          "start": 981,
+          "end": 1059,
+          "genre": "others",
+          "score": 75,
+          "url": "https://www.youtube.com/watch?v=ccTVAhJU5lg"
+        },
+        {
+          "program_id": "Starlapland / Samuli Korvanen_program_1",
+          "program_name": "Starlapland / Samuli Korvanen program 1",
+          "start": 1059,
+          "end": 1090,
+          "genre": "others",
+          "score": 61,
+          "url": "https://www.youtube.com/watch?v=ccTVAhJU5lg"
+        },
+        {
+          "program_id": "Starlapland / Samuli Korvanen_program_2",
+          "program_name": "Starlapland / Samuli Korvanen program 2",
+          "start": 1090,
+          "end": 1164,
+          "genre": "others",
+          "score": 73,
+          "url": "https://www.youtube.com/watch?v=ccTVAhJU5lg"
+        },
+        {
+          "program_id": "Starlapland / Samuli Korvanen_program_3",
+          "program_name": "Starlapland / Samuli Korvanen program 3",
+          "start": 1164,
+          "end": 1217,
+          "genre": "others",
+          "score": 61,
+          "url": "https://www.youtube.com/watch?v=ccTVAhJU5lg"
+        },
+        {
+          "program_id": "Starlapland / Samuli Korvanen_program_4",
+          "program_name": "Starlapland / Samuli Korvanen program 4",
+          "start": 1217,
+          "end": 1255,
+          "genre": "others",
+          "score": 74,
+          "url": "https://www.youtube.com/watch?v=ccTVAhJU5lg"
+        },
+        {
+          "program_id": "Starlapland / Samuli Korvanen_program_5",
+          "program_name": "Starlapland / Samuli Korvanen program 5",
+          "start": 1255,
+          "end": 1335,
+          "genre": "others",
+          "score": 72,
+          "url": "https://www.youtube.com/watch?v=ccTVAhJU5lg"
+        },
+        {
+          "program_id": "Starlapland / Samuli Korvanen_program_6",
+          "program_name": "Starlapland / Samuli Korvanen program 6",
+          "start": 1335,
+          "end": 1417,
+          "genre": "others",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=ccTVAhJU5lg"
+        }
+      ]
+    },
+    {
+      "channel_id": 23,
+      "channel_name": "Top Relax Channel",
+      "programs": [
+        {
+          "program_id": "Top Relax Channel_program_0",
+          "program_name": "Top Relax Channel program 0",
+          "start": 981,
+          "end": 1064,
+          "genre": "others",
+          "score": 68,
+          "url": "https://www.youtube.com/watch?v=2_ovWpVE9es"
+        },
+        {
+          "program_id": "Top Relax Channel_program_1",
+          "program_name": "Top Relax Channel program 1",
+          "start": 1064,
+          "end": 1114,
+          "genre": "others",
+          "score": 73,
+          "url": "https://www.youtube.com/watch?v=2_ovWpVE9es"
+        },
+        {
+          "program_id": "Top Relax Channel_program_2",
+          "program_name": "Top Relax Channel program 2",
+          "start": 1114,
+          "end": 1144,
+          "genre": "others",
+          "score": 70,
+          "url": "https://www.youtube.com/watch?v=2_ovWpVE9es"
+        },
+        {
+          "program_id": "Top Relax Channel_program_3",
+          "program_name": "Top Relax Channel program 3",
+          "start": 1144,
+          "end": 1183,
+          "genre": "others",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=2_ovWpVE9es"
+        },
+        {
+          "program_id": "Top Relax Channel_program_4",
+          "program_name": "Top Relax Channel program 4",
+          "start": 1183,
+          "end": 1245,
+          "genre": "others",
+          "score": 79,
+          "url": "https://www.youtube.com/watch?v=2_ovWpVE9es"
+        },
+        {
+          "program_id": "Top Relax Channel_program_5",
+          "program_name": "Top Relax Channel program 5",
+          "start": 1245,
+          "end": 1302,
+          "genre": "others",
+          "score": 73,
+          "url": "https://www.youtube.com/watch?v=2_ovWpVE9es"
+        },
+        {
+          "program_id": "Top Relax Channel_program_6",
+          "program_name": "Top Relax Channel program 6",
+          "start": 1302,
+          "end": 1345,
+          "genre": "others",
+          "score": 62,
+          "url": "https://www.youtube.com/watch?v=2_ovWpVE9es"
+        },
+        {
+          "program_id": "Top Relax Channel_program_7",
+          "program_name": "Top Relax Channel program 7",
+          "start": 1345,
+          "end": 1397,
+          "genre": "others",
+          "score": 61,
+          "url": "https://www.youtube.com/watch?v=2_ovWpVE9es"
+        },
+        {
+          "program_id": "Top Relax Channel_program_8",
+          "program_name": "Top Relax Channel program 8",
+          "start": 1397,
+          "end": 1430,
+          "genre": "others",
+          "score": 68,
+          "url": "https://www.youtube.com/watch?v=2_ovWpVE9es"
+        }
+      ]
+    }
+  ]
+}

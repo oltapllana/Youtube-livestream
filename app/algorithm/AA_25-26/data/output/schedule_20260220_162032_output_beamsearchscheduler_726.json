@@ -1,0 +1,64 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Frontiers of Infinity_program_0",
+            "channel_id": 8,
+            "start": 980,
+            "end": 1010
+        },
+        {
+            "program_id": "afarTV_program_0",
+            "channel_id": 6,
+            "start": 1010,
+            "end": 1042
+        },
+        {
+            "program_id": "afarTV_program_1",
+            "channel_id": 6,
+            "start": 1042,
+            "end": 1081
+        },
+        {
+            "program_id": "Joey Does Tech_program_2",
+            "channel_id": 12,
+            "start": 1081,
+            "end": 1111
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_2",
+            "channel_id": 8,
+            "start": 1111,
+            "end": 1141
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_3",
+            "channel_id": 8,
+            "start": 1141,
+            "end": 1178
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_4",
+            "channel_id": 8,
+            "start": 1178,
+            "end": 1211
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_5",
+            "channel_id": 8,
+            "start": 1211,
+            "end": 1243
+        },
+        {
+            "program_id": "afarTV_program_5",
+            "channel_id": 6,
+            "start": 1243,
+            "end": 1273
+        },
+        {
+            "program_id": "NASA_program_4",
+            "channel_id": 4,
+            "start": 1273,
+            "end": 1307
+        }
+    ]
+}

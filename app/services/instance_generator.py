@@ -79,12 +79,6 @@ YOUTUBE_STREAMS = {
             "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0",
             "category": "technology",
         },
-        {
-            "channel_id": 12,
-            "title": "Joey Does Tech",
-            "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0",
-            "category": "technology",
-        },
     ],
     "science": [
         {
