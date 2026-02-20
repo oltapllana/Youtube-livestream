@@ -1,0 +1,52 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Space Streams_program_0",
+            "channel_id": 7,
+            "start": 1125,
+            "end": 1155
+        },
+        {
+            "program_id": "Space Streams_program_1",
+            "channel_id": 7,
+            "start": 1155,
+            "end": 1205
+        },
+        {
+            "program_id": "Space Streams_program_2",
+            "channel_id": 7,
+            "start": 1205,
+            "end": 1238
+        },
+        {
+            "program_id": "Space Streams_program_3",
+            "channel_id": 7,
+            "start": 1238,
+            "end": 1284
+        },
+        {
+            "program_id": "Space Streams_program_4",
+            "channel_id": 7,
+            "start": 1284,
+            "end": 1314
+        },
+        {
+            "program_id": "NASA_program_3",
+            "channel_id": 4,
+            "start": 1314,
+            "end": 1346
+        },
+        {
+            "program_id": "The Financial Express_program_4",
+            "channel_id": 1,
+            "start": 1357,
+            "end": 1388
+        },
+        {
+            "program_id": "The Financial Express_program_5",
+            "channel_id": 1,
+            "start": 1388,
+            "end": 1430
+        }
+    ]
+}

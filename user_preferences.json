@@ -1,5 +1,5 @@
 {
-  "opening_time": 1034,
+  "opening_time": 1126,
   "closing_time": 1430,
   "min_duration": 30,
   "min_duration_pct": 100,
@@ -7,7 +7,7 @@
   "switch_penalty": 10,
   "switch_penalty_pct": 10,
   "termination_penalty": 20,
-  "max_consecutive_genre": 10,
+  "max_consecutive_genre": 3,
   "bonus_pct": 5,
   "category_filter": [
     "nature",

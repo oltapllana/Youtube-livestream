@@ -8,6 +8,8 @@ import random
 import logging
 import subprocess
 import json
+import urllib.request
+import urllib.error
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -45,6 +47,32 @@ def cache_title(url: str, title: str) -> None:
     if title and url:
         _title_cache[url] = title
         _save_title_cache()
+
+
+def fetch_title_fast(url: str, timeout: float = 2.0) -> Optional[str]:
+    """
+    Fetch YouTube video title using the fast oEmbed API (~100ms).
+    Falls back gracefully on failure. Caches result for future use.
+    """
+    # Check cache first
+    cached = get_cached_title(url)
+    if cached:
+        return cached
+
+    try:
+        oembed_url = f"https://www.youtube.com/oembed?url={urllib.request.quote(url, safe='')}&format=json"
+        req = urllib.request.Request(oembed_url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+            title = data.get("title", "")
+            if title:
+                cache_title(url, title)
+                logger.debug("Fetched title via oEmbed: %s", title[:50])
+                return title
+    except (urllib.error.URLError, urllib.error.HTTPError, json.JSONDecodeError, Exception) as e:
+        logger.debug("oEmbed fetch failed for %s: %s", url, e)
+    return None
+
 
 # Load cache on module import
 _load_title_cache()
@@ -784,11 +812,12 @@ class InstanceGenerator:
     ) -> Dict[str, Any]:
         channel_id = stream["channel_id"]
         category = stream["category"]
-        title = (meta["title"] if meta else None) or stream["title"]
+        # channel_name should be the actual YouTube channel name (uploader), not the video title
+        channel_name = (meta["uploader"] if meta and meta.get("uploader") else None) or stream["title"]
         url = stream["url"]
 
-        programs = self._generate_programs(channel_id, title, category, url, opening_time, closing_time, min_duration, meta)
-        return {"channel_id": channel_id, "channel_name": title, "programs": programs}
+        programs = self._generate_programs(channel_id, channel_name, category, url, opening_time, closing_time, min_duration, meta)
+        return {"channel_id": channel_id, "channel_name": channel_name, "programs": programs}
 
     def _select_streams(
         self,
@@ -884,15 +913,13 @@ class InstanceGenerator:
 
         is_live = meta["is_live"] if meta else False
         live_bonus = 10 if is_live else 0
-        # Get the actual YouTube video title from metadata, or from cache if not probing
+        # Get the actual YouTube video title from metadata, cache, or fast oEmbed fetch
         video_title = ""
         if meta and meta.get("title"):
             video_title = meta["title"]
         else:
-            # Try to get from cache (previously probed)
-            cached = get_cached_title(url)
-            if cached:
-                video_title = cached
+            # Try to get from cache (previously probed) or fetch via fast oEmbed API
+            video_title = fetch_title_fast(url) or ""
 
         while current_time < closing_time:
             remaining = closing_time - current_time

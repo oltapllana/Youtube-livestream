@@ -1,0 +1,52 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "NASASpaceflight_program_0",
+            "channel_id": 5,
+            "start": 1138,
+            "end": 1179
+        },
+        {
+            "program_id": "NASASpaceflight_program_1",
+            "channel_id": 5,
+            "start": 1179,
+            "end": 1213
+        },
+        {
+            "program_id": "NASASpaceflight_program_2",
+            "channel_id": 5,
+            "start": 1213,
+            "end": 1249
+        },
+        {
+            "program_id": "Sen_program_2",
+            "channel_id": 2,
+            "start": 1249,
+            "end": 1281
+        },
+        {
+            "program_id": "NASASpaceflight_program_3",
+            "channel_id": 5,
+            "start": 1281,
+            "end": 1313
+        },
+        {
+            "program_id": "NASASpaceflight_program_4",
+            "channel_id": 5,
+            "start": 1313,
+            "end": 1352
+        },
+        {
+            "program_id": "NASASpaceflight_program_5",
+            "channel_id": 5,
+            "start": 1352,
+            "end": 1384
+        },
+        {
+            "program_id": "Sen_program_4",
+            "channel_id": 2,
+            "start": 1384,
+            "end": 1430
+        }
+    ]
+}
