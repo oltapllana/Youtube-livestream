@@ -109,6 +109,16 @@
               <span class="toggle-switch"></span>
               <span class="toggle-text">Climate</span>
             </label>
+            <label class="toggle-label">
+              <input
+                type="checkbox"
+                v-model="prefs.categoryFilter"
+                value="others"
+                class="toggle-input"
+              />
+              <span class="toggle-switch"></span>
+              <span class="toggle-text">Others</span>
+            </label>
           </div>
         </div>
 

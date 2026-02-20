@@ -8,7 +8,7 @@ import random
 import logging
 import subprocess
 import json
-import os
+from datetime import datetime, timedelta
 from pathlib import Path
 
 logger = logging.getLogger(__name__)
@@ -146,6 +146,134 @@ YOUTUBE_STREAMS = {
             "category": "climate",
         },
     ],
+    "others": [
+        {
+            "channel_id": 14,
+            "title": "4K Ocean World",
+            "url": "https://www.youtube.com/watch?v=xCLTpcx9aO8",
+            "category": "others",
+        },
+        {
+            "channel_id": 15,
+            "title": "Marine Serenity 8K",
+            "url": "https://www.youtube.com/watch?v=uTuiOYxYMGk",
+            "category": "others",
+        },
+        {
+            "channel_id": 16,
+            "title": "8K Dream Color",
+            "url": "https://www.youtube.com/watch?v=2nOrC6nLHRM",
+            "category": "others",
+        },
+        {
+            "channel_id": 17,
+            "title": "Soothing Soul",
+            "url": "https://www.youtube.com/watch?v=wKg71lcs5Nw",
+            "category": "others",
+        },
+        {
+            "channel_id": 18,
+            "title": "Luxury Island",
+            "url": "https://www.youtube.com/watch?v=_BMi3usEwi8",
+            "category": "others",
+        },
+        {
+            "channel_id": 19,
+            "title": "Forest Sounds UHD",
+            "url": "https://www.youtube.com/watch?v=8kEzFZvtLzM",
+            "category": "others",
+        },
+        {
+            "channel_id": 20,
+            "title": "Nature Zilla",
+            "url": "https://www.youtube.com/watch?v=udsGvRf0FhU",
+            "category": "others",
+        },
+        {
+            "channel_id": 21,
+            "title": "afarTV",
+            "url": "https://www.youtube.com/watch?v=qJ3D5vhIK6k",
+            "category": "others",
+        },
+        {
+            "channel_id": 22,
+            "title": "Starlapland / Samuli Korvanen",
+            "url": "https://www.youtube.com/watch?v=ccTVAhJU5lg",
+            "category": "others",
+        },
+        {
+            "channel_id": 23,
+            "title": "Top Relax Channel",
+            "url": "https://www.youtube.com/watch?v=2_ovWpVE9es",
+            "category": "others",
+        },
+        {
+            "channel_id": 24,
+            "title": "Nereus | Ocean Waves 4K",
+            "url": "https://www.youtube.com/watch?v=mPLHONZEXqU",
+            "category": "others",
+        },
+        {
+            "channel_id": 25,
+            "title": "Naturaleza Viva - Ocean Sounds For Sleeping",
+            "url": "https://www.youtube.com/watch?v=LnD-XEQ2hzQ",
+            "category": "others",
+        },
+        {
+            "channel_id": 26,
+            "title": "The Relaxed Guy",
+            "url": "https://www.youtube.com/watch?v=quXkhxjsU1c",
+            "category": "others",
+        },
+        {
+            "channel_id": 27,
+            "title": "Z. Heaton - Scenic Relaxation",
+            "url": "https://www.youtube.com/watch?v=1cQoYBb0Xow",
+            "category": "others",
+        },
+        {
+            "channel_id": 28,
+            "title": "Ocean Relaxation Film",
+            "url": "https://www.youtube.com/watch?v=_8J7ReF-1kY",
+            "category": "others",
+        },
+        {
+            "channel_id": 29,
+            "title": "Water Resident",
+            "url": "https://www.youtube.com/watch?v=7vjNWnv3Uss",
+            "category": "others",
+        },
+        {
+            "channel_id": 30,
+            "title": "321 Relaxing - Meditation Relax Clips",
+            "url": "https://www.youtube.com/watch?v=gf6SK0NObfI",
+            "category": "others",
+        },
+        {
+            "channel_id": 31,
+            "title": "Open Heart Music - Helios 4K",
+            "url": "https://www.youtube.com/watch?v=kYissYTEjww",
+            "category": "others",
+        },
+        {
+            "channel_id": 32,
+            "title": "MiParaisoVision",
+            "url": "https://www.youtube.com/watch?v=VABzf7Ig4l4",
+            "category": "others",
+        },
+        {
+            "channel_id": 33,
+            "title": "Soothing Waves",
+            "url": "https://www.youtube.com/watch?v=vKu9rAbWj9E",
+            "category": "others",
+        },
+        {
+            "channel_id": 34,
+            "title": "World Scenery 4K",
+            "url": "https://www.youtube.com/watch?v=d-Gbk7dbMws",
+            "category": "others",
+        },
+    ],
 }
 
 # Base score per category – used when generating program scores
@@ -153,6 +281,7 @@ CATEGORY_SCORES = {
     "technology": 75,
     "science": 85,
     "climate": 78,
+    "others": 70,
 }
 
 
@@ -288,13 +417,15 @@ class InstanceGenerator:
         self._probe_cache: Dict[str, Optional[Dict[str, Any]]] = {}
         # Track discovered streams to avoid duplicates
         self._discovered_streams: List[Dict[str, Any]] = []
+        # Track timestamp of last discovery run
+        self._discovery_metadata_file = Path(__file__).parent.parent / ".discovery_metadata.json"
 
     # ── helpers ─────────────────────────────────────────────────────────
 
     @staticmethod
     def _get_all_streams() -> List[Dict[str, Any]]:
         all_streams: List[Dict[str, Any]] = []
-        for cat in ("technology", "science", "climate"):
+        for cat in ("technology", "science", "climate", "others"):
             all_streams.extend(YOUTUBE_STREAMS[cat])
         return all_streams
 
@@ -303,6 +434,59 @@ class InstanceGenerator:
         if url not in self._probe_cache:
             self._probe_cache[url] = probe_youtube_stream(url)
         return self._probe_cache[url]
+
+    def _get_last_discovery_time(self) -> Optional[datetime]:
+        """
+        Retrieve the timestamp of when discovery was last run.
+        Returns None if no discovery has been run yet.
+        """
+        if not self._discovery_metadata_file.exists():
+            return None
+        try:
+            with open(self._discovery_metadata_file, 'r') as f:
+                data = json.load(f)
+            timestamp_str = data.get("last_discovery_time")
+            if timestamp_str:
+                return datetime.fromisoformat(timestamp_str)
+        except Exception as e:
+            logger.warning("Could not read discovery metadata: %s", e)
+        return None
+
+    def _should_discover_now(self) -> bool:
+        """
+        Check if 24 hours have passed since last discovery.
+        Returns True if discovery should run now.
+        """
+        last_time = self._get_last_discovery_time()
+        if last_time is None:
+            # First time — should discover now
+            logger.info("First discovery run detected")
+            return True
+
+        elapsed = datetime.now() - last_time
+        should_run = elapsed >= timedelta(hours=24)
+        hours_since = int(elapsed.total_seconds() // 3600)
+        if should_run:
+            logger.info("24 hours have passed since last discovery (%d hours). Running discovery now.", hours_since)
+        else:
+            hours_until_next = max(1, int((timedelta(hours=24) - elapsed).total_seconds() // 3600))
+            logger.info("Last discovery was %d hours ago. Next discovery in about %d hour(s).", hours_since, hours_until_next)
+        return should_run
+
+    def _update_discovery_time(self) -> None:
+        """
+        Update the timestamp to mark when discovery was just run.
+        """
+        try:
+            self._discovery_metadata_file.parent.mkdir(parents=True, exist_ok=True)
+            with open(self._discovery_metadata_file, 'w') as f:
+                json.dump({
+                    "last_discovery_time": datetime.now().isoformat(),
+                    "note": "Auto-discovery runs every 24 hours to find new live streams"
+                }, f, indent=2)
+            logger.info("Updated discovery timestamp")
+        except Exception as e:
+            logger.error("Could not update discovery metadata: %s", e)
 
     def _discover_additional_streams(self) -> List[Dict[str, Any]]:
         """
@@ -386,11 +570,21 @@ class InstanceGenerator:
         self,
         scheduling_params: Dict[str, Any],
         probe_streams: bool = True,
-        discover_new_streams: bool = False,
+        discover_new_streams: bool = True,
     ) -> Dict[str, Any]:
         """
         Build a full instance JSON ready for the beam-search algorithm.
+        Automatically enables discovery if 24 hours have passed since last discovery.
         """
+        # AUTO-DISCOVERY: Check if 24 hours have passed
+        should_discover_now = self._should_discover_now()
+        if should_discover_now:
+            logger.info("Auto-enabling discovery — 24 hours since last discovery run")
+            discover_new_streams = True
+        elif discover_new_streams:
+            logger.info("Discovery requested but 24-hour interval not reached yet. Skipping discovery for this run.")
+            discover_new_streams = False
+        
         opening_time = scheduling_params["opening_time"]
         closing_time = scheduling_params["closing_time"]
         min_duration = scheduling_params["min_duration"]
@@ -447,14 +641,18 @@ class InstanceGenerator:
             available_streams = self.streams.copy()
 
         # Optionally discover additional live streams from the same channels
-        if discover_new_streams and probe_streams:
+        if discover_new_streams:
             logger.info("Discovering additional live streams from channels...")
             discovered = self._discover_additional_streams()
             if discovered:
                 logger.info(f"Found {len(discovered)} additional live stream(s)")
                 available_streams.extend(discovered)
+                # Update discovery timestamp after successful discovery
+                self._update_discovery_time()
             else:
                 logger.info("No additional live streams discovered")
+                # Still update timestamp even if no new streams found
+                self._update_discovery_time()
 
         total_streams = len(available_streams)
         channels_count = max(1, min(requested_channels, total_streams))
@@ -670,5 +868,6 @@ class InstanceGenerator:
             "technology": YOUTUBE_STREAMS["technology"],
             "science": YOUTUBE_STREAMS["science"],
             "climate": YOUTUBE_STREAMS["climate"],
+            "others": YOUTUBE_STREAMS["others"],
             "total_streams": sum(len(YOUTUBE_STREAMS[c]) for c in YOUTUBE_STREAMS),
         }

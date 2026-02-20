@@ -39,9 +39,9 @@ export function ytId(url) {
   }
 }
 
-/** YouTube embed URL with autoplay (mute=1 required by browsers for autoplay to work) */
+/** YouTube embed URL with minimal UI (YouTube still enforces some branding) */
 export function embedUrl(url) {
-  return `https://www.youtube.com/embed/${ytId(url)}?autoplay=1&mute=1&rel=0&modestbranding=1&playsinline=1`
+  return `https://www.youtube.com/embed/${ytId(url)}?autoplay=1&mute=1&playsinline=1&controls=0&rel=0&modestbranding=1&iv_load_policy=3&disablekb=1`
 }
 
 /** YouTube thumbnail URL */

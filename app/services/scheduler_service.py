@@ -379,11 +379,17 @@ class SchedulerService:
                 "preferred_genre": "climate",
                 "bonus": bonus,
             },
+            {
+                "start": 1200,
+                "end": 1440,
+                "preferred_genre": "others",
+                "bonus": bonus,
+            },
         ]
 
     @staticmethod
     def _has_all_default_categories(categories: Any) -> bool:
-        required = {"technology", "science", "climate"}
+        required = {"technology", "science", "climate", "others"}
         if not isinstance(categories, (list, tuple, set)):
             return False
         selected = {str(category).lower() for category in categories}

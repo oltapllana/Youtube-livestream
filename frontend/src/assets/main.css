@@ -665,6 +665,10 @@ input,select{font-family:inherit}
   background: #1d7b52;
 }
 
+.channel-category.category-others {
+  background: #8a6d1d;
+}
+
 .channel-more {
   margin-left: 4px;
   padding-left: 12px;
