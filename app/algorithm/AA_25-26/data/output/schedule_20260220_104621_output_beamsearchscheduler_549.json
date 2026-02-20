@@ -1,0 +1,46 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Explore Live Nature Cams_program_1",
+            "channel_id": 14,
+            "start": 649,
+            "end": 700
+        },
+        {
+            "program_id": "Explore Live Nature Cams_program_2",
+            "channel_id": 14,
+            "start": 700,
+            "end": 748
+        },
+        {
+            "program_id": "Explore Live Nature Cams_program_3",
+            "channel_id": 14,
+            "start": 748,
+            "end": 783
+        },
+        {
+            "program_id": "Explore Live Nature Cams_program_4",
+            "channel_id": 14,
+            "start": 783,
+            "end": 846
+        },
+        {
+            "program_id": "Explore Live Nature Cams_program_5",
+            "channel_id": 14,
+            "start": 846,
+            "end": 876
+        },
+        {
+            "program_id": "Explore Live Nature Cams_program_6",
+            "channel_id": 14,
+            "start": 876,
+            "end": 907
+        },
+        {
+            "program_id": "Explore Oceans_program_6",
+            "channel_id": 17,
+            "start": 919,
+            "end": 953
+        }
+    ]
+}

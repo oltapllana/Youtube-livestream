@@ -1,0 +1,46 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Africam Safari_program_0",
+            "channel_id": 19,
+            "start": 587,
+            "end": 632
+        },
+        {
+            "program_id": "Africam Safari_program_1",
+            "channel_id": 19,
+            "start": 632,
+            "end": 664
+        },
+        {
+            "program_id": "Explore Oceans_program_2",
+            "channel_id": 17,
+            "start": 669,
+            "end": 700
+        },
+        {
+            "program_id": "Explore Oceans_program_3",
+            "channel_id": 17,
+            "start": 700,
+            "end": 730
+        },
+        {
+            "program_id": "Cornell Lab Bird Cams_program_3",
+            "channel_id": 16,
+            "start": 748,
+            "end": 779
+        },
+        {
+            "program_id": "Cornell Lab Bird Cams_program_4",
+            "channel_id": 16,
+            "start": 779,
+            "end": 819
+        },
+        {
+            "program_id": "Cornell Lab Bird Cams_program_5",
+            "channel_id": 16,
+            "start": 819,
+            "end": 875
+        }
+    ]
+}

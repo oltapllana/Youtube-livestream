@@ -1,0 +1,601 @@
+{
+  "opening_time": 587,
+  "closing_time": 1307,
+  "min_duration": 30,
+  "max_consecutive_genre": 7,
+  "channels_count": 6,
+  "switch_penalty": 8,
+  "termination_penalty": 20,
+  "priority_blocks": [],
+  "time_preferences": [],
+  "channels": [
+    {
+      "channel_id": 21,
+      "channel_name": "Flowly Nature",
+      "programs": [
+        {
+          "program_id": "Flowly Nature_program_0",
+          "start": 587,
+          "end": 631,
+          "genre": "nature",
+          "score": 80,
+          "url": "https://www.youtube.com/@flowly"
+        },
+        {
+          "program_id": "Flowly Nature_program_1",
+          "start": 631,
+          "end": 664,
+          "genre": "nature",
+          "score": 90,
+          "url": "https://www.youtube.com/@flowly"
+        },
+        {
+          "program_id": "Flowly Nature_program_2",
+          "start": 664,
+          "end": 747,
+          "genre": "nature",
+          "score": 83,
+          "url": "https://www.youtube.com/@flowly"
+        },
+        {
+          "program_id": "Flowly Nature_program_3",
+          "start": 747,
+          "end": 814,
+          "genre": "nature",
+          "score": 74,
+          "url": "https://www.youtube.com/@flowly"
+        },
+        {
+          "program_id": "Flowly Nature_program_4",
+          "start": 814,
+          "end": 852,
+          "genre": "nature",
+          "score": 71,
+          "url": "https://www.youtube.com/@flowly"
+        },
+        {
+          "program_id": "Flowly Nature_program_5",
+          "start": 852,
+          "end": 898,
+          "genre": "nature",
+          "score": 89,
+          "url": "https://www.youtube.com/@flowly"
+        },
+        {
+          "program_id": "Flowly Nature_program_6",
+          "start": 898,
+          "end": 963,
+          "genre": "nature",
+          "score": 73,
+          "url": "https://www.youtube.com/@flowly"
+        },
+        {
+          "program_id": "Flowly Nature_program_7",
+          "start": 963,
+          "end": 1018,
+          "genre": "nature",
+          "score": 89,
+          "url": "https://www.youtube.com/@flowly"
+        },
+        {
+          "program_id": "Flowly Nature_program_8",
+          "start": 1018,
+          "end": 1069,
+          "genre": "nature",
+          "score": 84,
+          "url": "https://www.youtube.com/@flowly"
+        },
+        {
+          "program_id": "Flowly Nature_program_9",
+          "start": 1069,
+          "end": 1121,
+          "genre": "nature",
+          "score": 87,
+          "url": "https://www.youtube.com/@flowly"
+        },
+        {
+          "program_id": "Flowly Nature_program_10",
+          "start": 1121,
+          "end": 1194,
+          "genre": "nature",
+          "score": 75,
+          "url": "https://www.youtube.com/@flowly"
+        },
+        {
+          "program_id": "Flowly Nature_program_11",
+          "start": 1194,
+          "end": 1267,
+          "genre": "nature",
+          "score": 84,
+          "url": "https://www.youtube.com/@flowly"
+        },
+        {
+          "program_id": "Flowly Nature_program_12",
+          "start": 1267,
+          "end": 1307,
+          "genre": "nature",
+          "score": 72,
+          "url": "https://www.youtube.com/@flowly"
+        }
+      ]
+    },
+    {
+      "channel_id": 22,
+      "channel_name": "Nature Relaxation\u2122 On-Demand",
+      "programs": [
+        {
+          "program_id": "Nature Relaxation\u2122 On-Demand_program_0",
+          "start": 587,
+          "end": 652,
+          "genre": "nature",
+          "score": 84,
+          "url": "https://www.youtube.com/playlist?list=PLlvaRq9tQVPrX_Rg8UOJ73TK8pmsyoHD_"
+        },
+        {
+          "program_id": "Nature Relaxation\u2122 On-Demand_program_1",
+          "start": 652,
+          "end": 722,
+          "genre": "nature",
+          "score": 75,
+          "url": "https://www.youtube.com/playlist?list=PLlvaRq9tQVPrX_Rg8UOJ73TK8pmsyoHD_"
+        },
+        {
+          "program_id": "Nature Relaxation\u2122 On-Demand_program_2",
+          "start": 722,
+          "end": 807,
+          "genre": "nature",
+          "score": 89,
+          "url": "https://www.youtube.com/playlist?list=PLlvaRq9tQVPrX_Rg8UOJ73TK8pmsyoHD_"
+        },
+        {
+          "program_id": "Nature Relaxation\u2122 On-Demand_program_3",
+          "start": 807,
+          "end": 838,
+          "genre": "nature",
+          "score": 84,
+          "url": "https://www.youtube.com/playlist?list=PLlvaRq9tQVPrX_Rg8UOJ73TK8pmsyoHD_"
+        },
+        {
+          "program_id": "Nature Relaxation\u2122 On-Demand_program_4",
+          "start": 838,
+          "end": 878,
+          "genre": "nature",
+          "score": 85,
+          "url": "https://www.youtube.com/playlist?list=PLlvaRq9tQVPrX_Rg8UOJ73TK8pmsyoHD_"
+        },
+        {
+          "program_id": "Nature Relaxation\u2122 On-Demand_program_5",
+          "start": 878,
+          "end": 942,
+          "genre": "nature",
+          "score": 88,
+          "url": "https://www.youtube.com/playlist?list=PLlvaRq9tQVPrX_Rg8UOJ73TK8pmsyoHD_"
+        },
+        {
+          "program_id": "Nature Relaxation\u2122 On-Demand_program_6",
+          "start": 942,
+          "end": 1031,
+          "genre": "nature",
+          "score": 87,
+          "url": "https://www.youtube.com/playlist?list=PLlvaRq9tQVPrX_Rg8UOJ73TK8pmsyoHD_"
+        },
+        {
+          "program_id": "Nature Relaxation\u2122 On-Demand_program_7",
+          "start": 1031,
+          "end": 1106,
+          "genre": "nature",
+          "score": 75,
+          "url": "https://www.youtube.com/playlist?list=PLlvaRq9tQVPrX_Rg8UOJ73TK8pmsyoHD_"
+        },
+        {
+          "program_id": "Nature Relaxation\u2122 On-Demand_program_8",
+          "start": 1106,
+          "end": 1179,
+          "genre": "nature",
+          "score": 71,
+          "url": "https://www.youtube.com/playlist?list=PLlvaRq9tQVPrX_Rg8UOJ73TK8pmsyoHD_"
+        },
+        {
+          "program_id": "Nature Relaxation\u2122 On-Demand_program_9",
+          "start": 1179,
+          "end": 1209,
+          "genre": "nature",
+          "score": 83,
+          "url": "https://www.youtube.com/playlist?list=PLlvaRq9tQVPrX_Rg8UOJ73TK8pmsyoHD_"
+        },
+        {
+          "program_id": "Nature Relaxation\u2122 On-Demand_program_10",
+          "start": 1209,
+          "end": 1254,
+          "genre": "nature",
+          "score": 83,
+          "url": "https://www.youtube.com/playlist?list=PLlvaRq9tQVPrX_Rg8UOJ73TK8pmsyoHD_"
+        },
+        {
+          "program_id": "Nature Relaxation\u2122 On-Demand_program_11",
+          "start": 1254,
+          "end": 1286,
+          "genre": "nature",
+          "score": 90,
+          "url": "https://www.youtube.com/playlist?list=PLlvaRq9tQVPrX_Rg8UOJ73TK8pmsyoHD_"
+        }
+      ]
+    },
+    {
+      "channel_id": 23,
+      "channel_name": "Real Nature Scenery Videos",
+      "programs": [
+        {
+          "program_id": "Real Nature Scenery Videos_program_0",
+          "start": 587,
+          "end": 670,
+          "genre": "nature",
+          "score": 79,
+          "url": "https://www.youtube.com/playlist?list=PLlvaRq9tQVPrhuKYg1ReBV6mhepcCaNwu"
+        },
+        {
+          "program_id": "Real Nature Scenery Videos_program_1",
+          "start": 670,
+          "end": 727,
+          "genre": "nature",
+          "score": 71,
+          "url": "https://www.youtube.com/playlist?list=PLlvaRq9tQVPrhuKYg1ReBV6mhepcCaNwu"
+        },
+        {
+          "program_id": "Real Nature Scenery Videos_program_2",
+          "start": 727,
+          "end": 778,
+          "genre": "nature",
+          "score": 73,
+          "url": "https://www.youtube.com/playlist?list=PLlvaRq9tQVPrhuKYg1ReBV6mhepcCaNwu"
+        },
+        {
+          "program_id": "Real Nature Scenery Videos_program_3",
+          "start": 778,
+          "end": 851,
+          "genre": "nature",
+          "score": 82,
+          "url": "https://www.youtube.com/playlist?list=PLlvaRq9tQVPrhuKYg1ReBV6mhepcCaNwu"
+        },
+        {
+          "program_id": "Real Nature Scenery Videos_program_4",
+          "start": 851,
+          "end": 919,
+          "genre": "nature",
+          "score": 74,
+          "url": "https://www.youtube.com/playlist?list=PLlvaRq9tQVPrhuKYg1ReBV6mhepcCaNwu"
+        },
+        {
+          "program_id": "Real Nature Scenery Videos_program_5",
+          "start": 919,
+          "end": 981,
+          "genre": "nature",
+          "score": 87,
+          "url": "https://www.youtube.com/playlist?list=PLlvaRq9tQVPrhuKYg1ReBV6mhepcCaNwu"
+        },
+        {
+          "program_id": "Real Nature Scenery Videos_program_6",
+          "start": 981,
+          "end": 1022,
+          "genre": "nature",
+          "score": 85,
+          "url": "https://www.youtube.com/playlist?list=PLlvaRq9tQVPrhuKYg1ReBV6mhepcCaNwu"
+        },
+        {
+          "program_id": "Real Nature Scenery Videos_program_7",
+          "start": 1022,
+          "end": 1110,
+          "genre": "nature",
+          "score": 74,
+          "url": "https://www.youtube.com/playlist?list=PLlvaRq9tQVPrhuKYg1ReBV6mhepcCaNwu"
+        },
+        {
+          "program_id": "Real Nature Scenery Videos_program_8",
+          "start": 1110,
+          "end": 1200,
+          "genre": "nature",
+          "score": 82,
+          "url": "https://www.youtube.com/playlist?list=PLlvaRq9tQVPrhuKYg1ReBV6mhepcCaNwu"
+        },
+        {
+          "program_id": "Real Nature Scenery Videos_program_9",
+          "start": 1200,
+          "end": 1287,
+          "genre": "nature",
+          "score": 79,
+          "url": "https://www.youtube.com/playlist?list=PLlvaRq9tQVPrhuKYg1ReBV6mhepcCaNwu"
+        }
+      ]
+    },
+    {
+      "channel_id": 24,
+      "channel_name": "Long 4K Nature Scenic Videos",
+      "programs": [
+        {
+          "program_id": "Long 4K Nature Scenic Videos_program_0",
+          "start": 587,
+          "end": 654,
+          "genre": "nature",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=AKeUssuu3Is"
+        },
+        {
+          "program_id": "Long 4K Nature Scenic Videos_program_1",
+          "start": 654,
+          "end": 740,
+          "genre": "nature",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=AKeUssuu3Is"
+        },
+        {
+          "program_id": "Long 4K Nature Scenic Videos_program_2",
+          "start": 740,
+          "end": 804,
+          "genre": "nature",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=AKeUssuu3Is"
+        },
+        {
+          "program_id": "Long 4K Nature Scenic Videos_program_3",
+          "start": 804,
+          "end": 877,
+          "genre": "nature",
+          "score": 71,
+          "url": "https://www.youtube.com/watch?v=AKeUssuu3Is"
+        },
+        {
+          "program_id": "Long 4K Nature Scenic Videos_program_4",
+          "start": 877,
+          "end": 908,
+          "genre": "nature",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=AKeUssuu3Is"
+        },
+        {
+          "program_id": "Long 4K Nature Scenic Videos_program_5",
+          "start": 908,
+          "end": 963,
+          "genre": "nature",
+          "score": 82,
+          "url": "https://www.youtube.com/watch?v=AKeUssuu3Is"
+        },
+        {
+          "program_id": "Long 4K Nature Scenic Videos_program_6",
+          "start": 963,
+          "end": 1042,
+          "genre": "nature",
+          "score": 82,
+          "url": "https://www.youtube.com/watch?v=AKeUssuu3Is"
+        },
+        {
+          "program_id": "Long 4K Nature Scenic Videos_program_7",
+          "start": 1042,
+          "end": 1132,
+          "genre": "nature",
+          "score": 74,
+          "url": "https://www.youtube.com/watch?v=AKeUssuu3Is"
+        },
+        {
+          "program_id": "Long 4K Nature Scenic Videos_program_8",
+          "start": 1132,
+          "end": 1185,
+          "genre": "nature",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=AKeUssuu3Is"
+        },
+        {
+          "program_id": "Long 4K Nature Scenic Videos_program_9",
+          "start": 1185,
+          "end": 1231,
+          "genre": "nature",
+          "score": 70,
+          "url": "https://www.youtube.com/watch?v=AKeUssuu3Is"
+        },
+        {
+          "program_id": "Long 4K Nature Scenic Videos_program_10",
+          "start": 1231,
+          "end": 1305,
+          "genre": "nature",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=AKeUssuu3Is"
+        }
+      ]
+    },
+    {
+      "channel_id": 25,
+      "channel_name": "Pure Nature Streams & Scenic Views",
+      "programs": [
+        {
+          "program_id": "Pure Nature Streams & Scenic Views_program_0",
+          "start": 587,
+          "end": 651,
+          "genre": "nature",
+          "score": 81,
+          "url": "https://www.youtube.com/watch?v=XVDLdtjlCrY"
+        },
+        {
+          "program_id": "Pure Nature Streams & Scenic Views_program_1",
+          "start": 651,
+          "end": 716,
+          "genre": "nature",
+          "score": 73,
+          "url": "https://www.youtube.com/watch?v=XVDLdtjlCrY"
+        },
+        {
+          "program_id": "Pure Nature Streams & Scenic Views_program_2",
+          "start": 716,
+          "end": 762,
+          "genre": "nature",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=XVDLdtjlCrY"
+        },
+        {
+          "program_id": "Pure Nature Streams & Scenic Views_program_3",
+          "start": 762,
+          "end": 828,
+          "genre": "nature",
+          "score": 84,
+          "url": "https://www.youtube.com/watch?v=XVDLdtjlCrY"
+        },
+        {
+          "program_id": "Pure Nature Streams & Scenic Views_program_4",
+          "start": 828,
+          "end": 903,
+          "genre": "nature",
+          "score": 71,
+          "url": "https://www.youtube.com/watch?v=XVDLdtjlCrY"
+        },
+        {
+          "program_id": "Pure Nature Streams & Scenic Views_program_5",
+          "start": 903,
+          "end": 989,
+          "genre": "nature",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=XVDLdtjlCrY"
+        },
+        {
+          "program_id": "Pure Nature Streams & Scenic Views_program_6",
+          "start": 989,
+          "end": 1072,
+          "genre": "nature",
+          "score": 70,
+          "url": "https://www.youtube.com/watch?v=XVDLdtjlCrY"
+        },
+        {
+          "program_id": "Pure Nature Streams & Scenic Views_program_7",
+          "start": 1072,
+          "end": 1120,
+          "genre": "nature",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=XVDLdtjlCrY"
+        },
+        {
+          "program_id": "Pure Nature Streams & Scenic Views_program_8",
+          "start": 1120,
+          "end": 1169,
+          "genre": "nature",
+          "score": 71,
+          "url": "https://www.youtube.com/watch?v=XVDLdtjlCrY"
+        },
+        {
+          "program_id": "Pure Nature Streams & Scenic Views_program_9",
+          "start": 1169,
+          "end": 1242,
+          "genre": "nature",
+          "score": 70,
+          "url": "https://www.youtube.com/watch?v=XVDLdtjlCrY"
+        },
+        {
+          "program_id": "Pure Nature Streams & Scenic Views_program_10",
+          "start": 1242,
+          "end": 1299,
+          "genre": "nature",
+          "score": 75,
+          "url": "https://www.youtube.com/watch?v=XVDLdtjlCrY"
+        }
+      ]
+    },
+    {
+      "channel_id": 26,
+      "channel_name": "8-Hour Nature Landscapes Video",
+      "programs": [
+        {
+          "program_id": "8-Hour Nature Landscapes Video_program_0",
+          "start": 587,
+          "end": 675,
+          "genre": "nature",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=p1w5Wop_ARI"
+        },
+        {
+          "program_id": "8-Hour Nature Landscapes Video_program_1",
+          "start": 675,
+          "end": 717,
+          "genre": "nature",
+          "score": 74,
+          "url": "https://www.youtube.com/watch?v=p1w5Wop_ARI"
+        },
+        {
+          "program_id": "8-Hour Nature Landscapes Video_program_2",
+          "start": 717,
+          "end": 754,
+          "genre": "nature",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=p1w5Wop_ARI"
+        },
+        {
+          "program_id": "8-Hour Nature Landscapes Video_program_3",
+          "start": 754,
+          "end": 822,
+          "genre": "nature",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=p1w5Wop_ARI"
+        },
+        {
+          "program_id": "8-Hour Nature Landscapes Video_program_4",
+          "start": 822,
+          "end": 900,
+          "genre": "nature",
+          "score": 71,
+          "url": "https://www.youtube.com/watch?v=p1w5Wop_ARI"
+        },
+        {
+          "program_id": "8-Hour Nature Landscapes Video_program_5",
+          "start": 900,
+          "end": 981,
+          "genre": "nature",
+          "score": 82,
+          "url": "https://www.youtube.com/watch?v=p1w5Wop_ARI"
+        },
+        {
+          "program_id": "8-Hour Nature Landscapes Video_program_6",
+          "start": 981,
+          "end": 1054,
+          "genre": "nature",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=p1w5Wop_ARI"
+        },
+        {
+          "program_id": "8-Hour Nature Landscapes Video_program_7",
+          "start": 1054,
+          "end": 1089,
+          "genre": "nature",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=p1w5Wop_ARI"
+        },
+        {
+          "program_id": "8-Hour Nature Landscapes Video_program_8",
+          "start": 1089,
+          "end": 1135,
+          "genre": "nature",
+          "score": 72,
+          "url": "https://www.youtube.com/watch?v=p1w5Wop_ARI"
+        },
+        {
+          "program_id": "8-Hour Nature Landscapes Video_program_9",
+          "start": 1135,
+          "end": 1192,
+          "genre": "nature",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=p1w5Wop_ARI"
+        },
+        {
+          "program_id": "8-Hour Nature Landscapes Video_program_10",
+          "start": 1192,
+          "end": 1260,
+          "genre": "nature",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=p1w5Wop_ARI"
+        },
+        {
+          "program_id": "8-Hour Nature Landscapes Video_program_11",
+          "start": 1260,
+          "end": 1307,
+          "genre": "nature",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=p1w5Wop_ARI"
+        }
+      ]
+    }
+  ]
+}

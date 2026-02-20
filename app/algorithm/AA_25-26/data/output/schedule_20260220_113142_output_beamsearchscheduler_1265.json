@@ -1,0 +1,118 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "NASA_program_0",
+            "channel_id": 4,
+            "start": 691,
+            "end": 732
+        },
+        {
+            "program_id": "afarTV_program_0",
+            "channel_id": 6,
+            "start": 732,
+            "end": 762
+        },
+        {
+            "program_id": "afarTV_program_1",
+            "channel_id": 6,
+            "start": 762,
+            "end": 792
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_1",
+            "channel_id": 8,
+            "start": 792,
+            "end": 824
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_2",
+            "channel_id": 8,
+            "start": 824,
+            "end": 854
+        },
+        {
+            "program_id": "afarTV_program_2",
+            "channel_id": 6,
+            "start": 854,
+            "end": 884
+        },
+        {
+            "program_id": "Joey Does Tech_program_3",
+            "channel_id": 12,
+            "start": 884,
+            "end": 915
+        },
+        {
+            "program_id": "Joey Does Tech_program_4",
+            "channel_id": 12,
+            "start": 915,
+            "end": 945
+        },
+        {
+            "program_id": "Space Streams_program_4",
+            "channel_id": 7,
+            "start": 945,
+            "end": 977
+        },
+        {
+            "program_id": "Space Streams_program_5",
+            "channel_id": 7,
+            "start": 977,
+            "end": 1016
+        },
+        {
+            "program_id": "Space Streams_program_6",
+            "channel_id": 7,
+            "start": 1016,
+            "end": 1054
+        },
+        {
+            "program_id": "Space Streams_program_7",
+            "channel_id": 7,
+            "start": 1054,
+            "end": 1087
+        },
+        {
+            "program_id": "Space Streams_program_8",
+            "channel_id": 7,
+            "start": 1087,
+            "end": 1117
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_6",
+            "channel_id": 8,
+            "start": 1117,
+            "end": 1147
+        },
+        {
+            "program_id": "Sen_program_8",
+            "channel_id": 2,
+            "start": 1147,
+            "end": 1179
+        },
+        {
+            "program_id": "NASA_program_8",
+            "channel_id": 4,
+            "start": 1179,
+            "end": 1211
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_7",
+            "channel_id": 8,
+            "start": 1211,
+            "end": 1246
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_8",
+            "channel_id": 8,
+            "start": 1246,
+            "end": 1277
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_9",
+            "channel_id": 8,
+            "start": 1277,
+            "end": 1307
+        }
+    ]
+}

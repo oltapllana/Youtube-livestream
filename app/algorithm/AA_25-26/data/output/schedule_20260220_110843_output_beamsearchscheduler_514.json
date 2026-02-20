@@ -1,0 +1,46 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Nature Relaxation™ On-Demand_program_0",
+            "channel_id": 22,
+            "start": 587,
+            "end": 652
+        },
+        {
+            "program_id": "8-Hour Nature Landscapes Video_program_1",
+            "channel_id": 26,
+            "start": 675,
+            "end": 717
+        },
+        {
+            "program_id": "8-Hour Nature Landscapes Video_program_2",
+            "channel_id": 26,
+            "start": 717,
+            "end": 754
+        },
+        {
+            "program_id": "8-Hour Nature Landscapes Video_program_3",
+            "channel_id": 26,
+            "start": 754,
+            "end": 784
+        },
+        {
+            "program_id": "Flowly Nature_program_3",
+            "channel_id": 21,
+            "start": 784,
+            "end": 814
+        },
+        {
+            "program_id": "Flowly Nature_program_4",
+            "channel_id": 21,
+            "start": 814,
+            "end": 852
+        },
+        {
+            "program_id": "Flowly Nature_program_5",
+            "channel_id": 21,
+            "start": 852,
+            "end": 898
+        }
+    ]
+}

@@ -15,15 +15,15 @@
 
       <div class="filters-body">
         <label>
-          <span>Opening Time</span>
+          <span>Opening Time <small class="field-hint">(when the schedule starts)</small></span>
           <input type="time" v-model="prefs.openTime" />
         </label>
         <label>
-          <span>Closing Time</span>
+          <span>Closing Time <small class="field-hint">(when the schedule ends)</small></span>
           <input type="time" v-model="prefs.closeTime" />
         </label>
         <label>
-          <span>Min Duration (% of shortest)</span>
+          <span>Min Duration <small class="field-hint">(minimum length of each slot, % of shortest video)</small></span>
           <select v-model.number="prefs.minDurationPct">
             <option :value="70">70%</option>
             <option :value="80">80%</option>
@@ -32,14 +32,14 @@
           </select>
         </label>
         <label>
-          <span>Channels Count</span>
+          <span>Channels Count <small class="field-hint">(how many channels to include)</small></span>
           <select v-model.number="prefs.channelsCount">
             <option :value="10">10</option>
             <option :value="20">20</option>
           </select>
         </label>
         <label>
-          <span>Switch Penalty (% of avg score)</span>
+          <span>Switch Penalty <small class="field-hint">(cost of switching channels, % of avg score)</small></span>
           <select v-model.number="prefs.switchPenaltyPct">
             <option :value="3">3%</option>
             <option :value="5">5%</option>
@@ -48,7 +48,7 @@
           </select>
         </label>
         <label>
-          <span>Bonus (% of avg score)</span>
+          <span>Bonus <small class="field-hint">(reward for preferred content, % of avg score)</small></span>
           <select v-model.number="prefs.bonusPct">
             <option :value="3">3%</option>
             <option :value="5">5%</option>
@@ -57,7 +57,7 @@
           </select>
         </label>
         <label>
-          <span>Termination Penalty</span>
+          <span>Termination Penalty <small class="field-hint">(penalty when a program is cut short)</small></span>
           <input
             type="number"
             v-model.number="prefs.terminationPenalty"
@@ -66,7 +66,7 @@
           />
         </label>
         <label>
-          <span>Max Consecutive Genre</span>
+          <span>Max Consecutive Genre <small class="field-hint">(max same-genre programs in a row)</small></span>
           <input
             type="number"
             v-model.number="prefs.maxConsecutiveGenre"
@@ -77,7 +77,7 @@
 
         <!-- Category selector with toggle switches -->
         <div class="category-section">
-          <h4>Channel Categories</h4>
+          <h4>Channel Categories <small class="field-hint">(filter streams by topic)</small></h4>
           <div class="category-toggles">
             <label class="toggle-label">
               <input

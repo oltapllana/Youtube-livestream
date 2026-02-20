@@ -1,11 +1,13 @@
 <template>
   <header class="topbar">
     <div class="topbar-left">
-   <img
-        src="../assets/logo.png"
-        alt="App Logo"
+      <img
+        src="../assets/up.svg"
+        alt="UniPRStream Logo"
         class="logo-image"
+        style="height:40px;background-color:white;border-radius:100%"
       />
+      <span class="logo-brand">UniPR<span class="logo-accent">Stream</span></span>
     </div>
     <div class="topbar-center">
       <span class="now-label">{{ clockLabel }}</span>
@@ -30,8 +32,17 @@ defineEmits(['openPrefs'])
 
 <style scoped>
 .logo-image {
-  height: 200px;       
+  height: 42px;
   width: auto;
   object-fit: contain;
+}
+.logo-brand {
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  color: #f1f1f1;
+}
+.logo-accent {
+  color: #3ea6ff;
 }
 </style>

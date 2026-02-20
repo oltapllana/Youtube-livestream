@@ -1,0 +1,46 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "8-Hour Nature Landscapes Video_program_1",
+            "channel_id": 26,
+            "start": 636,
+            "end": 683
+        },
+        {
+            "program_id": "8-Hour Nature Landscapes Video_program_2",
+            "channel_id": 26,
+            "start": 683,
+            "end": 724
+        },
+        {
+            "program_id": "8-Hour Nature Landscapes Video_program_3",
+            "channel_id": 26,
+            "start": 724,
+            "end": 754
+        },
+        {
+            "program_id": "Long 4K Nature Scenic Videos_program_2",
+            "channel_id": 24,
+            "start": 754,
+            "end": 802
+        },
+        {
+            "program_id": "8-Hour Nature Landscapes Video_program_4",
+            "channel_id": 26,
+            "start": 809,
+            "end": 849
+        },
+        {
+            "program_id": "8-Hour Nature Landscapes Video_program_5",
+            "channel_id": 26,
+            "start": 849,
+            "end": 890
+        },
+        {
+            "program_id": "8-Hour Nature Landscapes Video_program_6",
+            "channel_id": 26,
+            "start": 890,
+            "end": 924
+        }
+    ]
+}

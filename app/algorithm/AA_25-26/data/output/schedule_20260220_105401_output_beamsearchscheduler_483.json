@@ -1,0 +1,46 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "BBC Earth Wildlife_program_0",
+            "channel_id": 19,
+            "start": 587,
+            "end": 621
+        },
+        {
+            "program_id": "BBC Earth Wildlife_program_1",
+            "channel_id": 19,
+            "start": 621,
+            "end": 652
+        },
+        {
+            "program_id": "Love Nature_program_1",
+            "channel_id": 18,
+            "start": 652,
+            "end": 682
+        },
+        {
+            "program_id": "Nature Live Camera (Birds)_program_1",
+            "channel_id": 16,
+            "start": 682,
+            "end": 712
+        },
+        {
+            "program_id": "Nature Live Camera (Birds)_program_2",
+            "channel_id": 16,
+            "start": 712,
+            "end": 742
+        },
+        {
+            "program_id": "WildEarth Waterhole_program_2",
+            "channel_id": 20,
+            "start": 742,
+            "end": 785
+        },
+        {
+            "program_id": "WildEarth Waterhole_program_3",
+            "channel_id": 20,
+            "start": 785,
+            "end": 815
+        }
+    ]
+}

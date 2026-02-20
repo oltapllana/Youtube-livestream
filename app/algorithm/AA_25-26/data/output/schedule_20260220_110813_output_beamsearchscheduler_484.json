@@ -1,0 +1,46 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Real Nature Scenery Videos_program_0",
+            "channel_id": 23,
+            "start": 587,
+            "end": 646
+        },
+        {
+            "program_id": "Real Nature Scenery Videos_program_1",
+            "channel_id": 23,
+            "start": 646,
+            "end": 692
+        },
+        {
+            "program_id": "Nature Relaxation™ On-Demand_program_2",
+            "channel_id": 22,
+            "start": 692,
+            "end": 727
+        },
+        {
+            "program_id": "Nature Relaxation™ On-Demand_program_3",
+            "channel_id": 22,
+            "start": 727,
+            "end": 777
+        },
+        {
+            "program_id": "Flowly Nature_program_3",
+            "channel_id": 21,
+            "start": 777,
+            "end": 807
+        },
+        {
+            "program_id": "Real Nature Scenery Videos_program_4",
+            "channel_id": 23,
+            "start": 828,
+            "end": 872
+        },
+        {
+            "program_id": "Long 4K Nature Scenic Videos_program_5",
+            "channel_id": 24,
+            "start": 872,
+            "end": 917
+        }
+    ]
+}

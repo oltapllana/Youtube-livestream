@@ -1,0 +1,46 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Flowly Nature_program_1",
+            "channel_id": 21,
+            "start": 627,
+            "end": 685
+        },
+        {
+            "program_id": "Flowly Nature_program_2",
+            "channel_id": 21,
+            "start": 685,
+            "end": 715
+        },
+        {
+            "program_id": "Pure Nature Streams & Scenic Views_program_2",
+            "channel_id": 25,
+            "start": 720,
+            "end": 791
+        },
+        {
+            "program_id": "Pure Nature Streams & Scenic Views_program_3",
+            "channel_id": 25,
+            "start": 791,
+            "end": 850
+        },
+        {
+            "program_id": "Pure Nature Streams & Scenic Views_program_4",
+            "channel_id": 25,
+            "start": 850,
+            "end": 881
+        },
+        {
+            "program_id": "Pure Nature Streams & Scenic Views_program_5",
+            "channel_id": 25,
+            "start": 881,
+            "end": 925
+        },
+        {
+            "program_id": "Pure Nature Streams & Scenic Views_program_6",
+            "channel_id": 25,
+            "start": 925,
+            "end": 963
+        }
+    ]
+}

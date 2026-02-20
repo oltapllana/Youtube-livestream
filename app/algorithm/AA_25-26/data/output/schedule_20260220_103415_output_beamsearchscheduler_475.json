@@ -1,0 +1,46 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Cornell Lab Bird Cams_program_0",
+            "channel_id": 16,
+            "start": 587,
+            "end": 671
+        },
+        {
+            "program_id": "Cornell Lab Bird Cams_program_1",
+            "channel_id": 16,
+            "start": 671,
+            "end": 701
+        },
+        {
+            "program_id": "WildEarth Safari Live_program_2",
+            "channel_id": 18,
+            "start": 720,
+            "end": 751
+        },
+        {
+            "program_id": "Africam Safari_program_3",
+            "channel_id": 19,
+            "start": 756,
+            "end": 786
+        },
+        {
+            "program_id": "Africam Safari_program_4",
+            "channel_id": 19,
+            "start": 786,
+            "end": 826
+        },
+        {
+            "program_id": "Explore Live Nature Cams_program_3",
+            "channel_id": 14,
+            "start": 826,
+            "end": 856
+        },
+        {
+            "program_id": "Africam Safari_program_5",
+            "channel_id": 19,
+            "start": 863,
+            "end": 898
+        }
+    ]
+}

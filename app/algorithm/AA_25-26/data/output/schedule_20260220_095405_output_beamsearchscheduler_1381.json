@@ -1,0 +1,130 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Crux_program_0",
+            "channel_id": 0,
+            "start": 587,
+            "end": 630
+        },
+        {
+            "program_id": "Crux_program_1",
+            "channel_id": 0,
+            "start": 630,
+            "end": 664
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_1",
+            "channel_id": 8,
+            "start": 675,
+            "end": 721
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_2",
+            "channel_id": 8,
+            "start": 721,
+            "end": 751
+        },
+        {
+            "program_id": "Crux_program_3",
+            "channel_id": 0,
+            "start": 751,
+            "end": 781
+        },
+        {
+            "program_id": "Crux_program_4",
+            "channel_id": 0,
+            "start": 781,
+            "end": 811
+        },
+        {
+            "program_id": "afarTV_program_3",
+            "channel_id": 6,
+            "start": 811,
+            "end": 845
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_4",
+            "channel_id": 8,
+            "start": 845,
+            "end": 875
+        },
+        {
+            "program_id": "Sen_program_4",
+            "channel_id": 2,
+            "start": 875,
+            "end": 906
+        },
+        {
+            "program_id": "NASA_program_5",
+            "channel_id": 4,
+            "start": 906,
+            "end": 936
+        },
+        {
+            "program_id": "NASA_program_6",
+            "channel_id": 4,
+            "start": 936,
+            "end": 966
+        },
+        {
+            "program_id": "Dream Trips_program_8",
+            "channel_id": 3,
+            "start": 966,
+            "end": 1001
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_7",
+            "channel_id": 8,
+            "start": 1001,
+            "end": 1034
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_8",
+            "channel_id": 8,
+            "start": 1034,
+            "end": 1064
+        },
+        {
+            "program_id": "Sen_program_7",
+            "channel_id": 2,
+            "start": 1064,
+            "end": 1098
+        },
+        {
+            "program_id": "Sen_program_8",
+            "channel_id": 2,
+            "start": 1098,
+            "end": 1128
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_9",
+            "channel_id": 8,
+            "start": 1128,
+            "end": 1166
+        },
+        {
+            "program_id": "Space Streams_program_8",
+            "channel_id": 7,
+            "start": 1166,
+            "end": 1207
+        },
+        {
+            "program_id": "The Financial Express_program_10",
+            "channel_id": 1,
+            "start": 1215,
+            "end": 1247
+        },
+        {
+            "program_id": "The Financial Express_program_11",
+            "channel_id": 1,
+            "start": 1247,
+            "end": 1277
+        },
+        {
+            "program_id": "NASA_program_10",
+            "channel_id": 4,
+            "start": 1277,
+            "end": 1307
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Real Nature Scenery Videos_program_1",
+            "channel_id": 23,
+            "start": 625,
+            "end": 688
+        },
+        {
+            "program_id": "Real Nature Scenery Videos_program_2",
+            "channel_id": 23,
+            "start": 688,
+            "end": 727
+        },
+        {
+            "program_id": "Real Nature Scenery Videos_program_3",
+            "channel_id": 23,
+            "start": 727,
+            "end": 757
+        },
+        {
+            "program_id": "Pure Nature Streams & Scenic Views_program_3",
+            "channel_id": 25,
+            "start": 765,
+            "end": 795
+        },
+        {
+            "program_id": "Pure Nature Streams & Scenic Views_program_4",
+            "channel_id": 25,
+            "start": 795,
+            "end": 828
+        },
+        {
+            "program_id": "Pure Nature Streams & Scenic Views_program_5",
+            "channel_id": 25,
+            "start": 828,
+            "end": 877
+        },
+        {
+            "program_id": "Pure Nature Streams & Scenic Views_program_6",
+            "channel_id": 25,
+            "start": 877,
+            "end": 916
+        }
+    ]
+}

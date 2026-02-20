@@ -1,0 +1,601 @@
+{
+  "opening_time": 587,
+  "closing_time": 1307,
+  "min_duration": 30,
+  "max_consecutive_genre": 7,
+  "channels_count": 6,
+  "switch_penalty": 8,
+  "termination_penalty": 20,
+  "priority_blocks": [],
+  "time_preferences": [],
+  "channels": [
+    {
+      "channel_id": 14,
+      "channel_name": "Explore Live Nature Cams",
+      "programs": [
+        {
+          "program_id": "Explore Live Nature Cams_program_0",
+          "start": 587,
+          "end": 676,
+          "genre": "nature",
+          "score": 81,
+          "url": "https://www.youtube.com/watch?v=ydYDqZQpim8"
+        },
+        {
+          "program_id": "Explore Live Nature Cams_program_1",
+          "start": 676,
+          "end": 760,
+          "genre": "nature",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=ydYDqZQpim8"
+        },
+        {
+          "program_id": "Explore Live Nature Cams_program_2",
+          "start": 760,
+          "end": 817,
+          "genre": "nature",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=ydYDqZQpim8"
+        },
+        {
+          "program_id": "Explore Live Nature Cams_program_3",
+          "start": 817,
+          "end": 869,
+          "genre": "nature",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=ydYDqZQpim8"
+        },
+        {
+          "program_id": "Explore Live Nature Cams_program_4",
+          "start": 869,
+          "end": 908,
+          "genre": "nature",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=ydYDqZQpim8"
+        },
+        {
+          "program_id": "Explore Live Nature Cams_program_5",
+          "start": 908,
+          "end": 952,
+          "genre": "nature",
+          "score": 70,
+          "url": "https://www.youtube.com/watch?v=ydYDqZQpim8"
+        },
+        {
+          "program_id": "Explore Live Nature Cams_program_6",
+          "start": 952,
+          "end": 990,
+          "genre": "nature",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=ydYDqZQpim8"
+        },
+        {
+          "program_id": "Explore Live Nature Cams_program_7",
+          "start": 990,
+          "end": 1062,
+          "genre": "nature",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=ydYDqZQpim8"
+        },
+        {
+          "program_id": "Explore Live Nature Cams_program_8",
+          "start": 1062,
+          "end": 1152,
+          "genre": "nature",
+          "score": 71,
+          "url": "https://www.youtube.com/watch?v=ydYDqZQpim8"
+        },
+        {
+          "program_id": "Explore Live Nature Cams_program_9",
+          "start": 1152,
+          "end": 1193,
+          "genre": "nature",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=ydYDqZQpim8"
+        },
+        {
+          "program_id": "Explore Live Nature Cams_program_10",
+          "start": 1193,
+          "end": 1266,
+          "genre": "nature",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=ydYDqZQpim8"
+        },
+        {
+          "program_id": "Explore Live Nature Cams_program_11",
+          "start": 1266,
+          "end": 1307,
+          "genre": "nature",
+          "score": 74,
+          "url": "https://www.youtube.com/watch?v=ydYDqZQpim8"
+        }
+      ]
+    },
+    {
+      "channel_id": 15,
+      "channel_name": "Monterey Bay Aquarium",
+      "programs": [
+        {
+          "program_id": "Monterey Bay Aquarium_program_0",
+          "start": 587,
+          "end": 636,
+          "genre": "nature",
+          "score": 73,
+          "url": "https://www.youtube.com/watch?v=na3lHPoXtnc"
+        },
+        {
+          "program_id": "Monterey Bay Aquarium_program_1",
+          "start": 636,
+          "end": 680,
+          "genre": "nature",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=na3lHPoXtnc"
+        },
+        {
+          "program_id": "Monterey Bay Aquarium_program_2",
+          "start": 680,
+          "end": 756,
+          "genre": "nature",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=na3lHPoXtnc"
+        },
+        {
+          "program_id": "Monterey Bay Aquarium_program_3",
+          "start": 756,
+          "end": 788,
+          "genre": "nature",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=na3lHPoXtnc"
+        },
+        {
+          "program_id": "Monterey Bay Aquarium_program_4",
+          "start": 788,
+          "end": 820,
+          "genre": "nature",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=na3lHPoXtnc"
+        },
+        {
+          "program_id": "Monterey Bay Aquarium_program_5",
+          "start": 820,
+          "end": 879,
+          "genre": "nature",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=na3lHPoXtnc"
+        },
+        {
+          "program_id": "Monterey Bay Aquarium_program_6",
+          "start": 879,
+          "end": 958,
+          "genre": "nature",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=na3lHPoXtnc"
+        },
+        {
+          "program_id": "Monterey Bay Aquarium_program_7",
+          "start": 958,
+          "end": 1017,
+          "genre": "nature",
+          "score": 84,
+          "url": "https://www.youtube.com/watch?v=na3lHPoXtnc"
+        },
+        {
+          "program_id": "Monterey Bay Aquarium_program_8",
+          "start": 1017,
+          "end": 1093,
+          "genre": "nature",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=na3lHPoXtnc"
+        },
+        {
+          "program_id": "Monterey Bay Aquarium_program_9",
+          "start": 1093,
+          "end": 1142,
+          "genre": "nature",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=na3lHPoXtnc"
+        },
+        {
+          "program_id": "Monterey Bay Aquarium_program_10",
+          "start": 1142,
+          "end": 1219,
+          "genre": "nature",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=na3lHPoXtnc"
+        },
+        {
+          "program_id": "Monterey Bay Aquarium_program_11",
+          "start": 1219,
+          "end": 1269,
+          "genre": "nature",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=na3lHPoXtnc"
+        },
+        {
+          "program_id": "Monterey Bay Aquarium_program_12",
+          "start": 1269,
+          "end": 1307,
+          "genre": "nature",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=na3lHPoXtnc"
+        }
+      ]
+    },
+    {
+      "channel_id": 16,
+      "channel_name": "Cornell Lab Bird Cams",
+      "programs": [
+        {
+          "program_id": "Cornell Lab Bird Cams_program_0",
+          "start": 587,
+          "end": 670,
+          "genre": "nature",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=N609loYkFJo"
+        },
+        {
+          "program_id": "Cornell Lab Bird Cams_program_1",
+          "start": 670,
+          "end": 739,
+          "genre": "nature",
+          "score": 81,
+          "url": "https://www.youtube.com/watch?v=N609loYkFJo"
+        },
+        {
+          "program_id": "Cornell Lab Bird Cams_program_2",
+          "start": 739,
+          "end": 776,
+          "genre": "nature",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=N609loYkFJo"
+        },
+        {
+          "program_id": "Cornell Lab Bird Cams_program_3",
+          "start": 776,
+          "end": 829,
+          "genre": "nature",
+          "score": 74,
+          "url": "https://www.youtube.com/watch?v=N609loYkFJo"
+        },
+        {
+          "program_id": "Cornell Lab Bird Cams_program_4",
+          "start": 829,
+          "end": 919,
+          "genre": "nature",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=N609loYkFJo"
+        },
+        {
+          "program_id": "Cornell Lab Bird Cams_program_5",
+          "start": 919,
+          "end": 979,
+          "genre": "nature",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=N609loYkFJo"
+        },
+        {
+          "program_id": "Cornell Lab Bird Cams_program_6",
+          "start": 979,
+          "end": 1068,
+          "genre": "nature",
+          "score": 72,
+          "url": "https://www.youtube.com/watch?v=N609loYkFJo"
+        },
+        {
+          "program_id": "Cornell Lab Bird Cams_program_7",
+          "start": 1068,
+          "end": 1155,
+          "genre": "nature",
+          "score": 81,
+          "url": "https://www.youtube.com/watch?v=N609loYkFJo"
+        },
+        {
+          "program_id": "Cornell Lab Bird Cams_program_8",
+          "start": 1155,
+          "end": 1228,
+          "genre": "nature",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=N609loYkFJo"
+        },
+        {
+          "program_id": "Cornell Lab Bird Cams_program_9",
+          "start": 1228,
+          "end": 1307,
+          "genre": "nature",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=N609loYkFJo"
+        }
+      ]
+    },
+    {
+      "channel_id": 17,
+      "channel_name": "Explore Oceans",
+      "programs": [
+        {
+          "program_id": "Explore Oceans_program_0",
+          "start": 587,
+          "end": 660,
+          "genre": "nature",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=q4cTRBhIfjI"
+        },
+        {
+          "program_id": "Explore Oceans_program_1",
+          "start": 660,
+          "end": 710,
+          "genre": "nature",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=q4cTRBhIfjI"
+        },
+        {
+          "program_id": "Explore Oceans_program_2",
+          "start": 710,
+          "end": 760,
+          "genre": "nature",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=q4cTRBhIfjI"
+        },
+        {
+          "program_id": "Explore Oceans_program_3",
+          "start": 760,
+          "end": 806,
+          "genre": "nature",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=q4cTRBhIfjI"
+        },
+        {
+          "program_id": "Explore Oceans_program_4",
+          "start": 806,
+          "end": 836,
+          "genre": "nature",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=q4cTRBhIfjI"
+        },
+        {
+          "program_id": "Explore Oceans_program_5",
+          "start": 836,
+          "end": 870,
+          "genre": "nature",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=q4cTRBhIfjI"
+        },
+        {
+          "program_id": "Explore Oceans_program_6",
+          "start": 870,
+          "end": 912,
+          "genre": "nature",
+          "score": 70,
+          "url": "https://www.youtube.com/watch?v=q4cTRBhIfjI"
+        },
+        {
+          "program_id": "Explore Oceans_program_7",
+          "start": 912,
+          "end": 967,
+          "genre": "nature",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=q4cTRBhIfjI"
+        },
+        {
+          "program_id": "Explore Oceans_program_8",
+          "start": 967,
+          "end": 1053,
+          "genre": "nature",
+          "score": 89,
+          "url": "https://www.youtube.com/watch?v=q4cTRBhIfjI"
+        },
+        {
+          "program_id": "Explore Oceans_program_9",
+          "start": 1053,
+          "end": 1119,
+          "genre": "nature",
+          "score": 89,
+          "url": "https://www.youtube.com/watch?v=q4cTRBhIfjI"
+        },
+        {
+          "program_id": "Explore Oceans_program_10",
+          "start": 1119,
+          "end": 1179,
+          "genre": "nature",
+          "score": 74,
+          "url": "https://www.youtube.com/watch?v=q4cTRBhIfjI"
+        },
+        {
+          "program_id": "Explore Oceans_program_11",
+          "start": 1179,
+          "end": 1269,
+          "genre": "nature",
+          "score": 89,
+          "url": "https://www.youtube.com/watch?v=q4cTRBhIfjI"
+        },
+        {
+          "program_id": "Explore Oceans_program_12",
+          "start": 1269,
+          "end": 1307,
+          "genre": "nature",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=q4cTRBhIfjI"
+        }
+      ]
+    },
+    {
+      "channel_id": 18,
+      "channel_name": "WildEarth Safari Live",
+      "programs": [
+        {
+          "program_id": "WildEarth Safari Live_program_0",
+          "start": 587,
+          "end": 667,
+          "genre": "nature",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=yJIEBSMm8Mk"
+        },
+        {
+          "program_id": "WildEarth Safari Live_program_1",
+          "start": 667,
+          "end": 710,
+          "genre": "nature",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=yJIEBSMm8Mk"
+        },
+        {
+          "program_id": "WildEarth Safari Live_program_2",
+          "start": 710,
+          "end": 784,
+          "genre": "nature",
+          "score": 79,
+          "url": "https://www.youtube.com/watch?v=yJIEBSMm8Mk"
+        },
+        {
+          "program_id": "WildEarth Safari Live_program_3",
+          "start": 784,
+          "end": 874,
+          "genre": "nature",
+          "score": 74,
+          "url": "https://www.youtube.com/watch?v=yJIEBSMm8Mk"
+        },
+        {
+          "program_id": "WildEarth Safari Live_program_4",
+          "start": 874,
+          "end": 953,
+          "genre": "nature",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=yJIEBSMm8Mk"
+        },
+        {
+          "program_id": "WildEarth Safari Live_program_5",
+          "start": 953,
+          "end": 1035,
+          "genre": "nature",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=yJIEBSMm8Mk"
+        },
+        {
+          "program_id": "WildEarth Safari Live_program_6",
+          "start": 1035,
+          "end": 1107,
+          "genre": "nature",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=yJIEBSMm8Mk"
+        },
+        {
+          "program_id": "WildEarth Safari Live_program_7",
+          "start": 1107,
+          "end": 1184,
+          "genre": "nature",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=yJIEBSMm8Mk"
+        },
+        {
+          "program_id": "WildEarth Safari Live_program_8",
+          "start": 1184,
+          "end": 1217,
+          "genre": "nature",
+          "score": 84,
+          "url": "https://www.youtube.com/watch?v=yJIEBSMm8Mk"
+        },
+        {
+          "program_id": "WildEarth Safari Live_program_9",
+          "start": 1217,
+          "end": 1292,
+          "genre": "nature",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=yJIEBSMm8Mk"
+        }
+      ]
+    },
+    {
+      "channel_id": 19,
+      "channel_name": "Africam Safari",
+      "programs": [
+        {
+          "program_id": "Africam Safari_program_0",
+          "start": 587,
+          "end": 666,
+          "genre": "nature",
+          "score": 71,
+          "url": "https://www.youtube.com/watch?v=gBetqPGLkRY"
+        },
+        {
+          "program_id": "Africam Safari_program_1",
+          "start": 666,
+          "end": 737,
+          "genre": "nature",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=gBetqPGLkRY"
+        },
+        {
+          "program_id": "Africam Safari_program_2",
+          "start": 737,
+          "end": 792,
+          "genre": "nature",
+          "score": 79,
+          "url": "https://www.youtube.com/watch?v=gBetqPGLkRY"
+        },
+        {
+          "program_id": "Africam Safari_program_3",
+          "start": 792,
+          "end": 844,
+          "genre": "nature",
+          "score": 73,
+          "url": "https://www.youtube.com/watch?v=gBetqPGLkRY"
+        },
+        {
+          "program_id": "Africam Safari_program_4",
+          "start": 844,
+          "end": 911,
+          "genre": "nature",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=gBetqPGLkRY"
+        },
+        {
+          "program_id": "Africam Safari_program_5",
+          "start": 911,
+          "end": 960,
+          "genre": "nature",
+          "score": 70,
+          "url": "https://www.youtube.com/watch?v=gBetqPGLkRY"
+        },
+        {
+          "program_id": "Africam Safari_program_6",
+          "start": 960,
+          "end": 1050,
+          "genre": "nature",
+          "score": 89,
+          "url": "https://www.youtube.com/watch?v=gBetqPGLkRY"
+        },
+        {
+          "program_id": "Africam Safari_program_7",
+          "start": 1050,
+          "end": 1096,
+          "genre": "nature",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=gBetqPGLkRY"
+        },
+        {
+          "program_id": "Africam Safari_program_8",
+          "start": 1096,
+          "end": 1186,
+          "genre": "nature",
+          "score": 82,
+          "url": "https://www.youtube.com/watch?v=gBetqPGLkRY"
+        },
+        {
+          "program_id": "Africam Safari_program_9",
+          "start": 1186,
+          "end": 1275,
+          "genre": "nature",
+          "score": 81,
+          "url": "https://www.youtube.com/watch?v=gBetqPGLkRY"
+        },
+        {
+          "program_id": "Africam Safari_program_10",
+          "start": 1275,
+          "end": 1307,
+          "genre": "nature",
+          "score": 82,
+          "url": "https://www.youtube.com/watch?v=gBetqPGLkRY"
+        }
+      ]
+    }
+  ]
+}

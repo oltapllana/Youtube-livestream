@@ -1,0 +1,130 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Space Streams_program_0",
+            "channel_id": 7,
+            "start": 587,
+            "end": 622
+        },
+        {
+            "program_id": "Space Streams_program_1",
+            "channel_id": 7,
+            "start": 622,
+            "end": 652
+        },
+        {
+            "program_id": "Dream Trips_program_1",
+            "channel_id": 3,
+            "start": 652,
+            "end": 682
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_1",
+            "channel_id": 8,
+            "start": 682,
+            "end": 715
+        },
+        {
+            "program_id": "NASASpaceflight_program_1",
+            "channel_id": 5,
+            "start": 715,
+            "end": 753
+        },
+        {
+            "program_id": "NASASpaceflight_program_2",
+            "channel_id": 5,
+            "start": 753,
+            "end": 784
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_3",
+            "channel_id": 8,
+            "start": 788,
+            "end": 834
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_4",
+            "channel_id": 8,
+            "start": 834,
+            "end": 864
+        },
+        {
+            "program_id": "afarTV_program_4",
+            "channel_id": 6,
+            "start": 864,
+            "end": 894
+        },
+        {
+            "program_id": "afarTV_program_5",
+            "channel_id": 6,
+            "start": 894,
+            "end": 925
+        },
+        {
+            "program_id": "The Financial Express_program_6",
+            "channel_id": 1,
+            "start": 933,
+            "end": 975
+        },
+        {
+            "program_id": "NASASpaceflight_program_7",
+            "channel_id": 5,
+            "start": 975,
+            "end": 1005
+        },
+        {
+            "program_id": "afarTV_program_7",
+            "channel_id": 6,
+            "start": 1005,
+            "end": 1039
+        },
+        {
+            "program_id": "afarTV_program_8",
+            "channel_id": 6,
+            "start": 1039,
+            "end": 1070
+        },
+        {
+            "program_id": "afarTV_program_9",
+            "channel_id": 6,
+            "start": 1070,
+            "end": 1106
+        },
+        {
+            "program_id": "Sen_program_8",
+            "channel_id": 2,
+            "start": 1106,
+            "end": 1136
+        },
+        {
+            "program_id": "NASA_program_8",
+            "channel_id": 4,
+            "start": 1136,
+            "end": 1166
+        },
+        {
+            "program_id": "NASA_program_9",
+            "channel_id": 4,
+            "start": 1166,
+            "end": 1207
+        },
+        {
+            "program_id": "NASA_program_10",
+            "channel_id": 4,
+            "start": 1207,
+            "end": 1242
+        },
+        {
+            "program_id": "NASA_program_11",
+            "channel_id": 4,
+            "start": 1242,
+            "end": 1272
+        },
+        {
+            "program_id": "Joey Does Tech_program_10",
+            "channel_id": 12,
+            "start": 1277,
+            "end": 1307
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Nature Relaxation™ On-Demand_program_1",
+            "channel_id": 22,
+            "start": 628,
+            "end": 681
+        },
+        {
+            "program_id": "Real Nature Scenery Videos_program_2",
+            "channel_id": 23,
+            "start": 695,
+            "end": 752
+        },
+        {
+            "program_id": "Real Nature Scenery Videos_program_3",
+            "channel_id": 23,
+            "start": 752,
+            "end": 789
+        },
+        {
+            "program_id": "Pure Nature Streams & Scenic Views_program_3",
+            "channel_id": 25,
+            "start": 789,
+            "end": 820
+        },
+        {
+            "program_id": "Pure Nature Streams & Scenic Views_program_4",
+            "channel_id": 25,
+            "start": 820,
+            "end": 850
+        },
+        {
+            "program_id": "Long 4K Nature Scenic Videos_program_4",
+            "channel_id": 24,
+            "start": 850,
+            "end": 888
+        },
+        {
+            "program_id": "Flowly Nature_program_4",
+            "channel_id": 21,
+            "start": 890,
+            "end": 925
+        }
+    ]
+}

@@ -1,0 +1,130 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "afarTV_program_0",
+            "channel_id": 6,
+            "start": 587,
+            "end": 632
+        },
+        {
+            "program_id": "afarTV_program_1",
+            "channel_id": 6,
+            "start": 632,
+            "end": 670
+        },
+        {
+            "program_id": "afarTV_program_2",
+            "channel_id": 6,
+            "start": 670,
+            "end": 705
+        },
+        {
+            "program_id": "afarTV_program_3",
+            "channel_id": 6,
+            "start": 705,
+            "end": 735
+        },
+        {
+            "program_id": "Space Streams_program_2",
+            "channel_id": 7,
+            "start": 735,
+            "end": 765
+        },
+        {
+            "program_id": "Space Streams_program_3",
+            "channel_id": 7,
+            "start": 765,
+            "end": 795
+        },
+        {
+            "program_id": "Dream Trips_program_2",
+            "channel_id": 3,
+            "start": 795,
+            "end": 825
+        },
+        {
+            "program_id": "NASA_program_3",
+            "channel_id": 4,
+            "start": 825,
+            "end": 860
+        },
+        {
+            "program_id": "NASASpaceflight_program_4",
+            "channel_id": 5,
+            "start": 862,
+            "end": 893
+        },
+        {
+            "program_id": "NASASpaceflight_program_5",
+            "channel_id": 5,
+            "start": 893,
+            "end": 923
+        },
+        {
+            "program_id": "Crux_program_5",
+            "channel_id": 0,
+            "start": 931,
+            "end": 966
+        },
+        {
+            "program_id": "Space Streams_program_6",
+            "channel_id": 7,
+            "start": 980,
+            "end": 1011
+        },
+        {
+            "program_id": "Space Streams_program_7",
+            "channel_id": 7,
+            "start": 1011,
+            "end": 1041
+        },
+        {
+            "program_id": "NASA_program_6",
+            "channel_id": 4,
+            "start": 1041,
+            "end": 1073
+        },
+        {
+            "program_id": "NASA_program_7",
+            "channel_id": 4,
+            "start": 1073,
+            "end": 1103
+        },
+        {
+            "program_id": "afarTV_program_9",
+            "channel_id": 6,
+            "start": 1103,
+            "end": 1133
+        },
+        {
+            "program_id": "afarTV_program_10",
+            "channel_id": 6,
+            "start": 1133,
+            "end": 1163
+        },
+        {
+            "program_id": "Crux_program_8",
+            "channel_id": 0,
+            "start": 1163,
+            "end": 1194
+        },
+        {
+            "program_id": "Crux_program_9",
+            "channel_id": 0,
+            "start": 1194,
+            "end": 1229
+        },
+        {
+            "program_id": "Dream Trips_program_8",
+            "channel_id": 3,
+            "start": 1236,
+            "end": 1277
+        },
+        {
+            "program_id": "Dream Trips_program_9",
+            "channel_id": 3,
+            "start": 1277,
+            "end": 1307
+        }
+    ]
+}
