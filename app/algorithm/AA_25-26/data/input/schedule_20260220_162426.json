@@ -1,0 +1,766 @@
+{
+  "opening_time": 984,
+  "closing_time": 1430,
+  "min_duration": 31,
+  "max_consecutive_genre": 7,
+  "channels_count": 10,
+  "switch_penalty": 7,
+  "termination_penalty": 20,
+  "priority_blocks": [],
+  "time_preferences": [],
+  "channels": [
+    {
+      "channel_id": 0,
+      "channel_name": "Crux",
+      "programs": [
+        {
+          "program_id": "Crux_program_0",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 12:08",
+          "start": 984,
+          "end": 1050,
+          "genre": "technology",
+          "score": 71,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_1",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 12:08",
+          "start": 1050,
+          "end": 1117,
+          "genre": "technology",
+          "score": 75,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_2",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 12:08",
+          "start": 1117,
+          "end": 1181,
+          "genre": "technology",
+          "score": 84,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_3",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 12:08",
+          "start": 1181,
+          "end": 1246,
+          "genre": "technology",
+          "score": 82,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_4",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 12:08",
+          "start": 1246,
+          "end": 1314,
+          "genre": "technology",
+          "score": 71,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_5",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 12:08",
+          "start": 1314,
+          "end": 1367,
+          "genre": "technology",
+          "score": 68,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "Crux_program_6",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 12:08",
+          "start": 1367,
+          "end": 1430,
+          "genre": "technology",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        }
+      ]
+    },
+    {
+      "channel_id": 1,
+      "channel_name": "The Financial Express",
+      "programs": [
+        {
+          "program_id": "The Financial Express_program_0",
+          "program_name": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-20 12:08",
+          "start": 984,
+          "end": 1015,
+          "genre": "technology",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_1",
+          "program_name": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-20 12:08",
+          "start": 1015,
+          "end": 1094,
+          "genre": "technology",
+          "score": 84,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_2",
+          "program_name": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-20 12:08",
+          "start": 1094,
+          "end": 1167,
+          "genre": "technology",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_3",
+          "program_name": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-20 12:08",
+          "start": 1167,
+          "end": 1244,
+          "genre": "technology",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_4",
+          "program_name": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-20 12:08",
+          "start": 1244,
+          "end": 1305,
+          "genre": "technology",
+          "score": 69,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_5",
+          "program_name": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-20 12:08",
+          "start": 1305,
+          "end": 1370,
+          "genre": "technology",
+          "score": 67,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_6",
+          "program_name": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-20 12:08",
+          "start": 1370,
+          "end": 1430,
+          "genre": "technology",
+          "score": 70,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        }
+      ]
+    },
+    {
+      "channel_id": 2,
+      "channel_name": "Sen",
+      "programs": [
+        {
+          "program_id": "Sen_program_0",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-20 12:08",
+          "start": 984,
+          "end": 1054,
+          "genre": "technology",
+          "score": 79,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_1",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-20 12:08",
+          "start": 1054,
+          "end": 1121,
+          "genre": "technology",
+          "score": 66,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_2",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-20 12:08",
+          "start": 1121,
+          "end": 1199,
+          "genre": "technology",
+          "score": 65,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_3",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-20 12:08",
+          "start": 1199,
+          "end": 1252,
+          "genre": "technology",
+          "score": 68,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_4",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-20 12:08",
+          "start": 1252,
+          "end": 1303,
+          "genre": "technology",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_5",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-20 12:08",
+          "start": 1303,
+          "end": 1393,
+          "genre": "technology",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_6",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-20 12:08",
+          "start": 1393,
+          "end": 1430,
+          "genre": "technology",
+          "score": 75,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        }
+      ]
+    },
+    {
+      "channel_id": 3,
+      "channel_name": "Dream Trips",
+      "programs": [
+        {
+          "program_id": "Dream Trips_program_0",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 12:08",
+          "start": 984,
+          "end": 1017,
+          "genre": "technology",
+          "score": 68,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_1",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 12:08",
+          "start": 1017,
+          "end": 1091,
+          "genre": "technology",
+          "score": 84,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_2",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 12:08",
+          "start": 1091,
+          "end": 1147,
+          "genre": "technology",
+          "score": 81,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_3",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 12:08",
+          "start": 1147,
+          "end": 1202,
+          "genre": "technology",
+          "score": 70,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_4",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 12:08",
+          "start": 1202,
+          "end": 1233,
+          "genre": "technology",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_5",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 12:08",
+          "start": 1233,
+          "end": 1273,
+          "genre": "technology",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_6",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 12:08",
+          "start": 1273,
+          "end": 1354,
+          "genre": "technology",
+          "score": 66,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_7",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 12:08",
+          "start": 1354,
+          "end": 1413,
+          "genre": "technology",
+          "score": 68,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        }
+      ]
+    },
+    {
+      "channel_id": 14,
+      "channel_name": "4K Ocean World",
+      "programs": [
+        {
+          "program_id": "4K Ocean World_program_0",
+          "program_name": "4K Ocean World program 0",
+          "start": 984,
+          "end": 1061,
+          "genre": "others",
+          "score": 74,
+          "url": "https://www.youtube.com/watch?v=xCLTpcx9aO8"
+        },
+        {
+          "program_id": "4K Ocean World_program_1",
+          "program_name": "4K Ocean World program 1",
+          "start": 1061,
+          "end": 1115,
+          "genre": "others",
+          "score": 74,
+          "url": "https://www.youtube.com/watch?v=xCLTpcx9aO8"
+        },
+        {
+          "program_id": "4K Ocean World_program_2",
+          "program_name": "4K Ocean World program 2",
+          "start": 1115,
+          "end": 1169,
+          "genre": "others",
+          "score": 60,
+          "url": "https://www.youtube.com/watch?v=xCLTpcx9aO8"
+        },
+        {
+          "program_id": "4K Ocean World_program_3",
+          "program_name": "4K Ocean World program 3",
+          "start": 1169,
+          "end": 1220,
+          "genre": "others",
+          "score": 65,
+          "url": "https://www.youtube.com/watch?v=xCLTpcx9aO8"
+        },
+        {
+          "program_id": "4K Ocean World_program_4",
+          "program_name": "4K Ocean World program 4",
+          "start": 1220,
+          "end": 1296,
+          "genre": "others",
+          "score": 75,
+          "url": "https://www.youtube.com/watch?v=xCLTpcx9aO8"
+        },
+        {
+          "program_id": "4K Ocean World_program_5",
+          "program_name": "4K Ocean World program 5",
+          "start": 1296,
+          "end": 1331,
+          "genre": "others",
+          "score": 73,
+          "url": "https://www.youtube.com/watch?v=xCLTpcx9aO8"
+        },
+        {
+          "program_id": "4K Ocean World_program_6",
+          "program_name": "4K Ocean World program 6",
+          "start": 1331,
+          "end": 1374,
+          "genre": "others",
+          "score": 65,
+          "url": "https://www.youtube.com/watch?v=xCLTpcx9aO8"
+        },
+        {
+          "program_id": "4K Ocean World_program_7",
+          "program_name": "4K Ocean World program 7",
+          "start": 1374,
+          "end": 1430,
+          "genre": "others",
+          "score": 65,
+          "url": "https://www.youtube.com/watch?v=xCLTpcx9aO8"
+        }
+      ]
+    },
+    {
+      "channel_id": 15,
+      "channel_name": "Marine Serenity 8K",
+      "programs": [
+        {
+          "program_id": "Marine Serenity 8K_program_0",
+          "program_name": "Marine Serenity 8K program 0",
+          "start": 984,
+          "end": 1035,
+          "genre": "others",
+          "score": 71,
+          "url": "https://www.youtube.com/watch?v=uTuiOYxYMGk"
+        },
+        {
+          "program_id": "Marine Serenity 8K_program_1",
+          "program_name": "Marine Serenity 8K program 1",
+          "start": 1035,
+          "end": 1069,
+          "genre": "others",
+          "score": 71,
+          "url": "https://www.youtube.com/watch?v=uTuiOYxYMGk"
+        },
+        {
+          "program_id": "Marine Serenity 8K_program_2",
+          "program_name": "Marine Serenity 8K program 2",
+          "start": 1069,
+          "end": 1131,
+          "genre": "others",
+          "score": 66,
+          "url": "https://www.youtube.com/watch?v=uTuiOYxYMGk"
+        },
+        {
+          "program_id": "Marine Serenity 8K_program_3",
+          "program_name": "Marine Serenity 8K program 3",
+          "start": 1131,
+          "end": 1221,
+          "genre": "others",
+          "score": 68,
+          "url": "https://www.youtube.com/watch?v=uTuiOYxYMGk"
+        },
+        {
+          "program_id": "Marine Serenity 8K_program_4",
+          "program_name": "Marine Serenity 8K program 4",
+          "start": 1221,
+          "end": 1297,
+          "genre": "others",
+          "score": 66,
+          "url": "https://www.youtube.com/watch?v=uTuiOYxYMGk"
+        },
+        {
+          "program_id": "Marine Serenity 8K_program_5",
+          "program_name": "Marine Serenity 8K program 5",
+          "start": 1297,
+          "end": 1358,
+          "genre": "others",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=uTuiOYxYMGk"
+        },
+        {
+          "program_id": "Marine Serenity 8K_program_6",
+          "program_name": "Marine Serenity 8K program 6",
+          "start": 1358,
+          "end": 1420,
+          "genre": "others",
+          "score": 72,
+          "url": "https://www.youtube.com/watch?v=uTuiOYxYMGk"
+        }
+      ]
+    },
+    {
+      "channel_id": 16,
+      "channel_name": "8K Dream Color",
+      "programs": [
+        {
+          "program_id": "8K Dream Color_program_0",
+          "program_name": "8K Dream Color program 0",
+          "start": 984,
+          "end": 1067,
+          "genre": "others",
+          "score": 61,
+          "url": "https://www.youtube.com/watch?v=2nOrC6nLHRM"
+        },
+        {
+          "program_id": "8K Dream Color_program_1",
+          "program_name": "8K Dream Color program 1",
+          "start": 1067,
+          "end": 1101,
+          "genre": "others",
+          "score": 74,
+          "url": "https://www.youtube.com/watch?v=2nOrC6nLHRM"
+        },
+        {
+          "program_id": "8K Dream Color_program_2",
+          "program_name": "8K Dream Color program 2",
+          "start": 1101,
+          "end": 1143,
+          "genre": "others",
+          "score": 64,
+          "url": "https://www.youtube.com/watch?v=2nOrC6nLHRM"
+        },
+        {
+          "program_id": "8K Dream Color_program_3",
+          "program_name": "8K Dream Color program 3",
+          "start": 1143,
+          "end": 1193,
+          "genre": "others",
+          "score": 72,
+          "url": "https://www.youtube.com/watch?v=2nOrC6nLHRM"
+        },
+        {
+          "program_id": "8K Dream Color_program_4",
+          "program_name": "8K Dream Color program 4",
+          "start": 1193,
+          "end": 1273,
+          "genre": "others",
+          "score": 79,
+          "url": "https://www.youtube.com/watch?v=2nOrC6nLHRM"
+        },
+        {
+          "program_id": "8K Dream Color_program_5",
+          "program_name": "8K Dream Color program 5",
+          "start": 1273,
+          "end": 1304,
+          "genre": "others",
+          "score": 61,
+          "url": "https://www.youtube.com/watch?v=2nOrC6nLHRM"
+        },
+        {
+          "program_id": "8K Dream Color_program_6",
+          "program_name": "8K Dream Color program 6",
+          "start": 1304,
+          "end": 1340,
+          "genre": "others",
+          "score": 66,
+          "url": "https://www.youtube.com/watch?v=2nOrC6nLHRM"
+        },
+        {
+          "program_id": "8K Dream Color_program_7",
+          "program_name": "8K Dream Color program 7",
+          "start": 1340,
+          "end": 1392,
+          "genre": "others",
+          "score": 71,
+          "url": "https://www.youtube.com/watch?v=2nOrC6nLHRM"
+        },
+        {
+          "program_id": "8K Dream Color_program_8",
+          "program_name": "8K Dream Color program 8",
+          "start": 1392,
+          "end": 1427,
+          "genre": "others",
+          "score": 70,
+          "url": "https://www.youtube.com/watch?v=2nOrC6nLHRM"
+        }
+      ]
+    },
+    {
+      "channel_id": 17,
+      "channel_name": "Soothing Soul",
+      "programs": [
+        {
+          "program_id": "Soothing Soul_program_0",
+          "program_name": "Soothing Soul program 0",
+          "start": 984,
+          "end": 1037,
+          "genre": "others",
+          "score": 61,
+          "url": "https://www.youtube.com/watch?v=wKg71lcs5Nw"
+        },
+        {
+          "program_id": "Soothing Soul_program_1",
+          "program_name": "Soothing Soul program 1",
+          "start": 1037,
+          "end": 1090,
+          "genre": "others",
+          "score": 64,
+          "url": "https://www.youtube.com/watch?v=wKg71lcs5Nw"
+        },
+        {
+          "program_id": "Soothing Soul_program_2",
+          "program_name": "Soothing Soul program 2",
+          "start": 1090,
+          "end": 1138,
+          "genre": "others",
+          "score": 71,
+          "url": "https://www.youtube.com/watch?v=wKg71lcs5Nw"
+        },
+        {
+          "program_id": "Soothing Soul_program_3",
+          "program_name": "Soothing Soul program 3",
+          "start": 1138,
+          "end": 1182,
+          "genre": "others",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=wKg71lcs5Nw"
+        },
+        {
+          "program_id": "Soothing Soul_program_4",
+          "program_name": "Soothing Soul program 4",
+          "start": 1182,
+          "end": 1233,
+          "genre": "others",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=wKg71lcs5Nw"
+        },
+        {
+          "program_id": "Soothing Soul_program_5",
+          "program_name": "Soothing Soul program 5",
+          "start": 1233,
+          "end": 1282,
+          "genre": "others",
+          "score": 66,
+          "url": "https://www.youtube.com/watch?v=wKg71lcs5Nw"
+        },
+        {
+          "program_id": "Soothing Soul_program_6",
+          "program_name": "Soothing Soul program 6",
+          "start": 1282,
+          "end": 1324,
+          "genre": "others",
+          "score": 66,
+          "url": "https://www.youtube.com/watch?v=wKg71lcs5Nw"
+        },
+        {
+          "program_id": "Soothing Soul_program_7",
+          "program_name": "Soothing Soul program 7",
+          "start": 1324,
+          "end": 1356,
+          "genre": "others",
+          "score": 65,
+          "url": "https://www.youtube.com/watch?v=wKg71lcs5Nw"
+        },
+        {
+          "program_id": "Soothing Soul_program_8",
+          "program_name": "Soothing Soul program 8",
+          "start": 1356,
+          "end": 1396,
+          "genre": "others",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=wKg71lcs5Nw"
+        },
+        {
+          "program_id": "Soothing Soul_program_9",
+          "program_name": "Soothing Soul program 9",
+          "start": 1396,
+          "end": 1430,
+          "genre": "others",
+          "score": 64,
+          "url": "https://www.youtube.com/watch?v=wKg71lcs5Nw"
+        }
+      ]
+    },
+    {
+      "channel_id": 18,
+      "channel_name": "Luxury Island",
+      "programs": [
+        {
+          "program_id": "Luxury Island_program_0",
+          "program_name": "Luxury Island program 0",
+          "start": 984,
+          "end": 1030,
+          "genre": "others",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=_BMi3usEwi8"
+        },
+        {
+          "program_id": "Luxury Island_program_1",
+          "program_name": "Luxury Island program 1",
+          "start": 1030,
+          "end": 1102,
+          "genre": "others",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=_BMi3usEwi8"
+        },
+        {
+          "program_id": "Luxury Island_program_2",
+          "program_name": "Luxury Island program 2",
+          "start": 1102,
+          "end": 1147,
+          "genre": "others",
+          "score": 65,
+          "url": "https://www.youtube.com/watch?v=_BMi3usEwi8"
+        },
+        {
+          "program_id": "Luxury Island_program_3",
+          "program_name": "Luxury Island program 3",
+          "start": 1147,
+          "end": 1222,
+          "genre": "others",
+          "score": 62,
+          "url": "https://www.youtube.com/watch?v=_BMi3usEwi8"
+        },
+        {
+          "program_id": "Luxury Island_program_4",
+          "program_name": "Luxury Island program 4",
+          "start": 1222,
+          "end": 1260,
+          "genre": "others",
+          "score": 60,
+          "url": "https://www.youtube.com/watch?v=_BMi3usEwi8"
+        },
+        {
+          "program_id": "Luxury Island_program_5",
+          "program_name": "Luxury Island program 5",
+          "start": 1260,
+          "end": 1341,
+          "genre": "others",
+          "score": 73,
+          "url": "https://www.youtube.com/watch?v=_BMi3usEwi8"
+        },
+        {
+          "program_id": "Luxury Island_program_6",
+          "program_name": "Luxury Island program 6",
+          "start": 1341,
+          "end": 1377,
+          "genre": "others",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=_BMi3usEwi8"
+        },
+        {
+          "program_id": "Luxury Island_program_7",
+          "program_name": "Luxury Island program 7",
+          "start": 1377,
+          "end": 1417,
+          "genre": "others",
+          "score": 70,
+          "url": "https://www.youtube.com/watch?v=_BMi3usEwi8"
+        }
+      ]
+    },
+    {
+      "channel_id": 19,
+      "channel_name": "Forest Sounds UHD",
+      "programs": [
+        {
+          "program_id": "Forest Sounds UHD_program_0",
+          "program_name": "Forest Sounds UHD program 0",
+          "start": 984,
+          "end": 1058,
+          "genre": "others",
+          "score": 61,
+          "url": "https://www.youtube.com/watch?v=8kEzFZvtLzM"
+        },
+        {
+          "program_id": "Forest Sounds UHD_program_1",
+          "program_name": "Forest Sounds UHD program 1",
+          "start": 1058,
+          "end": 1113,
+          "genre": "others",
+          "score": 62,
+          "url": "https://www.youtube.com/watch?v=8kEzFZvtLzM"
+        },
+        {
+          "program_id": "Forest Sounds UHD_program_2",
+          "program_name": "Forest Sounds UHD program 2",
+          "start": 1113,
+          "end": 1183,
+          "genre": "others",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=8kEzFZvtLzM"
+        },
+        {
+          "program_id": "Forest Sounds UHD_program_3",
+          "program_name": "Forest Sounds UHD program 3",
+          "start": 1183,
+          "end": 1256,
+          "genre": "others",
+          "score": 65,
+          "url": "https://www.youtube.com/watch?v=8kEzFZvtLzM"
+        },
+        {
+          "program_id": "Forest Sounds UHD_program_4",
+          "program_name": "Forest Sounds UHD program 4",
+          "start": 1256,
+          "end": 1325,
+          "genre": "others",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=8kEzFZvtLzM"
+        },
+        {
+          "program_id": "Forest Sounds UHD_program_5",
+          "program_name": "Forest Sounds UHD program 5",
+          "start": 1325,
+          "end": 1405,
+          "genre": "others",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=8kEzFZvtLzM"
+        }
+      ]
+    }
+  ]
+}

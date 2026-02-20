@@ -1,0 +1,46 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Marine Serenity 8K_program_1",
+            "channel_id": 15,
+            "start": 1047,
+            "end": 1124
+        },
+        {
+            "program_id": "Marine Serenity 8K_program_2",
+            "channel_id": 15,
+            "start": 1124,
+            "end": 1173
+        },
+        {
+            "program_id": "Marine Serenity 8K_program_3",
+            "channel_id": 15,
+            "start": 1173,
+            "end": 1204
+        },
+        {
+            "program_id": "4K Ocean World_program_3",
+            "channel_id": 14,
+            "start": 1206,
+            "end": 1243
+        },
+        {
+            "program_id": "4K Ocean World_program_4",
+            "channel_id": 14,
+            "start": 1243,
+            "end": 1274
+        },
+        {
+            "program_id": "Luxury Island_program_5",
+            "channel_id": 18,
+            "start": 1275,
+            "end": 1310
+        },
+        {
+            "program_id": "Luxury Island_program_6",
+            "channel_id": 18,
+            "start": 1310,
+            "end": 1346
+        }
+    ]
+}

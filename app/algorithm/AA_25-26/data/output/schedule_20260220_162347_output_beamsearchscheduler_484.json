@@ -1,0 +1,46 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Dream Trips_program_2",
+            "channel_id": 3,
+            "start": 1067,
+            "end": 1138
+        },
+        {
+            "program_id": "Dream Trips_program_3",
+            "channel_id": 3,
+            "start": 1138,
+            "end": 1169
+        },
+        {
+            "program_id": "Crux_program_3",
+            "channel_id": 0,
+            "start": 1179,
+            "end": 1240
+        },
+        {
+            "program_id": "Sen_program_4",
+            "channel_id": 2,
+            "start": 1253,
+            "end": 1315
+        },
+        {
+            "program_id": "Sen_program_5",
+            "channel_id": 2,
+            "start": 1315,
+            "end": 1361
+        },
+        {
+            "program_id": "Sen_program_6",
+            "channel_id": 2,
+            "start": 1361,
+            "end": 1393
+        },
+        {
+            "program_id": "Sen_program_7",
+            "channel_id": 2,
+            "start": 1393,
+            "end": 1430
+        }
+    ]
+}

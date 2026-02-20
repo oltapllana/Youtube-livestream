@@ -1,0 +1,46 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Forest Sounds UHD_program_0",
+            "channel_id": 19,
+            "start": 986,
+            "end": 1021
+        },
+        {
+            "program_id": "Forest Sounds UHD_program_1",
+            "channel_id": 19,
+            "start": 1021,
+            "end": 1062
+        },
+        {
+            "program_id": "Forest Sounds UHD_program_2",
+            "channel_id": 19,
+            "start": 1062,
+            "end": 1097
+        },
+        {
+            "program_id": "8K Dream Color_program_2",
+            "channel_id": 16,
+            "start": 1106,
+            "end": 1146
+        },
+        {
+            "program_id": "8K Dream Color_program_3",
+            "channel_id": 16,
+            "start": 1146,
+            "end": 1176
+        },
+        {
+            "program_id": "Starlapland / Samuli Korvanen_program_3",
+            "channel_id": 22,
+            "start": 1180,
+            "end": 1226
+        },
+        {
+            "program_id": "Starlapland / Samuli Korvanen_program_4",
+            "channel_id": 22,
+            "start": 1226,
+            "end": 1267
+        }
+    ]
+}

@@ -1,5 +1,5 @@
 {
-  "opening_time": 981,
+  "opening_time": 986,
   "closing_time": 1430,
   "min_duration": 30,
   "min_duration_pct": 100,
@@ -11,13 +11,29 @@
   "bonus_pct": 5,
   "category_filter": [
     "nature",
-    "technology"
+    "others"
   ],
   "selected_channel_ids": [
-    0,
-    1,
-    2,
-    3,
-    12
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34
   ]
 }

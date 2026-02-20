@@ -1,0 +1,46 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Sen_program_1",
+            "channel_id": 2,
+            "start": 1071,
+            "end": 1117
+        },
+        {
+            "program_id": "Sen_program_2",
+            "channel_id": 2,
+            "start": 1117,
+            "end": 1174
+        },
+        {
+            "program_id": "Sen_program_3",
+            "channel_id": 2,
+            "start": 1174,
+            "end": 1227
+        },
+        {
+            "program_id": "Sen_program_4",
+            "channel_id": 2,
+            "start": 1227,
+            "end": 1260
+        },
+        {
+            "program_id": "The Financial Express_program_5",
+            "channel_id": 1,
+            "start": 1284,
+            "end": 1330
+        },
+        {
+            "program_id": "The Financial Express_program_6",
+            "channel_id": 1,
+            "start": 1330,
+            "end": 1379
+        },
+        {
+            "program_id": "The Financial Express_program_7",
+            "channel_id": 1,
+            "start": 1379,
+            "end": 1430
+        }
+    ]
+}
