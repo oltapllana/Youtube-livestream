@@ -692,17 +692,47 @@ class InstanceGenerator:
                     )
 
             # Filter to only include streams that are currently LIVE
+            # If a hardcoded stream is not live, try to find a live alternative from its channel
             live_streams = []
+            discovered_alternatives: List[Dict[str, Any]] = []
+            seen_urls = {s["url"] for s in selected_streams}
+            
             for s in selected_streams:
                 meta = stream_metadata.get(s["url"])
                 if meta and meta.get("is_live"):
                     live_streams.append(s)
                 elif meta and not meta.get("is_live"):
                     logger.info(
-                        "Skipping non-live stream: %s (%s)",
+                        "Stream not live: %s (%s) — searching channel for live alternatives...",
                         s.get("title", "unknown"),
                         s["url"],
                     )
+                    # Try to find a live stream from the same channel
+                    channel_url = meta.get("channel_url")
+                    if channel_url:
+                        alternatives = discover_channel_live_streams(channel_url, max_streams=3, timeout=15)
+                        for alt in alternatives:
+                            alt_url = alt["url"]
+                            if alt_url not in seen_urls:
+                                # Create a replacement stream entry
+                                alt_stream = {
+                                    "channel_id": s["channel_id"],  # Keep same channel_id
+                                    "title": alt["title"],
+                                    "url": alt_url,
+                                    "category": s["category"],  # Keep same category
+                                }
+                                discovered_alternatives.append(alt_stream)
+                                seen_urls.add(alt_url)
+                                # Probe the alternative to get full metadata
+                                alt_meta = self._probe(alt_url)
+                                if alt_meta:
+                                    stream_metadata[alt_url] = alt_meta
+                                    logger.info(
+                                        "Found live alternative: %s (%s)",
+                                        alt["title"],
+                                        alt_url,
+                                    )
+                                break  # Use first live alternative found
                 else:
                     # Could not probe - skip (may be offline, private, etc.)
                     logger.info(
@@ -710,6 +740,9 @@ class InstanceGenerator:
                         s.get("title", "unknown"),
                         s["url"],
                     )
+            
+            # Add discovered alternatives to live_streams
+            live_streams.extend(discovered_alternatives)
             
             if not live_streams:
                 logger.warning("No live streams found! Schedule will be empty.")

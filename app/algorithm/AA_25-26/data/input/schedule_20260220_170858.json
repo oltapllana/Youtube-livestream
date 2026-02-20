@@ -1,0 +1,82 @@
+{
+  "opening_time": 1028,
+  "closing_time": 1430,
+  "min_duration": 43,
+  "max_consecutive_genre": 10,
+  "channels_count": 1,
+  "switch_penalty": 9,
+  "termination_penalty": 20,
+  "priority_blocks": [],
+  "time_preferences": [],
+  "channels": [
+    {
+      "channel_id": 999,
+      "channel_name": "Live Earthquake Monitoring | GlobalQuake 2026-02-20 17:08",
+      "programs": [
+        {
+          "program_id": "Live Earthquake Monitoring | GlobalQuake 2026-02-20 17:08_program_0",
+          "program_name": "Live Earthquake Monitoring | GlobalQuake 2026-02-20 17:08",
+          "start": 1028,
+          "end": 1099,
+          "genre": "science",
+          "score": 92,
+          "url": "https://www.youtube.com/watch?v=rvtygG4n6ew"
+        },
+        {
+          "program_id": "Live Earthquake Monitoring | GlobalQuake 2026-02-20 17:08_program_1",
+          "program_name": "Live Earthquake Monitoring | GlobalQuake 2026-02-20 17:08",
+          "start": 1099,
+          "end": 1143,
+          "genre": "science",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=rvtygG4n6ew"
+        },
+        {
+          "program_id": "Live Earthquake Monitoring | GlobalQuake 2026-02-20 17:08_program_2",
+          "program_name": "Live Earthquake Monitoring | GlobalQuake 2026-02-20 17:08",
+          "start": 1143,
+          "end": 1186,
+          "genre": "science",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=rvtygG4n6ew"
+        },
+        {
+          "program_id": "Live Earthquake Monitoring | GlobalQuake 2026-02-20 17:08_program_3",
+          "program_name": "Live Earthquake Monitoring | GlobalQuake 2026-02-20 17:08",
+          "start": 1186,
+          "end": 1234,
+          "genre": "science",
+          "score": 98,
+          "url": "https://www.youtube.com/watch?v=rvtygG4n6ew"
+        },
+        {
+          "program_id": "Live Earthquake Monitoring | GlobalQuake 2026-02-20 17:08_program_4",
+          "program_name": "Live Earthquake Monitoring | GlobalQuake 2026-02-20 17:08",
+          "start": 1234,
+          "end": 1296,
+          "genre": "science",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=rvtygG4n6ew"
+        },
+        {
+          "program_id": "Live Earthquake Monitoring | GlobalQuake 2026-02-20 17:08_program_5",
+          "program_name": "Live Earthquake Monitoring | GlobalQuake 2026-02-20 17:08",
+          "start": 1296,
+          "end": 1366,
+          "genre": "science",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=rvtygG4n6ew"
+        },
+        {
+          "program_id": "Live Earthquake Monitoring | GlobalQuake 2026-02-20 17:08_program_6",
+          "program_name": "Live Earthquake Monitoring | GlobalQuake 2026-02-20 17:08",
+          "start": 1366,
+          "end": 1430,
+          "genre": "science",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=rvtygG4n6ew"
+        }
+      ]
+    }
+  ]
+}

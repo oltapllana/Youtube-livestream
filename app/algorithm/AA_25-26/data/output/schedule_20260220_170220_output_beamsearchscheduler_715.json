@@ -1,0 +1,64 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Mountain River Flowing Sounds 24/7 | Nature Sounds White Noise | Flowing Water for Deep Sleep, Relax 2026-02-20 17:02_program_0",
+            "channel_id": 20,
+            "start": 1021,
+            "end": 1053
+        },
+        {
+            "program_id": "Mountain River Flowing Sounds 24/7 | Nature Sounds White Noise | Flowing Water for Deep Sleep, Relax 2026-02-20 17:02_program_1",
+            "channel_id": 20,
+            "start": 1053,
+            "end": 1094
+        },
+        {
+            "program_id": "Mountain River Flowing Sounds 24/7 | Nature Sounds White Noise | Flowing Water for Deep Sleep, Relax 2026-02-20 17:02_program_2",
+            "channel_id": 20,
+            "start": 1094,
+            "end": 1124
+        },
+        {
+            "program_id": "Mountain River Flowing Sounds 24/7 | Nature Sounds White Noise | Flowing Water for Deep Sleep, Relax 2026-02-20 17:02_program_3",
+            "channel_id": 20,
+            "start": 1124,
+            "end": 1154
+        },
+        {
+            "program_id": "Northern Light Live Kilpisjärvi, Finland. North view 2026-02-20 17:02_program_1",
+            "channel_id": 22,
+            "start": 1154,
+            "end": 1187
+        },
+        {
+            "program_id": "Northern Light Live Kilpisjärvi, Finland. North view 2026-02-20 17:02_program_2",
+            "channel_id": 22,
+            "start": 1187,
+            "end": 1224
+        },
+        {
+            "program_id": "Northern Light Live Kilpisjärvi, Finland. North view 2026-02-20 17:02_program_3",
+            "channel_id": 22,
+            "start": 1224,
+            "end": 1254
+        },
+        {
+            "program_id": "The Best 4K Aquarium - Dive Into The Mesmerizing Underwater Realm, Sea Jellyfish, Coral Reefs 2026-02-20 17:01_program_4",
+            "channel_id": 14,
+            "start": 1254,
+            "end": 1286
+        },
+        {
+            "program_id": "The Best 4K Aquarium - Dive Into The Mesmerizing Underwater Realm, Sea Jellyfish, Coral Reefs 2026-02-20 17:01_program_5",
+            "channel_id": 14,
+            "start": 1286,
+            "end": 1318
+        },
+        {
+            "program_id": "The Best 4K Aquarium - Dive Into The Mesmerizing Underwater Realm, Sea Jellyfish, Coral Reefs 2026-02-20 17:01_program_6",
+            "channel_id": 14,
+            "start": 1318,
+            "end": 1348
+        }
+    ]
+}

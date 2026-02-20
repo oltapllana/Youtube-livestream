@@ -1,0 +1,625 @@
+{
+  "opening_time": 1022,
+  "closing_time": 1430,
+  "min_duration": 31,
+  "max_consecutive_genre": 10,
+  "channels_count": 10,
+  "switch_penalty": 8,
+  "termination_penalty": 20,
+  "priority_blocks": [],
+  "time_preferences": [],
+  "channels": [
+    {
+      "channel_id": 14,
+      "channel_name": "The Best 4K Aquarium - Dive Into The Mesmerizing Underwater Realm, Sea Jellyfish, Coral Reefs 2026-02-20 17:01",
+      "programs": [
+        {
+          "program_id": "The Best 4K Aquarium - Dive Into The Mesmerizing Underwater Realm, Sea Jellyfish, Coral Reefs 2026-02-20 17:01_program_0",
+          "program_name": "The Best 4K Aquarium - Dive Into The Mesmerizing Underwater Realm, Sea Jellyfish, Coral Reefs 2026-02-20 17:01",
+          "start": 1022,
+          "end": 1110,
+          "genre": "others",
+          "score": 72,
+          "url": "https://www.youtube.com/watch?v=xCLTpcx9aO8"
+        },
+        {
+          "program_id": "The Best 4K Aquarium - Dive Into The Mesmerizing Underwater Realm, Sea Jellyfish, Coral Reefs 2026-02-20 17:01_program_1",
+          "program_name": "The Best 4K Aquarium - Dive Into The Mesmerizing Underwater Realm, Sea Jellyfish, Coral Reefs 2026-02-20 17:01",
+          "start": 1110,
+          "end": 1160,
+          "genre": "others",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=xCLTpcx9aO8"
+        },
+        {
+          "program_id": "The Best 4K Aquarium - Dive Into The Mesmerizing Underwater Realm, Sea Jellyfish, Coral Reefs 2026-02-20 17:01_program_2",
+          "program_name": "The Best 4K Aquarium - Dive Into The Mesmerizing Underwater Realm, Sea Jellyfish, Coral Reefs 2026-02-20 17:01",
+          "start": 1160,
+          "end": 1240,
+          "genre": "others",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=xCLTpcx9aO8"
+        },
+        {
+          "program_id": "The Best 4K Aquarium - Dive Into The Mesmerizing Underwater Realm, Sea Jellyfish, Coral Reefs 2026-02-20 17:01_program_3",
+          "program_name": "The Best 4K Aquarium - Dive Into The Mesmerizing Underwater Realm, Sea Jellyfish, Coral Reefs 2026-02-20 17:01",
+          "start": 1240,
+          "end": 1282,
+          "genre": "others",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=xCLTpcx9aO8"
+        },
+        {
+          "program_id": "The Best 4K Aquarium - Dive Into The Mesmerizing Underwater Realm, Sea Jellyfish, Coral Reefs 2026-02-20 17:01_program_4",
+          "program_name": "The Best 4K Aquarium - Dive Into The Mesmerizing Underwater Realm, Sea Jellyfish, Coral Reefs 2026-02-20 17:01",
+          "start": 1282,
+          "end": 1325,
+          "genre": "others",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=xCLTpcx9aO8"
+        },
+        {
+          "program_id": "The Best 4K Aquarium - Dive Into The Mesmerizing Underwater Realm, Sea Jellyfish, Coral Reefs 2026-02-20 17:01_program_5",
+          "program_name": "The Best 4K Aquarium - Dive Into The Mesmerizing Underwater Realm, Sea Jellyfish, Coral Reefs 2026-02-20 17:01",
+          "start": 1325,
+          "end": 1356,
+          "genre": "others",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=xCLTpcx9aO8"
+        },
+        {
+          "program_id": "The Best 4K Aquarium - Dive Into The Mesmerizing Underwater Realm, Sea Jellyfish, Coral Reefs 2026-02-20 17:01_program_6",
+          "program_name": "The Best 4K Aquarium - Dive Into The Mesmerizing Underwater Realm, Sea Jellyfish, Coral Reefs 2026-02-20 17:01",
+          "start": 1356,
+          "end": 1430,
+          "genre": "others",
+          "score": 70,
+          "url": "https://www.youtube.com/watch?v=xCLTpcx9aO8"
+        }
+      ]
+    },
+    {
+      "channel_id": 15,
+      "channel_name": "Dive Into the Mesmerizing Underwater Realm\ud83d\udc33 Marvel at Sea Animal in The Best 8K ULTRA HD Aquarium 2026-02-20 17:01",
+      "programs": [
+        {
+          "program_id": "Dive Into the Mesmerizing Underwater Realm\ud83d\udc33 Marvel at Sea Animal in The Best 8K ULTRA HD Aquarium 2026-02-20 17:01_program_0",
+          "program_name": "Dive Into the Mesmerizing Underwater Realm\ud83d\udc33 Marvel at Sea Animal in The Best 8K ULTRA HD Aquarium 2026-02-20 17:01",
+          "start": 1022,
+          "end": 1055,
+          "genre": "others",
+          "score": 73,
+          "url": "https://www.youtube.com/watch?v=uTuiOYxYMGk"
+        },
+        {
+          "program_id": "Dive Into the Mesmerizing Underwater Realm\ud83d\udc33 Marvel at Sea Animal in The Best 8K ULTRA HD Aquarium 2026-02-20 17:01_program_1",
+          "program_name": "Dive Into the Mesmerizing Underwater Realm\ud83d\udc33 Marvel at Sea Animal in The Best 8K ULTRA HD Aquarium 2026-02-20 17:01",
+          "start": 1055,
+          "end": 1109,
+          "genre": "others",
+          "score": 89,
+          "url": "https://www.youtube.com/watch?v=uTuiOYxYMGk"
+        },
+        {
+          "program_id": "Dive Into the Mesmerizing Underwater Realm\ud83d\udc33 Marvel at Sea Animal in The Best 8K ULTRA HD Aquarium 2026-02-20 17:01_program_2",
+          "program_name": "Dive Into the Mesmerizing Underwater Realm\ud83d\udc33 Marvel at Sea Animal in The Best 8K ULTRA HD Aquarium 2026-02-20 17:01",
+          "start": 1109,
+          "end": 1178,
+          "genre": "others",
+          "score": 73,
+          "url": "https://www.youtube.com/watch?v=uTuiOYxYMGk"
+        },
+        {
+          "program_id": "Dive Into the Mesmerizing Underwater Realm\ud83d\udc33 Marvel at Sea Animal in The Best 8K ULTRA HD Aquarium 2026-02-20 17:01_program_3",
+          "program_name": "Dive Into the Mesmerizing Underwater Realm\ud83d\udc33 Marvel at Sea Animal in The Best 8K ULTRA HD Aquarium 2026-02-20 17:01",
+          "start": 1178,
+          "end": 1264,
+          "genre": "others",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=uTuiOYxYMGk"
+        },
+        {
+          "program_id": "Dive Into the Mesmerizing Underwater Realm\ud83d\udc33 Marvel at Sea Animal in The Best 8K ULTRA HD Aquarium 2026-02-20 17:01_program_4",
+          "program_name": "Dive Into the Mesmerizing Underwater Realm\ud83d\udc33 Marvel at Sea Animal in The Best 8K ULTRA HD Aquarium 2026-02-20 17:01",
+          "start": 1264,
+          "end": 1321,
+          "genre": "others",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=uTuiOYxYMGk"
+        },
+        {
+          "program_id": "Dive Into the Mesmerizing Underwater Realm\ud83d\udc33 Marvel at Sea Animal in The Best 8K ULTRA HD Aquarium 2026-02-20 17:01_program_5",
+          "program_name": "Dive Into the Mesmerizing Underwater Realm\ud83d\udc33 Marvel at Sea Animal in The Best 8K ULTRA HD Aquarium 2026-02-20 17:01",
+          "start": 1321,
+          "end": 1360,
+          "genre": "others",
+          "score": 70,
+          "url": "https://www.youtube.com/watch?v=uTuiOYxYMGk"
+        },
+        {
+          "program_id": "Dive Into the Mesmerizing Underwater Realm\ud83d\udc33 Marvel at Sea Animal in The Best 8K ULTRA HD Aquarium 2026-02-20 17:01_program_6",
+          "program_name": "Dive Into the Mesmerizing Underwater Realm\ud83d\udc33 Marvel at Sea Animal in The Best 8K ULTRA HD Aquarium 2026-02-20 17:01",
+          "start": 1360,
+          "end": 1429,
+          "genre": "others",
+          "score": 84,
+          "url": "https://www.youtube.com/watch?v=uTuiOYxYMGk"
+        }
+      ]
+    },
+    {
+      "channel_id": 16,
+      "channel_name": "Spectacular Marine Creatures in 8K HDR | Dolby Vision\u2122 2026-02-20 17:01",
+      "programs": [
+        {
+          "program_id": "Spectacular Marine Creatures in 8K HDR | Dolby Vision\u2122 2026-02-20 17:01_program_0",
+          "program_name": "Spectacular Marine Creatures in 8K HDR | Dolby Vision\u2122 2026-02-20 17:01",
+          "start": 1022,
+          "end": 1107,
+          "genre": "others",
+          "score": 73,
+          "url": "https://www.youtube.com/watch?v=2nOrC6nLHRM"
+        },
+        {
+          "program_id": "Spectacular Marine Creatures in 8K HDR | Dolby Vision\u2122 2026-02-20 17:01_program_1",
+          "program_name": "Spectacular Marine Creatures in 8K HDR | Dolby Vision\u2122 2026-02-20 17:01",
+          "start": 1107,
+          "end": 1149,
+          "genre": "others",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=2nOrC6nLHRM"
+        },
+        {
+          "program_id": "Spectacular Marine Creatures in 8K HDR | Dolby Vision\u2122 2026-02-20 17:01_program_2",
+          "program_name": "Spectacular Marine Creatures in 8K HDR | Dolby Vision\u2122 2026-02-20 17:01",
+          "start": 1149,
+          "end": 1210,
+          "genre": "others",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=2nOrC6nLHRM"
+        },
+        {
+          "program_id": "Spectacular Marine Creatures in 8K HDR | Dolby Vision\u2122 2026-02-20 17:01_program_3",
+          "program_name": "Spectacular Marine Creatures in 8K HDR | Dolby Vision\u2122 2026-02-20 17:01",
+          "start": 1210,
+          "end": 1245,
+          "genre": "others",
+          "score": 71,
+          "url": "https://www.youtube.com/watch?v=2nOrC6nLHRM"
+        },
+        {
+          "program_id": "Spectacular Marine Creatures in 8K HDR | Dolby Vision\u2122 2026-02-20 17:01_program_4",
+          "program_name": "Spectacular Marine Creatures in 8K HDR | Dolby Vision\u2122 2026-02-20 17:01",
+          "start": 1245,
+          "end": 1314,
+          "genre": "others",
+          "score": 79,
+          "url": "https://www.youtube.com/watch?v=2nOrC6nLHRM"
+        },
+        {
+          "program_id": "Spectacular Marine Creatures in 8K HDR | Dolby Vision\u2122 2026-02-20 17:01_program_5",
+          "program_name": "Spectacular Marine Creatures in 8K HDR | Dolby Vision\u2122 2026-02-20 17:01",
+          "start": 1314,
+          "end": 1367,
+          "genre": "others",
+          "score": 72,
+          "url": "https://www.youtube.com/watch?v=2nOrC6nLHRM"
+        },
+        {
+          "program_id": "Spectacular Marine Creatures in 8K HDR | Dolby Vision\u2122 2026-02-20 17:01_program_6",
+          "program_name": "Spectacular Marine Creatures in 8K HDR | Dolby Vision\u2122 2026-02-20 17:01",
+          "start": 1367,
+          "end": 1406,
+          "genre": "others",
+          "score": 75,
+          "url": "https://www.youtube.com/watch?v=2nOrC6nLHRM"
+        }
+      ]
+    },
+    {
+      "channel_id": 17,
+      "channel_name": "Relaxing Music to Relieve Stress, Anxiety and Depression \u2022 Mind, Body \ud83d\udc2c Soothing music for nerves 2026-02-20 17:01",
+      "programs": [
+        {
+          "program_id": "Relaxing Music to Relieve Stress, Anxiety and Depression \u2022 Mind, Body \ud83d\udc2c Soothing music for nerves 2026-02-20 17:01_program_0",
+          "program_name": "Relaxing Music to Relieve Stress, Anxiety and Depression \u2022 Mind, Body \ud83d\udc2c Soothing music for nerves 2026-02-20 17:01",
+          "start": 1022,
+          "end": 1083,
+          "genre": "others",
+          "score": 72,
+          "url": "https://www.youtube.com/watch?v=wKg71lcs5Nw"
+        },
+        {
+          "program_id": "Relaxing Music to Relieve Stress, Anxiety and Depression \u2022 Mind, Body \ud83d\udc2c Soothing music for nerves 2026-02-20 17:01_program_1",
+          "program_name": "Relaxing Music to Relieve Stress, Anxiety and Depression \u2022 Mind, Body \ud83d\udc2c Soothing music for nerves 2026-02-20 17:01",
+          "start": 1083,
+          "end": 1140,
+          "genre": "others",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=wKg71lcs5Nw"
+        },
+        {
+          "program_id": "Relaxing Music to Relieve Stress, Anxiety and Depression \u2022 Mind, Body \ud83d\udc2c Soothing music for nerves 2026-02-20 17:01_program_2",
+          "program_name": "Relaxing Music to Relieve Stress, Anxiety and Depression \u2022 Mind, Body \ud83d\udc2c Soothing music for nerves 2026-02-20 17:01",
+          "start": 1140,
+          "end": 1211,
+          "genre": "others",
+          "score": 73,
+          "url": "https://www.youtube.com/watch?v=wKg71lcs5Nw"
+        },
+        {
+          "program_id": "Relaxing Music to Relieve Stress, Anxiety and Depression \u2022 Mind, Body \ud83d\udc2c Soothing music for nerves 2026-02-20 17:01_program_3",
+          "program_name": "Relaxing Music to Relieve Stress, Anxiety and Depression \u2022 Mind, Body \ud83d\udc2c Soothing music for nerves 2026-02-20 17:01",
+          "start": 1211,
+          "end": 1288,
+          "genre": "others",
+          "score": 89,
+          "url": "https://www.youtube.com/watch?v=wKg71lcs5Nw"
+        },
+        {
+          "program_id": "Relaxing Music to Relieve Stress, Anxiety and Depression \u2022 Mind, Body \ud83d\udc2c Soothing music for nerves 2026-02-20 17:01_program_4",
+          "program_name": "Relaxing Music to Relieve Stress, Anxiety and Depression \u2022 Mind, Body \ud83d\udc2c Soothing music for nerves 2026-02-20 17:01",
+          "start": 1288,
+          "end": 1354,
+          "genre": "others",
+          "score": 84,
+          "url": "https://www.youtube.com/watch?v=wKg71lcs5Nw"
+        },
+        {
+          "program_id": "Relaxing Music to Relieve Stress, Anxiety and Depression \u2022 Mind, Body \ud83d\udc2c Soothing music for nerves 2026-02-20 17:01_program_5",
+          "program_name": "Relaxing Music to Relieve Stress, Anxiety and Depression \u2022 Mind, Body \ud83d\udc2c Soothing music for nerves 2026-02-20 17:01",
+          "start": 1354,
+          "end": 1408,
+          "genre": "others",
+          "score": 71,
+          "url": "https://www.youtube.com/watch?v=wKg71lcs5Nw"
+        }
+      ]
+    },
+    {
+      "channel_id": 18,
+      "channel_name": "Ocean Ambience 4K (LIVE 24/7). Tropical Beach & Ocean Waves Sounds. Maldives InterContinental 2026-02-20 17:02",
+      "programs": [
+        {
+          "program_id": "Ocean Ambience 4K (LIVE 24/7). Tropical Beach & Ocean Waves Sounds. Maldives InterContinental 2026-02-20 17:02_program_0",
+          "program_name": "Ocean Ambience 4K (LIVE 24/7). Tropical Beach & Ocean Waves Sounds. Maldives InterContinental 2026-02-20 17:02",
+          "start": 1022,
+          "end": 1077,
+          "genre": "others",
+          "score": 82,
+          "url": "https://www.youtube.com/watch?v=_BMi3usEwi8"
+        },
+        {
+          "program_id": "Ocean Ambience 4K (LIVE 24/7). Tropical Beach & Ocean Waves Sounds. Maldives InterContinental 2026-02-20 17:02_program_1",
+          "program_name": "Ocean Ambience 4K (LIVE 24/7). Tropical Beach & Ocean Waves Sounds. Maldives InterContinental 2026-02-20 17:02",
+          "start": 1077,
+          "end": 1157,
+          "genre": "others",
+          "score": 74,
+          "url": "https://www.youtube.com/watch?v=_BMi3usEwi8"
+        },
+        {
+          "program_id": "Ocean Ambience 4K (LIVE 24/7). Tropical Beach & Ocean Waves Sounds. Maldives InterContinental 2026-02-20 17:02_program_2",
+          "program_name": "Ocean Ambience 4K (LIVE 24/7). Tropical Beach & Ocean Waves Sounds. Maldives InterContinental 2026-02-20 17:02",
+          "start": 1157,
+          "end": 1209,
+          "genre": "others",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=_BMi3usEwi8"
+        },
+        {
+          "program_id": "Ocean Ambience 4K (LIVE 24/7). Tropical Beach & Ocean Waves Sounds. Maldives InterContinental 2026-02-20 17:02_program_3",
+          "program_name": "Ocean Ambience 4K (LIVE 24/7). Tropical Beach & Ocean Waves Sounds. Maldives InterContinental 2026-02-20 17:02",
+          "start": 1209,
+          "end": 1249,
+          "genre": "others",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=_BMi3usEwi8"
+        },
+        {
+          "program_id": "Ocean Ambience 4K (LIVE 24/7). Tropical Beach & Ocean Waves Sounds. Maldives InterContinental 2026-02-20 17:02_program_4",
+          "program_name": "Ocean Ambience 4K (LIVE 24/7). Tropical Beach & Ocean Waves Sounds. Maldives InterContinental 2026-02-20 17:02",
+          "start": 1249,
+          "end": 1301,
+          "genre": "others",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=_BMi3usEwi8"
+        },
+        {
+          "program_id": "Ocean Ambience 4K (LIVE 24/7). Tropical Beach & Ocean Waves Sounds. Maldives InterContinental 2026-02-20 17:02_program_5",
+          "program_name": "Ocean Ambience 4K (LIVE 24/7). Tropical Beach & Ocean Waves Sounds. Maldives InterContinental 2026-02-20 17:02",
+          "start": 1301,
+          "end": 1344,
+          "genre": "others",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=_BMi3usEwi8"
+        },
+        {
+          "program_id": "Ocean Ambience 4K (LIVE 24/7). Tropical Beach & Ocean Waves Sounds. Maldives InterContinental 2026-02-20 17:02_program_6",
+          "program_name": "Ocean Ambience 4K (LIVE 24/7). Tropical Beach & Ocean Waves Sounds. Maldives InterContinental 2026-02-20 17:02",
+          "start": 1344,
+          "end": 1391,
+          "genre": "others",
+          "score": 72,
+          "url": "https://www.youtube.com/watch?v=_BMi3usEwi8"
+        },
+        {
+          "program_id": "Ocean Ambience 4K (LIVE 24/7). Tropical Beach & Ocean Waves Sounds. Maldives InterContinental 2026-02-20 17:02_program_7",
+          "program_name": "Ocean Ambience 4K (LIVE 24/7). Tropical Beach & Ocean Waves Sounds. Maldives InterContinental 2026-02-20 17:02",
+          "start": 1391,
+          "end": 1430,
+          "genre": "others",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=_BMi3usEwi8"
+        }
+      ]
+    },
+    {
+      "channel_id": 19,
+      "channel_name": "Calm Woodland Stream with Beautiful Birdsong, Relax and Unwind, ASMR 2026-02-20 17:02",
+      "programs": [
+        {
+          "program_id": "Calm Woodland Stream with Beautiful Birdsong, Relax and Unwind, ASMR 2026-02-20 17:02_program_0",
+          "program_name": "Calm Woodland Stream with Beautiful Birdsong, Relax and Unwind, ASMR 2026-02-20 17:02",
+          "start": 1022,
+          "end": 1083,
+          "genre": "others",
+          "score": 89,
+          "url": "https://www.youtube.com/watch?v=8kEzFZvtLzM"
+        },
+        {
+          "program_id": "Calm Woodland Stream with Beautiful Birdsong, Relax and Unwind, ASMR 2026-02-20 17:02_program_1",
+          "program_name": "Calm Woodland Stream with Beautiful Birdsong, Relax and Unwind, ASMR 2026-02-20 17:02",
+          "start": 1083,
+          "end": 1171,
+          "genre": "others",
+          "score": 75,
+          "url": "https://www.youtube.com/watch?v=8kEzFZvtLzM"
+        },
+        {
+          "program_id": "Calm Woodland Stream with Beautiful Birdsong, Relax and Unwind, ASMR 2026-02-20 17:02_program_2",
+          "program_name": "Calm Woodland Stream with Beautiful Birdsong, Relax and Unwind, ASMR 2026-02-20 17:02",
+          "start": 1171,
+          "end": 1242,
+          "genre": "others",
+          "score": 70,
+          "url": "https://www.youtube.com/watch?v=8kEzFZvtLzM"
+        },
+        {
+          "program_id": "Calm Woodland Stream with Beautiful Birdsong, Relax and Unwind, ASMR 2026-02-20 17:02_program_3",
+          "program_name": "Calm Woodland Stream with Beautiful Birdsong, Relax and Unwind, ASMR 2026-02-20 17:02",
+          "start": 1242,
+          "end": 1314,
+          "genre": "others",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=8kEzFZvtLzM"
+        },
+        {
+          "program_id": "Calm Woodland Stream with Beautiful Birdsong, Relax and Unwind, ASMR 2026-02-20 17:02_program_4",
+          "program_name": "Calm Woodland Stream with Beautiful Birdsong, Relax and Unwind, ASMR 2026-02-20 17:02",
+          "start": 1314,
+          "end": 1383,
+          "genre": "others",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=8kEzFZvtLzM"
+        },
+        {
+          "program_id": "Calm Woodland Stream with Beautiful Birdsong, Relax and Unwind, ASMR 2026-02-20 17:02_program_5",
+          "program_name": "Calm Woodland Stream with Beautiful Birdsong, Relax and Unwind, ASMR 2026-02-20 17:02",
+          "start": 1383,
+          "end": 1430,
+          "genre": "others",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=8kEzFZvtLzM"
+        }
+      ]
+    },
+    {
+      "channel_id": 20,
+      "channel_name": "Mountain River Flowing Sounds 24/7 | Nature Sounds White Noise | Flowing Water for Deep Sleep, Relax 2026-02-20 17:02",
+      "programs": [
+        {
+          "program_id": "Mountain River Flowing Sounds 24/7 | Nature Sounds White Noise | Flowing Water for Deep Sleep, Relax 2026-02-20 17:02_program_0",
+          "program_name": "Mountain River Flowing Sounds 24/7 | Nature Sounds White Noise | Flowing Water for Deep Sleep, Relax 2026-02-20 17:02",
+          "start": 1022,
+          "end": 1088,
+          "genre": "others",
+          "score": 82,
+          "url": "https://www.youtube.com/watch?v=udsGvRf0FhU"
+        },
+        {
+          "program_id": "Mountain River Flowing Sounds 24/7 | Nature Sounds White Noise | Flowing Water for Deep Sleep, Relax 2026-02-20 17:02_program_1",
+          "program_name": "Mountain River Flowing Sounds 24/7 | Nature Sounds White Noise | Flowing Water for Deep Sleep, Relax 2026-02-20 17:02",
+          "start": 1088,
+          "end": 1144,
+          "genre": "others",
+          "score": 73,
+          "url": "https://www.youtube.com/watch?v=udsGvRf0FhU"
+        },
+        {
+          "program_id": "Mountain River Flowing Sounds 24/7 | Nature Sounds White Noise | Flowing Water for Deep Sleep, Relax 2026-02-20 17:02_program_2",
+          "program_name": "Mountain River Flowing Sounds 24/7 | Nature Sounds White Noise | Flowing Water for Deep Sleep, Relax 2026-02-20 17:02",
+          "start": 1144,
+          "end": 1179,
+          "genre": "others",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=udsGvRf0FhU"
+        },
+        {
+          "program_id": "Mountain River Flowing Sounds 24/7 | Nature Sounds White Noise | Flowing Water for Deep Sleep, Relax 2026-02-20 17:02_program_3",
+          "program_name": "Mountain River Flowing Sounds 24/7 | Nature Sounds White Noise | Flowing Water for Deep Sleep, Relax 2026-02-20 17:02",
+          "start": 1179,
+          "end": 1250,
+          "genre": "others",
+          "score": 71,
+          "url": "https://www.youtube.com/watch?v=udsGvRf0FhU"
+        },
+        {
+          "program_id": "Mountain River Flowing Sounds 24/7 | Nature Sounds White Noise | Flowing Water for Deep Sleep, Relax 2026-02-20 17:02_program_4",
+          "program_name": "Mountain River Flowing Sounds 24/7 | Nature Sounds White Noise | Flowing Water for Deep Sleep, Relax 2026-02-20 17:02",
+          "start": 1250,
+          "end": 1324,
+          "genre": "others",
+          "score": 72,
+          "url": "https://www.youtube.com/watch?v=udsGvRf0FhU"
+        },
+        {
+          "program_id": "Mountain River Flowing Sounds 24/7 | Nature Sounds White Noise | Flowing Water for Deep Sleep, Relax 2026-02-20 17:02_program_5",
+          "program_name": "Mountain River Flowing Sounds 24/7 | Nature Sounds White Noise | Flowing Water for Deep Sleep, Relax 2026-02-20 17:02",
+          "start": 1324,
+          "end": 1359,
+          "genre": "others",
+          "score": 84,
+          "url": "https://www.youtube.com/watch?v=udsGvRf0FhU"
+        },
+        {
+          "program_id": "Mountain River Flowing Sounds 24/7 | Nature Sounds White Noise | Flowing Water for Deep Sleep, Relax 2026-02-20 17:02_program_6",
+          "program_name": "Mountain River Flowing Sounds 24/7 | Nature Sounds White Noise | Flowing Water for Deep Sleep, Relax 2026-02-20 17:02",
+          "start": 1359,
+          "end": 1409,
+          "genre": "others",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=udsGvRf0FhU"
+        }
+      ]
+    },
+    {
+      "channel_id": 21,
+      "channel_name": "\ud83d\udd34 Live Now: 24/7 Iceberg Cam of Ilulissat, Greenland in 4K Ultra HD 2026-02-20 17:02",
+      "programs": [
+        {
+          "program_id": "\ud83d\udd34 Live Now: 24/7 Iceberg Cam of Ilulissat, Greenland in 4K Ultra HD 2026-02-20 17:02_program_0",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 Iceberg Cam of Ilulissat, Greenland in 4K Ultra HD 2026-02-20 17:02",
+          "start": 1022,
+          "end": 1081,
+          "genre": "others",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=qJ3D5vhIK6k"
+        },
+        {
+          "program_id": "\ud83d\udd34 Live Now: 24/7 Iceberg Cam of Ilulissat, Greenland in 4K Ultra HD 2026-02-20 17:02_program_1",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 Iceberg Cam of Ilulissat, Greenland in 4K Ultra HD 2026-02-20 17:02",
+          "start": 1081,
+          "end": 1137,
+          "genre": "others",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=qJ3D5vhIK6k"
+        },
+        {
+          "program_id": "\ud83d\udd34 Live Now: 24/7 Iceberg Cam of Ilulissat, Greenland in 4K Ultra HD 2026-02-20 17:02_program_2",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 Iceberg Cam of Ilulissat, Greenland in 4K Ultra HD 2026-02-20 17:02",
+          "start": 1137,
+          "end": 1190,
+          "genre": "others",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=qJ3D5vhIK6k"
+        },
+        {
+          "program_id": "\ud83d\udd34 Live Now: 24/7 Iceberg Cam of Ilulissat, Greenland in 4K Ultra HD 2026-02-20 17:02_program_3",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 Iceberg Cam of Ilulissat, Greenland in 4K Ultra HD 2026-02-20 17:02",
+          "start": 1190,
+          "end": 1243,
+          "genre": "others",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=qJ3D5vhIK6k"
+        },
+        {
+          "program_id": "\ud83d\udd34 Live Now: 24/7 Iceberg Cam of Ilulissat, Greenland in 4K Ultra HD 2026-02-20 17:02_program_4",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 Iceberg Cam of Ilulissat, Greenland in 4K Ultra HD 2026-02-20 17:02",
+          "start": 1243,
+          "end": 1276,
+          "genre": "others",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=qJ3D5vhIK6k"
+        },
+        {
+          "program_id": "\ud83d\udd34 Live Now: 24/7 Iceberg Cam of Ilulissat, Greenland in 4K Ultra HD 2026-02-20 17:02_program_5",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 Iceberg Cam of Ilulissat, Greenland in 4K Ultra HD 2026-02-20 17:02",
+          "start": 1276,
+          "end": 1360,
+          "genre": "others",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=qJ3D5vhIK6k"
+        },
+        {
+          "program_id": "\ud83d\udd34 Live Now: 24/7 Iceberg Cam of Ilulissat, Greenland in 4K Ultra HD 2026-02-20 17:02_program_6",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 Iceberg Cam of Ilulissat, Greenland in 4K Ultra HD 2026-02-20 17:02",
+          "start": 1360,
+          "end": 1430,
+          "genre": "others",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=qJ3D5vhIK6k"
+        }
+      ]
+    },
+    {
+      "channel_id": 22,
+      "channel_name": "Northern Light Live Kilpisj\u00e4rvi, Finland. North view 2026-02-20 17:02",
+      "programs": [
+        {
+          "program_id": "Northern Light Live Kilpisj\u00e4rvi, Finland. North view 2026-02-20 17:02_program_0",
+          "program_name": "Northern Light Live Kilpisj\u00e4rvi, Finland. North view 2026-02-20 17:02",
+          "start": 1022,
+          "end": 1064,
+          "genre": "others",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=ccTVAhJU5lg"
+        },
+        {
+          "program_id": "Northern Light Live Kilpisj\u00e4rvi, Finland. North view 2026-02-20 17:02_program_1",
+          "program_name": "Northern Light Live Kilpisj\u00e4rvi, Finland. North view 2026-02-20 17:02",
+          "start": 1064,
+          "end": 1122,
+          "genre": "others",
+          "score": 75,
+          "url": "https://www.youtube.com/watch?v=ccTVAhJU5lg"
+        },
+        {
+          "program_id": "Northern Light Live Kilpisj\u00e4rvi, Finland. North view 2026-02-20 17:02_program_2",
+          "program_name": "Northern Light Live Kilpisj\u00e4rvi, Finland. North view 2026-02-20 17:02",
+          "start": 1122,
+          "end": 1181,
+          "genre": "others",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=ccTVAhJU5lg"
+        },
+        {
+          "program_id": "Northern Light Live Kilpisj\u00e4rvi, Finland. North view 2026-02-20 17:02_program_3",
+          "program_name": "Northern Light Live Kilpisj\u00e4rvi, Finland. North view 2026-02-20 17:02",
+          "start": 1181,
+          "end": 1236,
+          "genre": "others",
+          "score": 84,
+          "url": "https://www.youtube.com/watch?v=ccTVAhJU5lg"
+        },
+        {
+          "program_id": "Northern Light Live Kilpisj\u00e4rvi, Finland. North view 2026-02-20 17:02_program_4",
+          "program_name": "Northern Light Live Kilpisj\u00e4rvi, Finland. North view 2026-02-20 17:02",
+          "start": 1236,
+          "end": 1281,
+          "genre": "others",
+          "score": 73,
+          "url": "https://www.youtube.com/watch?v=ccTVAhJU5lg"
+        },
+        {
+          "program_id": "Northern Light Live Kilpisj\u00e4rvi, Finland. North view 2026-02-20 17:02_program_5",
+          "program_name": "Northern Light Live Kilpisj\u00e4rvi, Finland. North view 2026-02-20 17:02",
+          "start": 1281,
+          "end": 1334,
+          "genre": "others",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=ccTVAhJU5lg"
+        },
+        {
+          "program_id": "Northern Light Live Kilpisj\u00e4rvi, Finland. North view 2026-02-20 17:02_program_6",
+          "program_name": "Northern Light Live Kilpisj\u00e4rvi, Finland. North view 2026-02-20 17:02",
+          "start": 1334,
+          "end": 1409,
+          "genre": "others",
+          "score": 81,
+          "url": "https://www.youtube.com/watch?v=ccTVAhJU5lg"
+        }
+      ]
+    }
+  ]
+}

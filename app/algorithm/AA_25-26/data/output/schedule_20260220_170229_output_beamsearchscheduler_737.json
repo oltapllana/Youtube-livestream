@@ -1,0 +1,64 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Spectacular Marine Creatures in 8K HDR | Dolby Vision™ 2026-02-20 17:01_program_1",
+            "channel_id": 16,
+            "start": 1054,
+            "end": 1107
+        },
+        {
+            "program_id": "Spectacular Marine Creatures in 8K HDR | Dolby Vision™ 2026-02-20 17:01_program_2",
+            "channel_id": 16,
+            "start": 1107,
+            "end": 1147
+        },
+        {
+            "program_id": "Spectacular Marine Creatures in 8K HDR | Dolby Vision™ 2026-02-20 17:01_program_3",
+            "channel_id": 16,
+            "start": 1147,
+            "end": 1184
+        },
+        {
+            "program_id": "Spectacular Marine Creatures in 8K HDR | Dolby Vision™ 2026-02-20 17:01_program_4",
+            "channel_id": 16,
+            "start": 1184,
+            "end": 1214
+        },
+        {
+            "program_id": "Relaxing Music to Relieve Stress, Anxiety and Depression • Mind, Body 🐬 Soothing music for nerves 2026-02-20 17:01_program_3",
+            "channel_id": 17,
+            "start": 1224,
+            "end": 1273
+        },
+        {
+            "program_id": "Relaxing Music to Relieve Stress, Anxiety and Depression • Mind, Body 🐬 Soothing music for nerves 2026-02-20 17:01_program_4",
+            "channel_id": 17,
+            "start": 1273,
+            "end": 1303
+        },
+        {
+            "program_id": "🔴 Live Now: 24/7 Iceberg Cam of Ilulissat, Greenland in 4K Ultra HD 2026-02-20 17:02_program_4",
+            "channel_id": 21,
+            "start": 1303,
+            "end": 1335
+        },
+        {
+            "program_id": "🔴 Live Now: 24/7 Iceberg Cam of Ilulissat, Greenland in 4K Ultra HD 2026-02-20 17:02_program_5",
+            "channel_id": 21,
+            "start": 1335,
+            "end": 1365
+        },
+        {
+            "program_id": "🔴 Live Now: 24/7 Iceberg Cam of Ilulissat, Greenland in 4K Ultra HD 2026-02-20 17:02_program_6",
+            "channel_id": 21,
+            "start": 1365,
+            "end": 1395
+        },
+        {
+            "program_id": "Ocean Ambience 4K (LIVE 24/7). Tropical Beach & Ocean Waves Sounds. Maldives InterContinental 2026-02-20 17:02_program_8",
+            "channel_id": 18,
+            "start": 1395,
+            "end": 1430
+        }
+    ]
+}

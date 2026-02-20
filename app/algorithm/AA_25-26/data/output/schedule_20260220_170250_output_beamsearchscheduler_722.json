@@ -1,0 +1,64 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Calm Woodland Stream with Beautiful Birdsong, Relax and Unwind, ASMR 2026-02-20 17:02_program_0",
+            "channel_id": 19,
+            "start": 1022,
+            "end": 1083
+        },
+        {
+            "program_id": "Calm Woodland Stream with Beautiful Birdsong, Relax and Unwind, ASMR 2026-02-20 17:02_program_1",
+            "channel_id": 19,
+            "start": 1083,
+            "end": 1122
+        },
+        {
+            "program_id": "Northern Light Live Kilpisjärvi, Finland. North view 2026-02-20 17:02_program_2",
+            "channel_id": 22,
+            "start": 1122,
+            "end": 1153
+        },
+        {
+            "program_id": "🔴 Live Now: 24/7 Iceberg Cam of Ilulissat, Greenland in 4K Ultra HD 2026-02-20 17:02_program_2",
+            "channel_id": 21,
+            "start": 1153,
+            "end": 1190
+        },
+        {
+            "program_id": "🔴 Live Now: 24/7 Iceberg Cam of Ilulissat, Greenland in 4K Ultra HD 2026-02-20 17:02_program_3",
+            "channel_id": 21,
+            "start": 1190,
+            "end": 1243
+        },
+        {
+            "program_id": "🔴 Live Now: 24/7 Iceberg Cam of Ilulissat, Greenland in 4K Ultra HD 2026-02-20 17:02_program_4",
+            "channel_id": 21,
+            "start": 1243,
+            "end": 1276
+        },
+        {
+            "program_id": "The Best 4K Aquarium - Dive Into The Mesmerizing Underwater Realm, Sea Jellyfish, Coral Reefs 2026-02-20 17:01_program_4",
+            "channel_id": 14,
+            "start": 1282,
+            "end": 1325
+        },
+        {
+            "program_id": "The Best 4K Aquarium - Dive Into The Mesmerizing Underwater Realm, Sea Jellyfish, Coral Reefs 2026-02-20 17:01_program_5",
+            "channel_id": 14,
+            "start": 1325,
+            "end": 1356
+        },
+        {
+            "program_id": "Ocean Ambience 4K (LIVE 24/7). Tropical Beach & Ocean Waves Sounds. Maldives InterContinental 2026-02-20 17:02_program_6",
+            "channel_id": 18,
+            "start": 1356,
+            "end": 1391
+        },
+        {
+            "program_id": "Ocean Ambience 4K (LIVE 24/7). Tropical Beach & Ocean Waves Sounds. Maldives InterContinental 2026-02-20 17:02_program_7",
+            "channel_id": 18,
+            "start": 1391,
+            "end": 1430
+        }
+    ]
+}
