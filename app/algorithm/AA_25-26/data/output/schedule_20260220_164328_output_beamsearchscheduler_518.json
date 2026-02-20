@@ -1,0 +1,46 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Repairing Consoles LIVE 😊 (Project Loft) !Tools !Learnrepair_program_0",
+            "channel_id": 12,
+            "start": 1003,
+            "end": 1067
+        },
+        {
+            "program_id": "Repairing Consoles LIVE 😊 (Project Loft) !Tools !Learnrepair_program_1",
+            "channel_id": 12,
+            "start": 1067,
+            "end": 1155
+        },
+        {
+            "program_id": "Repairing Consoles LIVE 😊 (Project Loft) !Tools !Learnrepair_program_2",
+            "channel_id": 12,
+            "start": 1155,
+            "end": 1212
+        },
+        {
+            "program_id": "Repairing Consoles LIVE 😊 (Project Loft) !Tools !Learnrepair_program_3",
+            "channel_id": 12,
+            "start": 1212,
+            "end": 1248
+        },
+        {
+            "program_id": "Repairing Consoles LIVE 😊 (Project Loft) !Tools !Learnrepair_program_4",
+            "channel_id": 12,
+            "start": 1248,
+            "end": 1303
+        },
+        {
+            "program_id": "Repairing Consoles LIVE 😊 (Project Loft) !Tools !Learnrepair_program_5",
+            "channel_id": 12,
+            "start": 1303,
+            "end": 1363
+        },
+        {
+            "program_id": "Repairing Consoles LIVE 😊 (Project Loft) !Tools !Learnrepair_program_6",
+            "channel_id": 12,
+            "start": 1363,
+            "end": 1430
+        }
+    ]
+}

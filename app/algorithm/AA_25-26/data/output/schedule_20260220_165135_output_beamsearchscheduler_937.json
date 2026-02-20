@@ -1,0 +1,82 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction 2026-02-20 16:51_program_0",
+            "channel_id": 5,
+            "start": 1011,
+            "end": 1041
+        },
+        {
+            "program_id": "International Space Station (ISS) Camera's Capture Views Of Hurricane Matthew [Unedited] 2026-02-20 16:51_program_0",
+            "channel_id": 7,
+            "start": 1041,
+            "end": 1075
+        },
+        {
+            "program_id": "International Space Station (ISS) Camera's Capture Views Of Hurricane Matthew [Unedited] 2026-02-20 16:51_program_1",
+            "channel_id": 7,
+            "start": 1075,
+            "end": 1105
+        },
+        {
+            "program_id": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction 2026-02-20 16:51_program_1",
+            "channel_id": 5,
+            "start": 1105,
+            "end": 1135
+        },
+        {
+            "program_id": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 16:46_program_2",
+            "channel_id": 0,
+            "start": 1135,
+            "end": 1167
+        },
+        {
+            "program_id": "International Space Station (ISS) Camera's Capture Views Of Hurricane Matthew [Unedited] 2026-02-20 16:51_program_2",
+            "channel_id": 7,
+            "start": 1167,
+            "end": 1197
+        },
+        {
+            "program_id": "International Space Station (ISS) Camera's Capture Views Of Hurricane Matthew [Unedited] 2026-02-20 16:51_program_3",
+            "channel_id": 7,
+            "start": 1197,
+            "end": 1237
+        },
+        {
+            "program_id": "International Space Station (ISS) Camera's Capture Views Of Hurricane Matthew [Unedited] 2026-02-20 16:51_program_4",
+            "channel_id": 7,
+            "start": 1237,
+            "end": 1270
+        },
+        {
+            "program_id": "24/7 Universe, Physics & Ancient Mysteries 2026-02-20 16:51_program_4",
+            "channel_id": 8,
+            "start": 1270,
+            "end": 1309
+        },
+        {
+            "program_id": "International Space Station (ISS) Camera's Capture Views Of Hurricane Matthew [Unedited] 2026-02-20 16:51_program_5",
+            "channel_id": 7,
+            "start": 1309,
+            "end": 1340
+        },
+        {
+            "program_id": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 16:46_program_5",
+            "channel_id": 0,
+            "start": 1340,
+            "end": 1370
+        },
+        {
+            "program_id": "24/7 Universe, Physics & Ancient Mysteries 2026-02-20 16:51_program_5",
+            "channel_id": 8,
+            "start": 1370,
+            "end": 1400
+        },
+        {
+            "program_id": "24/7 Universe, Physics & Ancient Mysteries 2026-02-20 16:51_program_6",
+            "channel_id": 8,
+            "start": 1400,
+            "end": 1430
+        }
+    ]
+}

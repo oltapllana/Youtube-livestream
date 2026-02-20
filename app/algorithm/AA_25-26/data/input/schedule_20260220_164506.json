@@ -1,0 +1,12 @@
+{
+  "opening_time": 1004,
+  "closing_time": 1430,
+  "min_duration": 30,
+  "max_consecutive_genre": 7,
+  "channels_count": 1,
+  "switch_penalty": 0,
+  "termination_penalty": 20,
+  "priority_blocks": [],
+  "time_preferences": [],
+  "channels": []
+}

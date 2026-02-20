@@ -1,0 +1,40 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Joey Does Tech_program_0",
+            "channel_id": 12,
+            "start": 1001,
+            "end": 1056
+        },
+        {
+            "program_id": "Joey Does Tech_program_1",
+            "channel_id": 12,
+            "start": 1056,
+            "end": 1138
+        },
+        {
+            "program_id": "Joey Does Tech_program_2",
+            "channel_id": 12,
+            "start": 1138,
+            "end": 1205
+        },
+        {
+            "program_id": "Joey Does Tech_program_3",
+            "channel_id": 12,
+            "start": 1205,
+            "end": 1281
+        },
+        {
+            "program_id": "Joey Does Tech_program_4",
+            "channel_id": 12,
+            "start": 1281,
+            "end": 1368
+        },
+        {
+            "program_id": "Joey Does Tech_program_5",
+            "channel_id": 12,
+            "start": 1368,
+            "end": 1406
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen’s 4K video cameras on the ISS 2026-02-20 16:47_program_1",
+            "channel_id": 2,
+            "start": 1052,
+            "end": 1100
+        },
+        {
+            "program_id": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen’s 4K video cameras on the ISS 2026-02-20 16:47_program_2",
+            "channel_id": 2,
+            "start": 1100,
+            "end": 1151
+        },
+        {
+            "program_id": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 16:46_program_3",
+            "channel_id": 0,
+            "start": 1157,
+            "end": 1201
+        },
+        {
+            "program_id": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 16:46_program_4",
+            "channel_id": 0,
+            "start": 1201,
+            "end": 1271
+        },
+        {
+            "program_id": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen’s 4K video cameras on the ISS 2026-02-20 16:47_program_5",
+            "channel_id": 2,
+            "start": 1277,
+            "end": 1333
+        },
+        {
+            "program_id": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen’s 4K video cameras on the ISS 2026-02-20 16:47_program_6",
+            "channel_id": 2,
+            "start": 1333,
+            "end": 1375
+        },
+        {
+            "program_id": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen’s 4K video cameras on the ISS 2026-02-20 16:47_program_7",
+            "channel_id": 2,
+            "start": 1375,
+            "end": 1430
+        }
+    ]
+}

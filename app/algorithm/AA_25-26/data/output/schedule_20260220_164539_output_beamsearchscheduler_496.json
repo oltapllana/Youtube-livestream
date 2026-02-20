@@ -1,0 +1,46 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Crux_program_0",
+            "channel_id": 0,
+            "start": 1005,
+            "end": 1088
+        },
+        {
+            "program_id": "Crux_program_1",
+            "channel_id": 0,
+            "start": 1088,
+            "end": 1167
+        },
+        {
+            "program_id": "Crux_program_2",
+            "channel_id": 0,
+            "start": 1167,
+            "end": 1202
+        },
+        {
+            "program_id": "Crux_program_3",
+            "channel_id": 0,
+            "start": 1202,
+            "end": 1256
+        },
+        {
+            "program_id": "Crux_program_4",
+            "channel_id": 0,
+            "start": 1256,
+            "end": 1287
+        },
+        {
+            "program_id": "Crux_program_5",
+            "channel_id": 0,
+            "start": 1338,
+            "end": 1399
+        },
+        {
+            "program_id": "Crux_program_6",
+            "channel_id": 0,
+            "start": 1399,
+            "end": 1430
+        }
+    ]
+}

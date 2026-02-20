@@ -1,0 +1,46 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Joey Does Tech_program_0",
+            "channel_id": 12,
+            "start": 1005,
+            "end": 1092
+        },
+        {
+            "program_id": "Joey Does Tech_program_1",
+            "channel_id": 12,
+            "start": 1092,
+            "end": 1131
+        },
+        {
+            "program_id": "Joey Does Tech_program_2",
+            "channel_id": 12,
+            "start": 1131,
+            "end": 1191
+        },
+        {
+            "program_id": "Crux_program_3",
+            "channel_id": 0,
+            "start": 1202,
+            "end": 1291
+        },
+        {
+            "program_id": "Crux_program_4",
+            "channel_id": 0,
+            "start": 1291,
+            "end": 1324
+        },
+        {
+            "program_id": "Crux_program_5",
+            "channel_id": 0,
+            "start": 1324,
+            "end": 1380
+        },
+        {
+            "program_id": "Crux_program_6",
+            "channel_id": 0,
+            "start": 1380,
+            "end": 1430
+        }
+    ]
+}

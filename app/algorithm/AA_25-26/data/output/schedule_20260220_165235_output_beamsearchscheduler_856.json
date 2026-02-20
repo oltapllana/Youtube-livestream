@@ -1,0 +1,76 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 16:46_program_0",
+            "channel_id": 0,
+            "start": 1012,
+            "end": 1042
+        },
+        {
+            "program_id": "Ocean Ambience 4K (LIVE 24/7). Tropical Beach & Ocean Waves Sounds. Maldives InterContinental 2026-02-20 16:52_program_0",
+            "channel_id": 18,
+            "start": 1042,
+            "end": 1081
+        },
+        {
+            "program_id": "Ocean Ambience 4K (LIVE 24/7). Tropical Beach & Ocean Waves Sounds. Maldives InterContinental 2026-02-20 16:52_program_1",
+            "channel_id": 18,
+            "start": 1081,
+            "end": 1124
+        },
+        {
+            "program_id": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-20 16:47_program_1",
+            "channel_id": 1,
+            "start": 1124,
+            "end": 1155
+        },
+        {
+            "program_id": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-20 16:47_program_2",
+            "channel_id": 1,
+            "start": 1155,
+            "end": 1187
+        },
+        {
+            "program_id": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-20 16:47_program_3",
+            "channel_id": 1,
+            "start": 1187,
+            "end": 1221
+        },
+        {
+            "program_id": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen’s 4K video cameras on the ISS 2026-02-20 16:47_program_3",
+            "channel_id": 2,
+            "start": 1221,
+            "end": 1256
+        },
+        {
+            "program_id": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen’s 4K video cameras on the ISS 2026-02-20 16:47_program_4",
+            "channel_id": 2,
+            "start": 1256,
+            "end": 1286
+        },
+        {
+            "program_id": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 16:46_program_4",
+            "channel_id": 0,
+            "start": 1286,
+            "end": 1316
+        },
+        {
+            "program_id": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 16:46_program_5",
+            "channel_id": 0,
+            "start": 1316,
+            "end": 1346
+        },
+        {
+            "program_id": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 16:46_program_6",
+            "channel_id": 0,
+            "start": 1346,
+            "end": 1376
+        },
+        {
+            "program_id": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 16:47_program_6",
+            "channel_id": 3,
+            "start": 1395,
+            "end": 1430
+        }
+    ]
+}

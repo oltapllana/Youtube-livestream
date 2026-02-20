@@ -1,0 +1,46 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 16:45_program_0",
+            "channel_id": 0,
+            "start": 1005,
+            "end": 1054
+        },
+        {
+            "program_id": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 16:45_program_1",
+            "channel_id": 0,
+            "start": 1054,
+            "end": 1092
+        },
+        {
+            "program_id": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 16:45_program_2",
+            "channel_id": 0,
+            "start": 1092,
+            "end": 1176
+        },
+        {
+            "program_id": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 16:45_program_3",
+            "channel_id": 0,
+            "start": 1176,
+            "end": 1255
+        },
+        {
+            "program_id": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 16:45_program_4",
+            "channel_id": 0,
+            "start": 1255,
+            "end": 1294
+        },
+        {
+            "program_id": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 16:45_program_6",
+            "channel_id": 0,
+            "start": 1346,
+            "end": 1395
+        },
+        {
+            "program_id": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 16:45_program_7",
+            "channel_id": 0,
+            "start": 1395,
+            "end": 1430
+        }
+    ]
+}

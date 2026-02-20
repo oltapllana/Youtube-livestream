@@ -79,6 +79,12 @@ YOUTUBE_STREAMS = {
             "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0",
             "category": "technology",
         },
+        {
+            "channel_id": 12,
+            "title": "Joey Does Tech",
+            "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0",
+            "category": "technology",
+        },
     ],
     "science": [
         {
@@ -684,6 +690,33 @@ class InstanceGenerator:
                         s.get("channel_id", "discovered"),
                         s["url"],
                     )
+
+            # Filter to only include streams that are currently LIVE
+            live_streams = []
+            for s in selected_streams:
+                meta = stream_metadata.get(s["url"])
+                if meta and meta.get("is_live"):
+                    live_streams.append(s)
+                elif meta and not meta.get("is_live"):
+                    logger.info(
+                        "Skipping non-live stream: %s (%s)",
+                        s.get("title", "unknown"),
+                        s["url"],
+                    )
+                else:
+                    # Could not probe - skip (may be offline, private, etc.)
+                    logger.info(
+                        "Skipping unverified stream: %s (%s)",
+                        s.get("title", "unknown"),
+                        s["url"],
+                    )
+            
+            if not live_streams:
+                logger.warning("No live streams found! Schedule will be empty.")
+                selected_streams = []  # No fallback - only live streams
+            else:
+                logger.info("Filtered to %d live streams out of %d probed", len(live_streams), len(selected_streams))
+                selected_streams = live_streams
 
         # Build channels
         channels = []

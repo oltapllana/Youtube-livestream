@@ -1,0 +1,643 @@
+{
+  "opening_time": 1012,
+  "closing_time": 1430,
+  "min_duration": 30,
+  "max_consecutive_genre": 10,
+  "channels_count": 10,
+  "switch_penalty": 8,
+  "termination_penalty": 20,
+  "priority_blocks": [],
+  "time_preferences": [],
+  "channels": [
+    {
+      "channel_id": 0,
+      "channel_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 16:46",
+      "programs": [
+        {
+          "program_id": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 16:46_program_0",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 16:46",
+          "start": 1012,
+          "end": 1091,
+          "genre": "technology",
+          "score": 94,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 16:46_program_1",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 16:46",
+          "start": 1091,
+          "end": 1137,
+          "genre": "technology",
+          "score": 84,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 16:46_program_2",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 16:46",
+          "start": 1137,
+          "end": 1170,
+          "genre": "technology",
+          "score": 95,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 16:46_program_3",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 16:46",
+          "start": 1170,
+          "end": 1233,
+          "genre": "technology",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 16:46_program_4",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 16:46",
+          "start": 1233,
+          "end": 1268,
+          "genre": "technology",
+          "score": 93,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 16:46_program_5",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 16:46",
+          "start": 1268,
+          "end": 1345,
+          "genre": "technology",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 16:46_program_6",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-20 16:46",
+          "start": 1345,
+          "end": 1412,
+          "genre": "technology",
+          "score": 79,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        }
+      ]
+    },
+    {
+      "channel_id": 1,
+      "channel_name": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-20 16:47",
+      "programs": [
+        {
+          "program_id": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-20 16:47_program_0",
+          "program_name": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-20 16:47",
+          "start": 1012,
+          "end": 1060,
+          "genre": "technology",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-20 16:47_program_1",
+          "program_name": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-20 16:47",
+          "start": 1060,
+          "end": 1106,
+          "genre": "technology",
+          "score": 84,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-20 16:47_program_2",
+          "program_name": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-20 16:47",
+          "start": 1106,
+          "end": 1166,
+          "genre": "technology",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-20 16:47_program_3",
+          "program_name": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-20 16:47",
+          "start": 1166,
+          "end": 1199,
+          "genre": "technology",
+          "score": 91,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-20 16:47_program_4",
+          "program_name": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-20 16:47",
+          "start": 1199,
+          "end": 1233,
+          "genre": "technology",
+          "score": 84,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-20 16:47_program_5",
+          "program_name": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-20 16:47",
+          "start": 1233,
+          "end": 1290,
+          "genre": "technology",
+          "score": 81,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-20 16:47_program_6",
+          "program_name": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-20 16:47",
+          "start": 1290,
+          "end": 1364,
+          "genre": "technology",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-20 16:47_program_7",
+          "program_name": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-20 16:47",
+          "start": 1364,
+          "end": 1430,
+          "genre": "technology",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        }
+      ]
+    },
+    {
+      "channel_id": 2,
+      "channel_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-20 16:47",
+      "programs": [
+        {
+          "program_id": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-20 16:47_program_0",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-20 16:47",
+          "start": 1012,
+          "end": 1080,
+          "genre": "technology",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-20 16:47_program_1",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-20 16:47",
+          "start": 1080,
+          "end": 1140,
+          "genre": "technology",
+          "score": 95,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-20 16:47_program_2",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-20 16:47",
+          "start": 1140,
+          "end": 1170,
+          "genre": "technology",
+          "score": 95,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-20 16:47_program_3",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-20 16:47",
+          "start": 1170,
+          "end": 1232,
+          "genre": "technology",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-20 16:47_program_4",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-20 16:47",
+          "start": 1232,
+          "end": 1272,
+          "genre": "technology",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-20 16:47_program_5",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-20 16:47",
+          "start": 1272,
+          "end": 1342,
+          "genre": "technology",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-20 16:47_program_6",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-20 16:47",
+          "start": 1342,
+          "end": 1391,
+          "genre": "technology",
+          "score": 91,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-20 16:47_program_7",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-20 16:47",
+          "start": 1391,
+          "end": 1430,
+          "genre": "technology",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        }
+      ]
+    },
+    {
+      "channel_id": 3,
+      "channel_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 16:47",
+      "programs": [
+        {
+          "program_id": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 16:47_program_0",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 16:47",
+          "start": 1012,
+          "end": 1047,
+          "genre": "technology",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 16:47_program_1",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 16:47",
+          "start": 1047,
+          "end": 1119,
+          "genre": "technology",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 16:47_program_2",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 16:47",
+          "start": 1119,
+          "end": 1168,
+          "genre": "technology",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 16:47_program_3",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 16:47",
+          "start": 1168,
+          "end": 1239,
+          "genre": "technology",
+          "score": 92,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 16:47_program_4",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 16:47",
+          "start": 1239,
+          "end": 1313,
+          "genre": "technology",
+          "score": 94,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 16:47_program_5",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 16:47",
+          "start": 1313,
+          "end": 1366,
+          "genre": "technology",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 16:47_program_6",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 16:47",
+          "start": 1366,
+          "end": 1430,
+          "genre": "technology",
+          "score": 75,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        }
+      ]
+    },
+    {
+      "channel_id": 14,
+      "channel_name": "The Best 4K Aquarium - Dive Into The Mesmerizing Underwater Realm, Sea Jellyfish, Coral Reefs 2026-02-20 16:52",
+      "programs": [
+        {
+          "program_id": "The Best 4K Aquarium - Dive Into The Mesmerizing Underwater Realm, Sea Jellyfish, Coral Reefs 2026-02-20 16:52_program_0",
+          "program_name": "The Best 4K Aquarium - Dive Into The Mesmerizing Underwater Realm, Sea Jellyfish, Coral Reefs 2026-02-20 16:52",
+          "start": 1012,
+          "end": 1102,
+          "genre": "others",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=xCLTpcx9aO8"
+        },
+        {
+          "program_id": "The Best 4K Aquarium - Dive Into The Mesmerizing Underwater Realm, Sea Jellyfish, Coral Reefs 2026-02-20 16:52_program_1",
+          "program_name": "The Best 4K Aquarium - Dive Into The Mesmerizing Underwater Realm, Sea Jellyfish, Coral Reefs 2026-02-20 16:52",
+          "start": 1102,
+          "end": 1183,
+          "genre": "others",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=xCLTpcx9aO8"
+        },
+        {
+          "program_id": "The Best 4K Aquarium - Dive Into The Mesmerizing Underwater Realm, Sea Jellyfish, Coral Reefs 2026-02-20 16:52_program_2",
+          "program_name": "The Best 4K Aquarium - Dive Into The Mesmerizing Underwater Realm, Sea Jellyfish, Coral Reefs 2026-02-20 16:52",
+          "start": 1183,
+          "end": 1225,
+          "genre": "others",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=xCLTpcx9aO8"
+        },
+        {
+          "program_id": "The Best 4K Aquarium - Dive Into The Mesmerizing Underwater Realm, Sea Jellyfish, Coral Reefs 2026-02-20 16:52_program_3",
+          "program_name": "The Best 4K Aquarium - Dive Into The Mesmerizing Underwater Realm, Sea Jellyfish, Coral Reefs 2026-02-20 16:52",
+          "start": 1225,
+          "end": 1311,
+          "genre": "others",
+          "score": 72,
+          "url": "https://www.youtube.com/watch?v=xCLTpcx9aO8"
+        },
+        {
+          "program_id": "The Best 4K Aquarium - Dive Into The Mesmerizing Underwater Realm, Sea Jellyfish, Coral Reefs 2026-02-20 16:52_program_4",
+          "program_name": "The Best 4K Aquarium - Dive Into The Mesmerizing Underwater Realm, Sea Jellyfish, Coral Reefs 2026-02-20 16:52",
+          "start": 1311,
+          "end": 1395,
+          "genre": "others",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=xCLTpcx9aO8"
+        },
+        {
+          "program_id": "The Best 4K Aquarium - Dive Into The Mesmerizing Underwater Realm, Sea Jellyfish, Coral Reefs 2026-02-20 16:52_program_5",
+          "program_name": "The Best 4K Aquarium - Dive Into The Mesmerizing Underwater Realm, Sea Jellyfish, Coral Reefs 2026-02-20 16:52",
+          "start": 1395,
+          "end": 1430,
+          "genre": "others",
+          "score": 71,
+          "url": "https://www.youtube.com/watch?v=xCLTpcx9aO8"
+        }
+      ]
+    },
+    {
+      "channel_id": 15,
+      "channel_name": "Dive Into the Mesmerizing Underwater Realm\ud83d\udc33 Marvel at Sea Animal in The Best 8K ULTRA HD Aquarium 2026-02-20 16:52",
+      "programs": [
+        {
+          "program_id": "Dive Into the Mesmerizing Underwater Realm\ud83d\udc33 Marvel at Sea Animal in The Best 8K ULTRA HD Aquarium 2026-02-20 16:52_program_0",
+          "program_name": "Dive Into the Mesmerizing Underwater Realm\ud83d\udc33 Marvel at Sea Animal in The Best 8K ULTRA HD Aquarium 2026-02-20 16:52",
+          "start": 1012,
+          "end": 1096,
+          "genre": "others",
+          "score": 70,
+          "url": "https://www.youtube.com/watch?v=uTuiOYxYMGk"
+        },
+        {
+          "program_id": "Dive Into the Mesmerizing Underwater Realm\ud83d\udc33 Marvel at Sea Animal in The Best 8K ULTRA HD Aquarium 2026-02-20 16:52_program_1",
+          "program_name": "Dive Into the Mesmerizing Underwater Realm\ud83d\udc33 Marvel at Sea Animal in The Best 8K ULTRA HD Aquarium 2026-02-20 16:52",
+          "start": 1096,
+          "end": 1163,
+          "genre": "others",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=uTuiOYxYMGk"
+        },
+        {
+          "program_id": "Dive Into the Mesmerizing Underwater Realm\ud83d\udc33 Marvel at Sea Animal in The Best 8K ULTRA HD Aquarium 2026-02-20 16:52_program_2",
+          "program_name": "Dive Into the Mesmerizing Underwater Realm\ud83d\udc33 Marvel at Sea Animal in The Best 8K ULTRA HD Aquarium 2026-02-20 16:52",
+          "start": 1163,
+          "end": 1228,
+          "genre": "others",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=uTuiOYxYMGk"
+        },
+        {
+          "program_id": "Dive Into the Mesmerizing Underwater Realm\ud83d\udc33 Marvel at Sea Animal in The Best 8K ULTRA HD Aquarium 2026-02-20 16:52_program_3",
+          "program_name": "Dive Into the Mesmerizing Underwater Realm\ud83d\udc33 Marvel at Sea Animal in The Best 8K ULTRA HD Aquarium 2026-02-20 16:52",
+          "start": 1228,
+          "end": 1297,
+          "genre": "others",
+          "score": 71,
+          "url": "https://www.youtube.com/watch?v=uTuiOYxYMGk"
+        },
+        {
+          "program_id": "Dive Into the Mesmerizing Underwater Realm\ud83d\udc33 Marvel at Sea Animal in The Best 8K ULTRA HD Aquarium 2026-02-20 16:52_program_4",
+          "program_name": "Dive Into the Mesmerizing Underwater Realm\ud83d\udc33 Marvel at Sea Animal in The Best 8K ULTRA HD Aquarium 2026-02-20 16:52",
+          "start": 1297,
+          "end": 1381,
+          "genre": "others",
+          "score": 82,
+          "url": "https://www.youtube.com/watch?v=uTuiOYxYMGk"
+        },
+        {
+          "program_id": "Dive Into the Mesmerizing Underwater Realm\ud83d\udc33 Marvel at Sea Animal in The Best 8K ULTRA HD Aquarium 2026-02-20 16:52_program_5",
+          "program_name": "Dive Into the Mesmerizing Underwater Realm\ud83d\udc33 Marvel at Sea Animal in The Best 8K ULTRA HD Aquarium 2026-02-20 16:52",
+          "start": 1381,
+          "end": 1430,
+          "genre": "others",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=uTuiOYxYMGk"
+        }
+      ]
+    },
+    {
+      "channel_id": 16,
+      "channel_name": "Spectacular Marine Creatures in 8K HDR | Dolby Vision\u2122 2026-02-20 16:52",
+      "programs": [
+        {
+          "program_id": "Spectacular Marine Creatures in 8K HDR | Dolby Vision\u2122 2026-02-20 16:52_program_0",
+          "program_name": "Spectacular Marine Creatures in 8K HDR | Dolby Vision\u2122 2026-02-20 16:52",
+          "start": 1012,
+          "end": 1044,
+          "genre": "others",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=2nOrC6nLHRM"
+        },
+        {
+          "program_id": "Spectacular Marine Creatures in 8K HDR | Dolby Vision\u2122 2026-02-20 16:52_program_1",
+          "program_name": "Spectacular Marine Creatures in 8K HDR | Dolby Vision\u2122 2026-02-20 16:52",
+          "start": 1044,
+          "end": 1110,
+          "genre": "others",
+          "score": 75,
+          "url": "https://www.youtube.com/watch?v=2nOrC6nLHRM"
+        },
+        {
+          "program_id": "Spectacular Marine Creatures in 8K HDR | Dolby Vision\u2122 2026-02-20 16:52_program_2",
+          "program_name": "Spectacular Marine Creatures in 8K HDR | Dolby Vision\u2122 2026-02-20 16:52",
+          "start": 1110,
+          "end": 1192,
+          "genre": "others",
+          "score": 73,
+          "url": "https://www.youtube.com/watch?v=2nOrC6nLHRM"
+        },
+        {
+          "program_id": "Spectacular Marine Creatures in 8K HDR | Dolby Vision\u2122 2026-02-20 16:52_program_3",
+          "program_name": "Spectacular Marine Creatures in 8K HDR | Dolby Vision\u2122 2026-02-20 16:52",
+          "start": 1192,
+          "end": 1254,
+          "genre": "others",
+          "score": 73,
+          "url": "https://www.youtube.com/watch?v=2nOrC6nLHRM"
+        },
+        {
+          "program_id": "Spectacular Marine Creatures in 8K HDR | Dolby Vision\u2122 2026-02-20 16:52_program_4",
+          "program_name": "Spectacular Marine Creatures in 8K HDR | Dolby Vision\u2122 2026-02-20 16:52",
+          "start": 1254,
+          "end": 1325,
+          "genre": "others",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=2nOrC6nLHRM"
+        },
+        {
+          "program_id": "Spectacular Marine Creatures in 8K HDR | Dolby Vision\u2122 2026-02-20 16:52_program_5",
+          "program_name": "Spectacular Marine Creatures in 8K HDR | Dolby Vision\u2122 2026-02-20 16:52",
+          "start": 1325,
+          "end": 1388,
+          "genre": "others",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=2nOrC6nLHRM"
+        },
+        {
+          "program_id": "Spectacular Marine Creatures in 8K HDR | Dolby Vision\u2122 2026-02-20 16:52_program_6",
+          "program_name": "Spectacular Marine Creatures in 8K HDR | Dolby Vision\u2122 2026-02-20 16:52",
+          "start": 1388,
+          "end": 1430,
+          "genre": "others",
+          "score": 79,
+          "url": "https://www.youtube.com/watch?v=2nOrC6nLHRM"
+        }
+      ]
+    },
+    {
+      "channel_id": 17,
+      "channel_name": "Relaxing Music to Relieve Stress, Anxiety and Depression \u2022 Mind, Body \ud83d\udc2c Soothing music for nerves 2026-02-20 16:52",
+      "programs": [
+        {
+          "program_id": "Relaxing Music to Relieve Stress, Anxiety and Depression \u2022 Mind, Body \ud83d\udc2c Soothing music for nerves 2026-02-20 16:52_program_0",
+          "program_name": "Relaxing Music to Relieve Stress, Anxiety and Depression \u2022 Mind, Body \ud83d\udc2c Soothing music for nerves 2026-02-20 16:52",
+          "start": 1012,
+          "end": 1067,
+          "genre": "others",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=wKg71lcs5Nw"
+        },
+        {
+          "program_id": "Relaxing Music to Relieve Stress, Anxiety and Depression \u2022 Mind, Body \ud83d\udc2c Soothing music for nerves 2026-02-20 16:52_program_1",
+          "program_name": "Relaxing Music to Relieve Stress, Anxiety and Depression \u2022 Mind, Body \ud83d\udc2c Soothing music for nerves 2026-02-20 16:52",
+          "start": 1067,
+          "end": 1100,
+          "genre": "others",
+          "score": 73,
+          "url": "https://www.youtube.com/watch?v=wKg71lcs5Nw"
+        },
+        {
+          "program_id": "Relaxing Music to Relieve Stress, Anxiety and Depression \u2022 Mind, Body \ud83d\udc2c Soothing music for nerves 2026-02-20 16:52_program_2",
+          "program_name": "Relaxing Music to Relieve Stress, Anxiety and Depression \u2022 Mind, Body \ud83d\udc2c Soothing music for nerves 2026-02-20 16:52",
+          "start": 1100,
+          "end": 1167,
+          "genre": "others",
+          "score": 81,
+          "url": "https://www.youtube.com/watch?v=wKg71lcs5Nw"
+        },
+        {
+          "program_id": "Relaxing Music to Relieve Stress, Anxiety and Depression \u2022 Mind, Body \ud83d\udc2c Soothing music for nerves 2026-02-20 16:52_program_3",
+          "program_name": "Relaxing Music to Relieve Stress, Anxiety and Depression \u2022 Mind, Body \ud83d\udc2c Soothing music for nerves 2026-02-20 16:52",
+          "start": 1167,
+          "end": 1243,
+          "genre": "others",
+          "score": 72,
+          "url": "https://www.youtube.com/watch?v=wKg71lcs5Nw"
+        },
+        {
+          "program_id": "Relaxing Music to Relieve Stress, Anxiety and Depression \u2022 Mind, Body \ud83d\udc2c Soothing music for nerves 2026-02-20 16:52_program_4",
+          "program_name": "Relaxing Music to Relieve Stress, Anxiety and Depression \u2022 Mind, Body \ud83d\udc2c Soothing music for nerves 2026-02-20 16:52",
+          "start": 1243,
+          "end": 1313,
+          "genre": "others",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=wKg71lcs5Nw"
+        },
+        {
+          "program_id": "Relaxing Music to Relieve Stress, Anxiety and Depression \u2022 Mind, Body \ud83d\udc2c Soothing music for nerves 2026-02-20 16:52_program_5",
+          "program_name": "Relaxing Music to Relieve Stress, Anxiety and Depression \u2022 Mind, Body \ud83d\udc2c Soothing music for nerves 2026-02-20 16:52",
+          "start": 1313,
+          "end": 1353,
+          "genre": "others",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=wKg71lcs5Nw"
+        },
+        {
+          "program_id": "Relaxing Music to Relieve Stress, Anxiety and Depression \u2022 Mind, Body \ud83d\udc2c Soothing music for nerves 2026-02-20 16:52_program_6",
+          "program_name": "Relaxing Music to Relieve Stress, Anxiety and Depression \u2022 Mind, Body \ud83d\udc2c Soothing music for nerves 2026-02-20 16:52",
+          "start": 1353,
+          "end": 1383,
+          "genre": "others",
+          "score": 71,
+          "url": "https://www.youtube.com/watch?v=wKg71lcs5Nw"
+        },
+        {
+          "program_id": "Relaxing Music to Relieve Stress, Anxiety and Depression \u2022 Mind, Body \ud83d\udc2c Soothing music for nerves 2026-02-20 16:52_program_7",
+          "program_name": "Relaxing Music to Relieve Stress, Anxiety and Depression \u2022 Mind, Body \ud83d\udc2c Soothing music for nerves 2026-02-20 16:52",
+          "start": 1383,
+          "end": 1427,
+          "genre": "others",
+          "score": 72,
+          "url": "https://www.youtube.com/watch?v=wKg71lcs5Nw"
+        }
+      ]
+    },
+    {
+      "channel_id": 18,
+      "channel_name": "Ocean Ambience 4K (LIVE 24/7). Tropical Beach & Ocean Waves Sounds. Maldives InterContinental 2026-02-20 16:52",
+      "programs": [
+        {
+          "program_id": "Ocean Ambience 4K (LIVE 24/7). Tropical Beach & Ocean Waves Sounds. Maldives InterContinental 2026-02-20 16:52_program_0",
+          "program_name": "Ocean Ambience 4K (LIVE 24/7). Tropical Beach & Ocean Waves Sounds. Maldives InterContinental 2026-02-20 16:52",
+          "start": 1012,
+          "end": 1083,
+          "genre": "others",
+          "score": 81,
+          "url": "https://www.youtube.com/watch?v=_BMi3usEwi8"
+        },
+        {
+          "program_id": "Ocean Ambience 4K (LIVE 24/7). Tropical Beach & Ocean Waves Sounds. Maldives InterContinental 2026-02-20 16:52_program_1",
+          "program_name": "Ocean Ambience 4K (LIVE 24/7). Tropical Beach & Ocean Waves Sounds. Maldives InterContinental 2026-02-20 16:52",
+          "start": 1083,
+          "end": 1164,
+          "genre": "others",
+          "score": 81,
+          "url": "https://www.youtube.com/watch?v=_BMi3usEwi8"
+        },
+        {
+          "program_id": "Ocean Ambience 4K (LIVE 24/7). Tropical Beach & Ocean Waves Sounds. Maldives InterContinental 2026-02-20 16:52_program_2",
+          "program_name": "Ocean Ambience 4K (LIVE 24/7). Tropical Beach & Ocean Waves Sounds. Maldives InterContinental 2026-02-20 16:52",
+          "start": 1164,
+          "end": 1199,
+          "genre": "others",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=_BMi3usEwi8"
+        },
+        {
+          "program_id": "Ocean Ambience 4K (LIVE 24/7). Tropical Beach & Ocean Waves Sounds. Maldives InterContinental 2026-02-20 16:52_program_3",
+          "program_name": "Ocean Ambience 4K (LIVE 24/7). Tropical Beach & Ocean Waves Sounds. Maldives InterContinental 2026-02-20 16:52",
+          "start": 1199,
+          "end": 1240,
+          "genre": "others",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=_BMi3usEwi8"
+        },
+        {
+          "program_id": "Ocean Ambience 4K (LIVE 24/7). Tropical Beach & Ocean Waves Sounds. Maldives InterContinental 2026-02-20 16:52_program_4",
+          "program_name": "Ocean Ambience 4K (LIVE 24/7). Tropical Beach & Ocean Waves Sounds. Maldives InterContinental 2026-02-20 16:52",
+          "start": 1240,
+          "end": 1272,
+          "genre": "others",
+          "score": 72,
+          "url": "https://www.youtube.com/watch?v=_BMi3usEwi8"
+        },
+        {
+          "program_id": "Ocean Ambience 4K (LIVE 24/7). Tropical Beach & Ocean Waves Sounds. Maldives InterContinental 2026-02-20 16:52_program_5",
+          "program_name": "Ocean Ambience 4K (LIVE 24/7). Tropical Beach & Ocean Waves Sounds. Maldives InterContinental 2026-02-20 16:52",
+          "start": 1272,
+          "end": 1348,
+          "genre": "others",
+          "score": 81,
+          "url": "https://www.youtube.com/watch?v=_BMi3usEwi8"
+        },
+        {
+          "program_id": "Ocean Ambience 4K (LIVE 24/7). Tropical Beach & Ocean Waves Sounds. Maldives InterContinental 2026-02-20 16:52_program_6",
+          "program_name": "Ocean Ambience 4K (LIVE 24/7). Tropical Beach & Ocean Waves Sounds. Maldives InterContinental 2026-02-20 16:52",
+          "start": 1348,
+          "end": 1406,
+          "genre": "others",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=_BMi3usEwi8"
+        }
+      ]
+    }
+  ]
+}

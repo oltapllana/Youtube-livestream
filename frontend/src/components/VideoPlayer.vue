@@ -9,9 +9,13 @@
       </template>
 
       <!-- No schedule generated yet -->
-   <template v-else-if="!hasSchedule">
-  <div class="spinner"></div>
-</template>
+      <template v-else-if="!hasSchedule">
+        <svg viewBox="0 0 24 24" class="play-big">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14V8l5 4-5 4z" />
+        </svg>
+        <p>No live streams available</p>
+        <p class="sub-text">Open preferences and generate a schedule</p>
+      </template>
 
 
       <!-- Waiting for next program -->
