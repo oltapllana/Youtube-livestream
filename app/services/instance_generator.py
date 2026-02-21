@@ -81,11 +81,36 @@ def fetch_title_fast(url: str, timeout: float = 2.0) -> Optional[str]:
 _load_title_cache()
 
 
+def _load_project_env_file() -> None:
+    env_file = Path(__file__).parent.parent.parent / ".env"
+    if not env_file.exists():
+        return
+
+    try:
+        with open(env_file, "r", encoding="utf-8") as env:
+            for raw_line in env:
+                line = raw_line.strip()
+                if not line or line.startswith("#"):
+                    continue
+                if line.startswith("export "):
+                    line = line[7:].strip()
+                if "=" not in line:
+                    continue
+                key, value = line.split("=", 1)
+                key = key.strip()
+                value = value.strip().strip('"').strip("'")
+                if key:
+                    os.environ.setdefault(key, value)
+    except Exception as exc:
+        logger.warning("Failed to load .env file: %s", exc)
+
+
+_load_project_env_file()
+
+
 # ── YouTube Data API v3 ─────────────────────────────────────────────────────
-# API key is read from the environment; the hardcoded value is a safe default.
-YOUTUBE_API_KEY: str = os.environ.get(
-    "YOUTUBE_API_KEY", "AIzaSyAmrY1Nr6u4umpRJDM63euA48O-O9J1GgY"
-)
+# API key is read from environment (.env can be loaded by this module).
+YOUTUBE_API_KEY: str = os.environ.get("YOUTUBE_API_KEY", "")
 _YT_VIDEOS_API = "https://www.googleapis.com/youtube/v3/videos"
 _YT_SEARCH_API = "https://www.googleapis.com/youtube/v3/search"
 
