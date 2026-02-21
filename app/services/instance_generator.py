@@ -4,12 +4,15 @@ scheduling parameters + streams into a complete JSON instance for the algorithm.
 """
 
 from typing import Dict, List, Any, Optional
+import os
+import re
 import random
 import logging
 import subprocess
 import json
 import urllib.request
 import urllib.error
+import urllib.parse
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -76,6 +79,175 @@ def fetch_title_fast(url: str, timeout: float = 2.0) -> Optional[str]:
 
 # Load cache on module import
 _load_title_cache()
+
+
+# ── YouTube Data API v3 ─────────────────────────────────────────────────────
+# API key is read from the environment; the hardcoded value is a safe default.
+YOUTUBE_API_KEY: str = os.environ.get(
+    "YOUTUBE_API_KEY", "AIzaSyAmrY1Nr6u4umpRJDM63euA48O-O9J1GgY"
+)
+_YT_VIDEOS_API = "https://www.googleapis.com/youtube/v3/videos"
+_YT_SEARCH_API = "https://www.googleapis.com/youtube/v3/search"
+
+_VIDEO_ID_RE = re.compile(
+    r"(?:youtube\.com/(?:watch\?(?:.*&)?v=|live/)|youtu\.be/)([A-Za-z0-9_-]{11})"
+)
+
+
+def extract_video_id(url: str) -> Optional[str]:
+    """Extract the 11-character video ID from any YouTube URL."""
+    m = _VIDEO_ID_RE.search(url)
+    return m.group(1) if m else None
+
+
+def batch_check_live_status(
+    urls: List[str],
+    api_key: str = YOUTUBE_API_KEY,
+    timeout: float = 8.0,
+) -> Dict[str, Dict[str, Any]]:
+    """
+    Check live status for up to 50 YouTube URLs in a single API call.
+
+    Returns a mapping of  url -> {
+        "is_live": bool,
+        "title": str,
+        "uploader": str,
+        "channel_url": str,
+        "channel_id": str,   # YouTube channel ID (e.g. UC...)
+        "live_broadcast_content": str,   # "live" | "upcoming" | "none"
+    }
+
+    URLs that cannot be resolved or are not found are omitted from the result.
+    """
+    # Build id -> url mapping (deduplicated)
+    id_to_url: Dict[str, str] = {}
+    for url in urls:
+        vid_id = extract_video_id(url)
+        if vid_id and vid_id not in id_to_url:
+            id_to_url[vid_id] = url
+
+    if not id_to_url:
+        return {}
+
+    results: Dict[str, Dict[str, Any]] = {}
+
+    # The API supports up to 50 ids per request
+    id_list = list(id_to_url.keys())
+    for chunk_start in range(0, len(id_list), 50):
+        chunk = id_list[chunk_start : chunk_start + 50]
+        params = urllib.parse.urlencode(
+            {
+                "part": "snippet,liveStreamingDetails",
+                "id": ",".join(chunk),
+                "key": api_key,
+            }
+        )
+        api_url = f"{_YT_VIDEOS_API}?{params}"
+        try:
+            req = urllib.request.Request(api_url, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+        except Exception as exc:
+            logger.warning("YouTube Data API request failed: %s", exc)
+            continue
+
+        if "error" in data:
+            logger.error(
+                "YouTube Data API error: %s",
+                data["error"].get("message", data["error"]),
+            )
+            continue
+
+        for item in data.get("items", []):
+            vid_id = item.get("id", "")
+            original_url = id_to_url.get(vid_id, "")
+            snippet = item.get("snippet", {})
+            live_broadcast_content = snippet.get("liveBroadcastContent", "none")
+            is_live = live_broadcast_content == "live"
+            title = snippet.get("title", "")
+            channel_title = snippet.get("channelTitle", "")
+            channel_id_yt = snippet.get("channelId", "")
+            channel_url = (
+                f"https://www.youtube.com/channel/{channel_id_yt}"
+                if channel_id_yt
+                else ""
+            )
+
+            if title:
+                cache_title(original_url, title)
+
+            results[original_url] = {
+                "is_live": is_live,
+                "title": title,
+                "uploader": channel_title,
+                "channel_url": channel_url,
+                "channel_id": channel_id_yt,
+                "live_broadcast_content": live_broadcast_content,
+                "duration": None,  # live streams have no fixed duration
+                "description": "",
+                "view_count": 0,
+            }
+            logger.debug(
+                "API check — %s: liveBroadcastContent=%s, title=%s",
+                vid_id,
+                live_broadcast_content,
+                title[:50],
+            )
+
+    return results
+
+
+def get_channel_live_video_id(
+    channel_id: str,
+    api_key: str = YOUTUBE_API_KEY,
+    timeout: float = 8.0,
+) -> Optional[str]:
+    """
+    Use YouTube Data API v3 search.list to find a currently live video on a channel.
+    Returns the video ID of the first live stream, or None if the channel has no live stream.
+    """
+    if not channel_id or not channel_id.strip():
+        return None
+    params = urllib.parse.urlencode(
+        {
+            "part": "snippet",
+            "channelId": channel_id.strip(),
+            "eventType": "live",
+            "type": "video",
+            "key": api_key,
+        }
+    )
+    api_url = f"{_YT_SEARCH_API}?{params}"
+    try:
+        req = urllib.request.Request(api_url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+    except Exception as exc:
+        logger.warning("YouTube Search API request failed for channel %s: %s", channel_id, exc)
+        return None
+    if "error" in data:
+        logger.warning(
+            "YouTube Search API error: %s",
+            data["error"].get("message", data["error"]),
+        )
+        return None
+    items = data.get("items", [])
+    if not items:
+        return None
+    # First result is a live video
+    video_id = items[0].get("id", {}).get("videoId")
+    if video_id:
+        logger.debug("Channel %s has live video: %s", channel_id, video_id)
+    return video_id
+
+
+def _channel_id_from_url(channel_url: str) -> Optional[str]:
+    """Extract YouTube channel ID (UC...) from channel URL if possible."""
+    if not channel_url:
+        return None
+    # .../channel/UCxxxx or .../c/... (handle /c/ by not matching; channel/ is enough)
+    match = re.search(r"youtube\.com/channel/([A-Za-z0-9_-]+)", channel_url)
+    return match.group(1) if match else None
 
 
 # ── Hardcoded YouTube live-stream database ──────────────────────────────────
@@ -317,10 +489,27 @@ CATEGORY_SCORES = {
 
 def probe_youtube_stream(url: str, timeout: int = 15) -> Optional[Dict[str, Any]]:
     """
-    Use yt-dlp to extract metadata for a YouTube URL.
-    Returns a dict with title, is_live, duration (seconds or None for live),
-    description, uploader, view_count, channel_id, channel_url, or None on failure.
+    Check a YouTube URL using the YouTube Data API v3 first (fast, reliable).
+    Falls back to yt-dlp only when the video ID cannot be extracted from the URL.
+    Returns a dict with title, is_live, duration, description, uploader,
+    view_count, channel_id, channel_url, or None on failure.
     """
+    # ── Fast path: YouTube Data API v3 ──────────────────────────────────
+    vid_id = extract_video_id(url)
+    if vid_id:
+        batch_result = batch_check_live_status([url], timeout=timeout)
+        if batch_result and url in batch_result:
+            meta = batch_result[url]
+            logger.debug(
+                "API probe — %s: is_live=%s, title=%s",
+                url,
+                meta["is_live"],
+                meta["title"][:50],
+            )
+            return meta
+        logger.debug("API probe returned no data for %s — falling back to yt-dlp", url)
+
+    # ── Fallback: yt-dlp ─────────────────────────────────────────────────
     try:
         result = subprocess.run(
             [
@@ -344,13 +533,12 @@ def probe_youtube_stream(url: str, timeout: int = 15) -> Optional[Dict[str, Any]
 
         info = json.loads(result.stdout)
         title = info.get("title", "")
-        # Cache the title for future use without re-probing
         if title:
             cache_title(url, title)
         return {
             "title": title,
             "is_live": info.get("is_live", False),
-            "duration": info.get("duration"),  # None for live streams
+            "duration": info.get("duration"),
             "description": (info.get("description") or "")[:200],
             "uploader": info.get("uploader", ""),
             "view_count": info.get("view_count", 0),
@@ -698,86 +886,118 @@ class InstanceGenerator:
             has_explicit_channel_filter=bool(chan_id_set),
         )
 
-        # Optionally probe each stream for real metadata
+        # ── Always check live status and keep ONLY live streams (never include non-live in instance/schedule) ──
         stream_metadata: Dict[str, Optional[Dict[str, Any]]] = {}
-        if probe_streams:
-            for s in selected_streams:
-                meta = self._probe(s["url"])
-                stream_metadata[s["url"]] = meta
-                if meta:
-                    logger.info(
-                        "Stream %s (%s) — live=%s, title=%s",
-                        s.get("channel_id", "discovered"),
-                        s["url"],
-                        meta["is_live"],
-                        meta["title"],
-                    )
-                else:
-                    logger.warning(
-                        "Could not probe stream %s (%s) — will use defaults",
-                        s.get("channel_id", "discovered"),
-                        s["url"],
-                    )
+        selected_urls = [s["url"] for s in selected_streams]
+        logger.info(
+            "Batch-checking live status for %d streams via YouTube Data API v3 (only live streams will be included)...",
+            len(selected_urls),
+        )
+        api_results = batch_check_live_status(selected_urls)
 
-            # Filter to only include streams that are currently LIVE
-            # If a hardcoded stream is not live, try to find a live alternative from its channel
-            live_streams = []
-            discovered_alternatives: List[Dict[str, Any]] = []
-            seen_urls = {s["url"] for s in selected_streams}
-            
-            for s in selected_streams:
-                meta = stream_metadata.get(s["url"])
-                if meta and meta.get("is_live"):
-                    live_streams.append(s)
-                elif meta and not meta.get("is_live"):
-                    logger.info(
-                        "Stream not live: %s (%s) — searching channel for live alternatives...",
-                        s.get("title", "unknown"),
-                        s["url"],
-                    )
-                    # Try to find a live stream from the same channel
-                    channel_url = meta.get("channel_url")
-                    if channel_url:
-                        alternatives = discover_channel_live_streams(channel_url, max_streams=3, timeout=15)
-                        for alt in alternatives:
-                            alt_url = alt["url"]
-                            if alt_url not in seen_urls:
-                                # Create a replacement stream entry
+        # For any URL not returned by the API, optionally use yt-dlp; otherwise skip (do not include)
+        for s in selected_streams:
+            url = s["url"]
+            if url in api_results:
+                stream_metadata[url] = api_results[url]
+                meta = api_results[url]
+                logger.info(
+                    "Stream %s (%s) — live=%s, title=%s",
+                    s.get("channel_id", "?"),
+                    url,
+                    meta["is_live"],
+                    meta["title"][:60],
+                )
+            else:
+                if probe_streams:
+                    logger.debug("API missed %s — using yt-dlp fallback", url)
+                    meta = self._probe(url)
+                    stream_metadata[url] = meta
+                    if meta:
+                        logger.info(
+                            "Stream %s (%s) yt-dlp — live=%s, title=%s",
+                            s.get("channel_id", "?"),
+                            url,
+                            meta["is_live"],
+                            meta["title"],
+                        )
+                    else:
+                        logger.warning("Could not check stream %s (%s) — skipping", s.get("channel_id", "?"), url)
+                else:
+                    logger.warning("API could not resolve %s — skipping (no metadata)", url)
+
+        # ── Keep only LIVE streams; never include upcoming / ended in instance or schedule ─────────────────
+        live_streams: List[Dict[str, Any]] = []
+        discovered_alternatives: List[Dict[str, Any]] = []
+        seen_urls = {s["url"] for s in selected_streams}
+
+        for s in selected_streams:
+            meta = stream_metadata.get(s["url"])
+            lbc = (meta or {}).get("live_broadcast_content", "")
+
+            if meta and meta.get("is_live"):
+                live_streams.append(s)
+            elif meta and not meta.get("is_live"):
+                status_str = f" (status: {lbc})" if lbc else ""
+                logger.info(
+                    "Stream not live%s: %s (%s)",
+                    status_str,
+                    s.get("title", "unknown"),
+                    s["url"],
+                )
+                # Try to find a currently live stream from the same channel via YouTube Data API
+                yt_channel_id = meta.get("channel_id") or _channel_id_from_url(meta.get("channel_url") or "")
+                if yt_channel_id:
+                    live_video_id = get_channel_live_video_id(yt_channel_id)
+                    if live_video_id:
+                        alt_url = f"https://www.youtube.com/watch?v={live_video_id}"
+                        if alt_url not in seen_urls:
+                            alt_check = batch_check_live_status([alt_url])
+                            alt_meta = alt_check.get(alt_url)
+                            if alt_meta and alt_meta.get("is_live"):
                                 alt_stream = {
-                                    "channel_id": s["channel_id"],  # Keep same channel_id
-                                    "title": alt["title"],
+                                    "channel_id": s["channel_id"],
+                                    "title": alt_meta.get("title", ""),
                                     "url": alt_url,
-                                    "category": s["category"],  # Keep same category
+                                    "category": s["category"],
                                 }
                                 discovered_alternatives.append(alt_stream)
+                                stream_metadata[alt_url] = alt_meta
                                 seen_urls.add(alt_url)
-                                # Probe the alternative to get full metadata
-                                alt_meta = self._probe(alt_url)
-                                if alt_meta:
-                                    stream_metadata[alt_url] = alt_meta
-                                    logger.info(
-                                        "Found live alternative: %s (%s)",
-                                        alt["title"],
-                                        alt_url,
-                                    )
-                                break  # Use first live alternative found
+                                logger.info(
+                                    "Found live alternative: %s (%s)",
+                                    alt_meta.get("title", "")[:60],
+                                    alt_url,
+                                )
+                    else:
+                        logger.info(
+                            "Channel has no live stream — skipping: %s",
+                            s.get("title", "unknown"),
+                        )
                 else:
-                    # Could not probe - skip (may be offline, private, etc.)
                     logger.info(
-                        "Skipping unverified stream: %s (%s)",
+                        "No channel ID for offline stream — skipping: %s",
                         s.get("title", "unknown"),
-                        s["url"],
                     )
-            
-            # Add discovered alternatives to live_streams
-            live_streams.extend(discovered_alternatives)
-            
-            if not live_streams:
-                logger.warning("No live streams found! Schedule will be empty.")
-                selected_streams = []  # No fallback - only live streams
             else:
-                logger.info("Filtered to %d live streams out of %d probed", len(live_streams), len(selected_streams))
-                selected_streams = live_streams
+                logger.info(
+                    "Skipping unverified stream: %s (%s)",
+                    s.get("title", "unknown"),
+                    s["url"],
+                )
+
+        live_streams.extend(discovered_alternatives)
+
+        if not live_streams:
+            logger.warning("No live streams found! Schedule will be empty.")
+            selected_streams = []
+        else:
+            logger.info(
+                "Filtered to %d live stream(s) out of %d checked — only these will be in instance/schedule",
+                len(live_streams),
+                len(selected_streams),
+            )
+            selected_streams = live_streams
 
         # Build channels
         channels = []

@@ -1,0 +1,100 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Interstellar News Hub_program_0",
+            "channel_id": 9,
+            "start": 879,
+            "end": 926
+        },
+        {
+            "program_id": "Interstellar News Hub_program_1",
+            "channel_id": 9,
+            "start": 926,
+            "end": 962
+        },
+        {
+            "program_id": "Interstellar News Hub_program_2",
+            "channel_id": 9,
+            "start": 962,
+            "end": 993
+        },
+        {
+            "program_id": "NASASpaceflight_program_2",
+            "channel_id": 5,
+            "start": 993,
+            "end": 1024
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_2",
+            "channel_id": 8,
+            "start": 1024,
+            "end": 1058
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_3",
+            "channel_id": 8,
+            "start": 1058,
+            "end": 1089
+        },
+        {
+            "program_id": "CRUX_program_3",
+            "channel_id": 0,
+            "start": 1089,
+            "end": 1120
+        },
+        {
+            "program_id": "Dream Trips_program_4",
+            "channel_id": 3,
+            "start": 1121,
+            "end": 1154
+        },
+        {
+            "program_id": "Dream Trips_program_5",
+            "channel_id": 3,
+            "start": 1154,
+            "end": 1185
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_4",
+            "channel_id": 8,
+            "start": 1185,
+            "end": 1216
+        },
+        {
+            "program_id": "Astro Horizons_program_5",
+            "channel_id": 13,
+            "start": 1216,
+            "end": 1248
+        },
+        {
+            "program_id": "NASA_program_7",
+            "channel_id": 4,
+            "start": 1254,
+            "end": 1290
+        },
+        {
+            "program_id": "NASA_program_8",
+            "channel_id": 4,
+            "start": 1290,
+            "end": 1325
+        },
+        {
+            "program_id": "Space Streams_program_7",
+            "channel_id": 7,
+            "start": 1325,
+            "end": 1356
+        },
+        {
+            "program_id": "NASASpaceflight_program_7",
+            "channel_id": 5,
+            "start": 1356,
+            "end": 1393
+        },
+        {
+            "program_id": "NASASpaceflight_program_8",
+            "channel_id": 5,
+            "start": 1393,
+            "end": 1430
+        }
+    ]
+}

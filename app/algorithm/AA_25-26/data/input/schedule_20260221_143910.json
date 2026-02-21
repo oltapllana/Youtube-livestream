@@ -1,0 +1,823 @@
+{
+  "opening_time": 879,
+  "closing_time": 1430,
+  "min_duration": 31,
+  "max_consecutive_genre": 10,
+  "channels_count": 10,
+  "switch_penalty": 9,
+  "termination_penalty": 20,
+  "priority_blocks": [],
+  "time_preferences": [],
+  "channels": [
+    {
+      "channel_id": 0,
+      "channel_name": "CRUX",
+      "programs": [
+        {
+          "program_id": "CRUX_program_0",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News",
+          "start": 879,
+          "end": 938,
+          "genre": "technology",
+          "score": 84,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "CRUX_program_1",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News",
+          "start": 938,
+          "end": 997,
+          "genre": "technology",
+          "score": 91,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "CRUX_program_2",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News",
+          "start": 997,
+          "end": 1052,
+          "genre": "technology",
+          "score": 94,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "CRUX_program_3",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News",
+          "start": 1052,
+          "end": 1120,
+          "genre": "technology",
+          "score": 92,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "CRUX_program_4",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News",
+          "start": 1120,
+          "end": 1189,
+          "genre": "technology",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "CRUX_program_5",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News",
+          "start": 1189,
+          "end": 1279,
+          "genre": "technology",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "CRUX_program_6",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News",
+          "start": 1279,
+          "end": 1332,
+          "genre": "technology",
+          "score": 91,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "CRUX_program_7",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News",
+          "start": 1332,
+          "end": 1395,
+          "genre": "technology",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "CRUX_program_8",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News",
+          "start": 1395,
+          "end": 1430,
+          "genre": "technology",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        }
+      ]
+    },
+    {
+      "channel_id": 3,
+      "channel_name": "Dream Trips",
+      "programs": [
+        {
+          "program_id": "Dream Trips_program_0",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed",
+          "start": 879,
+          "end": 955,
+          "genre": "technology",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_1",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed",
+          "start": 955,
+          "end": 988,
+          "genre": "technology",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_2",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed",
+          "start": 988,
+          "end": 1036,
+          "genre": "technology",
+          "score": 82,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_3",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed",
+          "start": 1036,
+          "end": 1121,
+          "genre": "technology",
+          "score": 79,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_4",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed",
+          "start": 1121,
+          "end": 1154,
+          "genre": "technology",
+          "score": 82,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_5",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed",
+          "start": 1154,
+          "end": 1202,
+          "genre": "technology",
+          "score": 91,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_6",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed",
+          "start": 1202,
+          "end": 1258,
+          "genre": "technology",
+          "score": 92,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_7",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed",
+          "start": 1258,
+          "end": 1301,
+          "genre": "technology",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_8",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed",
+          "start": 1301,
+          "end": 1354,
+          "genre": "technology",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_9",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed",
+          "start": 1354,
+          "end": 1394,
+          "genre": "technology",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_10",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed",
+          "start": 1394,
+          "end": 1430,
+          "genre": "technology",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        }
+      ]
+    },
+    {
+      "channel_id": 4,
+      "channel_name": "NASA",
+      "programs": [
+        {
+          "program_id": "NASA_program_0",
+          "program_name": "NASA's Artemis II Live Views from Kennedy Space Center",
+          "start": 879,
+          "end": 956,
+          "genre": "science",
+          "score": 102,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_1",
+          "program_name": "NASA's Artemis II Live Views from Kennedy Space Center",
+          "start": 956,
+          "end": 1017,
+          "genre": "science",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_2",
+          "program_name": "NASA's Artemis II Live Views from Kennedy Space Center",
+          "start": 1017,
+          "end": 1080,
+          "genre": "science",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_3",
+          "program_name": "NASA's Artemis II Live Views from Kennedy Space Center",
+          "start": 1080,
+          "end": 1111,
+          "genre": "science",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_4",
+          "program_name": "NASA's Artemis II Live Views from Kennedy Space Center",
+          "start": 1111,
+          "end": 1169,
+          "genre": "science",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_5",
+          "program_name": "NASA's Artemis II Live Views from Kennedy Space Center",
+          "start": 1169,
+          "end": 1214,
+          "genre": "science",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_6",
+          "program_name": "NASA's Artemis II Live Views from Kennedy Space Center",
+          "start": 1214,
+          "end": 1254,
+          "genre": "science",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_7",
+          "program_name": "NASA's Artemis II Live Views from Kennedy Space Center",
+          "start": 1254,
+          "end": 1290,
+          "genre": "science",
+          "score": 104,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_8",
+          "program_name": "NASA's Artemis II Live Views from Kennedy Space Center",
+          "start": 1290,
+          "end": 1338,
+          "genre": "science",
+          "score": 98,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_9",
+          "program_name": "NASA's Artemis II Live Views from Kennedy Space Center",
+          "start": 1338,
+          "end": 1386,
+          "genre": "science",
+          "score": 91,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_10",
+          "program_name": "NASA's Artemis II Live Views from Kennedy Space Center",
+          "start": 1386,
+          "end": 1430,
+          "genre": "science",
+          "score": 94,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        }
+      ]
+    },
+    {
+      "channel_id": 5,
+      "channel_name": "NASASpaceflight",
+      "programs": [
+        {
+          "program_id": "NASASpaceflight_program_0",
+          "program_name": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction",
+          "start": 879,
+          "end": 940,
+          "genre": "science",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_1",
+          "program_name": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction",
+          "start": 940,
+          "end": 978,
+          "genre": "science",
+          "score": 89,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_2",
+          "program_name": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction",
+          "start": 978,
+          "end": 1055,
+          "genre": "science",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_3",
+          "program_name": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction",
+          "start": 1055,
+          "end": 1092,
+          "genre": "science",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_4",
+          "program_name": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction",
+          "start": 1092,
+          "end": 1177,
+          "genre": "science",
+          "score": 97,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_5",
+          "program_name": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction",
+          "start": 1177,
+          "end": 1264,
+          "genre": "science",
+          "score": 102,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_6",
+          "program_name": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction",
+          "start": 1264,
+          "end": 1339,
+          "genre": "science",
+          "score": 94,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_7",
+          "program_name": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction",
+          "start": 1339,
+          "end": 1393,
+          "genre": "science",
+          "score": 93,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_8",
+          "program_name": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction",
+          "start": 1393,
+          "end": 1430,
+          "genre": "science",
+          "score": 99,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        }
+      ]
+    },
+    {
+      "channel_id": 6,
+      "channel_name": "afarTV",
+      "programs": [
+        {
+          "program_id": "afarTV_program_0",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS)",
+          "start": 879,
+          "end": 941,
+          "genre": "science",
+          "score": 91,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_1",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS)",
+          "start": 941,
+          "end": 988,
+          "genre": "science",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_2",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS)",
+          "start": 988,
+          "end": 1038,
+          "genre": "science",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_3",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS)",
+          "start": 1038,
+          "end": 1105,
+          "genre": "science",
+          "score": 97,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_4",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS)",
+          "start": 1105,
+          "end": 1165,
+          "genre": "science",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_5",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS)",
+          "start": 1165,
+          "end": 1238,
+          "genre": "science",
+          "score": 104,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_6",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS)",
+          "start": 1238,
+          "end": 1309,
+          "genre": "science",
+          "score": 96,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_7",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS)",
+          "start": 1309,
+          "end": 1362,
+          "genre": "science",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_8",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS)",
+          "start": 1362,
+          "end": 1430,
+          "genre": "science",
+          "score": 94,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        }
+      ]
+    },
+    {
+      "channel_id": 7,
+      "channel_name": "Space Streams",
+      "programs": [
+        {
+          "program_id": "Space Streams_program_0",
+          "program_name": "International Space Station (ISS) Camera's Capture Views Of Hurricane Matthew [Unedited]",
+          "start": 879,
+          "end": 956,
+          "genre": "science",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        },
+        {
+          "program_id": "Space Streams_program_1",
+          "program_name": "International Space Station (ISS) Camera's Capture Views Of Hurricane Matthew [Unedited]",
+          "start": 956,
+          "end": 1016,
+          "genre": "science",
+          "score": 93,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        },
+        {
+          "program_id": "Space Streams_program_2",
+          "program_name": "International Space Station (ISS) Camera's Capture Views Of Hurricane Matthew [Unedited]",
+          "start": 1016,
+          "end": 1076,
+          "genre": "science",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        },
+        {
+          "program_id": "Space Streams_program_3",
+          "program_name": "International Space Station (ISS) Camera's Capture Views Of Hurricane Matthew [Unedited]",
+          "start": 1076,
+          "end": 1150,
+          "genre": "science",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        },
+        {
+          "program_id": "Space Streams_program_4",
+          "program_name": "International Space Station (ISS) Camera's Capture Views Of Hurricane Matthew [Unedited]",
+          "start": 1150,
+          "end": 1214,
+          "genre": "science",
+          "score": 94,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        },
+        {
+          "program_id": "Space Streams_program_5",
+          "program_name": "International Space Station (ISS) Camera's Capture Views Of Hurricane Matthew [Unedited]",
+          "start": 1214,
+          "end": 1279,
+          "genre": "science",
+          "score": 97,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        },
+        {
+          "program_id": "Space Streams_program_6",
+          "program_name": "International Space Station (ISS) Camera's Capture Views Of Hurricane Matthew [Unedited]",
+          "start": 1279,
+          "end": 1325,
+          "genre": "science",
+          "score": 92,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        },
+        {
+          "program_id": "Space Streams_program_7",
+          "program_name": "International Space Station (ISS) Camera's Capture Views Of Hurricane Matthew [Unedited]",
+          "start": 1325,
+          "end": 1413,
+          "genre": "science",
+          "score": 101,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        }
+      ]
+    },
+    {
+      "channel_id": 8,
+      "channel_name": "Frontiers of Infinity",
+      "programs": [
+        {
+          "program_id": "Frontiers of Infinity_program_0",
+          "program_name": "24/7 Universe, Physics & Ancient Mysteries",
+          "start": 879,
+          "end": 936,
+          "genre": "science",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        },
+        {
+          "program_id": "Frontiers of Infinity_program_1",
+          "program_name": "24/7 Universe, Physics & Ancient Mysteries",
+          "start": 936,
+          "end": 1014,
+          "genre": "science",
+          "score": 91,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        },
+        {
+          "program_id": "Frontiers of Infinity_program_2",
+          "program_name": "24/7 Universe, Physics & Ancient Mysteries",
+          "start": 1014,
+          "end": 1058,
+          "genre": "science",
+          "score": 99,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        },
+        {
+          "program_id": "Frontiers of Infinity_program_3",
+          "program_name": "24/7 Universe, Physics & Ancient Mysteries",
+          "start": 1058,
+          "end": 1131,
+          "genre": "science",
+          "score": 99,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        },
+        {
+          "program_id": "Frontiers of Infinity_program_4",
+          "program_name": "24/7 Universe, Physics & Ancient Mysteries",
+          "start": 1131,
+          "end": 1216,
+          "genre": "science",
+          "score": 98,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        },
+        {
+          "program_id": "Frontiers of Infinity_program_5",
+          "program_name": "24/7 Universe, Physics & Ancient Mysteries",
+          "start": 1216,
+          "end": 1296,
+          "genre": "science",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        },
+        {
+          "program_id": "Frontiers of Infinity_program_6",
+          "program_name": "24/7 Universe, Physics & Ancient Mysteries",
+          "start": 1296,
+          "end": 1380,
+          "genre": "science",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        },
+        {
+          "program_id": "Frontiers of Infinity_program_7",
+          "program_name": "24/7 Universe, Physics & Ancient Mysteries",
+          "start": 1380,
+          "end": 1429,
+          "genre": "science",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        }
+      ]
+    },
+    {
+      "channel_id": 9,
+      "channel_name": "Interstellar News Hub",
+      "programs": [
+        {
+          "program_id": "Interstellar News Hub_program_0",
+          "program_name": "3I/ATLAS TRAJCTORY UPDATE |  C/2026 A1 (MAPS) Tracking | Interstellar News Hub",
+          "start": 879,
+          "end": 926,
+          "genre": "science",
+          "score": 88,
+          "url": "http://youtube.com/watch?v=itx0IXjGEyQ"
+        },
+        {
+          "program_id": "Interstellar News Hub_program_1",
+          "program_name": "3I/ATLAS TRAJCTORY UPDATE |  C/2026 A1 (MAPS) Tracking | Interstellar News Hub",
+          "start": 926,
+          "end": 962,
+          "genre": "science",
+          "score": 97,
+          "url": "http://youtube.com/watch?v=itx0IXjGEyQ"
+        },
+        {
+          "program_id": "Interstellar News Hub_program_2",
+          "program_name": "3I/ATLAS TRAJCTORY UPDATE |  C/2026 A1 (MAPS) Tracking | Interstellar News Hub",
+          "start": 962,
+          "end": 1036,
+          "genre": "science",
+          "score": 96,
+          "url": "http://youtube.com/watch?v=itx0IXjGEyQ"
+        },
+        {
+          "program_id": "Interstellar News Hub_program_3",
+          "program_name": "3I/ATLAS TRAJCTORY UPDATE |  C/2026 A1 (MAPS) Tracking | Interstellar News Hub",
+          "start": 1036,
+          "end": 1086,
+          "genre": "science",
+          "score": 96,
+          "url": "http://youtube.com/watch?v=itx0IXjGEyQ"
+        },
+        {
+          "program_id": "Interstellar News Hub_program_4",
+          "program_name": "3I/ATLAS TRAJCTORY UPDATE |  C/2026 A1 (MAPS) Tracking | Interstellar News Hub",
+          "start": 1086,
+          "end": 1174,
+          "genre": "science",
+          "score": 102,
+          "url": "http://youtube.com/watch?v=itx0IXjGEyQ"
+        },
+        {
+          "program_id": "Interstellar News Hub_program_5",
+          "program_name": "3I/ATLAS TRAJCTORY UPDATE |  C/2026 A1 (MAPS) Tracking | Interstellar News Hub",
+          "start": 1174,
+          "end": 1238,
+          "genre": "science",
+          "score": 103,
+          "url": "http://youtube.com/watch?v=itx0IXjGEyQ"
+        },
+        {
+          "program_id": "Interstellar News Hub_program_6",
+          "program_name": "3I/ATLAS TRAJCTORY UPDATE |  C/2026 A1 (MAPS) Tracking | Interstellar News Hub",
+          "start": 1238,
+          "end": 1306,
+          "genre": "science",
+          "score": 102,
+          "url": "http://youtube.com/watch?v=itx0IXjGEyQ"
+        },
+        {
+          "program_id": "Interstellar News Hub_program_7",
+          "program_name": "3I/ATLAS TRAJCTORY UPDATE |  C/2026 A1 (MAPS) Tracking | Interstellar News Hub",
+          "start": 1306,
+          "end": 1378,
+          "genre": "science",
+          "score": 94,
+          "url": "http://youtube.com/watch?v=itx0IXjGEyQ"
+        },
+        {
+          "program_id": "Interstellar News Hub_program_8",
+          "program_name": "3I/ATLAS TRAJCTORY UPDATE |  C/2026 A1 (MAPS) Tracking | Interstellar News Hub",
+          "start": 1378,
+          "end": 1430,
+          "genre": "science",
+          "score": 87,
+          "url": "http://youtube.com/watch?v=itx0IXjGEyQ"
+        }
+      ]
+    },
+    {
+      "channel_id": 13,
+      "channel_name": "Astro Horizons",
+      "programs": [
+        {
+          "program_id": "Astro Horizons_program_0",
+          "program_name": "1000 Incredible Facts About Space and the Universe",
+          "start": 879,
+          "end": 958,
+          "genre": "science",
+          "score": 93,
+          "url": "https://www.youtube.com/watch?v=4l4k_0e4h-s"
+        },
+        {
+          "program_id": "Astro Horizons_program_1",
+          "program_name": "1000 Incredible Facts About Space and the Universe",
+          "start": 958,
+          "end": 1014,
+          "genre": "science",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=4l4k_0e4h-s"
+        },
+        {
+          "program_id": "Astro Horizons_program_2",
+          "program_name": "1000 Incredible Facts About Space and the Universe",
+          "start": 1014,
+          "end": 1047,
+          "genre": "science",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=4l4k_0e4h-s"
+        },
+        {
+          "program_id": "Astro Horizons_program_3",
+          "program_name": "1000 Incredible Facts About Space and the Universe",
+          "start": 1047,
+          "end": 1135,
+          "genre": "science",
+          "score": 104,
+          "url": "https://www.youtube.com/watch?v=4l4k_0e4h-s"
+        },
+        {
+          "program_id": "Astro Horizons_program_4",
+          "program_name": "1000 Incredible Facts About Space and the Universe",
+          "start": 1135,
+          "end": 1210,
+          "genre": "science",
+          "score": 97,
+          "url": "https://www.youtube.com/watch?v=4l4k_0e4h-s"
+        },
+        {
+          "program_id": "Astro Horizons_program_5",
+          "program_name": "1000 Incredible Facts About Space and the Universe",
+          "start": 1210,
+          "end": 1248,
+          "genre": "science",
+          "score": 97,
+          "url": "https://www.youtube.com/watch?v=4l4k_0e4h-s"
+        },
+        {
+          "program_id": "Astro Horizons_program_6",
+          "program_name": "1000 Incredible Facts About Space and the Universe",
+          "start": 1248,
+          "end": 1304,
+          "genre": "science",
+          "score": 98,
+          "url": "https://www.youtube.com/watch?v=4l4k_0e4h-s"
+        },
+        {
+          "program_id": "Astro Horizons_program_7",
+          "program_name": "1000 Incredible Facts About Space and the Universe",
+          "start": 1304,
+          "end": 1341,
+          "genre": "science",
+          "score": 97,
+          "url": "https://www.youtube.com/watch?v=4l4k_0e4h-s"
+        },
+        {
+          "program_id": "Astro Horizons_program_8",
+          "program_name": "1000 Incredible Facts About Space and the Universe",
+          "start": 1341,
+          "end": 1391,
+          "genre": "science",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=4l4k_0e4h-s"
+        },
+        {
+          "program_id": "Astro Horizons_program_9",
+          "program_name": "1000 Incredible Facts About Space and the Universe",
+          "start": 1391,
+          "end": 1430,
+          "genre": "science",
+          "score": 104,
+          "url": "https://www.youtube.com/watch?v=4l4k_0e4h-s"
+        }
+      ]
+    }
+  ]
+}

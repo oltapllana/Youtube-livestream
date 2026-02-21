@@ -1,0 +1,22 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Joey Does Tech_program_1",
+            "channel_id": 12,
+            "start": 941,
+            "end": 994
+        },
+        {
+            "program_id": "Joey Does Tech_program_4",
+            "channel_id": 12,
+            "start": 1127,
+            "end": 1198
+        },
+        {
+            "program_id": "Joey Does Tech_program_6",
+            "channel_id": 12,
+            "start": 1279,
+            "end": 1314
+        }
+    ]
+}

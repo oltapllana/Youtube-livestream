@@ -1,0 +1,100 @@
+{
+  "opening_time": 877,
+  "closing_time": 1430,
+  "min_duration": 40,
+  "max_consecutive_genre": 10,
+  "channels_count": 2,
+  "switch_penalty": 8,
+  "termination_penalty": 20,
+  "priority_blocks": [],
+  "time_preferences": [],
+  "channels": [
+    {
+      "channel_id": 3,
+      "channel_name": "Dream Trips",
+      "programs": [
+        {
+          "program_id": "Dream Trips_program_0",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed",
+          "start": 877,
+          "end": 926,
+          "genre": "technology",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_1",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed",
+          "start": 926,
+          "end": 1004,
+          "genre": "technology",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_2",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed",
+          "start": 1004,
+          "end": 1060,
+          "genre": "technology",
+          "score": 91,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_3",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed",
+          "start": 1060,
+          "end": 1120,
+          "genre": "technology",
+          "score": 75,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_4",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed",
+          "start": 1120,
+          "end": 1194,
+          "genre": "technology",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_5",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed",
+          "start": 1194,
+          "end": 1269,
+          "genre": "technology",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_6",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed",
+          "start": 1269,
+          "end": 1309,
+          "genre": "technology",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_7",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed",
+          "start": 1309,
+          "end": 1374,
+          "genre": "technology",
+          "score": 79,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_8",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed",
+          "start": 1374,
+          "end": 1430,
+          "genre": "technology",
+          "score": 82,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        }
+      ]
+    }
+  ]
+}

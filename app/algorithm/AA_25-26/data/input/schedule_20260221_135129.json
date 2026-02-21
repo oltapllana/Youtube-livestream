@@ -1,0 +1,920 @@
+{
+  "opening_time": 831,
+  "closing_time": 1430,
+  "min_duration": 30,
+  "max_consecutive_genre": 3,
+  "channels_count": 10,
+  "switch_penalty": 9,
+  "termination_penalty": 20,
+  "priority_blocks": [],
+  "time_preferences": [
+    {
+      "start": 480,
+      "end": 720,
+      "preferred_genre": "technology",
+      "bonus": 5
+    },
+    {
+      "start": 720,
+      "end": 960,
+      "preferred_genre": "science",
+      "bonus": 5
+    },
+    {
+      "start": 960,
+      "end": 1200,
+      "preferred_genre": "climate",
+      "bonus": 5
+    },
+    {
+      "start": 1200,
+      "end": 1440,
+      "preferred_genre": "others",
+      "bonus": 5
+    }
+  ],
+  "channels": [
+    {
+      "channel_id": 0,
+      "channel_name": "CRUX",
+      "programs": [
+        {
+          "program_id": "CRUX_program_0",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-21 13:50",
+          "start": 831,
+          "end": 864,
+          "genre": "technology",
+          "score": 84,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "CRUX_program_1",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-21 13:50",
+          "start": 864,
+          "end": 939,
+          "genre": "technology",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "CRUX_program_2",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-21 13:50",
+          "start": 939,
+          "end": 1015,
+          "genre": "technology",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "CRUX_program_3",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-21 13:50",
+          "start": 1015,
+          "end": 1089,
+          "genre": "technology",
+          "score": 75,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "CRUX_program_4",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-21 13:50",
+          "start": 1089,
+          "end": 1139,
+          "genre": "technology",
+          "score": 89,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "CRUX_program_5",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-21 13:50",
+          "start": 1139,
+          "end": 1198,
+          "genre": "technology",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "CRUX_program_6",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-21 13:50",
+          "start": 1198,
+          "end": 1248,
+          "genre": "technology",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "CRUX_program_7",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-21 13:50",
+          "start": 1248,
+          "end": 1287,
+          "genre": "technology",
+          "score": 84,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "CRUX_program_8",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-21 13:50",
+          "start": 1287,
+          "end": 1357,
+          "genre": "technology",
+          "score": 94,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "CRUX_program_9",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News 2026-02-21 13:50",
+          "start": 1357,
+          "end": 1411,
+          "genre": "technology",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        }
+      ]
+    },
+    {
+      "channel_id": 1,
+      "channel_name": "The Financial Express",
+      "programs": [
+        {
+          "program_id": "The Financial Express_program_0",
+          "program_name": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-21 13:50",
+          "start": 831,
+          "end": 907,
+          "genre": "technology",
+          "score": 95,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_1",
+          "program_name": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-21 13:50",
+          "start": 907,
+          "end": 969,
+          "genre": "technology",
+          "score": 79,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_2",
+          "program_name": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-21 13:50",
+          "start": 969,
+          "end": 1059,
+          "genre": "technology",
+          "score": 94,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_3",
+          "program_name": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-21 13:50",
+          "start": 1059,
+          "end": 1124,
+          "genre": "technology",
+          "score": 93,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_4",
+          "program_name": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-21 13:50",
+          "start": 1124,
+          "end": 1207,
+          "genre": "technology",
+          "score": 84,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_5",
+          "program_name": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-21 13:50",
+          "start": 1207,
+          "end": 1241,
+          "genre": "technology",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_6",
+          "program_name": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-21 13:50",
+          "start": 1241,
+          "end": 1303,
+          "genre": "technology",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_7",
+          "program_name": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-21 13:50",
+          "start": 1303,
+          "end": 1349,
+          "genre": "technology",
+          "score": 92,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_8",
+          "program_name": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-21 13:50",
+          "start": 1349,
+          "end": 1379,
+          "genre": "technology",
+          "score": 91,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        },
+        {
+          "program_id": "The Financial Express_program_9",
+          "program_name": "NASA Live: SpaceX Makes History With Dual Moon Missions Launch | SpaceX Live | US News 2026-02-21 13:50",
+          "start": 1379,
+          "end": 1430,
+          "genre": "technology",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=Gh1Mt4BSo6Y"
+        }
+      ]
+    },
+    {
+      "channel_id": 2,
+      "channel_name": "Sen",
+      "programs": [
+        {
+          "program_id": "Sen_program_0",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-21 13:50",
+          "start": 831,
+          "end": 894,
+          "genre": "technology",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_1",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-21 13:50",
+          "start": 894,
+          "end": 958,
+          "genre": "technology",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_2",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-21 13:50",
+          "start": 958,
+          "end": 1020,
+          "genre": "technology",
+          "score": 95,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_3",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-21 13:50",
+          "start": 1020,
+          "end": 1050,
+          "genre": "technology",
+          "score": 81,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_4",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-21 13:50",
+          "start": 1050,
+          "end": 1132,
+          "genre": "technology",
+          "score": 91,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_5",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-21 13:50",
+          "start": 1132,
+          "end": 1183,
+          "genre": "technology",
+          "score": 84,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_6",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-21 13:50",
+          "start": 1183,
+          "end": 1254,
+          "genre": "technology",
+          "score": 94,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_7",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-21 13:50",
+          "start": 1254,
+          "end": 1312,
+          "genre": "technology",
+          "score": 92,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_8",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-21 13:50",
+          "start": 1312,
+          "end": 1367,
+          "genre": "technology",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_9",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS 2026-02-21 13:50",
+          "start": 1367,
+          "end": 1430,
+          "genre": "technology",
+          "score": 93,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        }
+      ]
+    },
+    {
+      "channel_id": 3,
+      "channel_name": "Dream Trips",
+      "programs": [
+        {
+          "program_id": "Dream Trips_program_0",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-21 13:50",
+          "start": 831,
+          "end": 881,
+          "genre": "technology",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_1",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-21 13:50",
+          "start": 881,
+          "end": 944,
+          "genre": "technology",
+          "score": 84,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_2",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-21 13:50",
+          "start": 944,
+          "end": 978,
+          "genre": "technology",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_3",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-21 13:50",
+          "start": 978,
+          "end": 1015,
+          "genre": "technology",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_4",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-21 13:50",
+          "start": 1015,
+          "end": 1072,
+          "genre": "technology",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_5",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-21 13:50",
+          "start": 1072,
+          "end": 1121,
+          "genre": "technology",
+          "score": 82,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_6",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-21 13:50",
+          "start": 1121,
+          "end": 1162,
+          "genre": "technology",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_7",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-21 13:50",
+          "start": 1162,
+          "end": 1209,
+          "genre": "technology",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_8",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-21 13:50",
+          "start": 1209,
+          "end": 1261,
+          "genre": "technology",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_9",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-21 13:50",
+          "start": 1261,
+          "end": 1312,
+          "genre": "technology",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_10",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-21 13:50",
+          "start": 1312,
+          "end": 1381,
+          "genre": "technology",
+          "score": 93,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_11",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-21 13:50",
+          "start": 1381,
+          "end": 1420,
+          "genre": "technology",
+          "score": 95,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        }
+      ]
+    },
+    {
+      "channel_id": 4,
+      "channel_name": "NASA",
+      "programs": [
+        {
+          "program_id": "NASA_program_0",
+          "program_name": "NASA's Artemis II Live Views from Kennedy Space Center 2026-02-21 13:50",
+          "start": 831,
+          "end": 894,
+          "genre": "science",
+          "score": 97,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_1",
+          "program_name": "NASA's Artemis II Live Views from Kennedy Space Center 2026-02-21 13:50",
+          "start": 894,
+          "end": 952,
+          "genre": "science",
+          "score": 91,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_2",
+          "program_name": "NASA's Artemis II Live Views from Kennedy Space Center 2026-02-21 13:50",
+          "start": 952,
+          "end": 1028,
+          "genre": "science",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_3",
+          "program_name": "NASA's Artemis II Live Views from Kennedy Space Center 2026-02-21 13:50",
+          "start": 1028,
+          "end": 1101,
+          "genre": "science",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_4",
+          "program_name": "NASA's Artemis II Live Views from Kennedy Space Center 2026-02-21 13:50",
+          "start": 1101,
+          "end": 1161,
+          "genre": "science",
+          "score": 100,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_5",
+          "program_name": "NASA's Artemis II Live Views from Kennedy Space Center 2026-02-21 13:50",
+          "start": 1161,
+          "end": 1203,
+          "genre": "science",
+          "score": 98,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_6",
+          "program_name": "NASA's Artemis II Live Views from Kennedy Space Center 2026-02-21 13:50",
+          "start": 1203,
+          "end": 1248,
+          "genre": "science",
+          "score": 105,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_7",
+          "program_name": "NASA's Artemis II Live Views from Kennedy Space Center 2026-02-21 13:50",
+          "start": 1248,
+          "end": 1333,
+          "genre": "science",
+          "score": 96,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_8",
+          "program_name": "NASA's Artemis II Live Views from Kennedy Space Center 2026-02-21 13:50",
+          "start": 1333,
+          "end": 1370,
+          "genre": "science",
+          "score": 96,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        },
+        {
+          "program_id": "NASA_program_9",
+          "program_name": "NASA's Artemis II Live Views from Kennedy Space Center 2026-02-21 13:50",
+          "start": 1370,
+          "end": 1430,
+          "genre": "science",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=xCrPD7tfcr0"
+        }
+      ]
+    },
+    {
+      "channel_id": 5,
+      "channel_name": "NASASpaceflight",
+      "programs": [
+        {
+          "program_id": "NASASpaceflight_program_0",
+          "program_name": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction 2026-02-21 13:50",
+          "start": 831,
+          "end": 904,
+          "genre": "science",
+          "score": 92,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_1",
+          "program_name": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction 2026-02-21 13:50",
+          "start": 904,
+          "end": 956,
+          "genre": "science",
+          "score": 96,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_2",
+          "program_name": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction 2026-02-21 13:50",
+          "start": 956,
+          "end": 1006,
+          "genre": "science",
+          "score": 105,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_3",
+          "program_name": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction 2026-02-21 13:50",
+          "start": 1006,
+          "end": 1081,
+          "genre": "science",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_4",
+          "program_name": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction 2026-02-21 13:50",
+          "start": 1081,
+          "end": 1114,
+          "genre": "science",
+          "score": 97,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_5",
+          "program_name": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction 2026-02-21 13:50",
+          "start": 1114,
+          "end": 1145,
+          "genre": "science",
+          "score": 101,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_6",
+          "program_name": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction 2026-02-21 13:50",
+          "start": 1145,
+          "end": 1179,
+          "genre": "science",
+          "score": 103,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_7",
+          "program_name": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction 2026-02-21 13:50",
+          "start": 1179,
+          "end": 1260,
+          "genre": "science",
+          "score": 102,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_8",
+          "program_name": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction 2026-02-21 13:50",
+          "start": 1260,
+          "end": 1313,
+          "genre": "science",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_9",
+          "program_name": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction 2026-02-21 13:50",
+          "start": 1313,
+          "end": 1377,
+          "genre": "science",
+          "score": 100,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_10",
+          "program_name": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction 2026-02-21 13:50",
+          "start": 1377,
+          "end": 1407,
+          "genre": "science",
+          "score": 100,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        }
+      ]
+    },
+    {
+      "channel_id": 6,
+      "channel_name": "afarTV",
+      "programs": [
+        {
+          "program_id": "afarTV_program_0",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS) 2026-02-21 13:50",
+          "start": 831,
+          "end": 885,
+          "genre": "science",
+          "score": 89,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_1",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS) 2026-02-21 13:50",
+          "start": 885,
+          "end": 932,
+          "genre": "science",
+          "score": 100,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_2",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS) 2026-02-21 13:50",
+          "start": 932,
+          "end": 1015,
+          "genre": "science",
+          "score": 101,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_3",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS) 2026-02-21 13:50",
+          "start": 1015,
+          "end": 1058,
+          "genre": "science",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_4",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS) 2026-02-21 13:50",
+          "start": 1058,
+          "end": 1125,
+          "genre": "science",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_5",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS) 2026-02-21 13:50",
+          "start": 1125,
+          "end": 1190,
+          "genre": "science",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_6",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS) 2026-02-21 13:50",
+          "start": 1190,
+          "end": 1244,
+          "genre": "science",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_7",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS) 2026-02-21 13:50",
+          "start": 1244,
+          "end": 1289,
+          "genre": "science",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_8",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS) 2026-02-21 13:50",
+          "start": 1289,
+          "end": 1332,
+          "genre": "science",
+          "score": 96,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_9",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS) 2026-02-21 13:50",
+          "start": 1332,
+          "end": 1421,
+          "genre": "science",
+          "score": 89,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        }
+      ]
+    },
+    {
+      "channel_id": 7,
+      "channel_name": "Space Streams",
+      "programs": [
+        {
+          "program_id": "Space Streams_program_0",
+          "program_name": "International Space Station (ISS) Camera's Capture Views Of Hurricane Matthew [Unedited] 2026-02-21 13:50",
+          "start": 831,
+          "end": 912,
+          "genre": "science",
+          "score": 98,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        },
+        {
+          "program_id": "Space Streams_program_1",
+          "program_name": "International Space Station (ISS) Camera's Capture Views Of Hurricane Matthew [Unedited] 2026-02-21 13:50",
+          "start": 912,
+          "end": 995,
+          "genre": "science",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        },
+        {
+          "program_id": "Space Streams_program_2",
+          "program_name": "International Space Station (ISS) Camera's Capture Views Of Hurricane Matthew [Unedited] 2026-02-21 13:50",
+          "start": 995,
+          "end": 1065,
+          "genre": "science",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        },
+        {
+          "program_id": "Space Streams_program_3",
+          "program_name": "International Space Station (ISS) Camera's Capture Views Of Hurricane Matthew [Unedited] 2026-02-21 13:50",
+          "start": 1065,
+          "end": 1117,
+          "genre": "science",
+          "score": 105,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        },
+        {
+          "program_id": "Space Streams_program_4",
+          "program_name": "International Space Station (ISS) Camera's Capture Views Of Hurricane Matthew [Unedited] 2026-02-21 13:50",
+          "start": 1117,
+          "end": 1173,
+          "genre": "science",
+          "score": 94,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        },
+        {
+          "program_id": "Space Streams_program_5",
+          "program_name": "International Space Station (ISS) Camera's Capture Views Of Hurricane Matthew [Unedited] 2026-02-21 13:50",
+          "start": 1173,
+          "end": 1224,
+          "genre": "science",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        },
+        {
+          "program_id": "Space Streams_program_6",
+          "program_name": "International Space Station (ISS) Camera's Capture Views Of Hurricane Matthew [Unedited] 2026-02-21 13:50",
+          "start": 1224,
+          "end": 1301,
+          "genre": "science",
+          "score": 96,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        },
+        {
+          "program_id": "Space Streams_program_7",
+          "program_name": "International Space Station (ISS) Camera's Capture Views Of Hurricane Matthew [Unedited] 2026-02-21 13:50",
+          "start": 1301,
+          "end": 1368,
+          "genre": "science",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        },
+        {
+          "program_id": "Space Streams_program_8",
+          "program_name": "International Space Station (ISS) Camera's Capture Views Of Hurricane Matthew [Unedited] 2026-02-21 13:50",
+          "start": 1368,
+          "end": 1427,
+          "genre": "science",
+          "score": 102,
+          "url": "https://www.youtube.com/watch?v=nRkpb2NWn_4"
+        }
+      ]
+    },
+    {
+      "channel_id": 8,
+      "channel_name": "Frontiers of Infinity",
+      "programs": [
+        {
+          "program_id": "Frontiers of Infinity_program_0",
+          "program_name": "24/7 Universe, Physics & Ancient Mysteries 2026-02-21 13:50",
+          "start": 831,
+          "end": 909,
+          "genre": "science",
+          "score": 103,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        },
+        {
+          "program_id": "Frontiers of Infinity_program_1",
+          "program_name": "24/7 Universe, Physics & Ancient Mysteries 2026-02-21 13:50",
+          "start": 909,
+          "end": 968,
+          "genre": "science",
+          "score": 89,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        },
+        {
+          "program_id": "Frontiers of Infinity_program_2",
+          "program_name": "24/7 Universe, Physics & Ancient Mysteries 2026-02-21 13:50",
+          "start": 968,
+          "end": 1014,
+          "genre": "science",
+          "score": 104,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        },
+        {
+          "program_id": "Frontiers of Infinity_program_3",
+          "program_name": "24/7 Universe, Physics & Ancient Mysteries 2026-02-21 13:50",
+          "start": 1014,
+          "end": 1078,
+          "genre": "science",
+          "score": 91,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        },
+        {
+          "program_id": "Frontiers of Infinity_program_4",
+          "program_name": "24/7 Universe, Physics & Ancient Mysteries 2026-02-21 13:50",
+          "start": 1078,
+          "end": 1135,
+          "genre": "science",
+          "score": 93,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        },
+        {
+          "program_id": "Frontiers of Infinity_program_5",
+          "program_name": "24/7 Universe, Physics & Ancient Mysteries 2026-02-21 13:50",
+          "start": 1135,
+          "end": 1183,
+          "genre": "science",
+          "score": 97,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        },
+        {
+          "program_id": "Frontiers of Infinity_program_6",
+          "program_name": "24/7 Universe, Physics & Ancient Mysteries 2026-02-21 13:50",
+          "start": 1183,
+          "end": 1216,
+          "genre": "science",
+          "score": 92,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        },
+        {
+          "program_id": "Frontiers of Infinity_program_7",
+          "program_name": "24/7 Universe, Physics & Ancient Mysteries 2026-02-21 13:50",
+          "start": 1216,
+          "end": 1298,
+          "genre": "science",
+          "score": 100,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        },
+        {
+          "program_id": "Frontiers of Infinity_program_8",
+          "program_name": "24/7 Universe, Physics & Ancient Mysteries 2026-02-21 13:50",
+          "start": 1298,
+          "end": 1362,
+          "genre": "science",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        },
+        {
+          "program_id": "Frontiers of Infinity_program_9",
+          "program_name": "24/7 Universe, Physics & Ancient Mysteries 2026-02-21 13:50",
+          "start": 1362,
+          "end": 1406,
+          "genre": "science",
+          "score": 104,
+          "url": "https://www.youtube.com/watch?v=RwQPMHZHsY0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "afarTV_program_0",
+            "channel_id": 6,
+            "start": 831,
+            "end": 861
+        },
+        {
+            "program_id": "NASA_program_0",
+            "channel_id": 4,
+            "start": 861,
+            "end": 891
+        },
+        {
+            "program_id": "Sen_program_1",
+            "channel_id": 2,
+            "start": 898,
+            "end": 928
+        },
+        {
+            "program_id": "Sen_program_2",
+            "channel_id": 2,
+            "start": 928,
+            "end": 958
+        },
+        {
+            "program_id": "NASASpaceflight_program_1",
+            "channel_id": 5,
+            "start": 958,
+            "end": 992
+        },
+        {
+            "program_id": "NASASpaceflight_program_2",
+            "channel_id": 5,
+            "start": 992,
+            "end": 1022
+        },
+        {
+            "program_id": "Sen_program_3",
+            "channel_id": 2,
+            "start": 1022,
+            "end": 1055
+        },
+        {
+            "program_id": "Sen_program_4",
+            "channel_id": 2,
+            "start": 1055,
+            "end": 1087
+        },
+        {
+            "program_id": "Sen_program_5",
+            "channel_id": 2,
+            "start": 1087,
+            "end": 1117
+        },
+        {
+            "program_id": "NASASpaceflight_program_5",
+            "channel_id": 5,
+            "start": 1117,
+            "end": 1155
+        },
+        {
+            "program_id": "NASASpaceflight_program_6",
+            "channel_id": 5,
+            "start": 1155,
+            "end": 1186
+        },
+        {
+            "program_id": "Space Streams_program_6",
+            "channel_id": 7,
+            "start": 1186,
+            "end": 1216
+        },
+        {
+            "program_id": "Dream Trips_program_6",
+            "channel_id": 3,
+            "start": 1216,
+            "end": 1246
+        },
+        {
+            "program_id": "Frontiers of Infinity_program_6",
+            "channel_id": 8,
+            "start": 1246,
+            "end": 1276
+        },
+        {
+            "program_id": "afarTV_program_7",
+            "channel_id": 6,
+            "start": 1276,
+            "end": 1307
+        },
+        {
+            "program_id": "afarTV_program_8",
+            "channel_id": 6,
+            "start": 1307,
+            "end": 1337
+        },
+        {
+            "program_id": "CRUX_program_8",
+            "channel_id": 0,
+            "start": 1337,
+            "end": 1368
+        },
+        {
+            "program_id": "CRUX_program_9",
+            "channel_id": 0,
+            "start": 1368,
+            "end": 1398
+        },
+        {
+            "program_id": "Space Streams_program_10",
+            "channel_id": 7,
+            "start": 1399,
+            "end": 1430
+        }
+    ]
+}

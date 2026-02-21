@@ -1,0 +1,58 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Dream Trips_program_0",
+            "channel_id": 3,
+            "start": 875,
+            "end": 931
+        },
+        {
+            "program_id": "Dream Trips_program_1",
+            "channel_id": 3,
+            "start": 931,
+            "end": 1018
+        },
+        {
+            "program_id": "Dream Trips_program_2",
+            "channel_id": 3,
+            "start": 1018,
+            "end": 1108
+        },
+        {
+            "program_id": "Dream Trips_program_3",
+            "channel_id": 3,
+            "start": 1108,
+            "end": 1177
+        },
+        {
+            "program_id": "Dream Trips_program_4",
+            "channel_id": 3,
+            "start": 1177,
+            "end": 1226
+        },
+        {
+            "program_id": "Dream Trips_program_5",
+            "channel_id": 3,
+            "start": 1226,
+            "end": 1289
+        },
+        {
+            "program_id": "Dream Trips_program_6",
+            "channel_id": 3,
+            "start": 1289,
+            "end": 1319
+        },
+        {
+            "program_id": "Dream Trips_program_7",
+            "channel_id": 3,
+            "start": 1319,
+            "end": 1372
+        },
+        {
+            "program_id": "Dream Trips_program_8",
+            "channel_id": 3,
+            "start": 1372,
+            "end": 1430
+        }
+    ]
+}

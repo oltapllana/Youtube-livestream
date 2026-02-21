@@ -1,0 +1,205 @@
+{
+  "opening_time": 872,
+  "closing_time": 1430,
+  "min_duration": 30,
+  "max_consecutive_genre": 10,
+  "channels_count": 2,
+  "switch_penalty": 8,
+  "termination_penalty": 20,
+  "priority_blocks": [],
+  "time_preferences": [],
+  "channels": [
+    {
+      "channel_id": 3,
+      "channel_name": "Dream Trips",
+      "programs": [
+        {
+          "program_id": "Dream Trips_program_0",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 18:41",
+          "start": 872,
+          "end": 949,
+          "genre": "technology",
+          "score": 72,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_1",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 18:41",
+          "start": 949,
+          "end": 1003,
+          "genre": "technology",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_2",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 18:41",
+          "start": 1003,
+          "end": 1035,
+          "genre": "technology",
+          "score": 72,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_3",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 18:41",
+          "start": 1035,
+          "end": 1099,
+          "genre": "technology",
+          "score": 81,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_4",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 18:41",
+          "start": 1099,
+          "end": 1156,
+          "genre": "technology",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_5",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 18:41",
+          "start": 1156,
+          "end": 1194,
+          "genre": "technology",
+          "score": 72,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_6",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 18:41",
+          "start": 1194,
+          "end": 1234,
+          "genre": "technology",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_7",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 18:41",
+          "start": 1234,
+          "end": 1310,
+          "genre": "technology",
+          "score": 67,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_8",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 18:41",
+          "start": 1310,
+          "end": 1358,
+          "genre": "technology",
+          "score": 67,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_9",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed 2026-02-20 18:41",
+          "start": 1358,
+          "end": 1427,
+          "genre": "technology",
+          "score": 68,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        }
+      ]
+    },
+    {
+      "channel_id": 12,
+      "channel_name": "Joey Does Tech",
+      "programs": [
+        {
+          "program_id": "Joey Does Tech_program_0",
+          "program_name": "Repairing Consoles LIVE \ud83d\ude0a (Project Loft) !Tools !Learnrepair",
+          "start": 872,
+          "end": 913,
+          "genre": "technology",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_1",
+          "program_name": "Repairing Consoles LIVE \ud83d\ude0a (Project Loft) !Tools !Learnrepair",
+          "start": 913,
+          "end": 955,
+          "genre": "technology",
+          "score": 82,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_2",
+          "program_name": "Repairing Consoles LIVE \ud83d\ude0a (Project Loft) !Tools !Learnrepair",
+          "start": 955,
+          "end": 1007,
+          "genre": "technology",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_3",
+          "program_name": "Repairing Consoles LIVE \ud83d\ude0a (Project Loft) !Tools !Learnrepair",
+          "start": 1007,
+          "end": 1090,
+          "genre": "technology",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_4",
+          "program_name": "Repairing Consoles LIVE \ud83d\ude0a (Project Loft) !Tools !Learnrepair",
+          "start": 1090,
+          "end": 1171,
+          "genre": "technology",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_5",
+          "program_name": "Repairing Consoles LIVE \ud83d\ude0a (Project Loft) !Tools !Learnrepair",
+          "start": 1171,
+          "end": 1217,
+          "genre": "technology",
+          "score": 82,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_6",
+          "program_name": "Repairing Consoles LIVE \ud83d\ude0a (Project Loft) !Tools !Learnrepair",
+          "start": 1217,
+          "end": 1264,
+          "genre": "technology",
+          "score": 73,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_7",
+          "program_name": "Repairing Consoles LIVE \ud83d\ude0a (Project Loft) !Tools !Learnrepair",
+          "start": 1264,
+          "end": 1339,
+          "genre": "technology",
+          "score": 72,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_8",
+          "program_name": "Repairing Consoles LIVE \ud83d\ude0a (Project Loft) !Tools !Learnrepair",
+          "start": 1339,
+          "end": 1379,
+          "genre": "technology",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_9",
+          "program_name": "Repairing Consoles LIVE \ud83d\ude0a (Project Loft) !Tools !Learnrepair",
+          "start": 1379,
+          "end": 1409,
+          "genre": "technology",
+          "score": 79,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        }
+      ]
+    }
+  ]
+}

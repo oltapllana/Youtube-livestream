@@ -1,0 +1,109 @@
+{
+  "opening_time": 849,
+  "closing_time": 1430,
+  "min_duration": 30,
+  "max_consecutive_genre": 3,
+  "channels_count": 1,
+  "switch_penalty": 8,
+  "termination_penalty": 20,
+  "priority_blocks": [],
+  "time_preferences": [],
+  "channels": [
+    {
+      "channel_id": 12,
+      "channel_name": "Joey Does Tech",
+      "programs": [
+        {
+          "program_id": "Joey Does Tech_program_0",
+          "program_name": "Repairing Consoles LIVE \ud83d\ude0a (Project Loft) !Tools !Learnrepair",
+          "start": 849,
+          "end": 920,
+          "genre": "technology",
+          "score": 81,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_1",
+          "program_name": "Repairing Consoles LIVE \ud83d\ude0a (Project Loft) !Tools !Learnrepair",
+          "start": 920,
+          "end": 999,
+          "genre": "technology",
+          "score": 81,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_2",
+          "program_name": "Repairing Consoles LIVE \ud83d\ude0a (Project Loft) !Tools !Learnrepair",
+          "start": 999,
+          "end": 1074,
+          "genre": "technology",
+          "score": 79,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_3",
+          "program_name": "Repairing Consoles LIVE \ud83d\ude0a (Project Loft) !Tools !Learnrepair",
+          "start": 1074,
+          "end": 1104,
+          "genre": "technology",
+          "score": 79,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_4",
+          "program_name": "Repairing Consoles LIVE \ud83d\ude0a (Project Loft) !Tools !Learnrepair",
+          "start": 1104,
+          "end": 1144,
+          "genre": "technology",
+          "score": 79,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_5",
+          "program_name": "Repairing Consoles LIVE \ud83d\ude0a (Project Loft) !Tools !Learnrepair",
+          "start": 1144,
+          "end": 1205,
+          "genre": "technology",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_6",
+          "program_name": "Repairing Consoles LIVE \ud83d\ude0a (Project Loft) !Tools !Learnrepair",
+          "start": 1205,
+          "end": 1238,
+          "genre": "technology",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_7",
+          "program_name": "Repairing Consoles LIVE \ud83d\ude0a (Project Loft) !Tools !Learnrepair",
+          "start": 1238,
+          "end": 1286,
+          "genre": "technology",
+          "score": 84,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_8",
+          "program_name": "Repairing Consoles LIVE \ud83d\ude0a (Project Loft) !Tools !Learnrepair",
+          "start": 1286,
+          "end": 1348,
+          "genre": "technology",
+          "score": 84,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        },
+        {
+          "program_id": "Joey Does Tech_program_9",
+          "program_name": "Repairing Consoles LIVE \ud83d\ude0a (Project Loft) !Tools !Learnrepair",
+          "start": 1348,
+          "end": 1416,
+          "genre": "technology",
+          "score": 71,
+          "url": "https://www.youtube.com/watch?v=GCYaMTVXc_0"
+        }
+      ]
+    }
+  ]
+}
