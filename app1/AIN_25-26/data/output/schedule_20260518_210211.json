@@ -1,0 +1,22 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "Interstellar News Hub_program_0",
+            "channel_id": 10,
+            "start": 1262,
+            "end": 1320
+        },
+        {
+            "program_id": "Interstellar News Hub_program_1",
+            "channel_id": 10,
+            "start": 1320,
+            "end": 1396
+        },
+        {
+            "program_id": "Interstellar News Hub_program_2",
+            "channel_id": 10,
+            "start": 1396,
+            "end": 1430
+        }
+    ]
+}

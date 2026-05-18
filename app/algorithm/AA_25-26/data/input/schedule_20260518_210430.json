@@ -1,0 +1,55 @@
+{
+  "opening_time": 1264,
+  "closing_time": 1430,
+  "min_duration": 32,
+  "max_consecutive_genre": 10,
+  "channels_count": 3,
+  "switch_penalty": 9,
+  "termination_penalty": 20,
+  "priority_blocks": [],
+  "time_preferences": [],
+  "channels": [
+    {
+      "channel_id": 10,
+      "channel_name": "Interstellar News Hub",
+      "programs": [
+        {
+          "program_id": "Interstellar News Hub_program_0",
+          "program_name": "Space Weather LIVE Monitoring | Solar Flares \u2022 CMEs \u2022 Sunspots \u2022 Aurora \u2022 Earthquakes \u2022 Volcanos",
+          "start": 1264,
+          "end": 1318,
+          "genre": "climate",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub_program_1",
+          "program_name": "Space Weather LIVE Monitoring | Solar Flares \u2022 CMEs \u2022 Sunspots \u2022 Aurora \u2022 Earthquakes \u2022 Volcanos",
+          "start": 1318,
+          "end": 1350,
+          "genre": "climate",
+          "score": 95,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub_program_2",
+          "program_name": "Space Weather LIVE Monitoring | Solar Flares \u2022 CMEs \u2022 Sunspots \u2022 Aurora \u2022 Earthquakes \u2022 Volcanos",
+          "start": 1350,
+          "end": 1390,
+          "genre": "climate",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub_program_3",
+          "program_name": "Space Weather LIVE Monitoring | Solar Flares \u2022 CMEs \u2022 Sunspots \u2022 Aurora \u2022 Earthquakes \u2022 Volcanos",
+          "start": 1390,
+          "end": 1430,
+          "genre": "climate",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        }
+      ]
+    }
+  ]
+}

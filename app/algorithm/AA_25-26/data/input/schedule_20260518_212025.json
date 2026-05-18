@@ -1,0 +1,275 @@
+{
+  "opening_time": 1280,
+  "closing_time": 1430,
+  "min_duration": 33,
+  "max_consecutive_genre": 10,
+  "channels_count": 10,
+  "switch_penalty": 9,
+  "termination_penalty": 20,
+  "priority_blocks": [],
+  "time_preferences": [
+    {
+      "start": 480,
+      "end": 720,
+      "preferred_genre": "technology",
+      "bonus": 4
+    },
+    {
+      "start": 720,
+      "end": 960,
+      "preferred_genre": "science",
+      "bonus": 4
+    },
+    {
+      "start": 960,
+      "end": 1200,
+      "preferred_genre": "climate",
+      "bonus": 4
+    },
+    {
+      "start": 1200,
+      "end": 1440,
+      "preferred_genre": "others",
+      "bonus": 4
+    }
+  ],
+  "channels": [
+    {
+      "channel_id": 0,
+      "channel_name": "CRUX",
+      "programs": [
+        {
+          "program_id": "CRUX_program_0",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News",
+          "start": 1280,
+          "end": 1316,
+          "genre": "technology",
+          "score": 79,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "CRUX_program_1",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News",
+          "start": 1316,
+          "end": 1402,
+          "genre": "technology",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        }
+      ]
+    },
+    {
+      "channel_id": 2,
+      "channel_name": "Sen",
+      "programs": [
+        {
+          "program_id": "Sen_program_0",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS",
+          "start": 1280,
+          "end": 1360,
+          "genre": "technology",
+          "score": 75,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_1",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS",
+          "start": 1360,
+          "end": 1406,
+          "genre": "technology",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        }
+      ]
+    },
+    {
+      "channel_id": 3,
+      "channel_name": "Dream Trips",
+      "programs": [
+        {
+          "program_id": "Dream Trips_program_0",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed",
+          "start": 1280,
+          "end": 1321,
+          "genre": "technology",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_1",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed",
+          "start": 1321,
+          "end": 1354,
+          "genre": "technology",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_2",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed",
+          "start": 1354,
+          "end": 1430,
+          "genre": "technology",
+          "score": 82,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        }
+      ]
+    },
+    {
+      "channel_id": 5,
+      "channel_name": "NASASpaceflight",
+      "programs": [
+        {
+          "program_id": "NASASpaceflight_program_0",
+          "program_name": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction",
+          "start": 1280,
+          "end": 1338,
+          "genre": "science",
+          "score": 98,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_1",
+          "program_name": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction",
+          "start": 1338,
+          "end": 1389,
+          "genre": "science",
+          "score": 101,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_2",
+          "program_name": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction",
+          "start": 1389,
+          "end": 1426,
+          "genre": "science",
+          "score": 92,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        }
+      ]
+    },
+    {
+      "channel_id": 6,
+      "channel_name": "afarTV",
+      "programs": [
+        {
+          "program_id": "afarTV_program_0",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS)",
+          "start": 1280,
+          "end": 1332,
+          "genre": "science",
+          "score": 91,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_1",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS)",
+          "start": 1332,
+          "end": 1389,
+          "genre": "science",
+          "score": 95,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_2",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS)",
+          "start": 1389,
+          "end": 1430,
+          "genre": "science",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        }
+      ]
+    },
+    {
+      "channel_id": 1,
+      "channel_name": "The Financial Express",
+      "programs": [
+        {
+          "program_id": "The Financial Express_program_0",
+          "program_name": "Tommy Robinson LIVE: Unite the Kingdom Rally London 2026 Full Speech & March",
+          "start": 1280,
+          "end": 1365,
+          "genre": "technology",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=uKNchdjJOIs"
+        },
+        {
+          "program_id": "The Financial Express_program_1",
+          "program_name": "Tommy Robinson LIVE: Unite the Kingdom Rally London 2026 Full Speech & March",
+          "start": 1365,
+          "end": 1430,
+          "genre": "technology",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=uKNchdjJOIs"
+        }
+      ]
+    },
+    {
+      "channel_id": 4,
+      "channel_name": "NASA",
+      "programs": [
+        {
+          "program_id": "NASA_program_0",
+          "program_name": "Live High-Definition Views from the International Space Station (Official NASA Stream)",
+          "start": 1280,
+          "end": 1318,
+          "genre": "science",
+          "score": 89,
+          "url": "https://www.youtube.com/watch?v=FuuC4dpSQ1M"
+        },
+        {
+          "program_id": "NASA_program_1",
+          "program_name": "Live High-Definition Views from the International Space Station (Official NASA Stream)",
+          "start": 1318,
+          "end": 1359,
+          "genre": "science",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=FuuC4dpSQ1M"
+        },
+        {
+          "program_id": "NASA_program_2",
+          "program_name": "Live High-Definition Views from the International Space Station (Official NASA Stream)",
+          "start": 1359,
+          "end": 1396,
+          "genre": "science",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=FuuC4dpSQ1M"
+        },
+        {
+          "program_id": "NASA_program_3",
+          "program_name": "Live High-Definition Views from the International Space Station (Official NASA Stream)",
+          "start": 1396,
+          "end": 1430,
+          "genre": "science",
+          "score": 99,
+          "url": "https://www.youtube.com/watch?v=FuuC4dpSQ1M"
+        }
+      ]
+    },
+    {
+      "channel_id": 7,
+      "channel_name": "Space Streams",
+      "programs": [
+        {
+          "program_id": "Space Streams_program_0",
+          "program_name": "Space Streams Documentaries",
+          "start": 1280,
+          "end": 1369,
+          "genre": "science",
+          "score": 103,
+          "url": "https://www.youtube.com/watch?v=ERm9ae_S_eE"
+        },
+        {
+          "program_id": "Space Streams_program_1",
+          "program_name": "Space Streams Documentaries",
+          "start": 1369,
+          "end": 1417,
+          "genre": "science",
+          "score": 95,
+          "url": "https://www.youtube.com/watch?v=ERm9ae_S_eE"
+        }
+      ]
+    }
+  ]
+}

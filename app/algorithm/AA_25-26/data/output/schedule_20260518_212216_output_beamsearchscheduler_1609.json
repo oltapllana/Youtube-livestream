@@ -1,0 +1,130 @@
+{
+    "scheduled_programs": [
+        {
+            "program_id": "NASASpaceflight_program_0",
+            "channel_id": 5,
+            "start": 1282,
+            "end": 1319
+        },
+        {
+            "program_id": "NASASpaceflight_program_1",
+            "channel_id": 5,
+            "start": 1319,
+            "end": 1350
+        },
+        {
+            "program_id": "NASA_program_1",
+            "channel_id": 4,
+            "start": 1350,
+            "end": 1383
+        },
+        {
+            "program_id": "NASA_program_2",
+            "channel_id": 4,
+            "start": 1383,
+            "end": 1430
+        },
+        {
+            "program_id": "NASA_program_3",
+            "channel_id": 4,
+            "start": 1430,
+            "end": 1461
+        },
+        {
+            "program_id": "The Financial Express_program_3",
+            "channel_id": 1,
+            "start": 1461,
+            "end": 1492
+        },
+        {
+            "program_id": "Dream Trips_program_4",
+            "channel_id": 3,
+            "start": 1493,
+            "end": 1524
+        },
+        {
+            "program_id": "Dream Trips_program_5",
+            "channel_id": 3,
+            "start": 1524,
+            "end": 1555
+        },
+        {
+            "program_id": "NASASpaceflight_program_4",
+            "channel_id": 5,
+            "start": 1555,
+            "end": 1590
+        },
+        {
+            "program_id": "Space Streams_program_5",
+            "channel_id": 7,
+            "start": 1590,
+            "end": 1623
+        },
+        {
+            "program_id": "NASASpaceflight_program_5",
+            "channel_id": 5,
+            "start": 1623,
+            "end": 1657
+        },
+        {
+            "program_id": "NASASpaceflight_program_6",
+            "channel_id": 5,
+            "start": 1657,
+            "end": 1688
+        },
+        {
+            "program_id": "afarTV_program_7",
+            "channel_id": 6,
+            "start": 1689,
+            "end": 1721
+        },
+        {
+            "program_id": "afarTV_program_8",
+            "channel_id": 6,
+            "start": 1721,
+            "end": 1752
+        },
+        {
+            "program_id": "Sen_program_8",
+            "channel_id": 2,
+            "start": 1752,
+            "end": 1794
+        },
+        {
+            "program_id": "Sen_program_9",
+            "channel_id": 2,
+            "start": 1794,
+            "end": 1825
+        },
+        {
+            "program_id": "Space Streams_program_9",
+            "channel_id": 7,
+            "start": 1831,
+            "end": 1867
+        },
+        {
+            "program_id": "Space Streams_program_10",
+            "channel_id": 7,
+            "start": 1867,
+            "end": 1898
+        },
+        {
+            "program_id": "NASA_program_10",
+            "channel_id": 4,
+            "start": 1898,
+            "end": 1930
+        },
+        {
+            "program_id": "NASA_program_11",
+            "channel_id": 4,
+            "start": 1930,
+            "end": 1967
+        },
+        {
+            "program_id": "NASA_program_12",
+            "channel_id": 4,
+            "start": 1967,
+            "end": 2002
+        }
+    ]
+}

@@ -1,0 +1,331 @@
+{
+  "opening_time": 1222,
+  "closing_time": 1430,
+  "min_duration": 30,
+  "max_consecutive_genre": 10,
+  "channels_count": 10,
+  "switch_penalty": 9,
+  "termination_penalty": 20,
+  "priority_blocks": [],
+  "time_preferences": [],
+  "channels": [
+    {
+      "channel_id": 10,
+      "channel_name": "Interstellar News Hub",
+      "programs": [
+        {
+          "program_id": "Interstellar News Hub_program_0",
+          "program_name": "Space Weather LIVE Monitoring | Solar Flares \u2022 CMEs \u2022 Sunspots \u2022 Aurora \u2022 Earthquakes \u2022 Volcanos",
+          "start": 1222,
+          "end": 1300,
+          "genre": "climate",
+          "score": 94,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub_program_1",
+          "program_name": "Space Weather LIVE Monitoring | Solar Flares \u2022 CMEs \u2022 Sunspots \u2022 Aurora \u2022 Earthquakes \u2022 Volcanos",
+          "start": 1300,
+          "end": 1340,
+          "genre": "climate",
+          "score": 94,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub_program_2",
+          "program_name": "Space Weather LIVE Monitoring | Solar Flares \u2022 CMEs \u2022 Sunspots \u2022 Aurora \u2022 Earthquakes \u2022 Volcanos",
+          "start": 1340,
+          "end": 1400,
+          "genre": "climate",
+          "score": 91,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub_program_3",
+          "program_name": "Space Weather LIVE Monitoring | Solar Flares \u2022 CMEs \u2022 Sunspots \u2022 Aurora \u2022 Earthquakes \u2022 Volcanos",
+          "start": 1400,
+          "end": 1430,
+          "genre": "climate",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        }
+      ]
+    },
+    {
+      "channel_id": 35,
+      "channel_name": "The Financial Express",
+      "programs": [
+        {
+          "program_id": "The Financial Express_program_0",
+          "program_name": "China Earthquake LIVE | Roads Buildings Destroyed | Scary Videos On CAM | China LIVE | World News",
+          "start": 1222,
+          "end": 1304,
+          "genre": "technology",
+          "score": 89,
+          "url": "https://www.youtube.com/watch?v=dDIEaD3wXiM"
+        },
+        {
+          "program_id": "The Financial Express_program_1",
+          "program_name": "China Earthquake LIVE | Roads Buildings Destroyed | Scary Videos On CAM | China LIVE | World News",
+          "start": 1304,
+          "end": 1343,
+          "genre": "technology",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=dDIEaD3wXiM"
+        },
+        {
+          "program_id": "The Financial Express_program_2",
+          "program_name": "China Earthquake LIVE | Roads Buildings Destroyed | Scary Videos On CAM | China LIVE | World News",
+          "start": 1343,
+          "end": 1403,
+          "genre": "technology",
+          "score": 82,
+          "url": "https://www.youtube.com/watch?v=dDIEaD3wXiM"
+        }
+      ]
+    },
+    {
+      "channel_id": 36,
+      "channel_name": "The Financial Express",
+      "programs": [
+        {
+          "program_id": "The Financial Express_program_0",
+          "program_name": "Philippines Senate LIVE | Duterte Impeachment Drama LIVE | Philippines Senate Goes Into Chaos",
+          "start": 1222,
+          "end": 1258,
+          "genre": "technology",
+          "score": 89,
+          "url": "https://www.youtube.com/watch?v=VVig4UilFDY"
+        },
+        {
+          "program_id": "The Financial Express_program_1",
+          "program_name": "Philippines Senate LIVE | Duterte Impeachment Drama LIVE | Philippines Senate Goes Into Chaos",
+          "start": 1258,
+          "end": 1312,
+          "genre": "technology",
+          "score": 91,
+          "url": "https://www.youtube.com/watch?v=VVig4UilFDY"
+        },
+        {
+          "program_id": "The Financial Express_program_2",
+          "program_name": "Philippines Senate LIVE | Duterte Impeachment Drama LIVE | Philippines Senate Goes Into Chaos",
+          "start": 1312,
+          "end": 1365,
+          "genre": "technology",
+          "score": 82,
+          "url": "https://www.youtube.com/watch?v=VVig4UilFDY"
+        },
+        {
+          "program_id": "The Financial Express_program_3",
+          "program_name": "Philippines Senate LIVE | Duterte Impeachment Drama LIVE | Philippines Senate Goes Into Chaos",
+          "start": 1365,
+          "end": 1413,
+          "genre": "technology",
+          "score": 93,
+          "url": "https://www.youtube.com/watch?v=VVig4UilFDY"
+        }
+      ]
+    },
+    {
+      "channel_id": 37,
+      "channel_name": "The Financial Express",
+      "programs": [
+        {
+          "program_id": "The Financial Express_program_0",
+          "program_name": "UK Protest LIVE | Chaos On Streets | Anti-Immigration Protests | Tommy Robinson March | World News",
+          "start": 1222,
+          "end": 1264,
+          "genre": "technology",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=vqJcauVDtx8"
+        },
+        {
+          "program_id": "The Financial Express_program_1",
+          "program_name": "UK Protest LIVE | Chaos On Streets | Anti-Immigration Protests | Tommy Robinson March | World News",
+          "start": 1264,
+          "end": 1311,
+          "genre": "technology",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=vqJcauVDtx8"
+        },
+        {
+          "program_id": "The Financial Express_program_2",
+          "program_name": "UK Protest LIVE | Chaos On Streets | Anti-Immigration Protests | Tommy Robinson March | World News",
+          "start": 1311,
+          "end": 1357,
+          "genre": "technology",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=vqJcauVDtx8"
+        },
+        {
+          "program_id": "The Financial Express_program_3",
+          "program_name": "UK Protest LIVE | Chaos On Streets | Anti-Immigration Protests | Tommy Robinson March | World News",
+          "start": 1357,
+          "end": 1422,
+          "genre": "technology",
+          "score": 75,
+          "url": "https://www.youtube.com/watch?v=vqJcauVDtx8"
+        }
+      ]
+    },
+    {
+      "channel_id": 38,
+      "channel_name": "Dream Trips",
+      "programs": [
+        {
+          "program_id": "Dream Trips_program_0",
+          "program_name": "LIVE: The Story of the Universe (24/7)",
+          "start": 1222,
+          "end": 1291,
+          "genre": "technology",
+          "score": 79,
+          "url": "https://www.youtube.com/watch?v=jA0O59m9OTA"
+        },
+        {
+          "program_id": "Dream Trips_program_1",
+          "program_name": "LIVE: The Story of the Universe (24/7)",
+          "start": 1291,
+          "end": 1366,
+          "genre": "technology",
+          "score": 91,
+          "url": "https://www.youtube.com/watch?v=jA0O59m9OTA"
+        },
+        {
+          "program_id": "Dream Trips_program_2",
+          "program_name": "LIVE: The Story of the Universe (24/7)",
+          "start": 1366,
+          "end": 1430,
+          "genre": "technology",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=jA0O59m9OTA"
+        }
+      ]
+    },
+    {
+      "channel_id": 39,
+      "channel_name": "Dream Trips",
+      "programs": [
+        {
+          "program_id": "Dream Trips_program_0",
+          "program_name": "24/7 Live from the International Space Station | Dream Trips",
+          "start": 1222,
+          "end": 1256,
+          "genre": "technology",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=0FBiyFpV__g"
+        },
+        {
+          "program_id": "Dream Trips_program_1",
+          "program_name": "24/7 Live from the International Space Station | Dream Trips",
+          "start": 1256,
+          "end": 1341,
+          "genre": "technology",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=0FBiyFpV__g"
+        },
+        {
+          "program_id": "Dream Trips_program_2",
+          "program_name": "24/7 Live from the International Space Station | Dream Trips",
+          "start": 1341,
+          "end": 1400,
+          "genre": "technology",
+          "score": 82,
+          "url": "https://www.youtube.com/watch?v=0FBiyFpV__g"
+        },
+        {
+          "program_id": "Dream Trips_program_3",
+          "program_name": "24/7 Live from the International Space Station | Dream Trips",
+          "start": 1400,
+          "end": 1430,
+          "genre": "technology",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=0FBiyFpV__g"
+        }
+      ]
+    },
+    {
+      "channel_id": 40,
+      "channel_name": "NASA",
+      "programs": [
+        {
+          "program_id": "NASA_program_0",
+          "program_name": "Live High-Definition Views from the International Space Station (Official NASA Stream)",
+          "start": 1222,
+          "end": 1271,
+          "genre": "science",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=FuuC4dpSQ1M"
+        },
+        {
+          "program_id": "NASA_program_1",
+          "program_name": "Live High-Definition Views from the International Space Station (Official NASA Stream)",
+          "start": 1271,
+          "end": 1301,
+          "genre": "science",
+          "score": 94,
+          "url": "https://www.youtube.com/watch?v=FuuC4dpSQ1M"
+        },
+        {
+          "program_id": "NASA_program_2",
+          "program_name": "Live High-Definition Views from the International Space Station (Official NASA Stream)",
+          "start": 1301,
+          "end": 1387,
+          "genre": "science",
+          "score": 101,
+          "url": "https://www.youtube.com/watch?v=FuuC4dpSQ1M"
+        },
+        {
+          "program_id": "NASA_program_3",
+          "program_name": "Live High-Definition Views from the International Space Station (Official NASA Stream)",
+          "start": 1387,
+          "end": 1418,
+          "genre": "science",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=FuuC4dpSQ1M"
+        }
+      ]
+    },
+    {
+      "channel_id": 41,
+      "channel_name": "NASA",
+      "programs": [
+        {
+          "program_id": "NASA_program_0",
+          "program_name": "Live Video from the International Space Station (Official NASA Stream)",
+          "start": 1222,
+          "end": 1312,
+          "genre": "science",
+          "score": 103,
+          "url": "https://www.youtube.com/watch?v=uwXgcTc8oY8"
+        },
+        {
+          "program_id": "NASA_program_1",
+          "program_name": "Live Video from the International Space Station (Official NASA Stream)",
+          "start": 1312,
+          "end": 1343,
+          "genre": "science",
+          "score": 102,
+          "url": "https://www.youtube.com/watch?v=uwXgcTc8oY8"
+        },
+        {
+          "program_id": "NASA_program_2",
+          "program_name": "Live Video from the International Space Station (Official NASA Stream)",
+          "start": 1343,
+          "end": 1377,
+          "genre": "science",
+          "score": 95,
+          "url": "https://www.youtube.com/watch?v=uwXgcTc8oY8"
+        },
+        {
+          "program_id": "NASA_program_3",
+          "program_name": "Live Video from the International Space Station (Official NASA Stream)",
+          "start": 1377,
+          "end": 1430,
+          "genre": "science",
+          "score": 103,
+          "url": "https://www.youtube.com/watch?v=uwXgcTc8oY8"
+        }
+      ]
+    }
+  ]
+}

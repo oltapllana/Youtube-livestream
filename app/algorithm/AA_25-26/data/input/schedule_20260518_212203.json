@@ -1,0 +1,78 @@
+{
+  "opening_time": 1281,
+  "closing_time": 890,
+  "min_duration": 30,
+  "max_consecutive_genre": 10,
+  "channels_count": 10,
+  "switch_penalty": 0,
+  "termination_penalty": 20,
+  "priority_blocks": [],
+  "time_preferences": [
+    {
+      "start": 480,
+      "end": 720,
+      "preferred_genre": "technology",
+      "bonus": 0
+    },
+    {
+      "start": 720,
+      "end": 960,
+      "preferred_genre": "science",
+      "bonus": 0
+    },
+    {
+      "start": 960,
+      "end": 1200,
+      "preferred_genre": "climate",
+      "bonus": 0
+    },
+    {
+      "start": 1200,
+      "end": 1440,
+      "preferred_genre": "others",
+      "bonus": 0
+    }
+  ],
+  "channels": [
+    {
+      "channel_id": 0,
+      "channel_name": "CRUX",
+      "programs": []
+    },
+    {
+      "channel_id": 2,
+      "channel_name": "Sen",
+      "programs": []
+    },
+    {
+      "channel_id": 3,
+      "channel_name": "Dream Trips",
+      "programs": []
+    },
+    {
+      "channel_id": 5,
+      "channel_name": "NASASpaceflight",
+      "programs": []
+    },
+    {
+      "channel_id": 6,
+      "channel_name": "afarTV",
+      "programs": []
+    },
+    {
+      "channel_id": 1,
+      "channel_name": "The Financial Express",
+      "programs": []
+    },
+    {
+      "channel_id": 4,
+      "channel_name": "NASA",
+      "programs": []
+    },
+    {
+      "channel_id": 7,
+      "channel_name": "Space Streams",
+      "programs": []
+    }
+  ]
+}

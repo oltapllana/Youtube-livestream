@@ -7,7 +7,9 @@ Scheduler service — orchestrates the full scheduling workflow:
 """
 
 import json
+import os
 import subprocess
+import sys
 import time
 import logging
 from pathlib import Path
@@ -68,27 +70,56 @@ class SchedulerService:
         """
         try:
             logger.info("Running algorithm on %s …", instance_file)
+            logger.info("Algorithm script: %s", ALGORITHM_SCRIPT)
+            logger.info("Algorithm dir: %s", ALGORITHM_DIR)
+            logger.info("Python executable: %s", sys.executable)
+            
+            # Verify files exist
+            if not Path(instance_file).exists():
+                return {
+                    "status": "error",
+                    "message": f"Instance file not found: {instance_file}",
+                }
+            if not Path(ALGORITHM_SCRIPT).exists():
+                return {
+                    "status": "error",
+                    "message": f"Algorithm script not found: {ALGORITHM_SCRIPT}",
+                }
+            
+            # Prepare environment - inherit from parent and set PYTHONPATH
+            env = os.environ.copy()
+            env["PYTHONPATH"] = str(ALGORITHM_DIR)
+            
+            cmd = [
+                sys.executable,
+                str(ALGORITHM_SCRIPT),
+                "--input",
+                str(instance_file),
+            ]
+            logger.info("Command: %s", " ".join(str(x) for x in cmd))
+            logger.info("Working directory: %s", ALGORITHM_DIR)
+            logger.info("PYTHONPATH: %s", env.get("PYTHONPATH"))
+            
             result = subprocess.run(
-                [
-                    "python",
-                    str(ALGORITHM_SCRIPT),
-                    "--input",
-                    str(instance_file),
-                ],
+                cmd,
                 capture_output=True,
                 text=True,
                 timeout=MAX_EXECUTION_TIME,
-                cwd=str(ALGORITHM_DIR),          # algorithm uses relative paths
+                cwd=str(ALGORITHM_DIR),
+                env=env,
             )
 
+            logger.info("Algorithm return code: %d", result.returncode)
+            logger.info("Algorithm stdout:\n%s", result.stdout)
+            
             if result.returncode != 0:
-                logger.error("Algorithm stderr: %s", result.stderr)
+                logger.error("Algorithm stderr:\n%s", result.stderr)
                 return {
                     "status": "error",
-                    "message": f"Algorithm failed: {result.stderr[:500]}",
+                    "message": f"Algorithm failed with code {result.returncode}:\n{result.stderr}",
                 }
 
-            logger.info("Algorithm stdout: %s", result.stdout[:500])
+            logger.info("Algorithm completed successfully")
             return {
                 "status": "success",
                 "message": "Algorithm executed successfully",
@@ -96,11 +127,13 @@ class SchedulerService:
             }
 
         except subprocess.TimeoutExpired:
+            logger.error("Algorithm timed out after %ds", MAX_EXECUTION_TIME)
             return {
                 "status": "error",
                 "message": f"Algorithm timed out after {MAX_EXECUTION_TIME}s",
             }
         except Exception as exc:
+            logger.error("Algorithm execution exception: %s", exc, exc_info=True)
             return {
                 "status": "error",
                 "message": f"Algorithm execution error: {exc}",

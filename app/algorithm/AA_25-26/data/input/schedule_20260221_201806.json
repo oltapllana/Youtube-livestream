@@ -1,0 +1,88 @@
+{
+  "opening_time": 1217,
+  "closing_time": 1430,
+  "min_duration": 35,
+  "max_consecutive_genre": 10,
+  "channels_count": 3,
+  "switch_penalty": 9,
+  "termination_penalty": 20,
+  "priority_blocks": [],
+  "time_preferences": [],
+  "channels": [
+    {
+      "channel_id": 10,
+      "channel_name": "Interstellar News Hub",
+      "programs": [
+        {
+          "program_id": "Interstellar News Hub_program_0",
+          "program_name": "LIVE Space Weather Dashboard | Solar Flares \u2022 CMEs \u2022 Sunspots \u2022 Aurora \u2022 Earthquakes \u2022 Volcanos",
+          "start": 1217,
+          "end": 1283,
+          "genre": "climate",
+          "score": 94,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub_program_1",
+          "program_name": "LIVE Space Weather Dashboard | Solar Flares \u2022 CMEs \u2022 Sunspots \u2022 Aurora \u2022 Earthquakes \u2022 Volcanos",
+          "start": 1283,
+          "end": 1331,
+          "genre": "climate",
+          "score": 78,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub_program_2",
+          "program_name": "LIVE Space Weather Dashboard | Solar Flares \u2022 CMEs \u2022 Sunspots \u2022 Aurora \u2022 Earthquakes \u2022 Volcanos",
+          "start": 1331,
+          "end": 1395,
+          "genre": "climate",
+          "score": 94,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        },
+        {
+          "program_id": "Interstellar News Hub_program_3",
+          "program_name": "LIVE Space Weather Dashboard | Solar Flares \u2022 CMEs \u2022 Sunspots \u2022 Aurora \u2022 Earthquakes \u2022 Volcanos",
+          "start": 1395,
+          "end": 1430,
+          "genre": "climate",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=ToUVD_JdKvM"
+        }
+      ]
+    },
+    {
+      "channel_id": 11,
+      "channel_name": "I Love You Venice",
+      "programs": [
+        {
+          "program_id": "I Love You Venice_program_0",
+          "program_name": "\ud83d\udd34 Live Cam around the World - Rolling Cam with Chill & Lounge Music",
+          "start": 1217,
+          "end": 1265,
+          "genre": "climate",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=z7SiAaN4ogw"
+        },
+        {
+          "program_id": "I Love You Venice_program_1",
+          "program_name": "\ud83d\udd34 Live Cam around the World - Rolling Cam with Chill & Lounge Music",
+          "start": 1265,
+          "end": 1341,
+          "genre": "climate",
+          "score": 94,
+          "url": "https://www.youtube.com/watch?v=z7SiAaN4ogw"
+        },
+        {
+          "program_id": "I Love You Venice_program_2",
+          "program_name": "\ud83d\udd34 Live Cam around the World - Rolling Cam with Chill & Lounge Music",
+          "start": 1341,
+          "end": 1418,
+          "genre": "climate",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=z7SiAaN4ogw"
+        }
+      ]
+    }
+  ]
+}

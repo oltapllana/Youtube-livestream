@@ -1,0 +1,959 @@
+{
+  "opening_time": 1282,
+  "closing_time": 2002,
+  "min_duration": 31,
+  "max_consecutive_genre": 10,
+  "channels_count": 10,
+  "switch_penalty": 9,
+  "termination_penalty": 20,
+  "priority_blocks": [],
+  "time_preferences": [
+    {
+      "start": 480,
+      "end": 720,
+      "preferred_genre": "technology",
+      "bonus": 4
+    },
+    {
+      "start": 720,
+      "end": 960,
+      "preferred_genre": "science",
+      "bonus": 4
+    },
+    {
+      "start": 960,
+      "end": 1200,
+      "preferred_genre": "climate",
+      "bonus": 4
+    },
+    {
+      "start": 1200,
+      "end": 1440,
+      "preferred_genre": "others",
+      "bonus": 4
+    }
+  ],
+  "channels": [
+    {
+      "channel_id": 0,
+      "channel_name": "CRUX",
+      "programs": [
+        {
+          "program_id": "CRUX_program_0",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News",
+          "start": 1282,
+          "end": 1352,
+          "genre": "technology",
+          "score": 89,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "CRUX_program_1",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News",
+          "start": 1352,
+          "end": 1435,
+          "genre": "technology",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "CRUX_program_2",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News",
+          "start": 1435,
+          "end": 1479,
+          "genre": "technology",
+          "score": 89,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "CRUX_program_3",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News",
+          "start": 1479,
+          "end": 1540,
+          "genre": "technology",
+          "score": 81,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "CRUX_program_4",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News",
+          "start": 1540,
+          "end": 1621,
+          "genre": "technology",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "CRUX_program_5",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News",
+          "start": 1621,
+          "end": 1673,
+          "genre": "technology",
+          "score": 79,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "CRUX_program_6",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News",
+          "start": 1673,
+          "end": 1754,
+          "genre": "technology",
+          "score": 91,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "CRUX_program_7",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News",
+          "start": 1754,
+          "end": 1830,
+          "genre": "technology",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "CRUX_program_8",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News",
+          "start": 1830,
+          "end": 1903,
+          "genre": "technology",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "CRUX_program_9",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News",
+          "start": 1903,
+          "end": 1965,
+          "genre": "technology",
+          "score": 84,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        },
+        {
+          "program_id": "CRUX_program_10",
+          "program_name": "NASA Live | SpaceX Live | LIVE SpaceX Launches Two Moon Landing Missions In One Rocket | US News",
+          "start": 1965,
+          "end": 2002,
+          "genre": "technology",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=oXsBLbUUe3c"
+        }
+      ]
+    },
+    {
+      "channel_id": 2,
+      "channel_name": "Sen",
+      "programs": [
+        {
+          "program_id": "Sen_program_0",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS",
+          "start": 1282,
+          "end": 1333,
+          "genre": "technology",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_1",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS",
+          "start": 1333,
+          "end": 1388,
+          "genre": "technology",
+          "score": 94,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_2",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS",
+          "start": 1388,
+          "end": 1470,
+          "genre": "technology",
+          "score": 75,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_3",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS",
+          "start": 1470,
+          "end": 1515,
+          "genre": "technology",
+          "score": 80,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_4",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS",
+          "start": 1515,
+          "end": 1560,
+          "genre": "technology",
+          "score": 92,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_5",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS",
+          "start": 1560,
+          "end": 1616,
+          "genre": "technology",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_6",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS",
+          "start": 1616,
+          "end": 1666,
+          "genre": "technology",
+          "score": 77,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_7",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS",
+          "start": 1666,
+          "end": 1718,
+          "genre": "technology",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_8",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS",
+          "start": 1718,
+          "end": 1794,
+          "genre": "technology",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_9",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS",
+          "start": 1794,
+          "end": 1842,
+          "genre": "technology",
+          "score": 92,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_10",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS",
+          "start": 1842,
+          "end": 1907,
+          "genre": "technology",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_11",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS",
+          "start": 1907,
+          "end": 1971,
+          "genre": "technology",
+          "score": 79,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        },
+        {
+          "program_id": "Sen_program_12",
+          "program_name": "Live 4K video of Earth and space: 24/7 Livestream of Earth by Sen\u2019s 4K video cameras on the ISS",
+          "start": 1971,
+          "end": 2002,
+          "genre": "technology",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=fO9e9jnhYK8"
+        }
+      ]
+    },
+    {
+      "channel_id": 3,
+      "channel_name": "Dream Trips",
+      "programs": [
+        {
+          "program_id": "Dream Trips_program_0",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed",
+          "start": 1282,
+          "end": 1320,
+          "genre": "technology",
+          "score": 94,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_1",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed",
+          "start": 1320,
+          "end": 1360,
+          "genre": "technology",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_2",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed",
+          "start": 1360,
+          "end": 1444,
+          "genre": "technology",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_3",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed",
+          "start": 1444,
+          "end": 1493,
+          "genre": "technology",
+          "score": 79,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_4",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed",
+          "start": 1493,
+          "end": 1524,
+          "genre": "technology",
+          "score": 95,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_5",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed",
+          "start": 1524,
+          "end": 1576,
+          "genre": "technology",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_6",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed",
+          "start": 1576,
+          "end": 1631,
+          "genre": "technology",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_7",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed",
+          "start": 1631,
+          "end": 1687,
+          "genre": "technology",
+          "score": 91,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_8",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed",
+          "start": 1687,
+          "end": 1759,
+          "genre": "technology",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_9",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed",
+          "start": 1759,
+          "end": 1847,
+          "genre": "technology",
+          "score": 94,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_10",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed",
+          "start": 1847,
+          "end": 1919,
+          "genre": "technology",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        },
+        {
+          "program_id": "Dream Trips_program_11",
+          "program_name": "NASA Cameras Just Caught This on the ISS Live Feed",
+          "start": 1919,
+          "end": 2002,
+          "genre": "technology",
+          "score": 76,
+          "url": "https://www.youtube.com/watch?v=kWRhLLbLFE0"
+        }
+      ]
+    },
+    {
+      "channel_id": 5,
+      "channel_name": "NASASpaceflight",
+      "programs": [
+        {
+          "program_id": "NASASpaceflight_program_0",
+          "program_name": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction",
+          "start": 1282,
+          "end": 1319,
+          "genre": "science",
+          "score": 94,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_1",
+          "program_name": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction",
+          "start": 1319,
+          "end": 1401,
+          "genre": "science",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_2",
+          "program_name": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction",
+          "start": 1401,
+          "end": 1457,
+          "genre": "science",
+          "score": 92,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_3",
+          "program_name": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction",
+          "start": 1457,
+          "end": 1523,
+          "genre": "science",
+          "score": 100,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_4",
+          "program_name": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction",
+          "start": 1523,
+          "end": 1590,
+          "genre": "science",
+          "score": 93,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_5",
+          "program_name": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction",
+          "start": 1590,
+          "end": 1657,
+          "genre": "science",
+          "score": 99,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_6",
+          "program_name": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction",
+          "start": 1657,
+          "end": 1722,
+          "genre": "science",
+          "score": 102,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_7",
+          "program_name": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction",
+          "start": 1722,
+          "end": 1775,
+          "genre": "science",
+          "score": 99,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_8",
+          "program_name": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction",
+          "start": 1775,
+          "end": 1859,
+          "genre": "science",
+          "score": 100,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_9",
+          "program_name": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction",
+          "start": 1859,
+          "end": 1933,
+          "genre": "science",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        },
+        {
+          "program_id": "NASASpaceflight_program_10",
+          "program_name": "Space Coast Live: 24/7 Views of NASA, SpaceX Falcon 9 Operations, and Starship Pad Construction",
+          "start": 1933,
+          "end": 1983,
+          "genre": "science",
+          "score": 93,
+          "url": "https://www.youtube.com/watch?v=Jm8wRjD3xVA"
+        }
+      ]
+    },
+    {
+      "channel_id": 6,
+      "channel_name": "afarTV",
+      "programs": [
+        {
+          "program_id": "afarTV_program_0",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS)",
+          "start": 1282,
+          "end": 1339,
+          "genre": "science",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_1",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS)",
+          "start": 1339,
+          "end": 1373,
+          "genre": "science",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_2",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS)",
+          "start": 1373,
+          "end": 1431,
+          "genre": "science",
+          "score": 91,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_3",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS)",
+          "start": 1431,
+          "end": 1498,
+          "genre": "science",
+          "score": 91,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_4",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS)",
+          "start": 1498,
+          "end": 1567,
+          "genre": "science",
+          "score": 97,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_5",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS)",
+          "start": 1567,
+          "end": 1629,
+          "genre": "science",
+          "score": 105,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_6",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS)",
+          "start": 1629,
+          "end": 1689,
+          "genre": "science",
+          "score": 94,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_7",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS)",
+          "start": 1689,
+          "end": 1721,
+          "genre": "science",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_8",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS)",
+          "start": 1721,
+          "end": 1806,
+          "genre": "science",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_9",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS)",
+          "start": 1806,
+          "end": 1872,
+          "genre": "science",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_10",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS)",
+          "start": 1872,
+          "end": 1956,
+          "genre": "science",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        },
+        {
+          "program_id": "afarTV_program_11",
+          "program_name": "\ud83d\udd34 Live Now: 24/7 NASA Live Stream of Earth from Space (ISS)",
+          "start": 1956,
+          "end": 2002,
+          "genre": "science",
+          "score": 91,
+          "url": "https://www.youtube.com/watch?v=vytmBNhc9ig"
+        }
+      ]
+    },
+    {
+      "channel_id": 1,
+      "channel_name": "The Financial Express",
+      "programs": [
+        {
+          "program_id": "The Financial Express_program_0",
+          "program_name": "US Congress LIVE: \u201cThis Is Unacceptable!\u201d Lawmakers Blast FBI Over Surveillance Claims | US NEWS",
+          "start": 1282,
+          "end": 1340,
+          "genre": "technology",
+          "score": 91,
+          "url": "https://www.youtube.com/watch?v=1lJkfta1Nxo"
+        },
+        {
+          "program_id": "The Financial Express_program_1",
+          "program_name": "US Congress LIVE: \u201cThis Is Unacceptable!\u201d Lawmakers Blast FBI Over Surveillance Claims | US NEWS",
+          "start": 1340,
+          "end": 1375,
+          "genre": "technology",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=1lJkfta1Nxo"
+        },
+        {
+          "program_id": "The Financial Express_program_2",
+          "program_name": "US Congress LIVE: \u201cThis Is Unacceptable!\u201d Lawmakers Blast FBI Over Surveillance Claims | US NEWS",
+          "start": 1375,
+          "end": 1461,
+          "genre": "technology",
+          "score": 89,
+          "url": "https://www.youtube.com/watch?v=1lJkfta1Nxo"
+        },
+        {
+          "program_id": "The Financial Express_program_3",
+          "program_name": "US Congress LIVE: \u201cThis Is Unacceptable!\u201d Lawmakers Blast FBI Over Surveillance Claims | US NEWS",
+          "start": 1461,
+          "end": 1515,
+          "genre": "technology",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=1lJkfta1Nxo"
+        },
+        {
+          "program_id": "The Financial Express_program_4",
+          "program_name": "US Congress LIVE: \u201cThis Is Unacceptable!\u201d Lawmakers Blast FBI Over Surveillance Claims | US NEWS",
+          "start": 1515,
+          "end": 1582,
+          "genre": "technology",
+          "score": 81,
+          "url": "https://www.youtube.com/watch?v=1lJkfta1Nxo"
+        },
+        {
+          "program_id": "The Financial Express_program_5",
+          "program_name": "US Congress LIVE: \u201cThis Is Unacceptable!\u201d Lawmakers Blast FBI Over Surveillance Claims | US NEWS",
+          "start": 1582,
+          "end": 1631,
+          "genre": "technology",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=1lJkfta1Nxo"
+        },
+        {
+          "program_id": "The Financial Express_program_6",
+          "program_name": "US Congress LIVE: \u201cThis Is Unacceptable!\u201d Lawmakers Blast FBI Over Surveillance Claims | US NEWS",
+          "start": 1631,
+          "end": 1669,
+          "genre": "technology",
+          "score": 83,
+          "url": "https://www.youtube.com/watch?v=1lJkfta1Nxo"
+        },
+        {
+          "program_id": "The Financial Express_program_7",
+          "program_name": "US Congress LIVE: \u201cThis Is Unacceptable!\u201d Lawmakers Blast FBI Over Surveillance Claims | US NEWS",
+          "start": 1669,
+          "end": 1723,
+          "genre": "technology",
+          "score": 79,
+          "url": "https://www.youtube.com/watch?v=1lJkfta1Nxo"
+        },
+        {
+          "program_id": "The Financial Express_program_8",
+          "program_name": "US Congress LIVE: \u201cThis Is Unacceptable!\u201d Lawmakers Blast FBI Over Surveillance Claims | US NEWS",
+          "start": 1723,
+          "end": 1782,
+          "genre": "technology",
+          "score": 81,
+          "url": "https://www.youtube.com/watch?v=1lJkfta1Nxo"
+        },
+        {
+          "program_id": "The Financial Express_program_9",
+          "program_name": "US Congress LIVE: \u201cThis Is Unacceptable!\u201d Lawmakers Blast FBI Over Surveillance Claims | US NEWS",
+          "start": 1782,
+          "end": 1846,
+          "genre": "technology",
+          "score": 84,
+          "url": "https://www.youtube.com/watch?v=1lJkfta1Nxo"
+        },
+        {
+          "program_id": "The Financial Express_program_10",
+          "program_name": "US Congress LIVE: \u201cThis Is Unacceptable!\u201d Lawmakers Blast FBI Over Surveillance Claims | US NEWS",
+          "start": 1846,
+          "end": 1888,
+          "genre": "technology",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=1lJkfta1Nxo"
+        },
+        {
+          "program_id": "The Financial Express_program_11",
+          "program_name": "US Congress LIVE: \u201cThis Is Unacceptable!\u201d Lawmakers Blast FBI Over Surveillance Claims | US NEWS",
+          "start": 1888,
+          "end": 1932,
+          "genre": "technology",
+          "score": 82,
+          "url": "https://www.youtube.com/watch?v=1lJkfta1Nxo"
+        },
+        {
+          "program_id": "The Financial Express_program_12",
+          "program_name": "US Congress LIVE: \u201cThis Is Unacceptable!\u201d Lawmakers Blast FBI Over Surveillance Claims | US NEWS",
+          "start": 1932,
+          "end": 2002,
+          "genre": "technology",
+          "score": 88,
+          "url": "https://www.youtube.com/watch?v=1lJkfta1Nxo"
+        }
+      ]
+    },
+    {
+      "channel_id": 4,
+      "channel_name": "NASA",
+      "programs": [
+        {
+          "program_id": "NASA_program_0",
+          "program_name": "Live High-Definition Views from the International Space Station (Official NASA Stream)",
+          "start": 1282,
+          "end": 1326,
+          "genre": "science",
+          "score": 91,
+          "url": "https://www.youtube.com/watch?v=FuuC4dpSQ1M"
+        },
+        {
+          "program_id": "NASA_program_1",
+          "program_name": "Live High-Definition Views from the International Space Station (Official NASA Stream)",
+          "start": 1326,
+          "end": 1383,
+          "genre": "science",
+          "score": 94,
+          "url": "https://www.youtube.com/watch?v=FuuC4dpSQ1M"
+        },
+        {
+          "program_id": "NASA_program_2",
+          "program_name": "Live High-Definition Views from the International Space Station (Official NASA Stream)",
+          "start": 1383,
+          "end": 1430,
+          "genre": "science",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=FuuC4dpSQ1M"
+        },
+        {
+          "program_id": "NASA_program_3",
+          "program_name": "Live High-Definition Views from the International Space Station (Official NASA Stream)",
+          "start": 1430,
+          "end": 1518,
+          "genre": "science",
+          "score": 99,
+          "url": "https://www.youtube.com/watch?v=FuuC4dpSQ1M"
+        },
+        {
+          "program_id": "NASA_program_4",
+          "program_name": "Live High-Definition Views from the International Space Station (Official NASA Stream)",
+          "start": 1518,
+          "end": 1576,
+          "genre": "science",
+          "score": 96,
+          "url": "https://www.youtube.com/watch?v=FuuC4dpSQ1M"
+        },
+        {
+          "program_id": "NASA_program_5",
+          "program_name": "Live High-Definition Views from the International Space Station (Official NASA Stream)",
+          "start": 1576,
+          "end": 1629,
+          "genre": "science",
+          "score": 98,
+          "url": "https://www.youtube.com/watch?v=FuuC4dpSQ1M"
+        },
+        {
+          "program_id": "NASA_program_6",
+          "program_name": "Live High-Definition Views from the International Space Station (Official NASA Stream)",
+          "start": 1629,
+          "end": 1718,
+          "genre": "science",
+          "score": 95,
+          "url": "https://www.youtube.com/watch?v=FuuC4dpSQ1M"
+        },
+        {
+          "program_id": "NASA_program_7",
+          "program_name": "Live High-Definition Views from the International Space Station (Official NASA Stream)",
+          "start": 1718,
+          "end": 1767,
+          "genre": "science",
+          "score": 101,
+          "url": "https://www.youtube.com/watch?v=FuuC4dpSQ1M"
+        },
+        {
+          "program_id": "NASA_program_8",
+          "program_name": "Live High-Definition Views from the International Space Station (Official NASA Stream)",
+          "start": 1767,
+          "end": 1824,
+          "genre": "science",
+          "score": 91,
+          "url": "https://www.youtube.com/watch?v=FuuC4dpSQ1M"
+        },
+        {
+          "program_id": "NASA_program_9",
+          "program_name": "Live High-Definition Views from the International Space Station (Official NASA Stream)",
+          "start": 1824,
+          "end": 1859,
+          "genre": "science",
+          "score": 103,
+          "url": "https://www.youtube.com/watch?v=FuuC4dpSQ1M"
+        },
+        {
+          "program_id": "NASA_program_10",
+          "program_name": "Live High-Definition Views from the International Space Station (Official NASA Stream)",
+          "start": 1859,
+          "end": 1930,
+          "genre": "science",
+          "score": 102,
+          "url": "https://www.youtube.com/watch?v=FuuC4dpSQ1M"
+        },
+        {
+          "program_id": "NASA_program_11",
+          "program_name": "Live High-Definition Views from the International Space Station (Official NASA Stream)",
+          "start": 1930,
+          "end": 1967,
+          "genre": "science",
+          "score": 101,
+          "url": "https://www.youtube.com/watch?v=FuuC4dpSQ1M"
+        },
+        {
+          "program_id": "NASA_program_12",
+          "program_name": "Live High-Definition Views from the International Space Station (Official NASA Stream)",
+          "start": 1967,
+          "end": 2002,
+          "genre": "science",
+          "score": 92,
+          "url": "https://www.youtube.com/watch?v=FuuC4dpSQ1M"
+        }
+      ]
+    },
+    {
+      "channel_id": 7,
+      "channel_name": "Space Streams",
+      "programs": [
+        {
+          "program_id": "Space Streams_program_0",
+          "program_name": "Space Streams Documentaries",
+          "start": 1282,
+          "end": 1334,
+          "genre": "science",
+          "score": 97,
+          "url": "https://www.youtube.com/watch?v=ERm9ae_S_eE"
+        },
+        {
+          "program_id": "Space Streams_program_1",
+          "program_name": "Space Streams Documentaries",
+          "start": 1334,
+          "end": 1377,
+          "genre": "science",
+          "score": 85,
+          "url": "https://www.youtube.com/watch?v=ERm9ae_S_eE"
+        },
+        {
+          "program_id": "Space Streams_program_2",
+          "program_name": "Space Streams Documentaries",
+          "start": 1377,
+          "end": 1454,
+          "genre": "science",
+          "score": 98,
+          "url": "https://www.youtube.com/watch?v=ERm9ae_S_eE"
+        },
+        {
+          "program_id": "Space Streams_program_3",
+          "program_name": "Space Streams Documentaries",
+          "start": 1454,
+          "end": 1534,
+          "genre": "science",
+          "score": 93,
+          "url": "https://www.youtube.com/watch?v=ERm9ae_S_eE"
+        },
+        {
+          "program_id": "Space Streams_program_4",
+          "program_name": "Space Streams Documentaries",
+          "start": 1534,
+          "end": 1567,
+          "genre": "science",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=ERm9ae_S_eE"
+        },
+        {
+          "program_id": "Space Streams_program_5",
+          "program_name": "Space Streams Documentaries",
+          "start": 1567,
+          "end": 1623,
+          "genre": "science",
+          "score": 96,
+          "url": "https://www.youtube.com/watch?v=ERm9ae_S_eE"
+        },
+        {
+          "program_id": "Space Streams_program_6",
+          "program_name": "Space Streams Documentaries",
+          "start": 1623,
+          "end": 1698,
+          "genre": "science",
+          "score": 87,
+          "url": "https://www.youtube.com/watch?v=ERm9ae_S_eE"
+        },
+        {
+          "program_id": "Space Streams_program_7",
+          "program_name": "Space Streams Documentaries",
+          "start": 1698,
+          "end": 1759,
+          "genre": "science",
+          "score": 90,
+          "url": "https://www.youtube.com/watch?v=ERm9ae_S_eE"
+        },
+        {
+          "program_id": "Space Streams_program_8",
+          "program_name": "Space Streams Documentaries",
+          "start": 1759,
+          "end": 1831,
+          "genre": "science",
+          "score": 86,
+          "url": "https://www.youtube.com/watch?v=ERm9ae_S_eE"
+        },
+        {
+          "program_id": "Space Streams_program_9",
+          "program_name": "Space Streams Documentaries",
+          "start": 1831,
+          "end": 1867,
+          "genre": "science",
+          "score": 99,
+          "url": "https://www.youtube.com/watch?v=ERm9ae_S_eE"
+        },
+        {
+          "program_id": "Space Streams_program_10",
+          "program_name": "Space Streams Documentaries",
+          "start": 1867,
+          "end": 1951,
+          "genre": "science",
+          "score": 104,
+          "url": "https://www.youtube.com/watch?v=ERm9ae_S_eE"
+        },
+        {
+          "program_id": "Space Streams_program_11",
+          "program_name": "Space Streams Documentaries",
+          "start": 1951,
+          "end": 2001,
+          "genre": "science",
+          "score": 91,
+          "url": "https://www.youtube.com/watch?v=ERm9ae_S_eE"
+        }
+      ]
+    }
+  ]
+}
