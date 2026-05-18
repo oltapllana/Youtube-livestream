@@ -34,7 +34,7 @@
       </div>
     </main>
 
-    <LoadingOverlay :open="loader.open" :title="loader.title" :message="loader.message" />
+    <LoadingOverlay :open="loader.open" :title="loader.title" :message="loader.message" :remaining-seconds="loader.remainingSeconds" :measured-time="loader.measuredTime" />
   </div>
 </template>
 
@@ -56,7 +56,7 @@ import VideoPlayer from "./components/VideoPlayer.vue";
 import NowPlaying from "./components/NowPlaying.vue";
 import ScheduleList from "./components/ScheduleList.vue";
 import LoadingOverlay from "./components/LoadingOverlay.vue";
-import { useLoading, withLoader } from "./loading.js";
+import { useLoading, withLoader, setMeasuredTime } from "./loading.js";
 
 const ALL_CATEGORIES = ["science", "technology", "climate"];
 
@@ -234,7 +234,20 @@ async function runGenerate(customPayload = null) {
       const payload = customPayload || buildPayload();
       const data = await apiGenerate(payload);
 
+      console.log("📦 Full API Response:", data);
+      console.log("⏱️ execution_time from response:", data.execution_time);
+
       schedule.value = data.scheduled_programs || [];
+
+      // Extract actual algorithm execution time from backend response
+      if (data.execution_time !== undefined && data.execution_time !== null) {
+        // Use at least 1 second, or round to nearest second for display
+        const algoTime = Math.max(1, Math.round(data.execution_time));
+        console.log(`✅ Found execution_time: ${data.execution_time}s (raw) → ${algoTime}s (rounded for display)`);
+        setMeasuredTime(algoTime);
+      } else {
+        console.warn("❌ No execution_time in response!");
+      }
 
       // Track absolute end timestamp (second-precise)
       const msLeft = msUntilClosing(payload.closing_time, payload.opening_time);

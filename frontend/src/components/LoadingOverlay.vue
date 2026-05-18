@@ -14,6 +14,9 @@
           <div class="loading-text">
             <div class="title">{{ title }}</div>
             <div v-if="message" class="msg">{{ message }}</div>
+            <div v-if="remainingSeconds >= 0" class="timer">
+              <span>⏱ {{ remainingSeconds }}s remaining</span>
+            </div>
           </div>
 
           <div class="dots" aria-hidden="true">
@@ -30,6 +33,8 @@ defineProps({
   open: { type: Boolean, default: false },
   title: { type: String, default: 'Loading' },
   message: { type: String, default: '' },
+  remainingSeconds: { type: Number, default: 0 },
+  measuredTime: { type: Number, default: null },
 })
 </script>
 
@@ -83,6 +88,21 @@ defineProps({
   color: rgba(255,255,255,.75);
   font-size: 13px;
   line-height: 1.25;
+}
+.loading-text .timer{
+  margin-top: 6px;
+  color: rgba(255,255,255,.85);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.loading-text .timer .measured{
+  color: rgba(255,255,255,.65);
+  font-size: 11px;
+  font-weight: 400;
 }
 
 /* dots */
