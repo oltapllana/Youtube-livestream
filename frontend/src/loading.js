@@ -48,12 +48,14 @@ export function showLoader({ title = 'Loading', message = '', estimatedDuration 
   state.title = title
   state.message = message
   state.showMeasuredTime = false
-  // Only use measured time if we have one from a PREVIOUS run
-  // For first run, don't set duration so countdown won't show
+  
+  // Use measured time from previous run, or estimate based on context
   if (state.measuredTime) {
+    // Use actual time from last run
     state.estimatedDuration = estimatedDuration || state.measuredTime
   } else {
-    state.estimatedDuration = estimatedDuration || null
+    // First run or no data: use reasonable default (20 seconds)
+    state.estimatedDuration = estimatedDuration || 20
   }
   
   if (state.depth === 1) {
@@ -71,6 +73,14 @@ export function setMeasuredTime(timeInSeconds) {
 export function hideLoader() {
   state.depth = Math.max(0, state.depth - 1)
   if (state.depth === 0) {
+    // Measure actual elapsed time and use it for next countdown
+    if (startTime) {
+      const actualElapsed = Math.round((Date.now() - startTime) / 1000)
+      if (actualElapsed > 0) {
+        console.log(`⏱️ Actual execution: ${actualElapsed}s`)
+        setMeasuredTime(actualElapsed)
+      }
+    }
     state.open = false
     state.message = ''
     state.title = 'Loading'
@@ -83,6 +93,9 @@ export async function withLoader(opts, fn) {
   showLoader(opts)
   try {
     return await fn()
+  } catch (error) {
+    console.error('Error during loading:', error)
+    throw error
   } finally {
     hideLoader()
   }
